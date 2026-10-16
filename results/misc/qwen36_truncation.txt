@@ -1,0 +1,48 @@
+== k12 union ids 500 raw ON/OFF 500 499 preds 500 499 both raw 499
+union 500 ON 46 OFF 64 b(OFFwin) 33 c 15 d 3.6 p 0.01328328156224501
+both-raw 499 ON 46 OFF 64 b(OFFwin) 33 c 15 d 3.61 p 0.01328328156224501
+fin=length ON 142 500 28.4 over500 28.4 OFF 139 499 27.9 27.8
+empty patches over union ON 290 58.0 OFF 290 58.0
+ CC neither truncated 269 b 28 c 11 d 6.32 p 0.0095
+ CC both nonempty 121 b 17 c 6 d 9.09 p 0.0347
+ CC neither trunc nor error 257 b 28 c 9 d 7.39 p 0.0026
+ Manski worst(ON-trunc->succ,OFF-trunc->fail) -24.85
+ Manski best 31.46
+ Manski all trunc fail 3.61
+ Manski all trunc succ 3.01
+ OFF wins where ON truncated 5
+== k4 union ids 499 raw ON/OFF 482 483 preds 482 483 both raw 466
+union 499 ON 43 OFF 67 b(OFFwin) 31 c 7 d 4.81 p 0.00011616700794547796
+both-raw 466 ON 43 OFF 66 b(OFFwin) 30 c 7 d 4.94 p 0.00019107642583549023
+fin=length ON 112 482 23.2 over500 22.4 OFF 102 483 21.1 20.4
+empty patches over union ON 290 58.1 OFF 275 55.1
+ CC neither truncated 293 b 25 c 6 d 6.48 p 0.0009
+ CC both nonempty 140 b 14 c 3 d 7.86 p 0.0127
+ CC neither trunc nor error 290 b 25 c 6 d 6.55 p 0.0009
+ Manski worst(ON-trunc->succ,OFF-trunc->fail) -18.24
+ Manski best 25.97
+ Manski all trunc fail 4.94
+ Manski all trunc succ 2.79
+ OFF wins where ON truncated 5
+== k40 union ids 499 raw ON/OFF 468 488 preds 468 488 both raw 457
+union 499 ON 44 OFF 90 b(OFFwin) 54 c 8 d 9.22 p 1.709326186236787e-09
+both-raw 457 ON 43 OFF 89 b(OFFwin) 53 c 7 d 10.07 p 7.671918274276823e-10
+fin=length ON 149 468 31.8 over500 29.8 OFF 150 488 30.7 30.0
+empty patches over union ON 315 63.1 OFF 253 50.7
+ CC neither truncated 231 b 39 c 5 d 14.72 p 0.0
+ CC both nonempty 123 b 20 c 4 d 13.01 p 0.0015
+ CC neither trunc nor error 228 b 39 c 5 d 14.91 p 0.0
+ Manski worst(ON-trunc->succ,OFF-trunc->fail) -22.1
+ Manski best 39.61
+ Manski all trunc fail 10.07
+ Manski all trunc succ 7.44
+ OFF wins where ON truncated 14
+==== extra k12
+paired empties ON 290 OFF 289
+emp->succ both 3.41
+worst emp -54.51
+ON len&content0 140 len&reas>15000 140 reas>15000 any 166 length 142
+OFF len&content0 137 len&reas>15000 137 reas>15000 any 171 length 139
+129 25.9 25.8
+128 25.7 25.6
+127 25.5 25.4

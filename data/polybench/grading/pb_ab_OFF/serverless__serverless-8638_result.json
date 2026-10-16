@@ -1,0 +1,22 @@
+{
+    "instance_id": "serverless__serverless-8638",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": false,
+    "resolved": false,
+    "passed_tests": [],
+    "failed_tests": [
+        "#generateCoreTemplate() should reject non-HTTPS requests to the deployment bucket",
+        "#generateCoreTemplate() should use a custom bucket if specified",
+        "#generateCoreTemplate() should enable S3 Block Public Access if specified",
+        "#generateCoreTemplate() should add resource tags to the bucket if present",
+        "#generateCoreTemplate() should use a custom bucket if specified, even with S3 transfer acceleration",
+        "#generateCoreTemplate() should use a auto generated bucket if you does not specify deploymentBucket",
+        "#generateCoreTemplate() should add a custom output if S3 Transfer Acceleration is enabled",
+        "#generateCoreTemplate() should explicitly disable S3 Transfer Acceleration, if requested",
+        "#generateCoreTemplate() should exclude AccelerateConfiguration for govcloud region",
+        "#generateCoreTemplate() should not create ServerlessDeploymentBucketPolicy resource if requested"
+    ]
+}

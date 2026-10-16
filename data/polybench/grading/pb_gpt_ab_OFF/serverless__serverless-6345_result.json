@@ -1,0 +1,25 @@
+{
+    "instance_id": "serverless__serverless-6345",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "ServerlessError #constructor() should store message",
+        "ServerlessError #constructor() should store name",
+        "ServerlessError #constructor() should store status code",
+        "ServerlessError #constructor() should have stack trace",
+        "Error #logError() should log error and exit",
+        "Error #logError() should capture the exception and exit the process with 1 if errorReporter is setup",
+        "Error #logError() should notify about SLS_DEBUG and ask report for unexpected errors",
+        "Error #logError() should print stack trace with SLS_DEBUG",
+        "Error #logError() should not print stack trace without SLS_DEBUG",
+        "Error #logError() should re-throw error when handling raises an exception itself",
+        "Error #logWarning() should log warning and proceed"
+    ],
+    "failed_tests": [
+        "Error #logError() should hide warnings if SLS_WARNING_DISABLE is defined"
+    ]
+}

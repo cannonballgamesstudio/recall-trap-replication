@@ -1,0 +1,23 @@
+{
+    "instance_id": "langchain-ai__langchain-21201",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "libs/partners/mistralai/tests/unit_tests/test_chat_models.py:None:test_mistralai_model_param",
+        "libs/partners/mistralai/tests/unit_tests/test_chat_models.py:None:test_mistralai_initialization",
+        "libs/partners/mistralai/tests/unit_tests/test_chat_models.py:None:test_convert_message_to_mistral_chat_message[message0-expected0]",
+        "libs/partners/mistralai/tests/unit_tests/test_chat_models.py:None:test_convert_message_to_mistral_chat_message[message1-expected1]",
+        "libs/partners/mistralai/tests/unit_tests/test_chat_models.py:None:test_convert_message_to_mistral_chat_message[message3-expected3]",
+        "libs/partners/mistralai/tests/unit_tests/test_chat_models.py:None:test_stream_with_callback",
+        "libs/partners/mistralai/tests/unit_tests/test_chat_models.py:None:test_astream_with_callback",
+        "libs/partners/mistralai/tests/unit_tests/test_chat_models.py:None:test__convert_dict_to_message_tool_call",
+        "libs/partners/mistralai/tests/unit_tests/test_chat_models.py:None:test_custom_token_counting"
+    ],
+    "failed_tests": [
+        "libs/partners/mistralai/tests/unit_tests/test_chat_models.py:None:test_convert_message_to_mistral_chat_message[message2-expected2]"
+    ]
+}

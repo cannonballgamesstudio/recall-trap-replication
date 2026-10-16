@@ -1,0 +1,18 @@
+{
+    "instance_id": "serverless__serverless-6871",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "#addCustomResourceToService() should add one IAM role and the custom resources to the service",
+        "#addCustomResourceToService() should setup CloudWatch Logs when logs.frameworkLambda is true",
+        "#addCustomResourceToService() should throw when an unknown custom resource is used",
+        "#addCustomResourceToService() should ensure function name doesn't extend maximum length"
+    ],
+    "failed_tests": [
+        "#addCustomResourceToService() Should not setup new IAM role, when cfnRole is provided"
+    ]
+}

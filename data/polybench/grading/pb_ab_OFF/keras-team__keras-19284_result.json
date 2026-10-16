@@ -1,0 +1,37 @@
+{
+    "instance_id": "keras-team__keras-19284",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "keras/layers/attention/attention_test.py:AttentionTest:test_attention_basics",
+        "keras/layers/attention/attention_test.py:AttentionTest:test_attention_calculate_score_mask_no_causal_no_vmask",
+        "keras/layers/attention/attention_test.py:AttentionTest:test_attention_calculate_score_mask_with_causal_and_vmask",
+        "keras/layers/attention/attention_test.py:AttentionTest:test_attention_calculate_score_mask_with_causal_no_vmask",
+        "keras/layers/attention/attention_test.py:AttentionTest:test_attention_calculate_scores_with_scale",
+        "keras/layers/attention/attention_test.py:AttentionTest:test_attention_compute_mask_does_not_return_none_with_valid_mask",
+        "keras/layers/attention/attention_test.py:AttentionTest:test_attention_compute_mask_returns_correct_tensor_with_all_false_mask",
+        "keras/layers/attention/attention_test.py:AttentionTest:test_attention_compute_mask_returns_correct_tensor_with_all_true_mask",
+        "keras/layers/attention/attention_test.py:AttentionTest:test_attention_compute_mask_returns_correct_tensor_with_valid_mask",
+        "keras/layers/attention/attention_test.py:AttentionTest:test_attention_compute_mask_with_different_input_shapes",
+        "keras/layers/attention/attention_test.py:AttentionTest:test_attention_compute_mask_with_edge_case_masks",
+        "keras/layers/attention/attention_test.py:AttentionTest:test_attention_compute_mask_with_first_element_none",
+        "keras/layers/attention/attention_test.py:AttentionTest:test_attention_compute_mask_with_no_mask",
+        "keras/layers/attention/attention_test.py:AttentionTest:test_attention_compute_mask_with_non_boolean_masks",
+        "keras/layers/attention/attention_test.py:AttentionTest:test_attention_compute_mask_with_single_element_masks",
+        "keras/layers/attention/attention_test.py:AttentionTest:test_attention_compute_mask_with_tolerance_1e_3",
+        "keras/layers/attention/attention_test.py:AttentionTest:test_attention_compute_mask_with_tolerance_1e_5",
+        "keras/layers/attention/attention_test.py:AttentionTest:test_attention_compute_mask_with_tolerance_1e_7",
+        "keras/layers/attention/attention_test.py:AttentionTest:test_attention_correctness",
+        "keras/layers/attention/attention_test.py:AttentionTest:test_attention_errors",
+        "keras/layers/attention/attention_test.py:AttentionTest:test_attention_invalid_score_mode",
+        "keras/layers/attention/attention_test.py:AttentionTest:test_attention_with_dropout",
+        "keras/layers/attention/attention_test.py:AttentionTest:test_attention_with_mask"
+    ],
+    "failed_tests": [
+        "keras/layers/attention/attention_test.py:AttentionTest:test_attention_compute_output_shape"
+    ]
+}

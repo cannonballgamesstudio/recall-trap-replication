@@ -1,0 +1,26 @@
+{
+    "instance_id": "mui__material-ui-14023",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "packages/material-ui/src/InputAdornment/InputAdornment.test.js-><InputAdornment /> should render a div",
+        "packages/material-ui/src/InputAdornment/InputAdornment.test.js-><InputAdornment /> should render given component",
+        "packages/material-ui/src/InputAdornment/InputAdornment.test.js-><InputAdornment /> should wrap text children in a Typography",
+        "packages/material-ui/src/InputAdornment/InputAdornment.test.js-><InputAdornment /> should have the root and start class when position is start",
+        "packages/material-ui/src/InputAdornment/InputAdornment.test.js-><InputAdornment /> should have the root and end class when position is end",
+        "packages/material-ui/src/InputAdornment/InputAdornment.test.js-><InputAdornment /> should have the disabled pointer events class when disabledPointerEvents true",
+        "packages/material-ui/src/InputAdornment/InputAdornment.test.js-><InputAdornment /> should not wrap text children in a Typography when disableTypography true",
+        "packages/material-ui/src/InputAdornment/InputAdornment.test.js-><InputAdornment /> should render children",
+        "packages/material-ui/src/InputAdornment/InputAdornment.test.js-><InputAdornment /> prop: variant should override the inherited variant",
+        "packages/material-ui/src/InputAdornment/InputAdornment.test.js-><InputAdornment /> prop: variant should have the filled root and class when variant is filled"
+    ],
+    "failed_tests": [
+        "packages/material-ui/src/InputAdornment/InputAdornment.test.js-><InputAdornment /> prop: variant should inherit the TextField's variant",
+        "packages/material-ui/src/InputAdornment/InputAdornment.test.js-><InputAdornment /> prop: variant should inherit the FormControl's variant",
+        "packages/material-ui/src/InputAdornment/InputAdornment.test.js-><InputAdornment /> prop: variant warnings should warn if the variant supplied is equal to the variant inferred"
+    ]
+}

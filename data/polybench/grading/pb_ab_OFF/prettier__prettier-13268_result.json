@@ -1,0 +1,15 @@
+{
+    "instance_id": "prettier__prettier-13268",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "/testbed/tests/unit/resolve-parser.js->resolveParser should not trigger the plugin.parsers getters"
+    ],
+    "failed_tests": [
+        "/testbed/tests/integration/__tests__/parser-api.js->parsers should allow omit optional arguments"
+    ]
+}

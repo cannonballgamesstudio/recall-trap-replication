@@ -1,0 +1,60 @@
+{
+ "engine": "statsmodels BinomialBayesMixedGLM.fit_vb",
+ "fits": {
+  "OFF-ON": {
+   "n_rows": 2862,
+   "armA_logodds_mean": 1.739482137374641,
+   "armA_logodds_sd": 0.13111672066213947,
+   "vc_sd_posterior_mean": {
+    "inst": 3.8479640935749475,
+    "seed": 0.23333343034050535,
+    "seed_arm": 0.334995183878832
+   },
+   "between_seed_var_of_arm_effect_logodds2": 0.11222177322201245
+  },
+  "OFF-T": {
+   "n_rows": 2862,
+   "armA_logodds_mean": 1.6138075513068897,
+   "armA_logodds_sd": 0.13315681445806093,
+   "vc_sd_posterior_mean": {
+    "inst": 3.9433337503178647,
+    "seed": 0.230515068011358,
+    "seed_arm": 0.33294593432875935
+   },
+   "between_seed_var_of_arm_effect_logodds2": 0.11085299518605053
+  },
+  "T-ON": {
+   "n_rows": 2862,
+   "armA_logodds_mean": 0.16727270987718398,
+   "armA_logodds_sd": 0.18952811309875142,
+   "vc_sd_posterior_mean": {
+    "inst": 4.276373452665809,
+    "seed": 0.3058820902985391,
+    "seed_arm": 0.3279272436771644
+   },
+   "between_seed_var_of_arm_effect_logodds2": 0.10753627714570237
+  },
+  "TM-T": {
+   "n_rows": 2862,
+   "armA_logodds_mean": -0.00924034029799699,
+   "armA_logodds_sd": 0.20133107131819483,
+   "vc_sd_posterior_mean": {
+    "inst": 4.614120002407591,
+    "seed": 0.285691143451341,
+    "seed_arm": 0.33598711677555615
+   },
+   "between_seed_var_of_arm_effect_logodds2": 0.1128873426391512
+  },
+  "OFF-TM": {
+   "n_rows": 2862,
+   "armA_logodds_mean": 1.473801020919907,
+   "armA_logodds_sd": 0.12902135200186574,
+   "vc_sd_posterior_mean": {
+    "inst": 3.760982636965306,
+    "seed": 0.2386046418298182,
+    "seed_arm": 0.3022821237039244
+   },
+   "between_seed_var_of_arm_effect_logodds2": 0.09137448231095464
+  }
+ }
+}

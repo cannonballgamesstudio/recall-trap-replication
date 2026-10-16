@@ -1,0 +1,686 @@
+[pin] commit=4fab615 ragfusion=code/retrieval\ragfusion\__init__.py p5=code/retrieval\scripts\eval\p5_index_instances.py embed=http://127.0.0.1:8082
+[ready] azure-samples__azure-search-openai-demo-3025 n_src=160 misses=2259 59s (1/108, elapsed 1m, naive ETA 106m)
+[repo-done] Azure-Samples__azure-search-openai-demo hits=48 misses=2259
+[ready] beever-ai__beever-atlas-102 n_src=620 misses=6073 179s (2/108, elapsed 4m, naive ETA 212m)
+[repo-done] Beever-AI__beever-atlas hits=13 misses=6073
+[ready] cs-si__eodag-2176 n_src=128 misses=3021 205s (3/108, elapsed 7m, naive ETA 261m)
+[repo-done] CS-SI__eodag hits=12 misses=3021
+[ready] celestoai__smolvm-172 n_src=119 misses=2249 77s (4/108, elapsed 9m, naive ETA 227m)
+[repo-done] CelestoAI__SmolVM hits=2 misses=2249
+[pass 1 start Wed 10/14/2026  9:13:00.90] 
+[pin] commit=4fab615 ragfusion=code/retrieval\ragfusion\__init__.py p5=code/retrieval\scripts\eval\p5_index_instances.py embed=http://127.0.0.1:8082
+[skip-resume] azure-samples__azure-search-openai-demo-3025 (1/108)
+[repo-done] Azure-Samples__azure-search-openai-demo hits=0 misses=0
+[skip-resume] beever-ai__beever-atlas-102 (2/108)
+[repo-done] Beever-AI__beever-atlas hits=0 misses=0
+[skip-resume] cs-si__eodag-2176 (3/108)
+[repo-done] CS-SI__eodag hits=0 misses=0
+[skip-resume] celestoai__smolvm-172 (4/108)
+[repo-done] CelestoAI__SmolVM hits=0 misses=0
+[ready] delgan__loguru-1451 n_src=171 misses=1968 59s (5/108, elapsed 1m, naive ETA 20m)
+[repo-done] Delgan__loguru hits=393 misses=1968
+[ready] destine-climate-dt__aqua-2768 n_src=151 misses=1797 127s (6/108, elapsed 3m, naive ETA 53m)
+[repo-done] DestinE-Climate-DT__AQUA hits=0 misses=1797
+[ready] genericmappingtools__pygmt-4463 n_src=374 misses=2210 130s (7/108, elapsed 5m, naive ETA 77m)
+[repo-done] GenericMappingTools__pygmt hits=0 misses=2210
+[ready] hkuds__openharness-217 n_src=381 misses=4808 164s (8/108, elapsed 8m, naive ETA 101m)
+[repo-done] HKUDS__OpenHarness hits=51 misses=4808
+[ready] mempalace__mempalace-1004 n_src=141 misses=3907 147s (9/108, elapsed 11m, naive ETA 116m)
+[repo-done] MemPalace__mempalace hits=20 misses=3907
+[ready] pennylaneai__pennylane-9298 n_src=1318 misses=48107 3240s (10/108, elapsed 65m, naive ETA 633m)
+[repo-done] PennyLaneAI__pennylane hits=406 misses=48107
+[ready] pycqa__isort-2491 n_src=110 misses=1325 69s (11/108, elapsed 66m, naive ETA 580m)
+[repo-done] PyCQA__isort hits=0 misses=1325
+[ready] pypsa__pypsa-1653 n_src=173 misses=3900 262s (12/108, elapsed 70m, naive ETA 561m)
+[repo-done] PyPSA__PyPSA hits=1 misses=3900
+[ready] ultraplot__ultraplot-696 n_src=146 misses=3693 234s (13/108, elapsed 74m, naive ETA 541m)
+[repo-done] Ultraplot__UltraPlot hits=7 misses=3693
+[ready] agentscope-ai__qwenpaw-3278 n_src=691 misses=12264 662s (14/108, elapsed 85m, naive ETA 572m)
+[repo-done] agentscope-ai__QwenPaw hits=34 misses=12264
+[ready] agronholm__anyio-1121 n_src=72 misses=3158 120s (15/108, elapsed 87m, naive ETA 540m)
+[ready] agronholm__anyio-1134 n_src=72 misses=11 4s (16/108, elapsed 87m, naive ETA 502m)
+[repo-done] agronholm__anyio hits=3153 misses=3169
+[ready] alibaba__opensandbox-426 n_src=675 misses=7764 280s (17/108, elapsed 92m, naive ETA 492m)
+[ready] alibaba__opensandbox-816 n_src=1000 misses=7466 304s (18/108, elapsed 97m, naive ETA 485m)
+[repo-done] alibaba__OpenSandbox hits=5877 misses=15230
+[ready] apache__iceberg-python-3295 n_src=181 misses=8418 280s (19/108, elapsed 102m, naive ETA 476m)
+[repo-done] apache__iceberg-python hits=6 misses=8418
+[ready] astronomy-commons__hats-648 n_src=97 misses=875 87s (20/108, elapsed 103m, naive ETA 454m)
+[repo-done] astronomy-commons__hats hits=0 misses=875
+[ready] astronomy-commons__lsdb-1349 n_src=96 misses=1259 105s (21/108, elapsed 105m, naive ETA 435m)
+[repo-done] astronomy-commons__lsdb hits=2 misses=1259
+[ready] astropy__astropy-19438 n_src=1114 misses=32214 1373s (22/108, elapsed 128m, naive ETA 500m)
+[repo-done] astropy__astropy hits=761 misses=32214
+[ready] conan-io__conan-19750 n_src=1073 misses=10496 527s (23/108, elapsed 137m, naive ETA 505m)
+[repo-done] conan-io__conan hits=0 misses=10496
+[ready] containers__ramalama-2487 n_src=165 misses=3437 167s (24/108, elapsed 140m, naive ETA 488m)
+[repo-done] containers__ramalama hits=2 misses=3437
+[ready] copier-org__copier-2646 n_src=68 misses=1160 75s (25/108, elapsed 141m, naive ETA 467m)
+[repo-done] copier-org__copier hits=0 misses=1160
+[ready] dagster-io__dagster-33605 n_src=7604 misses=87992 3531s (26/108, elapsed 200m, naive ETA 630m)
+[repo-done] dagster-io__dagster hits=1966 misses=87992
+[ready] databricks__dbt-databricks-1428 n_src=245 misses=4263 238s (27/108, elapsed 204m, naive ETA 612m)
+[repo-done] databricks__dbt-databricks hits=1 misses=4263
+[ready] docling-project__docling-2998 n_src=257 misses=3857 220s (28/108, elapsed 208m, naive ETA 593m)
+[repo-done] docling-project__docling hits=15 misses=3857
+[ready] gammapy__gammapy-6409 n_src=502 misses=9196 358s (29/108, elapsed 214m, naive ETA 582m)
+[repo-done] gammapy__gammapy hits=0 misses=9196
+[ready] geopython__pygeoapi-2338 n_src=163 misses=2353 95s (30/108, elapsed 215m, naive ETA 559m)
+[repo-done] geopython__pygeoapi hits=0 misses=2353
+[ready] getmoto__moto-9841 n_src=2523 misses=45336 1866s (31/108, elapsed 246m, naive ETA 612m)
+[ready] getmoto__moto-9903 n_src=2532 misses=1013 345s (32/108, elapsed 252m, naive ETA 599m)
+[repo-done] getmoto__moto hits=44718 misses=46349
+Error indexing data/post-cutoff-branchA\wt\graphistry__pygraphistry-1277\demos\data\lesmiserables.csv: new-line character seen in unquoted field - do you need to open the file with newline=''?
+Error indexing data/post-cutoff-branchA\wt\graphistry__pygraphistry-1277\demos\data\transactions.csv: new-line character seen in unquoted field - do you need to open the file with newline=''?
+[ready] graphistry__pygraphistry-1277 n_src=427 misses=13282 681s (33/108, elapsed 264m, naive ETA 599m)
+[repo-done] graphistry__pygraphistry hits=9 misses=13282
+[ready] harumiweb__exstruct-113 n_src=205 misses=4243 148s (34/108, elapsed 266m, naive ETA 579m)
+[repo-done] harumiWeb__exstruct hits=61 misses=4243
+[ready] holoviz__param-1117 n_src=69 misses=3806 124s (35/108, elapsed 268m, naive ETA 559m)
+[repo-done] holoviz__param hits=70 misses=3806
+[ready] huggingface__huggingface_hub-4056 n_src=261 misses=7277 367s (36/108, elapsed 274m, naive ETA 548m)
+[repo-done] huggingface__huggingface_hub hits=0 misses=7277
+[ready] huggingface__transformers-44080 n_src=3951 misses=89162 5082s (37/108, elapsed 359m, naive ETA 689m)
+[repo-done] huggingface__transformers hits=13 misses=89162
+[ready] huggingface__trl-5135 n_src=221 misses=3235 181s (38/108, elapsed 362m, naive ETA 667m)
+[repo-done] huggingface__trl hits=4 misses=3235
+[ready] itsdnns__docsight-437 n_src=303 misses=5899 237s (39/108, elapsed 366m, naive ETA 648m)
+[repo-done] itsDNNS__docsight hits=17 misses=5899
+[ready] jlowin__fastmcp-3235 n_src=623 misses=12678 582s (40/108, elapsed 376m, naive ETA 639m)
+[repo-done] jlowin__fastmcp hits=97 misses=12678
+[ready] jmcgeheeiv__pyfakefs-1286 n_src=68 misses=3308 194s (41/108, elapsed 379m, naive ETA 619m)
+[repo-done] jmcgeheeiv__pyfakefs hits=0 misses=3308
+[ready] joke2k__django-environ-592 n_src=20 misses=437 23s (42/108, elapsed 379m, naive ETA 596m)
+[repo-done] joke2k__django-environ hits=0 misses=437
+[ready] keras-team__keras-22330 n_src=960 misses=18608 742s (43/108, elapsed 392m, naive ETA 592m)
+[ready] keras-team__keras-22316 n_src=964 misses=287 90s (44/108, elapsed 393m, naive ETA 572m)
+[ready] keras-team__keras-22642 n_src=964 misses=1258 140s (45/108, elapsed 396m, naive ETA 554m)
+[repo-done] keras-team__keras hits=36207 misses=20153
+[ready] koxudaxi__datamodel-code-generator-3046 n_src=1547 misses=9346 329s (46/108, elapsed 401m, naive ETA 541m)
+[ready] koxudaxi__datamodel-code-generator-3070 n_src=1553 misses=204 24s (47/108, elapsed 402m, naive ETA 521m)
+[ready] koxudaxi__datamodel-code-generator-3071 n_src=1557 misses=27 15s (48/108, elapsed 402m, naive ETA 502m)
+[repo-done] koxudaxi__datamodel-code-generator hits=18600 misses=9577
+[ready] kubeflow__pipelines-13112 n_src=2804 misses=32032 1296s (49/108, elapsed 423m, naive ETA 510m)
+[repo-done] kubeflow__pipelines hits=607 misses=32032
+[ready] marimo-team__marimo-8401 n_src=3105 misses=35665 1338s (50/108, elapsed 446m, naive ETA 517m)
+[repo-done] marimo-team__marimo hits=160 misses=35665
+[ready] meltano__meltano-9950 n_src=400 misses=6812 246s (51/108, elapsed 450m, naive ETA 503m)
+[ready] meltano__meltano-9929 n_src=401 misses=29 14s (52/108, elapsed 450m, naive ETA 485m)
+[repo-done] meltano__meltano hits=6814 misses=6841
+[ready] microsoft__qcodes-8039 n_src=612 misses=9483 353s (53/108, elapsed 456m, naive ETA 473m)
+[repo-done] microsoft__Qcodes hits=2 misses=9483
+[ready] narwhals-dev__narwhals-3478 n_src=515 misses=7462 288s (54/108, elapsed 461m, naive ETA 461m)
+[ready] narwhals-dev__narwhals-3480 n_src=515 misses=0 11s (55/108, elapsed 461m, naive ETA 444m)
+[repo-done] narwhals-dev__narwhals hits=7466 misses=7462
+[ready] nesquena__hermes-webui-1818 n_src=453 misses=9979 375s (56/108, elapsed 467m, naive ETA 434m)
+[ready] nesquena__hermes-webui-2056 n_src=518 misses=1349 96s (57/108, elapsed 469m, naive ETA 420m)
+[repo-done] nesquena__hermes-webui hits=9867 misses=11328
+[ready] newton-physics__newton-1653 n_src=322 misses=6832 421s (58/108, elapsed 476m, naive ETA 410m)
+[repo-done] newton-physics__newton hits=4 misses=6832
+[ready] oemof__tespy-921 n_src=138 misses=2798 139s (59/108, elapsed 478m, naive ETA 397m)
+[repo-done] oemof__tespy hits=0 misses=2798
+[ready] opsmill__infrahub-8407 n_src=2571 misses=16854 873s (60/108, elapsed 493m, naive ETA 394m)
+[pass 1 start Wed 10/14/2026 23:59:00.89] 
+[pin] commit=4fab615 ragfusion=code/retrieval\ragfusion\__init__.py p5=code/retrieval\scripts\eval\p5_index_instances.py embed=http://127.0.0.1:8082
+[skip-resume] azure-samples__azure-search-openai-demo-3025 (1/108)
+[repo-done] Azure-Samples__azure-search-openai-demo hits=0 misses=0
+[skip-resume] beever-ai__beever-atlas-102 (2/108)
+[repo-done] Beever-AI__beever-atlas hits=0 misses=0
+[skip-resume] cs-si__eodag-2176 (3/108)
+[repo-done] CS-SI__eodag hits=0 misses=0
+[skip-resume] celestoai__smolvm-172 (4/108)
+[repo-done] CelestoAI__SmolVM hits=0 misses=0
+[skip-resume] delgan__loguru-1451 (5/108)
+[repo-done] Delgan__loguru hits=0 misses=0
+[skip-resume] destine-climate-dt__aqua-2768 (6/108)
+[repo-done] DestinE-Climate-DT__AQUA hits=0 misses=0
+[skip-resume] genericmappingtools__pygmt-4463 (7/108)
+[repo-done] GenericMappingTools__pygmt hits=0 misses=0
+[skip-resume] hkuds__openharness-217 (8/108)
+[repo-done] HKUDS__OpenHarness hits=0 misses=0
+[skip-resume] mempalace__mempalace-1004 (9/108)
+[repo-done] MemPalace__mempalace hits=0 misses=0
+[skip-resume] pennylaneai__pennylane-9298 (10/108)
+[repo-done] PennyLaneAI__pennylane hits=0 misses=0
+[skip-resume] pycqa__isort-2491 (11/108)
+[repo-done] PyCQA__isort hits=0 misses=0
+[skip-resume] pypsa__pypsa-1653 (12/108)
+[repo-done] PyPSA__PyPSA hits=0 misses=0
+[skip-resume] ultraplot__ultraplot-696 (13/108)
+[repo-done] Ultraplot__UltraPlot hits=0 misses=0
+[skip-resume] agentscope-ai__qwenpaw-3278 (14/108)
+[repo-done] agentscope-ai__QwenPaw hits=0 misses=0
+[skip-resume] agronholm__anyio-1121 (15/108)
+[skip-resume] agronholm__anyio-1134 (16/108)
+[repo-done] agronholm__anyio hits=0 misses=0
+[skip-resume] alibaba__opensandbox-426 (17/108)
+[skip-resume] alibaba__opensandbox-816 (18/108)
+[repo-done] alibaba__OpenSandbox hits=0 misses=0
+[skip-resume] apache__iceberg-python-3295 (19/108)
+[repo-done] apache__iceberg-python hits=0 misses=0
+[skip-resume] astronomy-commons__hats-648 (20/108)
+[repo-done] astronomy-commons__hats hits=0 misses=0
+[skip-resume] astronomy-commons__lsdb-1349 (21/108)
+[repo-done] astronomy-commons__lsdb hits=0 misses=0
+[skip-resume] astropy__astropy-19438 (22/108)
+[repo-done] astropy__astropy hits=0 misses=0
+[skip-resume] conan-io__conan-19750 (23/108)
+[repo-done] conan-io__conan hits=0 misses=0
+[skip-resume] containers__ramalama-2487 (24/108)
+[repo-done] containers__ramalama hits=0 misses=0
+[skip-resume] copier-org__copier-2646 (25/108)
+[repo-done] copier-org__copier hits=0 misses=0
+[skip-resume] dagster-io__dagster-33605 (26/108)
+[repo-done] dagster-io__dagster hits=0 misses=0
+[skip-resume] databricks__dbt-databricks-1428 (27/108)
+[repo-done] databricks__dbt-databricks hits=0 misses=0
+[skip-resume] docling-project__docling-2998 (28/108)
+[repo-done] docling-project__docling hits=0 misses=0
+[skip-resume] gammapy__gammapy-6409 (29/108)
+[repo-done] gammapy__gammapy hits=0 misses=0
+[skip-resume] geopython__pygeoapi-2338 (30/108)
+[repo-done] geopython__pygeoapi hits=0 misses=0
+[skip-resume] getmoto__moto-9841 (31/108)
+[skip-resume] getmoto__moto-9903 (32/108)
+[repo-done] getmoto__moto hits=0 misses=0
+[skip-resume] graphistry__pygraphistry-1277 (33/108)
+[repo-done] graphistry__pygraphistry hits=0 misses=0
+[skip-resume] harumiweb__exstruct-113 (34/108)
+[repo-done] harumiWeb__exstruct hits=0 misses=0
+[skip-resume] holoviz__param-1117 (35/108)
+[repo-done] holoviz__param hits=0 misses=0
+[skip-resume] huggingface__huggingface_hub-4056 (36/108)
+[repo-done] huggingface__huggingface_hub hits=0 misses=0
+[skip-resume] huggingface__transformers-44080 (37/108)
+[repo-done] huggingface__transformers hits=0 misses=0
+[skip-resume] huggingface__trl-5135 (38/108)
+[repo-done] huggingface__trl hits=0 misses=0
+[skip-resume] itsdnns__docsight-437 (39/108)
+[repo-done] itsDNNS__docsight hits=0 misses=0
+[skip-resume] jlowin__fastmcp-3235 (40/108)
+[repo-done] jlowin__fastmcp hits=0 misses=0
+[skip-resume] jmcgeheeiv__pyfakefs-1286 (41/108)
+[repo-done] jmcgeheeiv__pyfakefs hits=0 misses=0
+[skip-resume] joke2k__django-environ-592 (42/108)
+[repo-done] joke2k__django-environ hits=0 misses=0
+[skip-resume] keras-team__keras-22330 (43/108)
+[skip-resume] keras-team__keras-22316 (44/108)
+[skip-resume] keras-team__keras-22642 (45/108)
+[repo-done] keras-team__keras hits=0 misses=0
+[skip-resume] koxudaxi__datamodel-code-generator-3046 (46/108)
+[skip-resume] koxudaxi__datamodel-code-generator-3070 (47/108)
+[skip-resume] koxudaxi__datamodel-code-generator-3071 (48/108)
+[repo-done] koxudaxi__datamodel-code-generator hits=0 misses=0
+[skip-resume] kubeflow__pipelines-13112 (49/108)
+[repo-done] kubeflow__pipelines hits=0 misses=0
+[skip-resume] marimo-team__marimo-8401 (50/108)
+[repo-done] marimo-team__marimo hits=0 misses=0
+[skip-resume] meltano__meltano-9950 (51/108)
+[skip-resume] meltano__meltano-9929 (52/108)
+[repo-done] meltano__meltano hits=0 misses=0
+[skip-resume] microsoft__qcodes-8039 (53/108)
+[repo-done] microsoft__Qcodes hits=0 misses=0
+[skip-resume] narwhals-dev__narwhals-3478 (54/108)
+[skip-resume] narwhals-dev__narwhals-3480 (55/108)
+[repo-done] narwhals-dev__narwhals hits=0 misses=0
+[skip-resume] nesquena__hermes-webui-1818 (56/108)
+[skip-resume] nesquena__hermes-webui-2056 (57/108)
+[repo-done] nesquena__hermes-webui hits=0 misses=0
+[skip-resume] newton-physics__newton-1653 (58/108)
+[repo-done] newton-physics__newton hits=0 misses=0
+[skip-resume] oemof__tespy-921 (59/108)
+[repo-done] oemof__tespy hits=0 misses=0
+[skip-resume] opsmill__infrahub-8407 (60/108)
+[skip-resume] opsmill__infrahub-8423 (61/108)
+[repo-done] opsmill__infrahub hits=0 misses=0
+[skip-resume] pallets__click-3239 (62/108)
+[repo-done] pallets__click hits=0 misses=0
+[skip-resume] pandas-dev__pandas-64816 (63/108)
+[skip-resume] pandas-dev__pandas-64796 (64/108)
+[skip-resume] pandas-dev__pandas-64797 (65/108)
+[repo-done] pandas-dev__pandas hits=0 misses=0
+[skip-resume] pdm-project__pdm-3759 (66/108)
+[repo-done] pdm-project__pdm hits=0 misses=0
+[skip-resume] pgmpy__pgmpy-3137 (67/108)
+[repo-done] pgmpy__pgmpy hits=0 misses=0
+[skip-resume] pipecat-ai__pipecat-4283 (68/108)
+[repo-done] pipecat-ai__pipecat hits=0 misses=0
+[skip-resume] psd-tools__psd-tools-551 (69/108)
+[skip-resume] psd-tools__psd-tools-593 (70/108)
+[repo-done] psd-tools__psd-tools hits=0 misses=0
+[skip-resume] pyinfra-dev__pyinfra-1630 (71/108)
+[skip-resume] pyinfra-dev__pyinfra-1665 (72/108)
+[repo-done] pyinfra-dev__pyinfra hits=0 misses=0
+[skip-resume] pypa__build-1027 (73/108)
+[repo-done] pypa__build hits=0 misses=0
+[skip-resume] pypa__twine-1309 (74/108)
+[repo-done] pypa__twine hits=0 misses=0
+[skip-resume] pytest-dev__pyfakefs-1286 (75/108)
+[repo-done] pytest-dev__pyfakefs hits=0 misses=0
+[skip-resume] python-wheel-build__fromager-1106 (76/108)
+[skip-resume] python-wheel-build__fromager-1124 (77/108)
+[repo-done] python-wheel-build__fromager hits=0 misses=0
+[skip-resume] raullenchai__rapid-mlx-227 (78/108)
+[skip-resume] raullenchai__rapid-mlx-228 (79/108)
+[skip-resume] raullenchai__rapid-mlx-289 (80/108)
+[repo-done] raullenchai__Rapid-MLX hits=0 misses=0
+[skip-resume] schemathesis__schemathesis-3778 (81/108)
+[skip-resume] schemathesis__schemathesis-3933 (82/108)
+[skip-resume] schemathesis__schemathesis-4087 (83/108)
+[repo-done] schemathesis__schemathesis hits=0 misses=0
+[skip-resume] scikit-learn__scikit-learn-33565 (84/108)
+[repo-done] scikit-learn__scikit-learn hits=0 misses=0
+[skip-resume] skypilot-org__skypilot-8908 (85/108)
+[repo-done] skypilot-org__skypilot hits=0 misses=0
+[skip-resume] spack__spack-52244 (86/108)
+[repo-done] spack__spack hits=0 misses=0
+[skip-resume] sqlfluff__sqlfluff-7617 (87/108)
+[skip-resume] sqlfluff__sqlfluff-7622 (88/108)
+[skip-resume] sqlfluff__sqlfluff-7615 (89/108)
+[repo-done] sqlfluff__sqlfluff hits=0 misses=0
+[skip-resume] strands-agents__sdk-python-1719 (90/108)
+[skip-resume] strands-agents__sdk-python-1734 (91/108)
+[repo-done] strands-agents__sdk-python hits=0 misses=0
+[skip-resume] tobymao__sqlglot-7187 (92/108)
+[skip-resume] tobymao__sqlglot-7457 (93/108)
+[skip-resume] tobymao__sqlglot-7479 (94/108)
+[repo-done] tobymao__sqlglot hits=0 misses=0
+[skip-resume] tox-dev__sphinx-autodoc-typehints-607 (95/108)
+[skip-resume] tox-dev__sphinx-autodoc-typehints-606 (96/108)
+[repo-done] tox-dev__sphinx-autodoc-typehints hits=0 misses=0
+[skip-resume] tox-dev__tox-3759 (97/108)
+[skip-resume] tox-dev__tox-3810 (98/108)
+[skip-resume] tox-dev__tox-3846 (99/108)
+[skip-resume] tox-dev__tox-3904 (100/108)
+[skip-resume] tox-dev__tox-3931 (101/108)
+[repo-done] tox-dev__tox hits=0 misses=0
+[skip-resume] ucfopen__canvasapi-716 (102/108)
+[repo-done] ucfopen__canvasapi hits=0 misses=0
+[skip-resume] unit8co__darts-3065 (103/108)
+[repo-done] unit8co__darts hits=0 misses=0
+[skip-resume] vprusso__toqito-1538 (104/108)
+[repo-done] vprusso__toqito hits=0 misses=0
+[skip-resume] youssofal__mtplx-21 (105/108)
+[repo-done] youssofal__MTPLX hits=0 misses=0
+[skip-resume] zarr-developers__virtualizarr-979 (106/108)
+[repo-done] zarr-developers__VirtualiZarr hits=0 misses=0
+[skip-resume] zauberzeug__nicegui-5914 (107/108)
+[skip-resume] zauberzeug__nicegui-5858 (108/108)
+[repo-done] zauberzeug__nicegui hits=0 misses=0
+[all-done]
+[pass 2 start Wed 10/14/2026 23:59:00.89] 
+[pin] commit=4fab615 ragfusion=code/retrieval\ragfusion\__init__.py p5=code/retrieval\scripts\eval\p5_index_instances.py embed=http://127.0.0.1:8082
+[skip-resume] azure-samples__azure-search-openai-demo-3025 (1/108)
+[repo-done] Azure-Samples__azure-search-openai-demo hits=0 misses=0
+[skip-resume] beever-ai__beever-atlas-102 (2/108)
+[repo-done] Beever-AI__beever-atlas hits=0 misses=0
+[skip-resume] cs-si__eodag-2176 (3/108)
+[repo-done] CS-SI__eodag hits=0 misses=0
+[skip-resume] celestoai__smolvm-172 (4/108)
+[repo-done] CelestoAI__SmolVM hits=0 misses=0
+[skip-resume] delgan__loguru-1451 (5/108)
+[repo-done] Delgan__loguru hits=0 misses=0
+[skip-resume] destine-climate-dt__aqua-2768 (6/108)
+[repo-done] DestinE-Climate-DT__AQUA hits=0 misses=0
+[skip-resume] genericmappingtools__pygmt-4463 (7/108)
+[repo-done] GenericMappingTools__pygmt hits=0 misses=0
+[skip-resume] hkuds__openharness-217 (8/108)
+[repo-done] HKUDS__OpenHarness hits=0 misses=0
+[skip-resume] mempalace__mempalace-1004 (9/108)
+[repo-done] MemPalace__mempalace hits=0 misses=0
+[skip-resume] pennylaneai__pennylane-9298 (10/108)
+[repo-done] PennyLaneAI__pennylane hits=0 misses=0
+[skip-resume] pycqa__isort-2491 (11/108)
+[repo-done] PyCQA__isort hits=0 misses=0
+[skip-resume] pypsa__pypsa-1653 (12/108)
+[repo-done] PyPSA__PyPSA hits=0 misses=0
+[skip-resume] ultraplot__ultraplot-696 (13/108)
+[repo-done] Ultraplot__UltraPlot hits=0 misses=0
+[skip-resume] agentscope-ai__qwenpaw-3278 (14/108)
+[repo-done] agentscope-ai__QwenPaw hits=0 misses=0
+[skip-resume] agronholm__anyio-1121 (15/108)
+[skip-resume] agronholm__anyio-1134 (16/108)
+[repo-done] agronholm__anyio hits=0 misses=0
+[skip-resume] alibaba__opensandbox-426 (17/108)
+[skip-resume] alibaba__opensandbox-816 (18/108)
+[repo-done] alibaba__OpenSandbox hits=0 misses=0
+[skip-resume] apache__iceberg-python-3295 (19/108)
+[repo-done] apache__iceberg-python hits=0 misses=0
+[skip-resume] astronomy-commons__hats-648 (20/108)
+[repo-done] astronomy-commons__hats hits=0 misses=0
+[skip-resume] astronomy-commons__lsdb-1349 (21/108)
+[repo-done] astronomy-commons__lsdb hits=0 misses=0
+[skip-resume] astropy__astropy-19438 (22/108)
+[repo-done] astropy__astropy hits=0 misses=0
+[skip-resume] conan-io__conan-19750 (23/108)
+[repo-done] conan-io__conan hits=0 misses=0
+[skip-resume] containers__ramalama-2487 (24/108)
+[repo-done] containers__ramalama hits=0 misses=0
+[skip-resume] copier-org__copier-2646 (25/108)
+[repo-done] copier-org__copier hits=0 misses=0
+[skip-resume] dagster-io__dagster-33605 (26/108)
+[repo-done] dagster-io__dagster hits=0 misses=0
+[skip-resume] databricks__dbt-databricks-1428 (27/108)
+[repo-done] databricks__dbt-databricks hits=0 misses=0
+[skip-resume] docling-project__docling-2998 (28/108)
+[repo-done] docling-project__docling hits=0 misses=0
+[skip-resume] gammapy__gammapy-6409 (29/108)
+[repo-done] gammapy__gammapy hits=0 misses=0
+[skip-resume] geopython__pygeoapi-2338 (30/108)
+[repo-done] geopython__pygeoapi hits=0 misses=0
+[skip-resume] getmoto__moto-9841 (31/108)
+[skip-resume] getmoto__moto-9903 (32/108)
+[repo-done] getmoto__moto hits=0 misses=0
+[skip-resume] graphistry__pygraphistry-1277 (33/108)
+[repo-done] graphistry__pygraphistry hits=0 misses=0
+[skip-resume] harumiweb__exstruct-113 (34/108)
+[repo-done] harumiWeb__exstruct hits=0 misses=0
+[skip-resume] holoviz__param-1117 (35/108)
+[repo-done] holoviz__param hits=0 misses=0
+[skip-resume] huggingface__huggingface_hub-4056 (36/108)
+[repo-done] huggingface__huggingface_hub hits=0 misses=0
+[skip-resume] huggingface__transformers-44080 (37/108)
+[repo-done] huggingface__transformers hits=0 misses=0
+[skip-resume] huggingface__trl-5135 (38/108)
+[repo-done] huggingface__trl hits=0 misses=0
+[skip-resume] itsdnns__docsight-437 (39/108)
+[repo-done] itsDNNS__docsight hits=0 misses=0
+[skip-resume] jlowin__fastmcp-3235 (40/108)
+[repo-done] jlowin__fastmcp hits=0 misses=0
+[skip-resume] jmcgeheeiv__pyfakefs-1286 (41/108)
+[repo-done] jmcgeheeiv__pyfakefs hits=0 misses=0
+[skip-resume] joke2k__django-environ-592 (42/108)
+[repo-done] joke2k__django-environ hits=0 misses=0
+[skip-resume] keras-team__keras-22330 (43/108)
+[skip-resume] keras-team__keras-22316 (44/108)
+[skip-resume] keras-team__keras-22642 (45/108)
+[repo-done] keras-team__keras hits=0 misses=0
+[skip-resume] koxudaxi__datamodel-code-generator-3046 (46/108)
+[skip-resume] koxudaxi__datamodel-code-generator-3070 (47/108)
+[skip-resume] koxudaxi__datamodel-code-generator-3071 (48/108)
+[repo-done] koxudaxi__datamodel-code-generator hits=0 misses=0
+[skip-resume] kubeflow__pipelines-13112 (49/108)
+[repo-done] kubeflow__pipelines hits=0 misses=0
+[skip-resume] marimo-team__marimo-8401 (50/108)
+[repo-done] marimo-team__marimo hits=0 misses=0
+[skip-resume] meltano__meltano-9950 (51/108)
+[skip-resume] meltano__meltano-9929 (52/108)
+[repo-done] meltano__meltano hits=0 misses=0
+[skip-resume] microsoft__qcodes-8039 (53/108)
+[repo-done] microsoft__Qcodes hits=0 misses=0
+[skip-resume] narwhals-dev__narwhals-3478 (54/108)
+[skip-resume] narwhals-dev__narwhals-3480 (55/108)
+[repo-done] narwhals-dev__narwhals hits=0 misses=0
+[skip-resume] nesquena__hermes-webui-1818 (56/108)
+[skip-resume] nesquena__hermes-webui-2056 (57/108)
+[repo-done] nesquena__hermes-webui hits=0 misses=0
+[skip-resume] newton-physics__newton-1653 (58/108)
+[repo-done] newton-physics__newton hits=0 misses=0
+[skip-resume] oemof__tespy-921 (59/108)
+[repo-done] oemof__tespy hits=0 misses=0
+[skip-resume] opsmill__infrahub-8407 (60/108)
+[skip-resume] opsmill__infrahub-8423 (61/108)
+[repo-done] opsmill__infrahub hits=0 misses=0
+[skip-resume] pallets__click-3239 (62/108)
+[repo-done] pallets__click hits=0 misses=0
+[skip-resume] pandas-dev__pandas-64816 (63/108)
+[skip-resume] pandas-dev__pandas-64796 (64/108)
+[skip-resume] pandas-dev__pandas-64797 (65/108)
+[repo-done] pandas-dev__pandas hits=0 misses=0
+[skip-resume] pdm-project__pdm-3759 (66/108)
+[repo-done] pdm-project__pdm hits=0 misses=0
+[skip-resume] pgmpy__pgmpy-3137 (67/108)
+[repo-done] pgmpy__pgmpy hits=0 misses=0
+[skip-resume] pipecat-ai__pipecat-4283 (68/108)
+[repo-done] pipecat-ai__pipecat hits=0 misses=0
+[skip-resume] psd-tools__psd-tools-551 (69/108)
+[skip-resume] psd-tools__psd-tools-593 (70/108)
+[repo-done] psd-tools__psd-tools hits=0 misses=0
+[skip-resume] pyinfra-dev__pyinfra-1630 (71/108)
+[skip-resume] pyinfra-dev__pyinfra-1665 (72/108)
+[repo-done] pyinfra-dev__pyinfra hits=0 misses=0
+[skip-resume] pypa__build-1027 (73/108)
+[repo-done] pypa__build hits=0 misses=0
+[skip-resume] pypa__twine-1309 (74/108)
+[repo-done] pypa__twine hits=0 misses=0
+[skip-resume] pytest-dev__pyfakefs-1286 (75/108)
+[repo-done] pytest-dev__pyfakefs hits=0 misses=0
+[skip-resume] python-wheel-build__fromager-1106 (76/108)
+[skip-resume] python-wheel-build__fromager-1124 (77/108)
+[repo-done] python-wheel-build__fromager hits=0 misses=0
+[skip-resume] raullenchai__rapid-mlx-227 (78/108)
+[skip-resume] raullenchai__rapid-mlx-228 (79/108)
+[skip-resume] raullenchai__rapid-mlx-289 (80/108)
+[repo-done] raullenchai__Rapid-MLX hits=0 misses=0
+[skip-resume] schemathesis__schemathesis-3778 (81/108)
+[skip-resume] schemathesis__schemathesis-3933 (82/108)
+[skip-resume] schemathesis__schemathesis-4087 (83/108)
+[repo-done] schemathesis__schemathesis hits=0 misses=0
+[skip-resume] scikit-learn__scikit-learn-33565 (84/108)
+[repo-done] scikit-learn__scikit-learn hits=0 misses=0
+[skip-resume] skypilot-org__skypilot-8908 (85/108)
+[repo-done] skypilot-org__skypilot hits=0 misses=0
+[skip-resume] spack__spack-52244 (86/108)
+[repo-done] spack__spack hits=0 misses=0
+[skip-resume] sqlfluff__sqlfluff-7617 (87/108)
+[skip-resume] sqlfluff__sqlfluff-7622 (88/108)
+[skip-resume] sqlfluff__sqlfluff-7615 (89/108)
+[repo-done] sqlfluff__sqlfluff hits=0 misses=0
+[skip-resume] strands-agents__sdk-python-1719 (90/108)
+[skip-resume] strands-agents__sdk-python-1734 (91/108)
+[repo-done] strands-agents__sdk-python hits=0 misses=0
+[skip-resume] tobymao__sqlglot-7187 (92/108)
+[skip-resume] tobymao__sqlglot-7457 (93/108)
+[skip-resume] tobymao__sqlglot-7479 (94/108)
+[repo-done] tobymao__sqlglot hits=0 misses=0
+[skip-resume] tox-dev__sphinx-autodoc-typehints-607 (95/108)
+[skip-resume] tox-dev__sphinx-autodoc-typehints-606 (96/108)
+[repo-done] tox-dev__sphinx-autodoc-typehints hits=0 misses=0
+[skip-resume] tox-dev__tox-3759 (97/108)
+[skip-resume] tox-dev__tox-3810 (98/108)
+[skip-resume] tox-dev__tox-3846 (99/108)
+[skip-resume] tox-dev__tox-3904 (100/108)
+[skip-resume] tox-dev__tox-3931 (101/108)
+[repo-done] tox-dev__tox hits=0 misses=0
+[skip-resume] ucfopen__canvasapi-716 (102/108)
+[repo-done] ucfopen__canvasapi hits=0 misses=0
+[skip-resume] unit8co__darts-3065 (103/108)
+[repo-done] unit8co__darts hits=0 misses=0
+[skip-resume] vprusso__toqito-1538 (104/108)
+[repo-done] vprusso__toqito hits=0 misses=0
+[skip-resume] youssofal__mtplx-21 (105/108)
+[repo-done] youssofal__MTPLX hits=0 misses=0
+[skip-resume] zarr-developers__virtualizarr-979 (106/108)
+[repo-done] zarr-developers__VirtualiZarr hits=0 misses=0
+[skip-resume] zauberzeug__nicegui-5914 (107/108)
+[skip-resume] zauberzeug__nicegui-5858 (108/108)
+[repo-done] zauberzeug__nicegui hits=0 misses=0
+[all-done]
+[pass 3 start Wed 10/14/2026 23:59:00.89] 
+[pin] commit=4fab615 ragfusion=code/retrieval\ragfusion\__init__.py p5=code/retrieval\scripts\eval\p5_index_instances.py embed=http://127.0.0.1:8082
+[skip-resume] azure-samples__azure-search-openai-demo-3025 (1/108)
+[repo-done] Azure-Samples__azure-search-openai-demo hits=0 misses=0
+[skip-resume] beever-ai__beever-atlas-102 (2/108)
+[repo-done] Beever-AI__beever-atlas hits=0 misses=0
+[skip-resume] cs-si__eodag-2176 (3/108)
+[repo-done] CS-SI__eodag hits=0 misses=0
+[skip-resume] celestoai__smolvm-172 (4/108)
+[repo-done] CelestoAI__SmolVM hits=0 misses=0
+[skip-resume] delgan__loguru-1451 (5/108)
+[repo-done] Delgan__loguru hits=0 misses=0
+[skip-resume] destine-climate-dt__aqua-2768 (6/108)
+[repo-done] DestinE-Climate-DT__AQUA hits=0 misses=0
+[skip-resume] genericmappingtools__pygmt-4463 (7/108)
+[repo-done] GenericMappingTools__pygmt hits=0 misses=0
+[skip-resume] hkuds__openharness-217 (8/108)
+[repo-done] HKUDS__OpenHarness hits=0 misses=0
+[skip-resume] mempalace__mempalace-1004 (9/108)
+[repo-done] MemPalace__mempalace hits=0 misses=0
+[skip-resume] pennylaneai__pennylane-9298 (10/108)
+[repo-done] PennyLaneAI__pennylane hits=0 misses=0
+[skip-resume] pycqa__isort-2491 (11/108)
+[repo-done] PyCQA__isort hits=0 misses=0
+[skip-resume] pypsa__pypsa-1653 (12/108)
+[repo-done] PyPSA__PyPSA hits=0 misses=0
+[skip-resume] ultraplot__ultraplot-696 (13/108)
+[repo-done] Ultraplot__UltraPlot hits=0 misses=0
+[skip-resume] agentscope-ai__qwenpaw-3278 (14/108)
+[repo-done] agentscope-ai__QwenPaw hits=0 misses=0
+[skip-resume] agronholm__anyio-1121 (15/108)
+[skip-resume] agronholm__anyio-1134 (16/108)
+[repo-done] agronholm__anyio hits=0 misses=0
+[skip-resume] alibaba__opensandbox-426 (17/108)
+[skip-resume] alibaba__opensandbox-816 (18/108)
+[repo-done] alibaba__OpenSandbox hits=0 misses=0
+[skip-resume] apache__iceberg-python-3295 (19/108)
+[repo-done] apache__iceberg-python hits=0 misses=0
+[skip-resume] astronomy-commons__hats-648 (20/108)
+[repo-done] astronomy-commons__hats hits=0 misses=0
+[skip-resume] astronomy-commons__lsdb-1349 (21/108)
+[repo-done] astronomy-commons__lsdb hits=0 misses=0
+[skip-resume] astropy__astropy-19438 (22/108)
+[repo-done] astropy__astropy hits=0 misses=0
+[skip-resume] conan-io__conan-19750 (23/108)
+[repo-done] conan-io__conan hits=0 misses=0
+[skip-resume] containers__ramalama-2487 (24/108)
+[repo-done] containers__ramalama hits=0 misses=0
+[skip-resume] copier-org__copier-2646 (25/108)
+[repo-done] copier-org__copier hits=0 misses=0
+[skip-resume] dagster-io__dagster-33605 (26/108)
+[repo-done] dagster-io__dagster hits=0 misses=0
+[skip-resume] databricks__dbt-databricks-1428 (27/108)
+[repo-done] databricks__dbt-databricks hits=0 misses=0
+[skip-resume] docling-project__docling-2998 (28/108)
+[repo-done] docling-project__docling hits=0 misses=0
+[skip-resume] gammapy__gammapy-6409 (29/108)
+[repo-done] gammapy__gammapy hits=0 misses=0
+[skip-resume] geopython__pygeoapi-2338 (30/108)
+[repo-done] geopython__pygeoapi hits=0 misses=0
+[skip-resume] getmoto__moto-9841 (31/108)
+[skip-resume] getmoto__moto-9903 (32/108)
+[repo-done] getmoto__moto hits=0 misses=0
+[skip-resume] graphistry__pygraphistry-1277 (33/108)
+[repo-done] graphistry__pygraphistry hits=0 misses=0
+[skip-resume] harumiweb__exstruct-113 (34/108)
+[repo-done] harumiWeb__exstruct hits=0 misses=0
+[skip-resume] holoviz__param-1117 (35/108)
+[repo-done] holoviz__param hits=0 misses=0
+[skip-resume] huggingface__huggingface_hub-4056 (36/108)
+[repo-done] huggingface__huggingface_hub hits=0 misses=0
+[skip-resume] huggingface__transformers-44080 (37/108)
+[repo-done] huggingface__transformers hits=0 misses=0
+[skip-resume] huggingface__trl-5135 (38/108)
+[repo-done] huggingface__trl hits=0 misses=0
+[skip-resume] itsdnns__docsight-437 (39/108)
+[repo-done] itsDNNS__docsight hits=0 misses=0
+[skip-resume] jlowin__fastmcp-3235 (40/108)
+[repo-done] jlowin__fastmcp hits=0 misses=0
+[skip-resume] jmcgeheeiv__pyfakefs-1286 (41/108)
+[repo-done] jmcgeheeiv__pyfakefs hits=0 misses=0
+[skip-resume] joke2k__django-environ-592 (42/108)
+[repo-done] joke2k__django-environ hits=0 misses=0
+[skip-resume] keras-team__keras-22330 (43/108)
+[skip-resume] keras-team__keras-22316 (44/108)
+[skip-resume] keras-team__keras-22642 (45/108)
+[repo-done] keras-team__keras hits=0 misses=0
+[skip-resume] koxudaxi__datamodel-code-generator-3046 (46/108)
+[skip-resume] koxudaxi__datamodel-code-generator-3070 (47/108)
+[skip-resume] koxudaxi__datamodel-code-generator-3071 (48/108)
+[repo-done] koxudaxi__datamodel-code-generator hits=0 misses=0
+[skip-resume] kubeflow__pipelines-13112 (49/108)
+[repo-done] kubeflow__pipelines hits=0 misses=0
+[skip-resume] marimo-team__marimo-8401 (50/108)
+[repo-done] marimo-team__marimo hits=0 misses=0
+[skip-resume] meltano__meltano-9950 (51/108)
+[skip-resume] meltano__meltano-9929 (52/108)
+[repo-done] meltano__meltano hits=0 misses=0
+[skip-resume] microsoft__qcodes-8039 (53/108)
+[repo-done] microsoft__Qcodes hits=0 misses=0
+[skip-resume] narwhals-dev__narwhals-3478 (54/108)
+[skip-resume] narwhals-dev__narwhals-3480 (55/108)
+[repo-done] narwhals-dev__narwhals hits=0 misses=0
+[skip-resume] nesquena__hermes-webui-1818 (56/108)
+[skip-resume] nesquena__hermes-webui-2056 (57/108)
+[repo-done] nesquena__hermes-webui hits=0 misses=0
+[skip-resume] newton-physics__newton-1653 (58/108)
+[repo-done] newton-physics__newton hits=0 misses=0
+[skip-resume] oemof__tespy-921 (59/108)
+[repo-done] oemof__tespy hits=0 misses=0
+[skip-resume] opsmill__infrahub-8407 (60/108)
+[skip-resume] opsmill__infrahub-8423 (61/108)
+[repo-done] opsmill__infrahub hits=0 misses=0
+[skip-resume] pallets__click-3239 (62/108)
+[repo-done] pallets__click hits=0 misses=0
+[skip-resume] pandas-dev__pandas-64816 (63/108)
+[skip-resume] pandas-dev__pandas-64796 (64/108)
+[skip-resume] pandas-dev__pandas-64797 (65/108)
+[repo-done] pandas-dev__pandas hits=0 misses=0
+[skip-resume] pdm-project__pdm-3759 (66/108)
+[repo-done] pdm-project__pdm hits=0 misses=0
+[skip-resume] pgmpy__pgmpy-3137 (67/108)
+[repo-done] pgmpy__pgmpy hits=0 misses=0
+[skip-resume] pipecat-ai__pipecat-4283 (68/108)
+[repo-done] pipecat-ai__pipecat hits=0 misses=0
+[skip-resume] psd-tools__psd-tools-551 (69/108)
+[skip-resume] psd-tools__psd-tools-593 (70/108)
+[repo-done] psd-tools__psd-tools hits=0 misses=0
+[skip-resume] pyinfra-dev__pyinfra-1630 (71/108)
+[skip-resume] pyinfra-dev__pyinfra-1665 (72/108)
+[repo-done] pyinfra-dev__pyinfra hits=0 misses=0
+[skip-resume] pypa__build-1027 (73/108)
+[repo-done] pypa__build hits=0 misses=0
+[skip-resume] pypa__twine-1309 (74/108)
+[repo-done] pypa__twine hits=0 misses=0
+[skip-resume] pytest-dev__pyfakefs-1286 (75/108)
+[repo-done] pytest-dev__pyfakefs hits=0 misses=0
+[skip-resume] python-wheel-build__fromager-1106 (76/108)
+[skip-resume] python-wheel-build__fromager-1124 (77/108)
+[repo-done] python-wheel-build__fromager hits=0 misses=0
+[skip-resume] raullenchai__rapid-mlx-227 (78/108)
+[skip-resume] raullenchai__rapid-mlx-228 (79/108)
+[skip-resume] raullenchai__rapid-mlx-289 (80/108)
+[repo-done] raullenchai__Rapid-MLX hits=0 misses=0
+[skip-resume] schemathesis__schemathesis-3778 (81/108)
+[skip-resume] schemathesis__schemathesis-3933 (82/108)
+[skip-resume] schemathesis__schemathesis-4087 (83/108)
+[repo-done] schemathesis__schemathesis hits=0 misses=0
+[skip-resume] scikit-learn__scikit-learn-33565 (84/108)
+[repo-done] scikit-learn__scikit-learn hits=0 misses=0
+[skip-resume] skypilot-org__skypilot-8908 (85/108)
+[repo-done] skypilot-org__skypilot hits=0 misses=0
+[skip-resume] spack__spack-52244 (86/108)
+[repo-done] spack__spack hits=0 misses=0
+[skip-resume] sqlfluff__sqlfluff-7617 (87/108)
+[skip-resume] sqlfluff__sqlfluff-7622 (88/108)
+[skip-resume] sqlfluff__sqlfluff-7615 (89/108)
+[repo-done] sqlfluff__sqlfluff hits=0 misses=0
+[skip-resume] strands-agents__sdk-python-1719 (90/108)
+[skip-resume] strands-agents__sdk-python-1734 (91/108)
+[repo-done] strands-agents__sdk-python hits=0 misses=0
+[skip-resume] tobymao__sqlglot-7187 (92/108)
+[skip-resume] tobymao__sqlglot-7457 (93/108)
+[skip-resume] tobymao__sqlglot-7479 (94/108)
+[repo-done] tobymao__sqlglot hits=0 misses=0
+[skip-resume] tox-dev__sphinx-autodoc-typehints-607 (95/108)
+[skip-resume] tox-dev__sphinx-autodoc-typehints-606 (96/108)
+[repo-done] tox-dev__sphinx-autodoc-typehints hits=0 misses=0
+[skip-resume] tox-dev__tox-3759 (97/108)
+[skip-resume] tox-dev__tox-3810 (98/108)
+[skip-resume] tox-dev__tox-3846 (99/108)
+[skip-resume] tox-dev__tox-3904 (100/108)
+[skip-resume] tox-dev__tox-3931 (101/108)
+[repo-done] tox-dev__tox hits=0 misses=0
+[skip-resume] ucfopen__canvasapi-716 (102/108)
+[repo-done] ucfopen__canvasapi hits=0 misses=0
+[skip-resume] unit8co__darts-3065 (103/108)
+[repo-done] unit8co__darts hits=0 misses=0
+[skip-resume] vprusso__toqito-1538 (104/108)
+[repo-done] vprusso__toqito hits=0 misses=0
+[skip-resume] youssofal__mtplx-21 (105/108)
+[repo-done] youssofal__MTPLX hits=0 misses=0
+[skip-resume] zarr-developers__virtualizarr-979 (106/108)
+[repo-done] zarr-developers__VirtualiZarr hits=0 misses=0
+[skip-resume] zauberzeug__nicegui-5914 (107/108)
+[skip-resume] zauberzeug__nicegui-5858 (108/108)
+[repo-done] zauberzeug__nicegui hits=0 misses=0
+[all-done]

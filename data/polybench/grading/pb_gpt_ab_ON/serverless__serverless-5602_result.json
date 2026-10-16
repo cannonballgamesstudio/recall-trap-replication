@@ -1,0 +1,37 @@
+{
+    "instance_id": "serverless__serverless-5602",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "zipService #excludeDevDependencies() should resolve when opted out of dev dependency exclusion",
+        "zipService #excludeDevDependencies() when dealing with Node.js runtimes should do nothing if no packages are used",
+        "zipService #zip() should zip a whole service (without include / exclude usage)",
+        "zipService #zip() should keep file permissions",
+        "zipService #zip() should exclude with globs",
+        "zipService #zip() should re-include files using ! glob pattern",
+        "zipService #zip() should re-include files using include config",
+        "zipService #zip() should throw an error if no files are matched",
+        "zipService #zipFiles() should throw an error if no files are provided"
+    ],
+    "failed_tests": [
+        "zipService #zipService() \"before each\" hook for \"should run promise chain in order\"",
+        "zipService #zipService() \"after each\" hook for \"should run promise chain in order\"",
+        "zipService #getFileContentAndStat() \"before each\" hook for \"should keep the file content as is\"",
+        "zipService #getFileContent() \"before each\" hook for \"should keep the file content as is\"",
+        "zipService #excludeDevDependencies() when dealing with Node.js runtimes should do nothing if no dependencies are found",
+        "zipService #excludeDevDependencies() when dealing with Node.js runtimes should return excludes and includes if an error is thrown in the global scope",
+        "zipService #excludeDevDependencies() when dealing with Node.js runtimes should return excludes and includes if a exec Promise is rejected",
+        "zipService #excludeDevDependencies() when dealing with Node.js runtimes should return excludes and includes if a readFile Promise is rejected",
+        "zipService #excludeDevDependencies() when dealing with Node.js runtimes should fail silently and continue if \"npm ls\" call throws an error",
+        "zipService #excludeDevDependencies() when dealing with Node.js runtimes should exclude dev dependencies in the services root directory",
+        "zipService #excludeDevDependencies() when dealing with Node.js runtimes should exclude dev dependencies in deeply nested services directories",
+        "zipService #excludeDevDependencies() when dealing with Node.js runtimes should not include packages if in both dependencies and devDependencies",
+        "zipService #excludeDevDependencies() when dealing with Node.js runtimes should exclude dev dependency executables in node_modules/.bin",
+        "zipService #excludeDevDependencies() when dealing with Node.js runtimes should exclude .bin executables in deeply nested folders",
+        "zipService #zip() should include files even if outside working dir"
+    ]
+}

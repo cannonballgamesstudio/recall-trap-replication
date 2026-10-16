@@ -1,0 +1,248 @@
+{
+ "n_instances_with_all_queries": 500,
+ "missing_queries": [],
+ "gate1_subset": {
+  "pass_n": 478,
+  "n": 500,
+  "rate": 0.956,
+  "threshold": 0.95,
+  "PASS": true,
+  "violators": [
+   {
+    "instance_id": "astropy__astropy-13453",
+    "missing_files": [
+     "astropy/table/row.py"
+    ],
+    "gold_missing": []
+   },
+   {
+    "instance_id": "django__django-11740",
+    "missing_files": [
+     "django/contrib/messages/storage/cookie.py"
+    ],
+    "gold_missing": []
+   },
+   {
+    "instance_id": "django__django-12125",
+    "missing_files": [
+     "django/db/migrations/state.py",
+     "tests/migrations/test_writer.py"
+    ],
+    "gold_missing": []
+   },
+   {
+    "instance_id": "django__django-12262",
+    "missing_files": [
+     "django/db/migrations/serializer.py"
+    ],
+    "gold_missing": []
+   },
+   {
+    "instance_id": "django__django-12273",
+    "missing_files": [
+     "django/contrib/messages/storage/cookie.py",
+     "django/core/serializers/json.py"
+    ],
+    "gold_missing": []
+   },
+   {
+    "instance_id": "django__django-13212",
+    "missing_files": [
+     "tests/invalid_models_tests/test_ordinary_fields.py",
+     "django/core/mail/message.py",
+     "django/test/testcases.py"
+    ],
+    "gold_missing": []
+   },
+   {
+    "instance_id": "django__django-13279",
+    "missing_files": [
+     "tests/auth_tests/test_hashers.py",
+     "django/utils/deprecation.py"
+    ],
+    "gold_missing": []
+   },
+   {
+    "instance_id": "django__django-14404",
+    "missing_files": [
+     "django/test/client.py",
+     "django/contrib/admin/static/admin/js/vendor/select2/select2.full.js"
+    ],
+    "gold_missing": []
+   },
+   {
+    "instance_id": "django__django-14580",
+    "missing_files": [
+     "django/contrib/gis/gdal/feature.py",
+     "django/db/models/options.py",
+     "tests/migrations/test_state.py"
+    ],
+    "gold_missing": []
+   },
+   {
+    "instance_id": "django__django-14855",
+    "missing_files": [
+     "django/contrib/gis/geos/mutable_list.py",
+     "django/urls/base.py"
+    ],
+    "gold_missing": []
+   },
+   {
+    "instance_id": "django__django-15037",
+    "missing_files": [
+     "django/db/migrations/state.py"
+    ],
+    "gold_missing": []
+   },
+   {
+    "instance_id": "django__django-15525",
+    "missing_files": [
+     "django/test/utils.py"
+    ],
+    "gold_missing": []
+   },
+   {
+    "instance_id": "django__django-17029",
+    "missing_files": [
+     "tests/sitemaps_tests/base.py"
+    ],
+    "gold_missing": []
+   },
+   {
+    "instance_id": "matplotlib__matplotlib-23314",
+    "missing_files": [
+     "lib/matplotlib/axes/_axes.py",
+     "lib/mpl_toolkits/mplot3d/axes3d.py",
+     "lib/mpl_toolkits/tests/test_mplot3d.py"
+    ],
+    "gold_missing": [
+     "lib/mpl_toolkits/mplot3d/axes3d.py"
+    ]
+   },
+   {
+    "instance_id": "pydata__xarray-4966",
+    "missing_files": [
+     "xarray/core/variable.py"
+    ],
+    "gold_missing": []
+   },
+   {
+    "instance_id": "pylint-dev__pylint-6386",
+    "missing_files": [
+     "pylint/extensions/mccabe.py"
+    ],
+    "gold_missing": []
+   },
+   {
+    "instance_id": "pylint-dev__pylint-7080",
+    "missing_files": [
+     "pylint/pyreverse/writer.py"
+    ],
+    "gold_missing": []
+   },
+   {
+    "instance_id": "scikit-learn__scikit-learn-25973",
+    "missing_files": [
+     "sklearn/feature_selection/_base.py"
+    ],
+    "gold_missing": []
+   },
+   {
+    "instance_id": "sphinx-doc__sphinx-9711",
+    "missing_files": [
+     "sphinx/jinja2glue.py"
+    ],
+    "gold_missing": []
+   },
+   {
+    "instance_id": "sympy__sympy-15875",
+    "missing_files": [
+     "sympy/geometry/point.py",
+     "sympy/matrices/common.py"
+    ],
+    "gold_missing": []
+   },
+   {
+    "instance_id": "sympy__sympy-20801",
+    "missing_files": [
+     "sympy/assumptions/handlers/ntheory.py",
+     "sympy/assumptions/ask.py"
+    ],
+    "gold_missing": []
+   },
+   {
+    "instance_id": "sympy__sympy-21379",
+    "missing_files": [
+     "sympy/functions/elementary/tests/test_trigonometric.py",
+     "sympy/polys/fields.py",
+     "sympy/polys/rings.py"
+    ],
+    "gold_missing": []
+   }
+  ]
+ },
+ "gate2_chunk_identity_T": {
+  "ok": 2460,
+  "n": 2460,
+  "rate": 1.0,
+  "PASS": true
+ },
+ "concordance": {
+  "n_files": 2609,
+  "on_eq_top_off": 2301,
+  "rate_top": 0.8819,
+  "on_among_off": 2449,
+  "rate_any": 0.9387
+ },
+ "sizes": {
+  "ON": {
+   "mean_slots": 11.932,
+   "mean_chars": 6001.806,
+   "n": 500
+  },
+  "OFF": {
+   "mean_slots": 12.0,
+   "mean_chars": 6321.742,
+   "n": 500
+  },
+  "T": {
+   "mean_slots": 5.146,
+   "mean_chars": 2799.134,
+   "n": 478
+  },
+  "TM": {
+   "mean_slots": 12.895,
+   "mean_chars": 6323.013,
+   "n": 478
+  },
+  "P": {
+   "mean_slots": 5.146,
+   "mean_chars": 5705.548,
+   "n": 478
+  }
+ },
+ "TM_over_OFF_chars": {
+  "mean": 1.0,
+  "share_within_10pct": 0.9979,
+  "n_ran_out_of_candidates": 2,
+  "ran_out": [
+   "psf__requests-5414",
+   "psf__requests-6028"
+  ]
+ },
+ "P_over_OFF_chars": {
+  "mean": 0.901,
+  "share_within_10pct": 0.5565
+ },
+ "P_file_status_counts": {
+  "widened": 1308,
+  "unchanged_already_ge_target": 1146,
+  "located_not_widened": 6
+ },
+ "prefix_consistency": {
+  "on48_top12_eq_on12": 0,
+  "n": 500,
+  "rate": 0.0,
+  "tm_pad_files_in_files_ON": 1006
+ }
+}

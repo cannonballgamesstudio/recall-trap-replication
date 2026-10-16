@@ -1,0 +1,3997 @@
+{
+ "concordant_ids": [
+  "astropy__astropy-12907",
+  "astropy__astropy-14182",
+  "astropy__astropy-14309",
+  "astropy__astropy-14365",
+  "astropy__astropy-14369",
+  "astropy__astropy-14508",
+  "astropy__astropy-14539",
+  "astropy__astropy-14995",
+  "astropy__astropy-7336",
+  "astropy__astropy-7671",
+  "django__django-10880",
+  "django__django-10999",
+  "django__django-11095",
+  "django__django-11119",
+  "django__django-11133",
+  "django__django-11138",
+  "django__django-11141",
+  "django__django-11163",
+  "django__django-11206",
+  "django__django-11211",
+  "django__django-11239",
+  "django__django-11265",
+  "django__django-11333",
+  "django__django-11400",
+  "django__django-11433",
+  "django__django-11451",
+  "django__django-11477",
+  "django__django-11532",
+  "django__django-11551",
+  "django__django-11603",
+  "django__django-11728",
+  "django__django-11790",
+  "django__django-11815",
+  "django__django-11820",
+  "django__django-11848",
+  "django__django-11951",
+  "django__django-11999",
+  "django__django-12039",
+  "django__django-12193",
+  "django__django-12209",
+  "django__django-12304",
+  "django__django-12308",
+  "django__django-12419",
+  "django__django-12708",
+  "django__django-12774",
+  "django__django-12858",
+  "django__django-13012",
+  "django__django-13023",
+  "django__django-13109",
+  "django__django-13128",
+  "django__django-13343",
+  "django__django-13363",
+  "django__django-13401",
+  "django__django-13406",
+  "django__django-13410",
+  "django__django-13417",
+  "django__django-13512",
+  "django__django-13551",
+  "django__django-13568",
+  "django__django-13741",
+  "django__django-13794",
+  "django__django-13809",
+  "django__django-13820",
+  "django__django-13837",
+  "django__django-13925",
+  "django__django-13964",
+  "django__django-14011",
+  "django__django-14017",
+  "django__django-14034",
+  "django__django-14089",
+  "django__django-14122",
+  "django__django-14155",
+  "django__django-14170",
+  "django__django-14315",
+  "django__django-14373",
+  "django__django-14376",
+  "django__django-14434",
+  "django__django-14539",
+  "django__django-14559",
+  "django__django-14608",
+  "django__django-14672",
+  "django__django-14725",
+  "django__django-14765",
+  "django__django-14787",
+  "django__django-15098",
+  "django__django-15103",
+  "django__django-15252",
+  "django__django-15277",
+  "django__django-15278",
+  "django__django-15375",
+  "django__django-15382",
+  "django__django-15503",
+  "django__django-15569",
+  "django__django-15572",
+  "django__django-15629",
+  "django__django-15695",
+  "django__django-15851",
+  "django__django-15863",
+  "django__django-15916",
+  "django__django-15930",
+  "django__django-15973",
+  "django__django-16032",
+  "django__django-16082",
+  "django__django-16116",
+  "django__django-16139",
+  "django__django-16145",
+  "django__django-16255",
+  "django__django-16315",
+  "django__django-16429",
+  "django__django-16493",
+  "django__django-16527",
+  "django__django-16560",
+  "django__django-16569",
+  "django__django-16595",
+  "django__django-16642",
+  "django__django-16661",
+  "django__django-16801",
+  "django__django-16819",
+  "django__django-16877",
+  "django__django-16950",
+  "django__django-9296",
+  "matplotlib__matplotlib-13989",
+  "matplotlib__matplotlib-14623",
+  "matplotlib__matplotlib-20488",
+  "matplotlib__matplotlib-20676",
+  "matplotlib__matplotlib-20859",
+  "matplotlib__matplotlib-21568",
+  "matplotlib__matplotlib-23299",
+  "matplotlib__matplotlib-23476",
+  "matplotlib__matplotlib-24026",
+  "matplotlib__matplotlib-24149",
+  "matplotlib__matplotlib-24637",
+  "matplotlib__matplotlib-25287",
+  "matplotlib__matplotlib-25332",
+  "matplotlib__matplotlib-25479",
+  "matplotlib__matplotlib-26113",
+  "matplotlib__matplotlib-26342",
+  "pallets__flask-5014",
+  "psf__requests-2931",
+  "psf__requests-5414",
+  "psf__requests-6028",
+  "pydata__xarray-3095",
+  "pydata__xarray-3151",
+  "pydata__xarray-3305",
+  "pydata__xarray-3677",
+  "pydata__xarray-4075",
+  "pydata__xarray-6461",
+  "pydata__xarray-6599",
+  "pydata__xarray-6744",
+  "pydata__xarray-6938",
+  "pydata__xarray-7229",
+  "pydata__xarray-7233",
+  "pydata__xarray-7393",
+  "pylint-dev__pylint-4661",
+  "pylint-dev__pylint-6903",
+  "pylint-dev__pylint-7277",
+  "pytest-dev__pytest-10051",
+  "pytest-dev__pytest-10081",
+  "pytest-dev__pytest-5787",
+  "pytest-dev__pytest-5809",
+  "pytest-dev__pytest-5840",
+  "pytest-dev__pytest-6197",
+  "pytest-dev__pytest-7236",
+  "pytest-dev__pytest-7521",
+  "pytest-dev__pytest-7571",
+  "pytest-dev__pytest-7982",
+  "scikit-learn__scikit-learn-11310",
+  "scikit-learn__scikit-learn-12682",
+  "scikit-learn__scikit-learn-12973",
+  "scikit-learn__scikit-learn-13135",
+  "scikit-learn__scikit-learn-13142",
+  "scikit-learn__scikit-learn-13328",
+  "scikit-learn__scikit-learn-13439",
+  "scikit-learn__scikit-learn-13496",
+  "scikit-learn__scikit-learn-13779",
+  "scikit-learn__scikit-learn-14053",
+  "scikit-learn__scikit-learn-14087",
+  "scikit-learn__scikit-learn-14141",
+  "scikit-learn__scikit-learn-14496",
+  "scikit-learn__scikit-learn-14710",
+  "scikit-learn__scikit-learn-14983",
+  "scikit-learn__scikit-learn-25232",
+  "scikit-learn__scikit-learn-25931",
+  "scikit-learn__scikit-learn-26323",
+  "scikit-learn__scikit-learn-9288",
+  "sphinx-doc__sphinx-10449",
+  "sphinx-doc__sphinx-10466",
+  "sphinx-doc__sphinx-11445",
+  "sphinx-doc__sphinx-7440",
+  "sphinx-doc__sphinx-7454",
+  "sphinx-doc__sphinx-7462",
+  "sphinx-doc__sphinx-7590",
+  "sphinx-doc__sphinx-7748",
+  "sphinx-doc__sphinx-7757",
+  "sphinx-doc__sphinx-7889",
+  "sphinx-doc__sphinx-7910",
+  "sphinx-doc__sphinx-8035",
+  "sphinx-doc__sphinx-8056",
+  "sphinx-doc__sphinx-8265",
+  "sphinx-doc__sphinx-8269",
+  "sphinx-doc__sphinx-8475",
+  "sphinx-doc__sphinx-8548",
+  "sphinx-doc__sphinx-8551",
+  "sphinx-doc__sphinx-8593",
+  "sphinx-doc__sphinx-8595",
+  "sphinx-doc__sphinx-8638",
+  "sphinx-doc__sphinx-8721",
+  "sphinx-doc__sphinx-9229",
+  "sphinx-doc__sphinx-9230",
+  "sphinx-doc__sphinx-9258",
+  "sphinx-doc__sphinx-9281",
+  "sphinx-doc__sphinx-9320",
+  "sphinx-doc__sphinx-9367",
+  "sphinx-doc__sphinx-9461",
+  "sphinx-doc__sphinx-9591",
+  "sphinx-doc__sphinx-9602",
+  "sphinx-doc__sphinx-9673",
+  "sympy__sympy-11618",
+  "sympy__sympy-12096",
+  "sympy__sympy-12419",
+  "sympy__sympy-12489",
+  "sympy__sympy-13031",
+  "sympy__sympy-13480",
+  "sympy__sympy-13647",
+  "sympy__sympy-13798",
+  "sympy__sympy-13852",
+  "sympy__sympy-13974",
+  "sympy__sympy-14531",
+  "sympy__sympy-14976",
+  "sympy__sympy-15345",
+  "sympy__sympy-15599",
+  "sympy__sympy-15809",
+  "sympy__sympy-15976",
+  "sympy__sympy-16450",
+  "sympy__sympy-16597",
+  "sympy__sympy-17318",
+  "sympy__sympy-17630",
+  "sympy__sympy-17655",
+  "sympy__sympy-18189",
+  "sympy__sympy-18199",
+  "sympy__sympy-18211",
+  "sympy__sympy-18698",
+  "sympy__sympy-19346",
+  "sympy__sympy-19495",
+  "sympy__sympy-19954",
+  "sympy__sympy-20428",
+  "sympy__sympy-20590",
+  "sympy__sympy-20916",
+  "sympy__sympy-21612",
+  "sympy__sympy-22080",
+  "sympy__sympy-22714",
+  "sympy__sympy-22914",
+  "sympy__sympy-23262",
+  "sympy__sympy-23413",
+  "sympy__sympy-23950",
+  "sympy__sympy-24066",
+  "sympy__sympy-24213",
+  "sympy__sympy-24539",
+  "sympy__sympy-24562",
+  "sympy__sympy-24661"
+ ],
+ "discordant_ids": [
+  "astropy__astropy-13033",
+  "astropy__astropy-13398",
+  "astropy__astropy-13579",
+  "astropy__astropy-13977",
+  "astropy__astropy-14096",
+  "astropy__astropy-14598",
+  "astropy__astropy-7166",
+  "astropy__astropy-7606",
+  "astropy__astropy-8707",
+  "astropy__astropy-8872",
+  "django__django-10097",
+  "django__django-10554",
+  "django__django-10914",
+  "django__django-11066",
+  "django__django-11087",
+  "django__django-11099",
+  "django__django-11149",
+  "django__django-11179",
+  "django__django-11276",
+  "django__django-11292",
+  "django__django-11299",
+  "django__django-11490",
+  "django__django-11734",
+  "django__django-11749",
+  "django__django-11880",
+  "django__django-11885",
+  "django__django-11964",
+  "django__django-12050",
+  "django__django-12143",
+  "django__django-12155",
+  "django__django-12276",
+  "django__django-12325",
+  "django__django-12406",
+  "django__django-12663",
+  "django__django-12713",
+  "django__django-12741",
+  "django__django-12754",
+  "django__django-12965",
+  "django__django-13028",
+  "django__django-13033",
+  "django__django-13089",
+  "django__django-13112",
+  "django__django-13121",
+  "django__django-13158",
+  "django__django-13195",
+  "django__django-13297",
+  "django__django-13315",
+  "django__django-13344",
+  "django__django-13346",
+  "django__django-13449",
+  "django__django-13513",
+  "django__django-13516",
+  "django__django-13569",
+  "django__django-13590",
+  "django__django-13658",
+  "django__django-13670",
+  "django__django-13786",
+  "django__django-13807",
+  "django__django-13810",
+  "django__django-13821",
+  "django__django-13933",
+  "django__django-14007",
+  "django__django-14053",
+  "django__django-14140",
+  "django__django-14238",
+  "django__django-14311",
+  "django__django-14349",
+  "django__django-14351",
+  "django__django-14493",
+  "django__django-14500",
+  "django__django-14534",
+  "django__django-14631",
+  "django__django-14752",
+  "django__django-14771",
+  "django__django-14792",
+  "django__django-14915",
+  "django__django-14999",
+  "django__django-15022",
+  "django__django-15127",
+  "django__django-15128",
+  "django__django-15161",
+  "django__django-15268",
+  "django__django-15280",
+  "django__django-15315",
+  "django__django-15368",
+  "django__django-15380",
+  "django__django-15467",
+  "django__django-15499",
+  "django__django-15525",
+  "django__django-15554",
+  "django__django-15561",
+  "django__django-15563",
+  "django__django-15731",
+  "django__django-15732",
+  "django__django-15741",
+  "django__django-15814",
+  "django__django-15957",
+  "django__django-15987",
+  "django__django-16100",
+  "django__django-16136",
+  "django__django-16256",
+  "django__django-16263",
+  "django__django-16333",
+  "django__django-16454",
+  "django__django-16485",
+  "django__django-16502",
+  "django__django-16612",
+  "django__django-16631",
+  "django__django-16662",
+  "django__django-16667",
+  "django__django-16899",
+  "django__django-16901",
+  "django__django-16938",
+  "django__django-17084",
+  "django__django-17087",
+  "django__django-7530",
+  "matplotlib__matplotlib-20826",
+  "matplotlib__matplotlib-22719",
+  "matplotlib__matplotlib-22865",
+  "matplotlib__matplotlib-22871",
+  "matplotlib__matplotlib-23412",
+  "matplotlib__matplotlib-24177",
+  "matplotlib__matplotlib-24570",
+  "matplotlib__matplotlib-24627",
+  "matplotlib__matplotlib-24870",
+  "matplotlib__matplotlib-24970",
+  "matplotlib__matplotlib-25122",
+  "matplotlib__matplotlib-25311",
+  "matplotlib__matplotlib-25775",
+  "matplotlib__matplotlib-25960",
+  "matplotlib__matplotlib-26208",
+  "matplotlib__matplotlib-26291",
+  "matplotlib__matplotlib-26466",
+  "mwaskom__seaborn-3069",
+  "mwaskom__seaborn-3187",
+  "psf__requests-1142",
+  "psf__requests-1724",
+  "psf__requests-1766",
+  "psf__requests-1921",
+  "psf__requests-2317",
+  "pydata__xarray-2905",
+  "pydata__xarray-3993",
+  "pydata__xarray-4094",
+  "pydata__xarray-4356",
+  "pydata__xarray-4629",
+  "pydata__xarray-4687",
+  "pydata__xarray-4695",
+  "pydata__xarray-6721",
+  "pydata__xarray-6992",
+  "pylint-dev__pylint-4551",
+  "pylint-dev__pylint-4604",
+  "pylint-dev__pylint-4970",
+  "pylint-dev__pylint-6528",
+  "pylint-dev__pylint-8898",
+  "pytest-dev__pytest-10356",
+  "pytest-dev__pytest-5262",
+  "pytest-dev__pytest-5631",
+  "pytest-dev__pytest-6202",
+  "pytest-dev__pytest-7205",
+  "pytest-dev__pytest-7324",
+  "pytest-dev__pytest-7432",
+  "pytest-dev__pytest-7490",
+  "pytest-dev__pytest-8399",
+  "scikit-learn__scikit-learn-10297",
+  "scikit-learn__scikit-learn-10844",
+  "scikit-learn__scikit-learn-10908",
+  "scikit-learn__scikit-learn-11578",
+  "scikit-learn__scikit-learn-12585",
+  "scikit-learn__scikit-learn-13124",
+  "scikit-learn__scikit-learn-14894",
+  "scikit-learn__scikit-learn-15100",
+  "scikit-learn__scikit-learn-25102",
+  "scikit-learn__scikit-learn-25747",
+  "scikit-learn__scikit-learn-26194",
+  "sphinx-doc__sphinx-10323",
+  "sphinx-doc__sphinx-10435",
+  "sphinx-doc__sphinx-10614",
+  "sphinx-doc__sphinx-10673",
+  "sphinx-doc__sphinx-11510",
+  "sphinx-doc__sphinx-7985",
+  "sphinx-doc__sphinx-8120",
+  "sphinx-doc__sphinx-8459",
+  "sphinx-doc__sphinx-8621",
+  "sphinx-doc__sphinx-9658",
+  "sphinx-doc__sphinx-9698",
+  "sympy__sympy-12481",
+  "sympy__sympy-13091",
+  "sympy__sympy-13372",
+  "sympy__sympy-13551",
+  "sympy__sympy-13615",
+  "sympy__sympy-13757",
+  "sympy__sympy-13877",
+  "sympy__sympy-13878",
+  "sympy__sympy-14248",
+  "sympy__sympy-14711",
+  "sympy__sympy-15017",
+  "sympy__sympy-15349",
+  "sympy__sympy-16766",
+  "sympy__sympy-16792",
+  "sympy__sympy-16886",
+  "sympy__sympy-17139",
+  "sympy__sympy-18763",
+  "sympy__sympy-19040",
+  "sympy__sympy-19637",
+  "sympy__sympy-19783",
+  "sympy__sympy-20154",
+  "sympy__sympy-20438",
+  "sympy__sympy-21596",
+  "sympy__sympy-21847",
+  "sympy__sympy-21930",
+  "sympy__sympy-23534",
+  "sympy__sympy-23824",
+  "sympy__sympy-24443"
+ ],
+ "detail": {
+  "astropy__astropy-12907": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "astropy__astropy-13033": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "astropy__astropy-13398": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "astropy__astropy-13579": {
+   "n_files": 6,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "astropy__astropy-13977": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "astropy__astropy-14096": {
+   "n_files": 4,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "astropy__astropy-14182": {
+   "n_files": 9,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 9
+  },
+  "astropy__astropy-14309": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "astropy__astropy-14365": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "astropy__astropy-14369": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "astropy__astropy-14508": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "astropy__astropy-14539": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "astropy__astropy-14598": {
+   "n_files": 3,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "astropy__astropy-14995": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "astropy__astropy-7166": {
+   "n_files": 6,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "astropy__astropy-7336": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "astropy__astropy-7606": {
+   "n_files": 3,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "astropy__astropy-7671": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "astropy__astropy-8707": {
+   "n_files": 4,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "astropy__astropy-8872": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-10097": {
+   "n_files": 6,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-10554": {
+   "n_files": 6,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "django__django-10880": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-10914": {
+   "n_files": 4,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "django__django-10999": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-11066": {
+   "n_files": 6,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-11087": {
+   "n_files": 2,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 1
+  },
+  "django__django-11095": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-11099": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-11119": {
+   "n_files": 8,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 8
+  },
+  "django__django-11133": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-11138": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-11141": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-11149": {
+   "n_files": 3,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-11163": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-11179": {
+   "n_files": 8,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-11206": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-11211": {
+   "n_files": 8,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 8
+  },
+  "django__django-11239": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-11265": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-11276": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-11292": {
+   "n_files": 8,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-11299": {
+   "n_files": 6,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-11333": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "django__django-11400": {
+   "n_files": 8,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 8
+  },
+  "django__django-11433": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-11451": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "django__django-11477": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-11490": {
+   "n_files": 4,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-11532": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "django__django-11551": {
+   "n_files": 1,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 1
+  },
+  "django__django-11603": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-11728": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-11734": {
+   "n_files": 6,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-11749": {
+   "n_files": 8,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-11790": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-11815": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-11820": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "django__django-11848": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "django__django-11880": {
+   "n_files": 9,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 8
+  },
+  "django__django-11885": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "django__django-11951": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-11964": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-11999": {
+   "n_files": 10,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 10
+  },
+  "django__django-12039": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-12050": {
+   "n_files": 4,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-12143": {
+   "n_files": 6,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-12155": {
+   "n_files": 5,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-12193": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-12209": {
+   "n_files": 8,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 8
+  },
+  "django__django-12276": {
+   "n_files": 4,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-12304": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-12308": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-12325": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-12406": {
+   "n_files": 9,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 8
+  },
+  "django__django-12419": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-12663": {
+   "n_files": 5,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-12708": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-12713": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-12741": {
+   "n_files": 8,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 8
+  },
+  "django__django-12754": {
+   "n_files": 6,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-12774": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-12858": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "django__django-12965": {
+   "n_files": 7,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-13012": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-13023": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-13028": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-13033": {
+   "n_files": 5,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-13089": {
+   "n_files": 4,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "django__django-13109": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-13112": {
+   "n_files": 9,
+   "n_discordant_files": 3,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-13121": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-13128": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-13158": {
+   "n_files": 8,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-13195": {
+   "n_files": 6,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-13297": {
+   "n_files": 2,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "django__django-13315": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-13343": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-13344": {
+   "n_files": 6,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-13346": {
+   "n_files": 6,
+   "n_discordant_files": 3,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "django__django-13363": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "django__django-13401": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-13406": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-13410": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-13417": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-13449": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-13512": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-13513": {
+   "n_files": 4,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "django__django-13516": {
+   "n_files": 6,
+   "n_discordant_files": 3,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-13551": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "django__django-13568": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-13569": {
+   "n_files": 6,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-13590": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-13658": {
+   "n_files": 3,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-13670": {
+   "n_files": 2,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "django__django-13741": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "django__django-13786": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-13794": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-13807": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-13809": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-13810": {
+   "n_files": 6,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-13820": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "django__django-13821": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "django__django-13837": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "django__django-13925": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "django__django-13933": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-13964": {
+   "n_files": 8,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 8
+  },
+  "django__django-14007": {
+   "n_files": 6,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-14011": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "django__django-14017": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-14034": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-14053": {
+   "n_files": 3,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-14089": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-14122": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-14140": {
+   "n_files": 3,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "django__django-14155": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-14170": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-14238": {
+   "n_files": 4,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-14311": {
+   "n_files": 2,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "django__django-14315": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-14349": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-14351": {
+   "n_files": 6,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-14373": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "django__django-14376": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-14434": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "django__django-14493": {
+   "n_files": 4,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "django__django-14500": {
+   "n_files": 2,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 1
+  },
+  "django__django-14534": {
+   "n_files": 3,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "django__django-14539": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-14559": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "django__django-14608": {
+   "n_files": 8,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 8
+  },
+  "django__django-14631": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-14672": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-14725": {
+   "n_files": 8,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 8
+  },
+  "django__django-14752": {
+   "n_files": 6,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-14765": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-14771": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-14787": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "django__django-14792": {
+   "n_files": 6,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-14915": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-14999": {
+   "n_files": 6,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-15022": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "django__django-15098": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-15103": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-15127": {
+   "n_files": 2,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "django__django-15128": {
+   "n_files": 3,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-15161": {
+   "n_files": 7,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-15252": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "django__django-15268": {
+   "n_files": 4,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-15277": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "django__django-15278": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-15280": {
+   "n_files": 10,
+   "n_discordant_files": 3,
+   "on_chunk_anywhere_in_off": 8
+  },
+  "django__django-15315": {
+   "n_files": 9,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 9
+  },
+  "django__django-15368": {
+   "n_files": 7,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-15375": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-15380": {
+   "n_files": 6,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-15382": {
+   "n_files": 8,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 8
+  },
+  "django__django-15467": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-15499": {
+   "n_files": 3,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-15503": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-15525": {
+   "n_files": 8,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-15554": {
+   "n_files": 11,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 10
+  },
+  "django__django-15561": {
+   "n_files": 6,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-15563": {
+   "n_files": 7,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-15569": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "django__django-15572": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "django__django-15629": {
+   "n_files": 8,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 8
+  },
+  "django__django-15695": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "django__django-15731": {
+   "n_files": 4,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-15732": {
+   "n_files": 7,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-15741": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-15814": {
+   "n_files": 6,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-15851": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-15863": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-15916": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "django__django-15930": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-15957": {
+   "n_files": 2,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "django__django-15973": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-15987": {
+   "n_files": 2,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "django__django-16032": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-16082": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "django__django-16100": {
+   "n_files": 5,
+   "n_discordant_files": 3,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-16116": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-16136": {
+   "n_files": 7,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-16139": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-16145": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-16255": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "django__django-16256": {
+   "n_files": 2,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 1
+  },
+  "django__django-16263": {
+   "n_files": 5,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-16315": {
+   "n_files": 8,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 8
+  },
+  "django__django-16333": {
+   "n_files": 3,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-16429": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-16454": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-16485": {
+   "n_files": 3,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-16493": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "django__django-16502": {
+   "n_files": 5,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "django__django-16527": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "django__django-16560": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "django__django-16569": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-16595": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-16612": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-16631": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-16642": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "django__django-16661": {
+   "n_files": 8,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 8
+  },
+  "django__django-16662": {
+   "n_files": 8,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 8
+  },
+  "django__django-16667": {
+   "n_files": 6,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-16801": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "django__django-16819": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-16877": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "django__django-16899": {
+   "n_files": 2,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "django__django-16901": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-16938": {
+   "n_files": 7,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "django__django-16950": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "django__django-17084": {
+   "n_files": 6,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "django__django-17087": {
+   "n_files": 8,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 8
+  },
+  "django__django-7530": {
+   "n_files": 5,
+   "n_discordant_files": 3,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "django__django-9296": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "matplotlib__matplotlib-13989": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "matplotlib__matplotlib-14623": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "matplotlib__matplotlib-20488": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "matplotlib__matplotlib-20676": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "matplotlib__matplotlib-20826": {
+   "n_files": 8,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "matplotlib__matplotlib-20859": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "matplotlib__matplotlib-21568": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "matplotlib__matplotlib-22719": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "matplotlib__matplotlib-22865": {
+   "n_files": 6,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "matplotlib__matplotlib-22871": {
+   "n_files": 2,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "matplotlib__matplotlib-23299": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "matplotlib__matplotlib-23412": {
+   "n_files": 10,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 8
+  },
+  "matplotlib__matplotlib-23476": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "matplotlib__matplotlib-24026": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "matplotlib__matplotlib-24149": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "matplotlib__matplotlib-24177": {
+   "n_files": 4,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "matplotlib__matplotlib-24570": {
+   "n_files": 6,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "matplotlib__matplotlib-24627": {
+   "n_files": 6,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "matplotlib__matplotlib-24637": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "matplotlib__matplotlib-24870": {
+   "n_files": 4,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "matplotlib__matplotlib-24970": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "matplotlib__matplotlib-25122": {
+   "n_files": 3,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "matplotlib__matplotlib-25287": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "matplotlib__matplotlib-25311": {
+   "n_files": 4,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "matplotlib__matplotlib-25332": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "matplotlib__matplotlib-25479": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "matplotlib__matplotlib-25775": {
+   "n_files": 8,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "matplotlib__matplotlib-25960": {
+   "n_files": 5,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "matplotlib__matplotlib-26113": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "matplotlib__matplotlib-26208": {
+   "n_files": 4,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "matplotlib__matplotlib-26291": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "matplotlib__matplotlib-26342": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "matplotlib__matplotlib-26466": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "mwaskom__seaborn-3069": {
+   "n_files": 4,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "mwaskom__seaborn-3187": {
+   "n_files": 4,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "pallets__flask-5014": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "psf__requests-1142": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "psf__requests-1724": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "psf__requests-1766": {
+   "n_files": 4,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "psf__requests-1921": {
+   "n_files": 3,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "psf__requests-2317": {
+   "n_files": 3,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "psf__requests-2931": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "psf__requests-5414": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "psf__requests-6028": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "pydata__xarray-2905": {
+   "n_files": 6,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "pydata__xarray-3095": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "pydata__xarray-3151": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "pydata__xarray-3305": {
+   "n_files": 8,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 8
+  },
+  "pydata__xarray-3677": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "pydata__xarray-3993": {
+   "n_files": 4,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "pydata__xarray-4075": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "pydata__xarray-4094": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "pydata__xarray-4356": {
+   "n_files": 6,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "pydata__xarray-4629": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "pydata__xarray-4687": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "pydata__xarray-4695": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "pydata__xarray-6461": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "pydata__xarray-6599": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "pydata__xarray-6721": {
+   "n_files": 6,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "pydata__xarray-6744": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "pydata__xarray-6938": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "pydata__xarray-6992": {
+   "n_files": 4,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "pydata__xarray-7229": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "pydata__xarray-7233": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "pydata__xarray-7393": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "pylint-dev__pylint-4551": {
+   "n_files": 4,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "pylint-dev__pylint-4604": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "pylint-dev__pylint-4661": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "pylint-dev__pylint-4970": {
+   "n_files": 4,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "pylint-dev__pylint-6528": {
+   "n_files": 5,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "pylint-dev__pylint-6903": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "pylint-dev__pylint-7277": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "pylint-dev__pylint-8898": {
+   "n_files": 5,
+   "n_discordant_files": 3,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "pytest-dev__pytest-10051": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "pytest-dev__pytest-10081": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "pytest-dev__pytest-10356": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "pytest-dev__pytest-5262": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "pytest-dev__pytest-5631": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "pytest-dev__pytest-5787": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "pytest-dev__pytest-5809": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "pytest-dev__pytest-5840": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "pytest-dev__pytest-6197": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "pytest-dev__pytest-6202": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "pytest-dev__pytest-7205": {
+   "n_files": 3,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "pytest-dev__pytest-7236": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "pytest-dev__pytest-7324": {
+   "n_files": 7,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "pytest-dev__pytest-7432": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "pytest-dev__pytest-7490": {
+   "n_files": 6,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "pytest-dev__pytest-7521": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "pytest-dev__pytest-7571": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "pytest-dev__pytest-7982": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "pytest-dev__pytest-8399": {
+   "n_files": 6,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "scikit-learn__scikit-learn-10297": {
+   "n_files": 2,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "scikit-learn__scikit-learn-10844": {
+   "n_files": 9,
+   "n_discordant_files": 4,
+   "on_chunk_anywhere_in_off": 8
+  },
+  "scikit-learn__scikit-learn-10908": {
+   "n_files": 3,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "scikit-learn__scikit-learn-11310": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "scikit-learn__scikit-learn-11578": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "scikit-learn__scikit-learn-12585": {
+   "n_files": 6,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "scikit-learn__scikit-learn-12682": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "scikit-learn__scikit-learn-12973": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "scikit-learn__scikit-learn-13124": {
+   "n_files": 2,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "scikit-learn__scikit-learn-13135": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "scikit-learn__scikit-learn-13142": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "scikit-learn__scikit-learn-13328": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "scikit-learn__scikit-learn-13439": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "scikit-learn__scikit-learn-13496": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "scikit-learn__scikit-learn-13779": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "scikit-learn__scikit-learn-14053": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "scikit-learn__scikit-learn-14087": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "scikit-learn__scikit-learn-14141": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "scikit-learn__scikit-learn-14496": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "scikit-learn__scikit-learn-14710": {
+   "n_files": 1,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 1
+  },
+  "scikit-learn__scikit-learn-14894": {
+   "n_files": 6,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "scikit-learn__scikit-learn-14983": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "scikit-learn__scikit-learn-15100": {
+   "n_files": 3,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "scikit-learn__scikit-learn-25102": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "scikit-learn__scikit-learn-25232": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "scikit-learn__scikit-learn-25747": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "scikit-learn__scikit-learn-25931": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "scikit-learn__scikit-learn-26194": {
+   "n_files": 3,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "scikit-learn__scikit-learn-26323": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "scikit-learn__scikit-learn-9288": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "sphinx-doc__sphinx-10323": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "sphinx-doc__sphinx-10435": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "sphinx-doc__sphinx-10449": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "sphinx-doc__sphinx-10466": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "sphinx-doc__sphinx-10614": {
+   "n_files": 6,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "sphinx-doc__sphinx-10673": {
+   "n_files": 6,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "sphinx-doc__sphinx-11445": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "sphinx-doc__sphinx-11510": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "sphinx-doc__sphinx-7440": {
+   "n_files": 8,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 8
+  },
+  "sphinx-doc__sphinx-7454": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "sphinx-doc__sphinx-7462": {
+   "n_files": 10,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 10
+  },
+  "sphinx-doc__sphinx-7590": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "sphinx-doc__sphinx-7748": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "sphinx-doc__sphinx-7757": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "sphinx-doc__sphinx-7889": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "sphinx-doc__sphinx-7910": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "sphinx-doc__sphinx-7985": {
+   "n_files": 4,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "sphinx-doc__sphinx-8035": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "sphinx-doc__sphinx-8056": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "sphinx-doc__sphinx-8120": {
+   "n_files": 9,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 8
+  },
+  "sphinx-doc__sphinx-8265": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "sphinx-doc__sphinx-8269": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "sphinx-doc__sphinx-8459": {
+   "n_files": 5,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "sphinx-doc__sphinx-8475": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "sphinx-doc__sphinx-8548": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "sphinx-doc__sphinx-8551": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "sphinx-doc__sphinx-8593": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "sphinx-doc__sphinx-8595": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "sphinx-doc__sphinx-8621": {
+   "n_files": 9,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 9
+  },
+  "sphinx-doc__sphinx-8638": {
+   "n_files": 9,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 9
+  },
+  "sphinx-doc__sphinx-8721": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "sphinx-doc__sphinx-9229": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "sphinx-doc__sphinx-9230": {
+   "n_files": 8,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 8
+  },
+  "sphinx-doc__sphinx-9258": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "sphinx-doc__sphinx-9281": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "sphinx-doc__sphinx-9320": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "sphinx-doc__sphinx-9367": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "sphinx-doc__sphinx-9461": {
+   "n_files": 8,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 8
+  },
+  "sphinx-doc__sphinx-9591": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "sphinx-doc__sphinx-9602": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "sphinx-doc__sphinx-9658": {
+   "n_files": 8,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "sphinx-doc__sphinx-9673": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "sphinx-doc__sphinx-9698": {
+   "n_files": 5,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "sympy__sympy-11618": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "sympy__sympy-12096": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "sympy__sympy-12419": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "sympy__sympy-12481": {
+   "n_files": 2,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 1
+  },
+  "sympy__sympy-12489": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "sympy__sympy-13031": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "sympy__sympy-13091": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "sympy__sympy-13372": {
+   "n_files": 4,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "sympy__sympy-13480": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "sympy__sympy-13551": {
+   "n_files": 10,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 9
+  },
+  "sympy__sympy-13615": {
+   "n_files": 3,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "sympy__sympy-13647": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "sympy__sympy-13757": {
+   "n_files": 3,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "sympy__sympy-13798": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "sympy__sympy-13852": {
+   "n_files": 8,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 8
+  },
+  "sympy__sympy-13877": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "sympy__sympy-13878": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "sympy__sympy-13974": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "sympy__sympy-14248": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "sympy__sympy-14531": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "sympy__sympy-14711": {
+   "n_files": 3,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "sympy__sympy-14976": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "sympy__sympy-15017": {
+   "n_files": 4,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "sympy__sympy-15345": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "sympy__sympy-15349": {
+   "n_files": 4,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "sympy__sympy-15599": {
+   "n_files": 8,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 8
+  },
+  "sympy__sympy-15809": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "sympy__sympy-15976": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "sympy__sympy-16450": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "sympy__sympy-16597": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "sympy__sympy-16766": {
+   "n_files": 6,
+   "n_discordant_files": 3,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "sympy__sympy-16792": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "sympy__sympy-16886": {
+   "n_files": 1,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 1
+  },
+  "sympy__sympy-17139": {
+   "n_files": 11,
+   "n_discordant_files": 3,
+   "on_chunk_anywhere_in_off": 8
+  },
+  "sympy__sympy-17318": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "sympy__sympy-17630": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "sympy__sympy-17655": {
+   "n_files": 2,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 2
+  },
+  "sympy__sympy-18189": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "sympy__sympy-18199": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "sympy__sympy-18211": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "sympy__sympy-18698": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "sympy__sympy-18763": {
+   "n_files": 8,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "sympy__sympy-19040": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "sympy__sympy-19346": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "sympy__sympy-19495": {
+   "n_files": 8,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 8
+  },
+  "sympy__sympy-19637": {
+   "n_files": 7,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "sympy__sympy-19783": {
+   "n_files": 6,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "sympy__sympy-19954": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "sympy__sympy-20154": {
+   "n_files": 4,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "sympy__sympy-20428": {
+   "n_files": 4,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "sympy__sympy-20438": {
+   "n_files": 4,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "sympy__sympy-20590": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "sympy__sympy-20916": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "sympy__sympy-21596": {
+   "n_files": 4,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "sympy__sympy-21612": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "sympy__sympy-21847": {
+   "n_files": 8,
+   "n_discordant_files": 3,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "sympy__sympy-21930": {
+   "n_files": 5,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "sympy__sympy-22080": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "sympy__sympy-22714": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "sympy__sympy-22914": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "sympy__sympy-23262": {
+   "n_files": 9,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 9
+  },
+  "sympy__sympy-23413": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  },
+  "sympy__sympy-23534": {
+   "n_files": 4,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 4
+  },
+  "sympy__sympy-23824": {
+   "n_files": 6,
+   "n_discordant_files": 1,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "sympy__sympy-23950": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "sympy__sympy-24066": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "sympy__sympy-24213": {
+   "n_files": 5,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 5
+  },
+  "sympy__sympy-24443": {
+   "n_files": 3,
+   "n_discordant_files": 2,
+   "on_chunk_anywhere_in_off": 1
+  },
+  "sympy__sympy-24539": {
+   "n_files": 6,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 6
+  },
+  "sympy__sympy-24562": {
+   "n_files": 3,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 3
+  },
+  "sympy__sympy-24661": {
+   "n_files": 7,
+   "n_discordant_files": 0,
+   "on_chunk_anywhere_in_off": 7
+  }
+ },
+ "pos_hist": {
+  "1": 2153,
+  "3": 24,
+  "absent": 137,
+  "2": 99,
+  "4+": 18
+ },
+ "fields": [
+  "dedupOFF.files",
+  "dedupOFF.n_hits",
+  "dedupOFF.pack",
+  "dedupON.files",
+  "dedupON.n_hits",
+  "dedupON.pack"
+ ],
+ "results": {
+  "Qwen3-Coder-30B | all 473 | OFF\u2212ON": {
+   "label": "OFF\u2212ON",
+   "n": 473,
+   "A": 61,
+   "B": 33,
+   "A_rate": 0.12896405919661733,
+   "B_rate": 0.06976744186046512,
+   "delta": 0.05919661733615222,
+   "b": 38,
+   "c": 10,
+   "mcnemar_p": 6.169640777642373e-05,
+   "inst_se": 0.014407483631644484,
+   "inst_ci95": [
+    0.030958468087539767,
+    0.08743476658476466
+   ],
+   "inst_ci90": [
+    0.03549841025470726,
+    0.08289482441759717
+   ],
+   "inst_p": 3.978220834797502e-05,
+   "wild_p": 0.013201320132013201,
+   "wild_ci95": [
+    0.01719661733615241,
+    0.08019661733615246
+   ],
+   "wild_ci95_pieces": 1,
+   "cr2_se": 0.015892264562141573,
+   "cr2_df": 3.357335166370013,
+   "cr2_p": 0.02775831799024228,
+   "cr2_ci95": [
+    0.011533373219665181,
+    0.10685986145263929
+   ],
+   "cr2_ci90": [
+    0.023364669080148892,
+    0.09502856559215557
+   ],
+   "flip_p": 0.015625,
+   "flip_p_t": 0.015625,
+   "G": 12
+  },
+  "Qwen3-Coder-30B | all 473 | OFF\u2212T": {
+   "label": "OFF\u2212T",
+   "n": 473,
+   "A": 61,
+   "B": 32,
+   "A_rate": 0.12896405919661733,
+   "B_rate": 0.06765327695560254,
+   "delta": 0.0613107822410148,
+   "b": 38,
+   "c": 9,
+   "mcnemar_p": 2.4904030624384174e-05,
+   "inst_se": 0.014232239788051994,
+   "inst_ci95": [
+    0.03341610461706526,
+    0.08920545986496434
+   ],
+   "inst_ci90": [
+    0.037900825696678325,
+    0.08472073878535127
+   ],
+   "inst_p": 1.6482670486986196e-05,
+   "wild_p": 0.022602260226022602,
+   "wild_ci95": [
+    0.008310782241014975,
+    0.08531078224101504
+   ],
+   "wild_ci95_pieces": 1,
+   "cr2_se": 0.018216761187746105,
+   "cr2_df": 3.357335166370013,
+   "cr2_p": 0.03677329911881759,
+   "cr2_ci95": [
+    0.006676030087965766,
+    0.11594553439406385
+   ],
+   "cr2_ci90": [
+    0.020237841269075206,
+    0.10238372321295441
+   ],
+   "flip_p": 0.03125,
+   "flip_p_t": 0.03125,
+   "G": 12
+  },
+  "Qwen3-Coder-30B | all 473 | T\u2212ON": {
+   "label": "T\u2212ON",
+   "n": 473,
+   "A": 32,
+   "B": 33,
+   "A_rate": 0.06765327695560254,
+   "B_rate": 0.06976744186046512,
+   "delta": -0.0021141649048625794,
+   "b": 7,
+   "c": 8,
+   "mcnemar_p": 1.0,
+   "inst_se": 0.008196217073832598,
+   "inst_ci95": [
+    -0.018178455305759813,
+    0.013950125496034655
+   ],
+   "inst_ci90": [
+    -0.015595745343624423,
+    0.011367415533899266
+   ],
+   "inst_p": 0.7964501370047914,
+   "wild_p": 0.5603560356035604,
+   "wild_ci95": [
+    -0.013614164904862391,
+    0.01138583509513763
+   ],
+   "wild_ci95_pieces": 1,
+   "cr2_se": 0.0035533388842154,
+   "cr2_df": 3.357335166370013,
+   "cr2_p": 0.5895998215379983,
+   "cr2_ci95": [
+    -0.012771152019865756,
+    0.008542822210140598
+   ],
+   "cr2_ci90": [
+    -0.010125801920933833,
+    0.005897472111208675
+   ],
+   "flip_p": 1.0,
+   "flip_p_t": 0.75,
+   "G": 12
+  },
+  "Qwen3-Coder-30B | concordant | OFF\u2212ON": {
+   "label": "OFF\u2212ON",
+   "n": 260,
+   "A": 34,
+   "B": 19,
+   "A_rate": 0.13076923076923078,
+   "B_rate": 0.07307692307692308,
+   "delta": 0.057692307692307696,
+   "b": 22,
+   "c": 7,
+   "mcnemar_p": 0.008130058646202087,
+   "inst_se": 0.020440143254414702,
+   "inst_ci95": [
+    0.017630362758812038,
+    0.09775425262580335
+   ],
+   "inst_ci90": [
+    0.02407125629971065,
+    0.09131335908490473
+   ],
+   "inst_p": 0.004765079760328658,
+   "wild_p": 0.060006000600060005,
+   "wild_ci95": [
+    -0.002307692307692122,
+    0.08569230769230796
+   ],
+   "wild_ci95_pieces": 1,
+   "cr2_se": 0.01998850398848483,
+   "cr2_df": 3.524423824309179,
+   "cr2_p": 0.05207074517243532,
+   "cr2_ci95": [
+    -0.0008865442840344517,
+    0.11627115966864984
+   ],
+   "cr2_ci90": [
+    0.013372870996366484,
+    0.1020117443882489
+   ],
+   "flip_p": 0.125,
+   "flip_p_t": 0.125,
+   "G": 11
+  },
+  "Qwen3-Coder-30B | concordant | OFF\u2212T": {
+   "label": "OFF\u2212T",
+   "n": 260,
+   "A": 34,
+   "B": 17,
+   "A_rate": 0.13076923076923078,
+   "B_rate": 0.06538461538461539,
+   "delta": 0.06538461538461539,
+   "b": 22,
+   "c": 5,
+   "mcnemar_p": 0.0015137195587158203,
+   "inst_se": 0.019607244535890102,
+   "inst_ci95": [
+    0.02695512195507408,
+    0.1038141088141567
+   ],
+   "inst_ci90": [
+    0.03313356078077841,
+    0.09763566998845237
+   ],
+   "inst_p": 0.0008538619144542686,
+   "wild_p": 0.05860586058605861,
+   "wild_ci95": [
+    -0.0021153846153844635,
+    0.10288461538461563
+   ],
+   "wild_ci95_pieces": 1,
+   "cr2_se": 0.02631299129659537,
+   "cr2_df": 3.524423824309179,
+   "cr2_p": 0.07632638072465245,
+   "cr2_ci95": [
+    -0.011728950648441178,
+    0.14249818141767195
+   ],
+   "cr2_ci90": [
+    0.007042232546853593,
+    0.12372699822237718
+   ],
+   "flip_p": 0.125,
+   "flip_p_t": 0.125,
+   "G": 11
+  },
+  "Qwen3-Coder-30B | concordant | T\u2212ON": {
+   "label": "T\u2212ON",
+   "n": 260,
+   "A": 17,
+   "B": 19,
+   "A_rate": 0.06538461538461539,
+   "B_rate": 0.07307692307692308,
+   "delta": -0.007692307692307693,
+   "b": 4,
+   "c": 6,
+   "mcnemar_p": 0.75390625,
+   "inst_se": 0.012176686196713178,
+   "inst_ci95": [
+    -0.03155817427716244,
+    0.016173558892547055
+   ],
+   "inst_ci90": [
+    -0.02772117868971615,
+    0.012336563305100766
+   ],
+   "inst_p": 0.5275670933264497,
+   "wild_p": 0.5156515651565157,
+   "wild_ci95": [
+    -0.02569230769230746,
+    0.01980769230769258
+   ],
+   "wild_ci95_pieces": 1,
+   "cr2_se": 0.00861684010339128,
+   "cr2_df": 3.524423824309179,
+   "cr2_p": 0.4287594592844333,
+   "cr2_ci95": [
+    -0.03294505303088612,
+    0.017560437646270737
+   ],
+   "cr2_ci90": [
+    -0.0267979646089685,
+    0.011413349224353116
+   ],
+   "flip_p": 0.75,
+   "flip_p_t": 0.75,
+   "G": 11
+  },
+  "Qwen3-Coder-30B | discordant | OFF\u2212ON": {
+   "label": "OFF\u2212ON",
+   "n": 213,
+   "A": 27,
+   "B": 14,
+   "A_rate": 0.1267605633802817,
+   "B_rate": 0.06572769953051644,
+   "delta": 0.06103286384976526,
+   "b": 16,
+   "c": 3,
+   "mcnemar_p": 0.004425048828125,
+   "inst_se": 0.02007966063107852,
+   "inst_ci95": [
+    0.02167745188063408,
+    0.10038827581889644
+   ],
+   "inst_ci90": [
+    0.028004753742093234,
+    0.09406097395743729
+   ],
+   "inst_p": 0.0023694239331966383,
+   "wild_p": 0.0205020502050205,
+   "wild_ci95": [
+    0.011032863849765429,
+    0.0930328638497655
+   ],
+   "wild_ci95_pieces": 1,
+   "cr2_se": 0.014577073570711198,
+   "cr2_df": 3.0877803966007917,
+   "cr2_p": 0.023464062319421372,
+   "cr2_ci95": [
+    0.015379338125629818,
+    0.1066863895739007
+   ],
+   "cr2_ci90": [
+    0.02712166647889043,
+    0.09494406122064009
+   ],
+   "flip_p": 0.0625,
+   "flip_p_t": 0.0625,
+   "G": 11
+  },
+  "Qwen3-Coder-30B | discordant | OFF\u2212T": {
+   "label": "OFF\u2212T",
+   "n": 213,
+   "A": 27,
+   "B": 15,
+   "A_rate": 0.1267605633802817,
+   "B_rate": 0.07042253521126761,
+   "delta": 0.056338028169014086,
+   "b": 16,
+   "c": 4,
+   "mcnemar_p": 0.01181793212890625,
+   "inst_se": 0.020686649167027362,
+   "inst_ci95": [
+    0.01579294052101047,
+    0.0968831158170177
+   ],
+   "inst_ci90": [
+    0.022311510540032463,
+    0.09036454579799572
+   ],
+   "inst_p": 0.006461369939086749,
+   "wild_p": 0.015101510151015102,
+   "wild_ci95": [
+    0.011838028169014275,
+    0.09233802816901435
+   ],
+   "wild_ci95_pieces": 1,
+   "cr2_se": 0.012239542619142028,
+   "cr2_df": 3.0877803966007917,
+   "cr2_p": 0.01809624011981773,
+   "cr2_ci95": [
+    0.018005349726794323,
+    0.09467070661123385
+   ],
+   "cr2_ci90": [
+    0.027864717427075546,
+    0.08481133891095263
+   ],
+   "flip_p": 0.0625,
+   "flip_p_t": 0.0625,
+   "G": 11
+  },
+  "Qwen3-Coder-30B | discordant | T\u2212ON": {
+   "label": "T\u2212ON",
+   "n": 213,
+   "A": 15,
+   "B": 14,
+   "A_rate": 0.07042253521126761,
+   "B_rate": 0.06572769953051644,
+   "delta": 0.004694835680751174,
+   "b": 3,
+   "c": 2,
+   "mcnemar_p": 1.0,
+   "inst_se": 0.010517760568031881,
+   "inst_ci95": [
+    -0.015919596393210868,
+    0.025309267754713212
+   ],
+   "inst_ci90": [
+    -0.01260534486061834,
+    0.02199501622212069
+   ],
+   "inst_p": 0.65532842730553,
+   "wild_p": 1.0,
+   "wild_ci95": [
+    0.000194835680751404,
+    0.008694835680751412
+   ],
+   "wild_ci95_pieces": 1,
+   "cr2_se": 0.0034565244590140467,
+   "cr2_df": 3.0877803966007917,
+   "cr2_p": 0.2651075508882346,
+   "cr2_ci95": [
+    -0.006130555817770441,
+    0.015520227179272789
+   ],
+   "cr2_ci90": [
+    -0.003346207850948784,
+    0.012735879212451132
+   ],
+   "flip_p": 1.0,
+   "flip_p_t": 1.0,
+   "G": 11
+  },
+  "gpt (discovery-draw refs) | all 473 | OFF\u2212ON": {
+   "label": "OFF\u2212ON",
+   "n": 473,
+   "A": 222,
+   "B": 185,
+   "A_rate": 0.4693446088794926,
+   "B_rate": 0.39112050739957716,
+   "delta": 0.07822410147991543,
+   "b": 71,
+   "c": 34,
+   "mcnemar_p": 0.00039070001552236726,
+   "inst_se": 0.021385698579309144,
+   "inst_ci95": [
+    0.03630890214961836,
+    0.1201393008102125
+   ],
+   "inst_ci90": [
+    0.04304774962894447,
+    0.11340045333088639
+   ],
+   "inst_p": 0.0002544129375788464,
+   "wild_p": 0.11581158115811581,
+   "wild_ci95": [
+    -0.02577589852008444,
+    0.15472410147991572
+   ],
+   "wild_ci95_pieces": 1,
+   "cr2_se": 0.02493036148175844,
+   "cr2_df": 3.357335166370013,
+   "cr2_p": 0.044404262423368285,
+   "cr2_ci95": [
+    0.0034542723865848973,
+    0.1529939305732459
+   ],
+   "cr2_ci90": [
+    0.0220141498317502,
+    0.1344340531280806
+   ],
+   "flip_p": 0.119140625,
+   "flip_p_t": 0.134765625,
+   "G": 12
+  },
+  "gpt (discovery-draw refs) | all 473 | OFF\u2212T": {
+   "label": "OFF\u2212T",
+   "n": 473,
+   "A": 222,
+   "B": 192,
+   "A_rate": 0.4693446088794926,
+   "B_rate": 0.4059196617336152,
+   "delta": 0.06342494714587738,
+   "b": 63,
+   "c": 33,
+   "mcnemar_p": 0.002878610081200932,
+   "inst_se": 0.020529903104898103,
+   "inst_ci95": [
+    0.023187076136788866,
+    0.10366281815496589
+   ],
+   "inst_ci90": [
+    0.029656253904173313,
+    0.09719364038758144
+   ],
+   "inst_p": 0.0020056566766291466,
+   "wild_p": 0.18701870187018702,
+   "wild_ci95": [
+    -0.040575052854122495,
+    0.12842494714587765
+   ],
+   "wild_ci95_pieces": 1,
+   "cr2_se": 0.025235402104402227,
+   "cr2_df": 3.357335166370013,
+   "cr2_p": 0.07775604618079554,
+   "cr2_ci95": [
+    -0.012259743741105306,
+    0.1391096380328601
+   ],
+   "cr2_ci90": [
+    0.006527226944413066,
+    0.12032266734734173
+   ],
+   "flip_p": 0.19921875,
+   "flip_p_t": 0.20703125,
+   "G": 12
+  },
+  "gpt (discovery-draw refs) | all 473 | T\u2212ON": {
+   "label": "T\u2212ON",
+   "n": 473,
+   "A": 192,
+   "B": 185,
+   "A_rate": 0.4059196617336152,
+   "B_rate": 0.39112050739957716,
+   "delta": 0.014799154334038054,
+   "b": 46,
+   "c": 39,
+   "mcnemar_p": 0.5154257318839007,
+   "inst_se": 0.019500380371361717,
+   "inst_ci95": [
+    -0.023420889180137544,
+    0.053019197848213656
+   ],
+   "inst_ci90": [
+    -0.017276124321317747,
+    0.04687443298939386
+   ],
+   "inst_p": 0.4479026946941601,
+   "wild_p": 0.16681668166816682,
+   "wild_ci95": [
+    -0.014200845665961748,
+    0.054799154334038314
+   ],
+   "wild_ci95_pieces": 1,
+   "cr2_se": 0.011242636812336457,
+   "cr2_df": 3.357335166370013,
+   "cr2_p": 0.2707184197553944,
+   "cr2_ci95": [
+    -0.01891917075450339,
+    0.048517479422579515
+   ],
+   "cr2_ci90": [
+    -0.010549377899708777,
+    0.0401476865677849
+   ],
+   "flip_p": 0.2919921875,
+   "flip_p_t": 0.154296875,
+   "G": 12
+  },
+  "gpt (discovery-draw refs) | concordant | OFF\u2212ON": {
+   "label": "OFF\u2212ON",
+   "n": 260,
+   "A": 122,
+   "B": 104,
+   "A_rate": 0.46923076923076923,
+   "B_rate": 0.4,
+   "delta": 0.06923076923076923,
+   "b": 39,
+   "c": 21,
+   "mcnemar_p": 0.027340133868077935,
+   "inst_se": 0.029538034597449154,
+   "inst_ci95": [
+    0.011337284789014399,
+    0.12712425367252406
+   ],
+   "inst_ci90": [
+    0.020645014871016602,
+    0.11781652359052186
+   ],
+   "inst_p": 0.01908922928887121,
+   "wild_p": 0.18141814181418142,
+   "wild_ci95": [
+    -0.03876923076923064,
+    0.14123076923076952
+   ],
+   "wild_ci95_pieces": 1,
+   "cr2_se": 0.027793794119167315,
+   "cr2_df": 3.524423824309179,
+   "cr2_p": 0.07587659121533658,
+   "cr2_ci95": [
+    -0.012222477720857508,
+    0.15068401618239596
+   ],
+   "cr2_ci90": [
+    0.007605081799929532,
+    0.13085645666160894
+   ],
+   "flip_p": 0.25,
+   "flip_p_t": 0.21875,
+   "G": 11
+  },
+  "gpt (discovery-draw refs) | concordant | OFF\u2212T": {
+   "label": "OFF\u2212T",
+   "n": 260,
+   "A": 122,
+   "B": 105,
+   "A_rate": 0.46923076923076923,
+   "B_rate": 0.40384615384615385,
+   "delta": 0.06538461538461539,
+   "b": 35,
+   "c": 18,
+   "mcnemar_p": 0.027008317653722358,
+   "inst_se": 0.02775868196421758,
+   "inst_ci95": [
+    0.010978598047299643,
+    0.11979063272193113
+   ],
+   "inst_ci90": [
+    0.019725636321044245,
+    0.11104359444818654
+   ],
+   "inst_p": 0.01849951893189469,
+   "wild_p": 0.20492049204920493,
+   "wild_ci95": [
+    -0.0406153846153845,
+    0.13638461538461566
+   ],
+   "wild_ci95_pieces": 1,
+   "cr2_se": 0.028001118464202168,
+   "cr2_df": 3.524423824309179,
+   "cr2_p": 0.08865601108154689,
+   "cr2_ci95": [
+    -0.016676221916238354,
+    0.14744545268546913
+   ],
+   "cr2_ci90": [
+    0.003299238814929023,
+    0.12746999195430175
+   ],
+   "flip_p": 0.203125,
+   "flip_p_t": 0.25,
+   "G": 11
+  },
+  "gpt (discovery-draw refs) | concordant | T\u2212ON": {
+   "label": "T\u2212ON",
+   "n": 260,
+   "A": 105,
+   "B": 104,
+   "A_rate": 0.40384615384615385,
+   "B_rate": 0.4,
+   "delta": 0.0038461538461538464,
+   "b": 26,
+   "c": 25,
+   "mcnemar_p": 1.0,
+   "inst_se": 0.027518968765363038,
+   "inst_ci95": [
+    -0.050090034251082154,
+    0.057782341943389846
+   ],
+   "inst_ci90": [
+    -0.04141853200342861,
+    0.049110839695736305
+   ],
+   "inst_p": 0.888846667612894,
+   "wild_p": 0.8654865486548655,
+   "wild_ci95": [
+    -0.11565384615384605,
+    0.06884615384615411
+   ],
+   "wild_ci95_pieces": 1,
+   "cr2_se": 0.022546674394260162,
+   "cr2_df": 3.524423824309179,
+   "cr2_p": 0.8738846368894799,
+   "cr2_ci95": [
+    -0.06222974171166404,
+    0.06992204940397173
+   ],
+   "cr2_ci90": [
+    -0.04614537674043096,
+    0.053837684432738654
+   ],
+   "flip_p": 1.0,
+   "flip_p_t": 0.75,
+   "G": 11
+  },
+  "gpt (discovery-draw refs) | discordant | OFF\u2212ON": {
+   "label": "OFF\u2212ON",
+   "n": 213,
+   "A": 100,
+   "B": 81,
+   "A_rate": 0.4694835680751174,
+   "B_rate": 0.38028169014084506,
+   "delta": 0.0892018779342723,
+   "b": 32,
+   "c": 13,
+   "mcnemar_p": 0.006608822842281368,
+   "inst_se": 0.03096792547980331,
+   "inst_ci95": [
+    0.028505858839175086,
+    0.1498978970293695
+   ],
+   "inst_ci90": [
+    0.0382641618371159,
+    0.1401395940314287
+   ],
+   "inst_p": 0.003970950391245374,
+   "wild_p": 0.10481048104810481,
+   "wild_ci95": [
+    -0.04179812206572758,
+    0.21070187793427264
+   ],
+   "wild_ci95_pieces": 1,
+   "cr2_se": 0.03368152185242524,
+   "cr2_df": 3.0877803966007917,
+   "cr2_p": 0.07479348701537104,
+   "cr2_ci95": [
+    -0.016284330724733884,
+    0.19468808659327846
+   ],
+   "cr2_ci90": [
+    0.010847280233404671,
+    0.16755647563513992
+   ],
+   "flip_p": 0.1328125,
+   "flip_p_t": 0.125,
+   "G": 11
+  },
+  "gpt (discovery-draw refs) | discordant | OFF\u2212T": {
+   "label": "OFF\u2212T",
+   "n": 213,
+   "A": 100,
+   "B": 87,
+   "A_rate": 0.4694835680751174,
+   "B_rate": 0.4084507042253521,
+   "delta": 0.06103286384976526,
+   "b": 28,
+   "c": 15,
+   "mcnemar_p": 0.0659940344557981,
+   "inst_se": 0.030572595618338267,
+   "inst_ci95": [
+    0.0011116770512645119,
+    0.120954050648266
+   ],
+   "inst_ci90": [
+    0.010745407656559083,
+    0.11132032004297143
+   ],
+   "inst_p": 0.045898462827488266,
+   "wild_p": 0.19401940194019401,
+   "wild_ci95": [
+    -0.05696713615023463,
+    0.13653286384976554
+   ],
+   "wild_ci95_pieces": 1,
+   "cr2_se": 0.0283166052845466,
+   "cr2_df": 3.0877803966007917,
+   "cr2_p": 0.11753498500323716,
+   "cr2_ci95": [
+    -0.027651113870954022,
+    0.14971684157048454
+   ],
+   "cr2_ci90": [
+    -0.00484112560493484,
+    0.12690685330446533
+   ],
+   "flip_p": 0.2734375,
+   "flip_p_t": 0.203125,
+   "G": 11
+  },
+  "gpt (discovery-draw refs) | discordant | T\u2212ON": {
+   "label": "T\u2212ON",
+   "n": 213,
+   "A": 87,
+   "B": 81,
+   "A_rate": 0.4084507042253521,
+   "B_rate": 0.38028169014084506,
+   "delta": 0.028169014084507043,
+   "b": 20,
+   "c": 14,
+   "mcnemar_p": 0.39152830513194203,
+   "inst_se": 0.02737156283160609,
+   "inst_ci95": [
+    -0.02547826368917896,
+    0.08181629185819304
+   ],
+   "inst_ci90": [
+    -0.016853210525311562,
+    0.07319123869432564
+   ],
+   "inst_p": 0.30341657137408673,
+   "wild_p": 0.2654265426542654,
+   "wild_ci95": [
+    -0.038830985915492805,
+    0.14616901408450736
+   ],
+   "wild_ci95_pieces": 1,
+   "cr2_se": 0.028668989056752085,
+   "cr2_df": 3.0877803966007917,
+   "cr2_p": 0.396406492835696,
+   "cr2_ci95": [
+    -0.061618584437130385,
+    0.11795661260614446
+   ],
+   "cr2_ci90": [
+    -0.03852473906223914,
+    0.09486276723125323
+   ],
+   "flip_p": 0.3828125,
+   "flip_p_t": 0.2734375,
+   "G": 11
+  },
+  "gpt (logged re-run refs) | all 473 | OFF\u2212ON": {
+   "label": "OFF\u2212ON",
+   "n": 473,
+   "A": 221,
+   "B": 192,
+   "A_rate": 0.46723044397463004,
+   "B_rate": 0.4059196617336152,
+   "delta": 0.0613107822410148,
+   "b": 65,
+   "c": 36,
+   "mcnemar_p": 0.005077381119448144,
+   "inst_se": 0.021081542823576226,
+   "inst_ci95": [
+    0.019991717242347044,
+    0.10262984723968255
+   ],
+   "inst_ci90": [
+    0.02663472220148415,
+    0.09598684228054545
+   ],
+   "inst_p": 0.0036343640729395803,
+   "wild_p": 0.018101810181018103,
+   "wild_ci95": [
+    0.033310782241015,
+    0.12031078224101507
+   ],
+   "wild_ci95_pieces": 1,
+   "cr2_se": 0.01735137707170383,
+   "cr2_df": 3.357335166370013,
+   "cr2_p": 0.032169125177266625,
+   "cr2_ci95": [
+    0.009271444619115193,
+    0.11335011986291443
+   ],
+   "cr2_ci90": [
+    0.02218900428592191,
+    0.10043256019610772
+   ],
+   "flip_p": 0.005859375,
+   "flip_p_t": 0.01171875,
+   "G": 12
+  },
+  "gpt (logged re-run refs) | all 473 | OFF\u2212T": {
+   "label": "OFF\u2212T",
+   "n": 473,
+   "A": 221,
+   "B": 192,
+   "A_rate": 0.46723044397463004,
+   "B_rate": 0.4059196617336152,
+   "delta": 0.0613107822410148,
+   "b": 66,
+   "c": 37,
+   "mcnemar_p": 0.0055358991041924,
+   "inst_se": 0.02129295126773975,
+   "inst_ci95": [
+    0.019577364302490526,
+    0.10304420017953908
+   ],
+   "inst_ci90": [
+    0.026286986176467998,
+    0.09633457830556161
+   ],
+   "inst_p": 0.0039844103733529595,
+   "wild_p": 0.0405040504050405,
+   "wild_ci95": [
+    0.0028107822410149697,
+    0.08931078224101505
+   ],
+   "wild_ci95_pieces": 1,
+   "cr2_se": 0.01653953211976386,
+   "cr2_df": 3.357335166370013,
+   "cr2_p": 0.028138589897808125,
+   "cr2_ci95": [
+    0.01170628730486005,
+    0.11091527717716958
+   ],
+   "cr2_ci90": [
+    0.024019453697084393,
+    0.09860211078494524
+   ],
+   "flip_p": 0.05078125,
+   "flip_p_t": 0.05078125,
+   "G": 12
+  },
+  "gpt (logged re-run refs) | all 473 | T\u2212ON": {
+   "label": "T\u2212ON",
+   "n": 473,
+   "A": 192,
+   "B": 192,
+   "A_rate": 0.4059196617336152,
+   "B_rate": 0.4059196617336152,
+   "delta": 0.0,
+   "b": 41,
+   "c": 41,
+   "mcnemar_p": 1.0,
+   "inst_se": 0.019164847001490327,
+   "inst_ci95": [
+    -0.03756241018842899,
+    0.03756241018842899
+   ],
+   "inst_ci90": [
+    -0.03152337524978937,
+    0.03152337524978937
+   ],
+   "inst_p": 1.0,
+   "wild_p": 1.0,
+   "wild_ci95": [
+    -0.03349999999999981,
+    0.07100000000000029
+   ],
+   "wild_ci95_pieces": 1,
+   "cr2_se": 0.025537117352601276,
+   "cr2_df": 3.357335166370013,
+   "cr2_p": 1.0,
+   "cr2_ci95": [
+    -0.07658957939247835,
+    0.07658957939247835
+   ],
+   "cr2_ci90": [
+    -0.05757799110428265,
+    0.05757799110428265
+   ],
+   "flip_p": 1.0,
+   "flip_p_t": 1.0,
+   "G": 12
+  },
+  "gpt (logged re-run refs) | concordant | OFF\u2212ON": {
+   "label": "OFF\u2212ON",
+   "n": 260,
+   "A": 115,
+   "B": 106,
+   "A_rate": 0.4423076923076923,
+   "B_rate": 0.4076923076923077,
+   "delta": 0.03461538461538462,
+   "b": 32,
+   "c": 23,
+   "mcnemar_p": 0.2806097176983541,
+   "inst_se": 0.028497797563506906,
+   "inst_ci95": [
+    -0.021239272688376637,
+    0.09047004191914587
+   ],
+   "inst_ci90": [
+    -0.012259331698139975,
+    0.08149010092890921
+   ],
+   "inst_p": 0.2244924495936338,
+   "wild_p": 0.3475347534753475,
+   "wild_ci95": [
+    -0.019384615384615222,
+    0.13511538461538491
+   ],
+   "wild_ci95_pieces": 1,
+   "cr2_se": 0.03792560064481311,
+   "cr2_df": 3.524423824309179,
+   "cr2_p": 0.41946014417227845,
+   "cr2_ci95": [
+    -0.07653040936530729,
+    0.1457611785960765
+   ],
+   "cr2_ci90": [
+    -0.049475013440500745,
+    0.11870578267126998
+   ],
+   "flip_p": 0.328125,
+   "flip_p_t": 0.3515625,
+   "G": 11
+  },
+  "gpt (logged re-run refs) | concordant | OFF\u2212T": {
+   "label": "OFF\u2212T",
+   "n": 260,
+   "A": 115,
+   "B": 105,
+   "A_rate": 0.4423076923076923,
+   "B_rate": 0.40384615384615385,
+   "delta": 0.038461538461538464,
+   "b": 32,
+   "c": 22,
+   "mcnemar_p": 0.22032849417661093,
+   "inst_se": 0.02821682579114312,
+   "inst_ci95": [
+    -0.016842424283373576,
+    0.0937655012064505
+   ],
+   "inst_ci90": [
+    -0.007951020308326465,
+    0.08487409723140339
+   ],
+   "inst_p": 0.17286011845353633,
+   "wild_p": 0.19771977197719773,
+   "wild_ci95": [
+    -0.04353846153846139,
+    0.11396153846153875
+   ],
+   "wild_ci95_pieces": 1,
+   "cr2_se": 0.02349324724519867,
+   "cr2_df": 3.524423824309179,
+   "cr2_p": 0.18645747973938137,
+   "cr2_ci95": [
+    -0.03038840916900555,
+    0.10731148609208248
+   ],
+   "cr2_ci90": [
+    -0.0136287772852281,
+    0.09055185420830503
+   ],
+   "flip_p": 0.2265625,
+   "flip_p_t": 0.208984375,
+   "G": 11
+  },
+  "gpt (logged re-run refs) | concordant | T\u2212ON": {
+   "label": "T\u2212ON",
+   "n": 260,
+   "A": 105,
+   "B": 106,
+   "A_rate": 0.40384615384615385,
+   "B_rate": 0.4076923076923077,
+   "delta": -0.0038461538461538464,
+   "b": 22,
+   "c": 23,
+   "mcnemar_p": 1.0,
+   "inst_se": 0.02584944008695232,
+   "inst_ci95": [
+    -0.05451012583673727,
+    0.04681781814442958
+   ],
+   "inst_ci90": [
+    -0.04636470877093772,
+    0.03867240107863003
+   ],
+   "inst_p": 0.881718863729942,
+   "wild_p": 0.9058905890589058,
+   "wild_ci95": [
+    -0.05684615384615366,
+    0.08565384615384647
+   ],
+   "wild_ci95_pieces": 1,
+   "cr2_se": 0.03581878452561934,
+   "cr2_df": 3.524423824309179,
+   "cr2_p": 0.920317864876307,
+   "cr2_ci95": [
+    -0.10881765536060009,
+    0.1011253476682924
+   ],
+   "cr2_ci90": [
+    -0.08326522163748375,
+    0.07557291394517605
+   ],
+   "flip_p": 1.0,
+   "flip_p_t": 0.921875,
+   "G": 11
+  },
+  "gpt (logged re-run refs) | discordant | OFF\u2212ON": {
+   "label": "OFF\u2212ON",
+   "n": 213,
+   "A": 106,
+   "B": 86,
+   "A_rate": 0.49765258215962443,
+   "B_rate": 0.40375586854460094,
+   "delta": 0.09389671361502347,
+   "b": 33,
+   "c": 13,
+   "mcnemar_p": 0.004533861582189047,
+   "inst_se": 0.031258647745867806,
+   "inst_ci95": [
+    0.03263088934444142,
+    0.15516253788560552
+   ],
+   "inst_ci90": [
+    0.042480801835641825,
+    0.14531262539440512
+   ],
+   "inst_p": 0.002665748221755873,
+   "wild_p": 0.0063006300630063005,
+   "wild_ci95": [
+    0.022327531648081184,
+    0.17632753164808132
+   ],
+   "wild_ci95_pieces": 1,
+   "cr2_se": 0.02245042491879713,
+   "cr2_df": 3.0877803966007917,
+   "cr2_p": 0.023532687049823513,
+   "cr2_ci95": [
+    0.023584860788306183,
+    0.16420856644174076
+   ],
+   "cr2_ci90": [
+    0.04166944133103019,
+    0.14612398589901676
+   ],
+   "flip_p": 0.015625,
+   "flip_p_t": 0.015625,
+   "G": 11
+  },
+  "gpt (logged re-run refs) | discordant | OFF\u2212T": {
+   "label": "OFF\u2212T",
+   "n": 213,
+   "A": 106,
+   "B": 87,
+   "A_rate": 0.49765258215962443,
+   "B_rate": 0.4084507042253521,
+   "delta": 0.0892018779342723,
+   "b": 34,
+   "c": 15,
+   "mcnemar_p": 0.009399241523873059,
+   "inst_se": 0.0323665601171926,
+   "inst_ci95": [
+    0.025764585300739024,
+    0.15263917056780557
+   ],
+   "inst_ci90": [
+    0.03596361205926758,
+    0.142440143809277
+   ],
+   "inst_p": 0.005851499641975701,
+   "wild_p": 0.029402940294029404,
+   "wild_ci95": [
+    0.011269396996731684,
+    0.12376939699673178
+   ],
+   "wild_ci95_pieces": 1,
+   "cr2_se": 0.02824468510690876,
+   "cr2_df": 3.0877803966007917,
+   "cr2_p": 0.04896979214722629,
+   "cr2_ci95": [
+    0.0007431449901500742,
+    0.17766061087839455
+   ],
+   "cr2_ci90": [
+    0.023495199107936293,
+    0.15490855676060833
+   ],
+   "flip_p": 0.07421875,
+   "flip_p_t": 0.033203125,
+   "G": 11
+  },
+  "gpt (logged re-run refs) | discordant | T\u2212ON": {
+   "label": "T\u2212ON",
+   "n": 213,
+   "A": 87,
+   "B": 86,
+   "A_rate": 0.4084507042253521,
+   "B_rate": 0.40375586854460094,
+   "delta": 0.004694835680751174,
+   "b": 19,
+   "c": 18,
+   "mcnemar_p": 1.0,
+   "inst_se": 0.02862302796253363,
+   "inst_ci95": [
+    -0.051405268696808094,
+    0.06079494005831044
+   ],
+   "inst_ci90": [
+    -0.042385866355534124,
+    0.05177553771703647
+   ],
+   "inst_p": 0.8697130165902811,
+   "wild_p": 0.8561856185618562,
+   "wild_ci95": [
+    -0.04830516431924864,
+    0.12019483568075151
+   ],
+   "wild_ci95_pieces": 1,
+   "cr2_se": 0.02754190159955761,
+   "cr2_df": 3.0877803966007917,
+   "cr2_p": 0.8752075051600219,
+   "cr2_ci95": [
+    -0.08156286941126367,
+    0.09095254077276602
+   ],
+   "cr2_ci90": [
+    -0.0593769313019165,
+    0.06876660266341884
+   ],
+   "flip_p": 1.0,
+   "flip_p_t": 0.9765625,
+   "G": 11
+  }
+ }
+}

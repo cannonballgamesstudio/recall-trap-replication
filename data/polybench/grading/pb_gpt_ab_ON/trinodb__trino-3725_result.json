@@ -1,0 +1,43 @@
+{
+    "instance_id": "trinodb__trino-3725",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.ensureDistributedQueryRunner",
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testAggregateSingleColumn",
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testColumnsInReverseOrder",
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testCountAll",
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testConcurrentScans",
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testExactPredicate",
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testExplainAnalyzeVerbose",
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testInListPredicate",
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testIsNullPredicate",
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testLikePredicate",
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testLimit",
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testMultipleRangesPredicate",
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testRangePredicate",
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testSelectAll",
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testSelectInformationSchemaColumns",
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testSelectInformationSchemaTables",
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testShowCreateTable",
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testShowSchemas",
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testShowTables",
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testExplainAnalyze",
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testTableSampleWithFiltering",
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testColumnComments",
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testTableSampleSystem",
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testCreatePartitionedTableAs",
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testDecimal",
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testDescribeTable",
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testShowCreateSchema",
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testTimestamp",
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testSchemaEvolution"
+    ],
+    "failed_tests": [
+        "io.prestosql.plugin.iceberg.TestIcebergSmoke.testCreatePartitionedTable"
+    ]
+}

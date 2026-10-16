@@ -1,0 +1,11 @@
+{
+    "instance_id": "apache__rocketmq-6522",
+    "file_retrieval_metrics": {
+        "recall": 0.11764705882352941,
+        "precision": 1.0,
+        "f1": 0.21052631578947367
+    },
+    "node_retrieval_metrics": null,
+    "reference_nodes": [],
+    "predicted_nodes": []
+}

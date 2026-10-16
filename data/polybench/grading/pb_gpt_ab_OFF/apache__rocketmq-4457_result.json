@@ -1,0 +1,26 @@
+{
+    "instance_id": "apache__rocketmq-4457",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": true,
+    "no_p2p_failed": true,
+    "resolved": true,
+    "passed_tests": [
+        "org.apache.rocketmq.acl.plain.PlainAccessValidatorTest.testValidateAfterUpdateAccessConfig",
+        "org.apache.rocketmq.acl.plain.PlainAccessValidatorTest.validateConsumeMessageBackTest",
+        "org.apache.rocketmq.acl.plain.PlainAccessValidatorTest.validateHeartBeatTest",
+        "org.apache.rocketmq.acl.plain.PlainAccessValidatorTest.validateForAdminCommandWithOutAclRPCHook",
+        "org.apache.rocketmq.acl.plain.PlainAccessValidatorTest.updateGlobalWhiteRemoteAddressesTest",
+        "org.apache.rocketmq.acl.plain.PlainAccessValidatorTest.updateAccessAnotherAclYamlConfigTest",
+        "org.apache.rocketmq.acl.plain.PlainAccessValidatorTest.addAccessDefaultAclYamlConfigTest",
+        "org.apache.rocketmq.acl.plain.PlainAccessValidatorTest.updateAccessAclYamlConfigTest",
+        "org.apache.rocketmq.acl.plain.PlainAccessValidatorTest.validateSendMessageTest",
+        "org.apache.rocketmq.acl.plain.PlainAccessValidatorTest.validateUpdateConsumerOffSetTest",
+        "org.apache.rocketmq.acl.plain.PlainAccessValidatorTest.updateAccessConfigEmptyPermListTest",
+        "org.apache.rocketmq.acl.plain.PlainAccessValidatorTest.addAccessAclYamlConfigTest"
+    ],
+    "failed_tests": [
+        "org.apache.rocketmq.acl.plain.PlainAccessValidatorTest.validateSendMessageV2ToRetryTopicTest"
+    ]
+}

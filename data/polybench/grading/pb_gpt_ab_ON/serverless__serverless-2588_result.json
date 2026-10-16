@@ -1,0 +1,26 @@
+{
+    "instance_id": "serverless__serverless-2588",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "#validate() should reject an invalid http event",
+        "#validate() should validate the http events \"path\" property",
+        "#validate() should validate the http events \"method\" property",
+        "#validate() should validate the http events object syntax method is case insensitive",
+        "#validate() should validate the http events string syntax method is case insensitive",
+        "#validate() should throw an error if the method is invalid",
+        "#validate() should filter non-http events",
+        "#validate() should throw if an authorizer is an invalid value",
+        "#validate() should throw if an authorizer is an empty object",
+        "#validate() should accept an authorizer as a string",
+        "#validate() should set authorizer defaults",
+        "#validate() should accept authorizer config"
+    ],
+    "failed_tests": [
+        "#validate() should accept authorizer config when resultTtlInSeconds is 0"
+    ]
+}

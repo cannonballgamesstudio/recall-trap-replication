@@ -1,0 +1,30 @@
+{
+    "instance_id": "mui__material-ui-34478",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "packages/mui-joy/src/Radio/Radio.test.js-><Radio /> should have the classes required for Radio",
+        "packages/mui-joy/src/Radio/Radio.test.js-><Radio /> renders a `role=\"radio\"` with the id",
+        "packages/mui-joy/src/Radio/Radio.test.js-><Radio /> renders a `role=\"radio\"` with the name",
+        "packages/mui-joy/src/Radio/Radio.test.js-><Radio /> renders a `role=\"radio\"` with the Unchecked state by default",
+        "packages/mui-joy/src/Radio/Radio.test.js-><Radio /> renders a radio with the Checked state when checked",
+        "packages/mui-joy/src/Radio/Radio.test.js-><Radio /> the radio can be disabled",
+        "packages/mui-joy/src/Radio/Radio.test.js-><Radio /> the Checked state changes after change events",
+        "packages/mui-joy/src/Radio/Radio.test.js-><Radio /> should have configurable color",
+        "packages/mui-joy/src/Radio/Radio.test.js-><Radio /> should have configurable variant",
+        "packages/mui-joy/src/Radio/Radio.test.js-><Radio /> should have configurable size",
+        "packages/mui-joy/src/Radio/Radio.test.js-><Radio /> MUI component API applies the className to the root component",
+        "packages/mui-joy/src/Radio/Radio.test.js-><Radio /> MUI component API applies the root class to the root component if it has this class",
+        "packages/mui-joy/src/Radio/Radio.test.js-><Radio /> MUI component API should render without errors in ReactTestRenderer",
+        "packages/mui-joy/src/Radio/Radio.test.js-><Radio /> MUI component API ref attaches the ref",
+        "packages/mui-joy/src/Radio/Radio.test.js-><Radio /> MUI component API theme default components: respect theme's defaultProps"
+    ],
+    "failed_tests": [
+        "packages/mui-joy/src/Radio/Radio.test.js-><Radio /> renders a `role=\"radio\"` with the required attribute",
+        "packages/mui-joy/src/Radio/Radio.test.js-><Radio /> renders a `role=\"radio\"` with the readOnly attribute"
+    ]
+}

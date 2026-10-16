@@ -1,0 +1,30 @@
+{
+    "instance_id": "mui__material-ui-37845",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "packages/mui-joy/src/styles/extendTheme.test.js->extendTheme the output contains required fields",
+        "packages/mui-joy/src/styles/extendTheme.test.js->extendTheme should have the vars object",
+        "packages/mui-joy/src/styles/extendTheme.test.js->extendTheme should have joy default css var prefix",
+        "packages/mui-joy/src/styles/extendTheme.test.js->extendTheme should have custom css var prefix",
+        "packages/mui-joy/src/styles/extendTheme.test.js->extendTheme should have no css var prefix",
+        "packages/mui-joy/src/styles/extendTheme.test.js->extendTheme should accept custom fontSize value",
+        "packages/mui-joy/src/styles/extendTheme.test.js->extendTheme should have custom --variant-borderWidth",
+        "packages/mui-joy/src/styles/extendTheme.test.js->extendTheme theme.unstable_sx bgcolor",
+        "packages/mui-joy/src/styles/extendTheme.test.js->extendTheme theme.unstable_sx borderRadius",
+        "packages/mui-system/src/cssVars/createGetCssVar.test.ts->createGetCssVar able to custom prefix",
+        "packages/mui-system/src/cssVars/createGetCssVar.test.ts->createGetCssVar does not add var() to CSS value",
+        "packages/mui-system/src/cssVars/createGetCssVar.test.ts->createGetCssVar default without prefix should return correct CSS var with default prefix",
+        "packages/mui-system/src/cssVars/createGetCssVar.test.ts->createGetCssVar default without prefix should return correct CSS var with prefix",
+        "packages/mui-system/src/cssVars/createGetCssVar.test.ts->createGetCssVar default without prefix should return correct CSS var with comma",
+        "packages/mui-system/src/cssVars/createGetCssVar.test.ts->createGetCssVar default without prefix support default value",
+        "packages/mui-system/src/cssVars/createGetCssVar.test.ts->createGetCssVar default without prefix support nested values"
+    ],
+    "failed_tests": [
+        "packages/mui-joy/src/styles/extendTheme.test.js->extendTheme should have correct font family"
+    ]
+}

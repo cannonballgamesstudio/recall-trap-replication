@@ -1,0 +1,653 @@
+[
+ {
+  "arm_id": "P1_gpt_fusion",
+  "paper_ref": "Table I (gpt discovery draw); Table II; Fig. 2; Table VI row 3; Table VIII (gpt1); Sec. V-A; Sec. V-D (Branch B)",
+  "model": "openai/gpt-5.6-sol (OpenRouter), temp 0.2, max_tokens 6000",
+  "retriever": "fusion",
+  "harness": "single-shot",
+  "K": 12,
+  "ON": {
+   "preds": "preds_local_gpt56sol_dedupON.jsonl",
+   "raw": null,
+   "report": "local_gpt56sol_dedupON.local_gpt56sol_dedupON.json"
+  },
+  "OFF": {
+   "preds": "preds_local_gpt56sol_dedupOFF.jsonl",
+   "raw": null,
+   "report": "local_gpt56sol_dedupOFF.local_gpt56sol_dedupOFF.json"
+  },
+  "per_instance_reports": true,
+  "note": "original headline run; raw responses were not logged",
+  "packs": "local_packs.json"
+ },
+ {
+  "arm_id": "P2_deepseek_fusion",
+  "paper_ref": "Table I; Table II; Fig. 2; Sec. V-A (producibility, where the gain runs)",
+  "model": "deepseek/deepseek-v4-pro (OpenRouter), max_tokens 16000, reasoning cap 2000",
+  "retriever": "fusion",
+  "harness": "single-shot",
+  "K": 12,
+  "ON": {
+   "preds": "preds_local_dsv4_dedupON.jsonl",
+   "raw": "raw_local_dsv4_dedupON.jsonl",
+   "report": "local_dsv4_dedupON.dsv4_ON_rg.json"
+  },
+  "OFF": {
+   "preds": "preds_local_dsv4_dedupOFF.jsonl",
+   "raw": "raw_local_dsv4_dedupOFF.jsonl",
+   "report": "local_dsv4_dedupOFF.dsv4_OFF_rg.json"
+  },
+  "per_instance_reports": true,
+  "note": "_rg = the consistent regrade pair used for analysis",
+  "packs": "local_packs.json"
+ },
+ {
+  "arm_id": "P3_qwen36_fusion_K12",
+  "paper_ref": "Table I; Table II; Fig. 2; Table III (K=12); Table VIII (Q3.6); Sec. V-A (truncation, leave-one-repository-out)",
+  "model": "Qwen3.6-27B (local llama.cpp llama-server), reasoning on, max_tokens 32000 (Amendment 1)",
+  "retriever": "fusion",
+  "harness": "single-shot",
+  "K": 12,
+  "ON": {
+   "preds": "preds_local_qwen36_k12_dedupON.jsonl",
+   "raw": "raw_local_qwen36_k12_dedupON.jsonl",
+   "report": "local_qwen36_k12_dedupON.qwen36_k12_dedupON.json"
+  },
+  "OFF": {
+   "preds": "preds_local_qwen36_k12_dedupOFF.jsonl",
+   "raw": "raw_local_qwen36_k12_dedupOFF.jsonl",
+   "report": "local_qwen36_k12_dedupOFF.qwen36_k12_dedupOFF.json"
+  },
+  "per_instance_reports": true,
+  "note": "pre-amendment 16k generations discarded; kept as *_16k_discarded for provenance",
+  "packs": "local_packs.json"
+ },
+ {
+  "arm_id": "P4_DENSE1_gpt_dense",
+  "paper_ref": "Table I (dense-retriever control); Table II; Fig. 2; Sec. V-A, V-B",
+  "model": "openai/gpt-5.6-sol (OpenRouter), temp 0.2, max_tokens 6000",
+  "retriever": "dense-only",
+  "harness": "single-shot",
+  "K": 12,
+  "ON": {
+   "preds": "preds_local_gptsol_dense_dedupON.jsonl",
+   "raw": "raw_local_gptsol_dense_dedupON.jsonl",
+   "report": "local_gptsol_dense_dedupON.cc1_gptdense_ON_rg.json"
+  },
+  "OFF": {
+   "preds": "preds_local_gptsol_dense_dedupOFF.jsonl",
+   "raw": "raw_local_gptsol_dense_dedupOFF.jsonl",
+   "report": "local_gptsol_dense_dedupOFF.cc1_gptdense_OFF_rg.json"
+  },
+  "per_instance_reports": true,
+  "note": "",
+  "packs": "dense_packs.json"
+ },
+ {
+  "arm_id": "P5_qwen25coder32b",
+  "paper_ref": "Table I; Table II; Table IX",
+  "model": "Qwen2.5-Coder-32B (local llama.cpp)",
+  "retriever": "see note",
+  "harness": "single-shot",
+  "K": 12,
+  "ON": {
+   "preds": "preds_local_qwen25coder32b_dedupON.jsonl",
+   "raw": null,
+   "report": "local_qwen25coder32b_dedupON.local2_dedupON.json"
+  },
+  "OFF": {
+   "preds": "preds_local_qwen25coder32b_dedupOFF.jsonl",
+   "raw": null,
+   "report": "local_qwen25coder32b_dedupOFF.local2_dedupOFF.json"
+  },
+  "per_instance_reports": true,
+  "note": "harness default packs file is local_packs.json (fusion); the 'dense' pack label in the paper table may refer to model architecture - see README",
+  "packs": "local_packs.json"
+ },
+ {
+  "arm_id": "P6a_glm52_incompatible",
+  "paper_ref": "Sec. IV (reasoning-model incompatibility; not analysed)",
+  "model": "z-ai/glm-5.2 (OpenRouter)",
+  "retriever": "fusion",
+  "harness": "single-shot",
+  "K": 12,
+  "ON": {
+   "preds": "preds_local_glm52_dedupON.jsonl",
+   "raw": null,
+   "report": "local_glm52_dedupON.local_glm52_dedupON.json"
+  },
+  "OFF": {
+   "preds": "preds_local_glm52_dedupOFF.jsonl",
+   "raw": null,
+   "report": "local_glm52_dedupOFF.local_glm52_dedupOFF.json"
+  },
+  "per_instance_reports": false,
+  "note": "incompatible with the bounded single-shot regime (empty rate ~79%); neither replication nor non-replication",
+  "packs": "local_packs.json"
+ },
+ {
+  "arm_id": "P6b_kimi_incompatible",
+  "paper_ref": "Sec. IV (reasoning-model incompatibility; not analysed)",
+  "model": "moonshotai/kimi-k2.7-code (OpenRouter)",
+  "retriever": "fusion",
+  "harness": "single-shot",
+  "K": 12,
+  "ON": {
+   "preds": "preds_local_kimi_dedupON.jsonl",
+   "raw": null,
+   "report": "local_kimi_dedupON.local_kimi_dedupON.json"
+  },
+  "OFF": {
+   "preds": "preds_local_kimi_dedupOFF.jsonl",
+   "raw": null,
+   "report": "local_kimi_dedupOFF.local_kimi_dedupOFF.json"
+  },
+  "per_instance_reports": false,
+  "note": "incompatible (empty rate ~89%)",
+  "packs": "local_packs.json"
+ },
+ {
+  "arm_id": "R1_gpt_bm25",
+  "paper_ref": "Table I (BM25 retriever); Table II; Fig. 2; Sec. V-B (retriever interaction)",
+  "model": "openai/gpt-5.6-sol (OpenRouter), temp 0.2, max_tokens 6000",
+  "retriever": "BM25",
+  "harness": "single-shot",
+  "K": 12,
+  "ON": {
+   "preds": "preds_local_gpt56sol_bm25_dedupON.jsonl",
+   "raw": "raw_local_gpt56sol_bm25_dedupON.jsonl",
+   "report": "local_gpt56sol_bm25_dedupON.bm25_gptsol_ON.json"
+  },
+  "OFF": {
+   "preds": "preds_local_gpt56sol_bm25_dedupOFF.jsonl",
+   "raw": "raw_local_gpt56sol_bm25_dedupOFF.jsonl",
+   "report": "local_gpt56sol_bm25_dedupOFF.bm25_gptsol_OFF.json"
+  },
+  "per_instance_reports": true,
+  "note": "",
+  "packs": "bm25_packs.json"
+ },
+ {
+  "arm_id": "M1_qwen3coder30b_AC",
+  "paper_ref": "Table V row 1 (single-shot anchor of the read-budget sweep); Table VI row 2 (headline local arms); Sec. V-C (random-chunk control, arms A and C); Sec. V-D (E5)",
+  "model": "Qwen3-Coder-30B-A3B (local llama.cpp), temp 0.2, max_tokens 6000",
+  "retriever": "fusion",
+  "harness": "single-shot",
+  "K": 12,
+  "ON": {
+   "preds": "preds_local_qwen3coder30b_dedupON.jsonl",
+   "raw": "raw_local_qwen3coder30b_dedupON.jsonl",
+   "report": "local_qwen3coder30b_dedupON.qwen30b_ON_rg.json"
+  },
+  "OFF": {
+   "preds": "preds_local_qwen3coder30b_dedupOFF.jsonl",
+   "raw": "raw_local_qwen3coder30b_dedupOFF.jsonl",
+   "report": "local_qwen3coder30b_dedupOFF.qwen30b_OFF_rg.json"
+  },
+  "per_instance_reports": true,
+  "note": "",
+  "packs": "local_packs.json"
+ },
+ {
+  "arm_id": "M2_random_chunk_B_seed20260717",
+  "paper_ref": "Table I (random chunk per file); Sec. V-C",
+  "model": "Qwen3-Coder-30B-A3B (local llama.cpp)",
+  "retriever": "fusion (dedup-ON file set, uniformly random non-argmax chunk per file)",
+  "harness": "single-shot",
+  "K": 12,
+  "ON": {
+   "preds": "preds_local_qwen3coder30b_g2Brand_s20260717_dedupON.jsonl",
+   "raw": "raw_local_qwen3coder30b_g2Brand_s20260717_dedupON.jsonl",
+   "report": "local_qwen3coder30b_g2Brand_s20260717_dedupON.g2Brand_s20260717.json"
+  },
+  "OFF": null,
+  "per_instance_reports": true,
+  "note": "arm B only; contrasts are vs M1 ON (arm A) and M1 OFF (arm C)",
+  "packs_ON": "packfile_g2_B_seed20260717_wrapped.json",
+  "packs_OFF": null
+ },
+ {
+  "arm_id": "M2_random_chunk_B_seed20260718",
+  "paper_ref": "Table I (random chunk per file); Sec. V-C",
+  "model": "Qwen3-Coder-30B-A3B (local llama.cpp)",
+  "retriever": "fusion (dedup-ON file set, uniformly random non-argmax chunk per file)",
+  "harness": "single-shot",
+  "K": 12,
+  "ON": {
+   "preds": "preds_local_qwen3coder30b_g2Brand_s20260718_dedupON.jsonl",
+   "raw": "raw_local_qwen3coder30b_g2Brand_s20260718_dedupON.jsonl",
+   "report": "local_qwen3coder30b_g2Brand_s20260718_dedupON.g2Brand_s20260718.json"
+  },
+  "OFF": null,
+  "per_instance_reports": true,
+  "note": "arm B only; contrasts are vs M1 ON (arm A) and M1 OFF (arm C)",
+  "packs_ON": "packfile_g2_B_seed20260718_wrapped.json",
+  "packs_OFF": null
+ },
+ {
+  "arm_id": "M2_random_chunk_B_seed20260719",
+  "paper_ref": "Table I (random chunk per file); Sec. V-C",
+  "model": "Qwen3-Coder-30B-A3B (local llama.cpp)",
+  "retriever": "fusion (dedup-ON file set, uniformly random non-argmax chunk per file)",
+  "harness": "single-shot",
+  "K": 12,
+  "ON": {
+   "preds": "preds_local_qwen3coder30b_g2Brand_s20260719_dedupON.jsonl",
+   "raw": "raw_local_qwen3coder30b_g2Brand_s20260719_dedupON.jsonl",
+   "report": "local_qwen3coder30b_g2Brand_s20260719_dedupON.g2Brand_s20260719.json"
+  },
+  "OFF": null,
+  "per_instance_reports": true,
+  "note": "arm B only; contrasts are vs M1 ON (arm A) and M1 OFF (arm C)",
+  "packs_ON": "packfile_g2_B_seed20260719_wrapped.json",
+  "packs_OFF": null
+ },
+ {
+  "arm_id": "F1_gpt_logged_replication",
+  "paper_ref": "Table I (gpt logged re-run); Table II; Fig. 2; Table VI row 4; Table VIII (gpt2); Sec. V-A (funnel)",
+  "model": "openai/gpt-5.6-sol (OpenRouter), temp 0.2, max_tokens 6000, LOG_RESPONSE_TEXT=1",
+  "retriever": "fusion",
+  "harness": "single-shot",
+  "K": 12,
+  "ON": {
+   "preds": "preds_local_gptsol_logrep_dedupON.jsonl",
+   "raw": "raw_local_gptsol_logrep_dedupON.jsonl",
+   "report": "local_gptsol_logrep_dedupON.gptsol_logrep_dedupON.json"
+  },
+  "OFF": {
+   "preds": "preds_local_gptsol_logrep_dedupOFF.jsonl",
+   "raw": "raw_local_gptsol_logrep_dedupOFF.jsonl",
+   "report": "local_gptsol_logrep_dedupOFF.gptsol_logrep_dedupOFF.json"
+  },
+  "per_instance_reports": true,
+  "note": "pre-registered (GPT-LOGGED-REPLICATION-PREREG); raw responses include full text",
+  "packs": "local_packs.json"
+ },
+ {
+  "arm_id": "B1_qwen36_K4",
+  "paper_ref": "Table I (budget sweep); Table III; Sec. V-B",
+  "model": "Qwen3.6-27B (local), max_tokens 32000",
+  "retriever": "fusion",
+  "harness": "single-shot",
+  "K": 4,
+  "ON": {
+   "preds": "preds_local_qwen36_k4_dedupON.jsonl",
+   "raw": "raw_local_qwen36_k4_dedupON.jsonl",
+   "report": "local_qwen36_k4_dedupON.qs2_k4_ON.json"
+  },
+  "OFF": {
+   "preds": "preds_local_qwen36_k4_dedupOFF.jsonl",
+   "raw": "raw_local_qwen36_k4_dedupOFF.jsonl",
+   "report": "local_qwen36_k4_dedupOFF.qs2_k4_OFF.json"
+  },
+  "per_instance_reports": true,
+  "note": "",
+  "packs": "packs_k4.json"
+ },
+ {
+  "arm_id": "B1_qwen36_K40",
+  "paper_ref": "Table I (budget sweep); Table III; Sec. V-B",
+  "model": "Qwen3.6-27B (local), max_tokens 32000",
+  "retriever": "fusion",
+  "harness": "single-shot",
+  "K": 40,
+  "ON": {
+   "preds": "preds_local_qwen36_k40_dedupON.jsonl",
+   "raw": "raw_local_qwen36_k40_dedupON.jsonl",
+   "report": "local_qwen36_k40_dedupON.qs2_k40_ON.json"
+  },
+  "OFF": {
+   "preds": "preds_local_qwen36_k40_dedupOFF.jsonl",
+   "raw": "raw_local_qwen36_k40_dedupOFF.jsonl",
+   "report": "local_qwen36_k40_dedupOFF.qs2_k40_OFF.json"
+  },
+  "per_instance_reports": true,
+  "note": "",
+  "packs": "packs_k40.json"
+ },
+ {
+  "arm_id": "B2_A3B_K4",
+  "paper_ref": "Table I (budget sweep, Qwen3-Coder); Sec. V-B; Table IX",
+  "model": "Qwen3-Coder-30B-A3B via OpenRouter, temp 0.2, max_tokens 6000",
+  "retriever": "fusion",
+  "harness": "single-shot",
+  "K": 4,
+  "ON": {
+   "preds": "preds_local_qwen3or_k4_dedupON.jsonl",
+   "raw": "raw_local_qwen3or_k4_dedupON.jsonl",
+   "report": "local_qwen3or_k4_dedupON.qwen3or_k4_dedupON.json"
+  },
+  "OFF": {
+   "preds": "preds_local_qwen3or_k4_dedupOFF.jsonl",
+   "raw": "raw_local_qwen3or_k4_dedupOFF.jsonl",
+   "report": "local_qwen3or_k4_dedupOFF.qwen3or_k4_dedupOFF.json"
+  },
+  "per_instance_reports": true,
+  "note": "",
+  "packs": "packs_k4.json"
+ },
+ {
+  "arm_id": "B2_A3B_K8",
+  "paper_ref": "exploratory sweep point (generated, not graded; not in the paper)",
+  "model": "Qwen3-Coder-30B-A3B via OpenRouter, temp 0.2, max_tokens 6000",
+  "retriever": "fusion",
+  "harness": "single-shot",
+  "K": 8,
+  "ON": {
+   "preds": "preds_local_qwen3or_k8_dedupON.jsonl",
+   "raw": "raw_local_qwen3or_k8_dedupON.jsonl",
+   "report": null
+  },
+  "OFF": {
+   "preds": "preds_local_qwen3or_k8_dedupOFF.jsonl",
+   "raw": "raw_local_qwen3or_k8_dedupOFF.jsonl",
+   "report": null
+  },
+  "per_instance_reports": false,
+  "note": "",
+  "packs": "packs_k8.json"
+ },
+ {
+  "arm_id": "B2_A3B_K12",
+  "paper_ref": "Table I (budget sweep, Qwen3-Coder); Sec. V-B; Table VIII (QC)",
+  "model": "Qwen3-Coder-30B-A3B via OpenRouter, temp 0.2, max_tokens 6000",
+  "retriever": "fusion",
+  "harness": "single-shot",
+  "K": 12,
+  "ON": {
+   "preds": "preds_local_qwen3or_k12_dedupON.jsonl",
+   "raw": "raw_local_qwen3or_k12_dedupON.jsonl",
+   "report": "local_qwen3or_k12_dedupON.qwen3or_k12_dedupON.json"
+  },
+  "OFF": {
+   "preds": "preds_local_qwen3or_k12_dedupOFF.jsonl",
+   "raw": "raw_local_qwen3or_k12_dedupOFF.jsonl",
+   "report": "local_qwen3or_k12_dedupOFF.qwen3or_k12_dedupOFF.json"
+  },
+  "per_instance_reports": true,
+  "note": "",
+  "packs": "local_packs.json"
+ },
+ {
+  "arm_id": "B2_A3B_K20",
+  "paper_ref": "exploratory sweep point (generated, not graded; not in the paper)",
+  "model": "Qwen3-Coder-30B-A3B via OpenRouter, temp 0.2, max_tokens 6000",
+  "retriever": "fusion",
+  "harness": "single-shot",
+  "K": 20,
+  "ON": {
+   "preds": "preds_local_qwen3or_k20_dedupON.jsonl",
+   "raw": "raw_local_qwen3or_k20_dedupON.jsonl",
+   "report": null
+  },
+  "OFF": {
+   "preds": "preds_local_qwen3or_k20_dedupOFF.jsonl",
+   "raw": "raw_local_qwen3or_k20_dedupOFF.jsonl",
+   "report": null
+  },
+  "per_instance_reports": false,
+  "note": "",
+  "packs": "packs_k20.json"
+ },
+ {
+  "arm_id": "B2_A3B_K40",
+  "paper_ref": "Table I (budget sweep, Qwen3-Coder); Sec. V-B",
+  "model": "Qwen3-Coder-30B-A3B via OpenRouter, temp 0.2, max_tokens 6000",
+  "retriever": "fusion",
+  "harness": "single-shot",
+  "K": 40,
+  "ON": {
+   "preds": "preds_local_qwen3or_k40_dedupON.jsonl",
+   "raw": "raw_local_qwen3or_k40_dedupON.jsonl",
+   "report": "local_qwen3or_k40_dedupON.qwen3or_k40_dedupON.json"
+  },
+  "OFF": {
+   "preds": "preds_local_qwen3or_k40_dedupOFF.jsonl",
+   "raw": "raw_local_qwen3or_k40_dedupOFF.jsonl",
+   "report": "local_qwen3or_k40_dedupOFF.qwen3or_k40_dedupOFF.json"
+  },
+  "per_instance_reports": true,
+  "note": "",
+  "packs": "packs_k40.json"
+ },
+ {
+  "arm_id": "A1_agentic_sonnet5_fusion",
+  "paper_ref": "Table I (agentic); Sec. VI-A (harness and model); Table IX",
+  "model": "claude-sonnet-5 via claude CLI (Read/Edit/Write, no search tools, <=10 turns)",
+  "retriever": "fusion",
+  "harness": "agentic",
+  "K": 12,
+  "ON": {
+   "preds": "preds_g_ssagent500_dedupON.jsonl",
+   "raw": null,
+   "report": "g_ssagent500_dedupON.ssagent500_ON.json"
+  },
+  "OFF": {
+   "preds": "preds_g_ssagent500_dedupOFF.jsonl",
+   "raw": null,
+   "report": "g_ssagent500_dedupOFF.ssagent500_OFF.json"
+  },
+  "per_instance_reports": true,
+  "note": "",
+  "packs_ON": "packfile_ss_dedupON.json",
+  "packs_OFF": "packfile_ss_dedupOFF.json"
+ },
+ {
+  "arm_id": "A2_agentic_sonnet5_dense",
+  "paper_ref": "Table I (agentic); Sec. VI-A (harness and model); Table IX",
+  "model": "claude-sonnet-5 via claude CLI",
+  "retriever": "dense-only",
+  "harness": "agentic",
+  "K": 12,
+  "ON": {
+   "preds": "preds_g_dense500_ON.jsonl",
+   "raw": null,
+   "report": "g_dense500_ON.g_dense500_ON_rg3.json"
+  },
+  "OFF": {
+   "preds": "preds_g_dense500_OFF.jsonl",
+   "raw": null,
+   "report": "g_dense500_OFF.g_dense500_OFF_rg3.json"
+  },
+  "per_instance_reports": true,
+  "note": "",
+  "packs_ON": "kpack_dense500_ON.json",
+  "packs_OFF": "kpack_dense500_OFF.json"
+ },
+ {
+  "arm_id": "A3_agentic_opus_dense_n100",
+  "paper_ref": "Table I (agentic); Table IX",
+  "model": "claude opus-4-8 via claude CLI",
+  "retriever": "dense-only",
+  "harness": "agentic",
+  "K": 12,
+  "ON": {
+   "preds": "preds_g_denseON.jsonl",
+   "raw": null,
+   "report": "g_denseON.g_denseON.json"
+  },
+  "OFF": {
+   "preds": "preds_g_denseOFF.jsonl",
+   "raw": null,
+   "report": "g_denseOFF.g_denseOFF.json"
+  },
+  "per_instance_reports": false,
+  "note": "",
+  "packs_ON": "kpack_denseON.json",
+  "packs_OFF": "kpack_denseOFF.json"
+ },
+ {
+  "arm_id": "A4_bm25_n100",
+  "paper_ref": "Table I (agentic); Table IX",
+  "model": "claude CLI g-plane harness (see README note)",
+  "retriever": "BM25",
+  "harness": "agentic",
+  "K": 12,
+  "ON": {
+   "preds": "preds_g_bm25ON.jsonl",
+   "raw": null,
+   "report": "g_bm25ON.g_bm25ON.json"
+  },
+  "OFF": {
+   "preds": "preds_g_bm25OFF.jsonl",
+   "raw": null,
+   "report": "g_bm25OFF.g_bm25OFF.json"
+  },
+  "per_instance_reports": false,
+  "note": "76/100 vs 74/100",
+  "packs_ON": "kpack_bm25ON.json",
+  "packs_OFF": "kpack_bm25OFF.json"
+ },
+ {
+  "arm_id": "A5_retired_agentic_18pp",
+  "paper_ref": "not in the paper (withdrawn model-confounded result; hypothesis registry entry 8)",
+  "model": "claude CLI; sub-arms ran different models (sonnet vs opus) - retired",
+  "retriever": "fusion",
+  "harness": "agentic",
+  "K": 12,
+  "ON": {
+   "preds": "preds_g_pack.jsonl",
+   "raw": null,
+   "report": "g_pack.g500_pack.json"
+  },
+  "OFF": {
+   "preds": "preds_g_packdepth.jsonl",
+   "raw": null,
+   "report": "g_packdepth.g_packdepth.json"
+  },
+  "per_instance_reports": false,
+  "note": "ON=g_pack (324/499), OFF=g_packdepth (415/499) -> +18.2pp; confounded; reported only as a killed hypothesis"
+ },
+ {
+  "arm_id": "W_g_oracle",
+  "paper_ref": "not in the paper (wider program; hypothesis registry entries 1-3; preregistrations/plans/)",
+  "model": "claude CLI (g-plane harness)",
+  "retriever": "fusion/oracle",
+  "harness": "agentic",
+  "K": null,
+  "ON": {
+   "preds": "preds_g_oracle.jsonl",
+   "raw": null,
+   "report": "g_oracle.g_oracle.json"
+  },
+  "OFF": null,
+  "per_instance_reports": false,
+  "note": "wider-program arm; pairings are defined in the plan documents"
+ },
+ {
+  "arm_id": "W_g_oracletools",
+  "paper_ref": "not in the paper (wider program; hypothesis registry entries 1-3; preregistrations/plans/)",
+  "model": "claude CLI (g-plane harness)",
+  "retriever": "fusion/oracle",
+  "harness": "agentic",
+  "K": null,
+  "ON": {
+   "preds": "preds_g_oracletools.jsonl",
+   "raw": null,
+   "report": "g_oracletools.g_oracletools.json"
+  },
+  "OFF": null,
+  "per_instance_reports": false,
+  "note": "wider-program arm; pairings are defined in the plan documents"
+ },
+ {
+  "arm_id": "W_g_packtools",
+  "paper_ref": "not in the paper (wider program; hypothesis registry entries 1-3; preregistrations/plans/)",
+  "model": "claude CLI (g-plane harness)",
+  "retriever": "fusion/oracle",
+  "harness": "agentic",
+  "K": null,
+  "ON": {
+   "preds": "preds_g_packtools.jsonl",
+   "raw": null,
+   "report": "g_packtools.g_packtools.json"
+  },
+  "OFF": null,
+  "per_instance_reports": false,
+  "note": "wider-program arm; pairings are defined in the plan documents"
+ },
+ {
+  "arm_id": "W_g_toolprimed",
+  "paper_ref": "not in the paper (wider program; hypothesis registry entries 1-3; preregistrations/plans/)",
+  "model": "claude CLI (g-plane harness)",
+  "retriever": "fusion/oracle",
+  "harness": "agentic",
+  "K": null,
+  "ON": {
+   "preds": "preds_g_toolprimed.jsonl",
+   "raw": null,
+   "report": "g_toolprimed.g_toolprimed.json"
+  },
+  "OFF": null,
+  "per_instance_reports": false,
+  "note": "wider-program arm; pairings are defined in the plan documents"
+ },
+ {
+  "arm_id": "W_g_trust",
+  "paper_ref": "not in the paper (wider program; hypothesis registry entries 1-3; preregistrations/plans/)",
+  "model": "claude CLI (g-plane harness)",
+  "retriever": "fusion/oracle",
+  "harness": "agentic",
+  "K": null,
+  "ON": {
+   "preds": "preds_g_trust.jsonl",
+   "raw": null,
+   "report": "g_trust.g500_trust.json"
+  },
+  "OFF": null,
+  "per_instance_reports": false,
+  "note": "wider-program arm; pairings are defined in the plan documents"
+ },
+ {
+  "arm_id": "W_g_weakpack",
+  "paper_ref": "not in the paper (wider program; hypothesis registry entries 1-3; preregistrations/plans/)",
+  "model": "claude CLI (g-plane harness)",
+  "retriever": "fusion/oracle",
+  "harness": "agentic",
+  "K": null,
+  "ON": {
+   "preds": "preds_g_weakpack.jsonl",
+   "raw": null,
+   "report": "g_weakpack.g_weakpack.json"
+  },
+  "OFF": null,
+  "per_instance_reports": false,
+  "note": "wider-program arm; pairings are defined in the plan documents"
+ },
+ {
+  "arm_id": "W_g_kpack2",
+  "paper_ref": "not in the paper (wider program; hypothesis registry entries 1-3; preregistrations/plans/)",
+  "model": "claude CLI (g-plane harness)",
+  "retriever": "fusion/oracle",
+  "harness": "agentic",
+  "K": null,
+  "ON": {
+   "preds": "preds_g_kpack2.jsonl",
+   "raw": null,
+   "report": "g_kpack2.g_kpack2.json"
+  },
+  "OFF": null,
+  "per_instance_reports": false,
+  "note": "wider-program arm; pairings are defined in the plan documents",
+  "packs_ON": "kpack_k2.json",
+  "packs_OFF": null
+ },
+ {
+  "arm_id": "W_g_kpack8",
+  "paper_ref": "not in the paper (wider program; hypothesis registry entries 1-3; preregistrations/plans/)",
+  "model": "claude CLI (g-plane harness)",
+  "retriever": "fusion/oracle",
+  "harness": "agentic",
+  "K": null,
+  "ON": {
+   "preds": "preds_g_kpack8.jsonl",
+   "raw": null,
+   "report": "g_kpack8.g_kpack8.json"
+  },
+  "OFF": null,
+  "per_instance_reports": false,
+  "note": "wider-program arm; pairings are defined in the plan documents",
+  "packs_ON": "kpack_k8.json",
+  "packs_OFF": null
+ }
+]

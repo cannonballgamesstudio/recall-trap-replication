@@ -1,0 +1,33 @@
+{
+    "instance_id": "serverless__serverless-3217",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": false,
+    "resolved": false,
+    "passed_tests": [],
+    "failed_tests": [
+        "CLI #constructor() should set the serverless instance",
+        "CLI #constructor() should set an empty loadedPlugins array",
+        "CLI #constructor() should set a null inputArray when none is provided",
+        "CLI #constructor() should set the inputObject when provided",
+        "CLI #setLoadedPlugins() should set the loadedPlugins array with the given plugin instances",
+        "CLI #displayHelp() should return true when no command is given",
+        "CLI #displayHelp() should return true when the \"help\" parameter is given",
+        "CLI #displayHelp() should return true when the \"--help\" parameter is given",
+        "CLI #displayHelp() should return true when the \"-h\" parameter is given",
+        "CLI #displayHelp() should return true when the \"version\" parameter is given",
+        "CLI #displayHelp() should return true when the \"--version\" parameter is given",
+        "CLI #displayHelp() should return true when the \"-v\" parameter is given",
+        "CLI #displayHelp() should return true when the \"-h\" parameter is given with a command",
+        "CLI #displayHelp() should return true when the \"-h\" parameter is given with a deep command",
+        "CLI #displayHelp() should return false if no \"help\" or \"version\" related command / option is given",
+        "CLI #processInput() should only return the commands when only commands are given",
+        "CLI #processInput() should only return the options when only options are given",
+        "CLI #processInput() should return commands and options when both are given",
+        "CLI #logBreakingChanges() \"before each\" hook for \"should log breaking changes when they are provided\"",
+        "CLI #logBreakingChanges() \"after each\" hook for \"should log breaking changes when they are provided\"",
+        "CLI Integration tests \"before all\" hook"
+    ]
+}

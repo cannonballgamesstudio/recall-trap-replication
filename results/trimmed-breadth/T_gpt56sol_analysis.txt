@@ -1,0 +1,33 @@
+pairwise-attempted on the 473: 473  (T submitted 473, T' submitted 27)
+G = OFF-ON  [473]                  n=473 A=222 B=185 Δ=+7.82pp (paired SE 2.14) b/c=71/34 McNemar p=0.0003907
+                                    CR2 SE 2.49pp, CR2 95%CI [+2.34,+13.31]; wild-cluster(Webb,G=12) p=0.1078 CI [-2.28,+15.37]
+Δdepth = OFF-T  [473]              n=473 A=222 B=192 Δ=+6.34pp (paired SE 2.05) b/c=63/33 McNemar p=0.002879
+                                    CR2 SE 2.52pp, CR2 95%CI [+0.79,+11.90]; wild-cluster(Webb,G=12) p=0.1844 CI [-3.86,+12.84]
+Δtrim = T-ON  [473]                n=473 A=192 B=185 Δ=+1.48pp (paired SE 1.95) b/c=46/39 McNemar p=0.5154
+                                    CR2 SE 1.12pp, CR2 95%CI [-0.99,+3.95]; wild-cluster(Webb,G=12) p=0.1573 CI [-1.17,+5.38]
+identity check: Δdepth+Δtrim = +7.822 vs G +7.822
+shares of G: depth 81.1%  trim 18.9%
+§4 VERDICT: depth carries the effect
+Reference OFF-ON [full 500]        n=500 A=234 B=196 Δ=+7.60pp (paired SE 2.05) b/c=73/35 McNemar p=0.0003258
+                                    CR2 SE 2.42pp, CR2 95%CI [+2.27,+12.93]; wild-cluster(Webb,G=12) p=0.0940 CI [-2.15,+15.50]
+--- pooled secondary (T on 473 + T' on 27; NON-IDENTICAL construction on 27; gold-file violator = matplotlib__matplotlib-23314)
+pooled OFF-T*                      n=500 A=234 B=201 Δ=+6.60pp (paired SE 1.97) b/c=66/33 McNemar p=0.001185
+                                    CR2 SE 2.55pp, CR2 95%CI [+0.99,+12.21]; wild-cluster(Webb,G=12) p=0.1755 CI [-3.55,+13.85]
+pooled T*-ON                       n=500 A=201 B=196 Δ=+1.00pp (paired SE 1.89) b/c=47/42 McNemar p=0.6718
+                                    CR2 SE 1.28pp, CR2 95%CI [-1.82,+3.82]; wild-cluster(Webb,G=12) p=0.3916 CI [-1.55,+6.05]
+T' on 27: resolved 9/27; ON 11, OFF 12; matplotlib-23314 T'=False
+--- worst-case bounds on the 27 (n=500)
+[T:=ON on 27] OFF-T                n=500 A=234 B=203 Δ=+6.20pp (paired SE 1.97) b/c=65/34 McNemar p=0.002395
+[T:=ON on 27] T-ON                 n=500 A=203 B=196 Δ=+1.40pp (paired SE 1.84) b/c=46/39 McNemar p=0.5154
+[T:=OFF on 27] OFF-T               n=500 A=234 B=204 Δ=+6.00pp (paired SE 1.94) b/c=63/33 McNemar p=0.002879
+[T:=OFF on 27] T-ON                n=500 A=204 B=196 Δ=+1.60pp (paired SE 1.88) b/c=48/40 McNemar p=0.4557
+--- per-arm rates on the 473 (ref arms restricted) and full
+  ON  [473] n=473 empty=66 (14.0%) fin=length=NA(no raw log) parsed=NA applied>0=NA nonempty-patch=407 resolved=185
+  OFF [473] n=473 empty=63 (13.3%) fin=length=NA(no raw log) parsed=NA applied>0=NA nonempty-patch=410 resolved=222
+  T   [473] n=473 empty=78 (16.5%) fin=length=0 (0.0%) parsed>=1block=472 applied>0=397 nonempty-patch=395 resolved=192
+  T'  [27]  n=27 empty=5 (18.5%) fin=length=0 (0.0%) parsed>=1block=27 applied>0=23 nonempty-patch=22 resolved=9
+  ON  [500] n=500 empty=70 (14.0%) fin=length=NA(no raw log) parsed=NA applied>0=NA nonempty-patch=430 resolved=196
+  OFF [500] n=500 empty=66 (13.2%) fin=length=NA(no raw log) parsed=NA applied>0=NA nonempty-patch=434 resolved=234
+both-non-empty OFF-T [473]         n=371 A=199 B=183 Δ=+4.31pp (paired SE 2.15) b/c=40/24 McNemar p=0.05994
+both-non-empty T-ON [473]          n=373 A=180 B=165 Δ=+4.02pp (paired SE 1.94) b/c=34/19 McNemar p=0.05344
+both-non-empty OFF-ON [473]        n=377 A=202 B=175 Δ=+7.16pp (paired SE 2.27) b/c=51/24 McNemar p=0.002444

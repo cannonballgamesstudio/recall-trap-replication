@@ -1,0 +1,7 @@
+12:11:06 llama-server pid 73028
+12:11:21 server healthy
+12:11:21 START P3
+12:13:33 DONE P3 rc=0
+12:13:33 START P2
+12:47:40 DONE P2 rc=0
+12:47:40 llama-server stopped; PROBES_DONE

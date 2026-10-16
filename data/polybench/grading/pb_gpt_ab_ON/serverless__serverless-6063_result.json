@@ -1,0 +1,28 @@
+{
+    "instance_id": "serverless__serverless-6063",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "#compileRestApi() should ignore REST API resource creation if there is predefined restApi config",
+        "#compileRestApi() throw error if endpointType property is not a string",
+        "#compileRestApi() should compile if endpointType property is REGIONAL",
+        "#compileRestApi() should compile if endpointType property is PRIVATE",
+        "#compileRestApi() throw error if endpointType property is not EDGE or REGIONAL",
+        "#compileRestApi() should compile correctly if apiKeySourceType property is HEADER",
+        "#compileRestApi() should compile correctly if apiKeySourceType property is AUTHORIZER",
+        "#compileRestApi() should compile correctly if minimumCompressionSize is an integer"
+    ],
+    "failed_tests": [
+        "#compileRestApi() should create a REST API resource",
+        "#compileRestApi() should create a REST API resource with resource policy",
+        "#compileRestApi() should set binary media types if defined at the apiGateway provider config level",
+        "#compileRestApi() throw error if apiKeySourceType is not HEADER or AUTHORIZER",
+        "#compileRestApi() should throw error if minimumCompressionSize is not an integer",
+        "#compileRestApi() should throw error if minimumCompressionSize is less than 0",
+        "#compileRestApi() should throw error if minimumCompressionSize is greater than 10485760"
+    ]
+}

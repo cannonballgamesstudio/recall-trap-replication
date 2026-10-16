@@ -1,0 +1,922 @@
+[
+ {
+  "instance_id": "astropy__astropy-12907",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "astropy__astropy-13033",
+  "class": "C_fully_covered",
+  "resolved": false,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 1,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "astropy__astropy-13236",
+  "class": "B_under_resolved",
+  "resolved": false,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "astropy__astropy-13398",
+  "class": "B_under_resolved",
+  "resolved": false,
+  "n_gold": 3,
+  "n_present": 2,
+  "n_covered": 2,
+  "distractor_files": 10,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "astropy__astropy-13579",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "astropy__astropy-13977",
+  "class": "B_under_resolved",
+  "resolved": false,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "astropy__astropy-14096",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "astropy__astropy-14182",
+  "class": "C_fully_covered",
+  "resolved": false,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 1,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "astropy__astropy-14309",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "astropy__astropy-14365",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "astropy__astropy-14369",
+  "class": "B_under_resolved",
+  "resolved": false,
+  "n_gold": 2,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "astropy__astropy-14508",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 9,
+  "pack_files": 10
+ },
+ {
+  "instance_id": "astropy__astropy-14539",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "astropy__astropy-14598",
+  "class": "B_under_resolved",
+  "resolved": false,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 8,
+  "pack_files": 9
+ },
+ {
+  "instance_id": "astropy__astropy-14995",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "astropy__astropy-7166",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "astropy__astropy-7336",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "astropy__astropy-7606",
+  "class": "B_under_resolved",
+  "resolved": false,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "astropy__astropy-7671",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "astropy__astropy-8707",
+  "class": "B_under_resolved",
+  "resolved": false,
+  "n_gold": 2,
+  "n_present": 2,
+  "n_covered": 1,
+  "distractor_files": 7,
+  "pack_files": 9
+ },
+ {
+  "instance_id": "astropy__astropy-8872",
+  "class": "B_under_resolved",
+  "resolved": false,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-10097",
+  "class": "B_under_resolved",
+  "resolved": false,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-10880",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-10914",
+  "class": "A_gold_absent",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 0,
+  "n_covered": 0,
+  "distractor_files": 12,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-10973",
+  "class": "C_fully_covered",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 1,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-10999",
+  "class": "B_under_resolved",
+  "resolved": false,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11066",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11087",
+  "class": "B_under_resolved",
+  "resolved": false,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11095",
+  "class": "C_fully_covered",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 1,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11099",
+  "class": "C_fully_covered",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 1,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11119",
+  "class": "C_fully_covered",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 1,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11133",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11138",
+  "class": "B_under_resolved",
+  "resolved": false,
+  "n_gold": 4,
+  "n_present": 1,
+  "n_covered": 1,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11141",
+  "class": "B_under_resolved",
+  "resolved": false,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11149",
+  "class": "C_fully_covered",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 1,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11163",
+  "class": "C_fully_covered",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 1,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11179",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11206",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11211",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11239",
+  "class": "C_fully_covered",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 1,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11265",
+  "class": "B_under_resolved",
+  "resolved": false,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11276",
+  "class": "C_fully_covered",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 1,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11292",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11299",
+  "class": "A_gold_absent",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 0,
+  "n_covered": 0,
+  "distractor_files": 12,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11333",
+  "class": "B_under_resolved",
+  "resolved": false,
+  "n_gold": 2,
+  "n_present": 2,
+  "n_covered": 1,
+  "distractor_files": 10,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11400",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 3,
+  "n_present": 3,
+  "n_covered": 2,
+  "distractor_files": 9,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11433",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11451",
+  "class": "C_fully_covered",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 1,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11477",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11490",
+  "class": "A_gold_absent",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 0,
+  "n_covered": 0,
+  "distractor_files": 12,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11532",
+  "class": "B_under_resolved",
+  "resolved": false,
+  "n_gold": 5,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 10,
+  "pack_files": 11
+ },
+ {
+  "instance_id": "django__django-11551",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11555",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11603",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11728",
+  "class": "C_fully_covered",
+  "resolved": false,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 1,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11740",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11749",
+  "class": "A_gold_absent",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 0,
+  "n_covered": 0,
+  "distractor_files": 12,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11790",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11815",
+  "class": "C_fully_covered",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 1,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11820",
+  "class": "B_under_resolved",
+  "resolved": false,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11848",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11880",
+  "class": "C_fully_covered",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 1,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11885",
+  "class": "B_under_resolved",
+  "resolved": false,
+  "n_gold": 2,
+  "n_present": 1,
+  "n_covered": 1,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11951",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11964",
+  "class": "C_fully_covered",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 1,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-11999",
+  "class": "A_gold_absent",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 0,
+  "n_covered": 0,
+  "distractor_files": 12,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-12039",
+  "class": "C_fully_covered",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 1,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-12050",
+  "class": "C_fully_covered",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 1,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-12125",
+  "class": "A_gold_absent",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 0,
+  "n_covered": 0,
+  "distractor_files": 12,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-12143",
+  "class": "C_fully_covered",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 1,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-12155",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 2,
+  "n_present": 1,
+  "n_covered": 1,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-12193",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-12262",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-12276",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-12304",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-12308",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-12325",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 2,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-12406",
+  "class": "A_gold_absent",
+  "resolved": false,
+  "n_gold": 2,
+  "n_present": 0,
+  "n_covered": 0,
+  "distractor_files": 12,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-12419",
+  "class": "A_gold_absent",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 0,
+  "n_covered": 0,
+  "distractor_files": 12,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-12708",
+  "class": "C_fully_covered",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 1,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-12713",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-12741",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 2,
+  "n_present": 2,
+  "n_covered": 1,
+  "distractor_files": 10,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-12754",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-12774",
+  "class": "C_fully_covered",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 1,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-12858",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-12965",
+  "class": "C_fully_covered",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 1,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-13023",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-13028",
+  "class": "C_fully_covered",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 1,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-13033",
+  "class": "A_gold_absent",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 0,
+  "n_covered": 0,
+  "distractor_files": 12,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-13089",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-13109",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 1,
+  "n_present": 1,
+  "n_covered": 0,
+  "distractor_files": 11,
+  "pack_files": 12
+ },
+ {
+  "instance_id": "django__django-13121",
+  "class": "B_under_resolved",
+  "resolved": true,
+  "n_gold": 4,
+  "n_present": 2,
+  "n_covered": 1,
+  "distractor_files": 10,
+  "pack_files": 12
+ }
+]

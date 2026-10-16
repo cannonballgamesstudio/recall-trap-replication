@@ -1,0 +1,18 @@
+{
+    "instance_id": "prettier__prettier-8675",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": false,
+    "resolved": false,
+    "passed_tests": [
+        "/testbed/tests/less/no-semicolon/jsfmt.spec.js->url.less format"
+    ],
+    "failed_tests": [
+        "/testbed/tests/css/no-semicolon/jsfmt.spec.js->url.css format",
+        "/testbed/tests/scss/no-semicolon/jsfmt.spec.js->include-2.scss format",
+        "/testbed/tests/scss/no-semicolon/jsfmt.spec.js->include.scss format",
+        "/testbed/tests/scss/no-semicolon/jsfmt.spec.js->url.scss format"
+    ]
+}

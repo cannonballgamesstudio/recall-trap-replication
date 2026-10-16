@@ -1,0 +1,30 @@
+{
+    "instance_id": "mui__material-ui-17005",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "packages/material-ui/src/Grid/Grid.test.js-><Grid /> Material-UI component API applies the className to the root component",
+        "packages/material-ui/src/Grid/Grid.test.js-><Grid /> Material-UI component API does spread props to the root component",
+        "packages/material-ui/src/Grid/Grid.test.js-><Grid /> Material-UI component API applies to root class to the root component if it has this class",
+        "packages/material-ui/src/Grid/Grid.test.js-><Grid /> Material-UI component API should render without errors in ReactTestRenderer",
+        "packages/material-ui/src/Grid/Grid.test.js-><Grid /> Material-UI component API prop: component can render another root component with the `component` prop",
+        "packages/material-ui/src/Grid/Grid.test.js-><Grid /> Material-UI component API ref attaches the ref",
+        "packages/material-ui/src/Grid/Grid.test.js-><Grid /> prop: container should apply the container class",
+        "packages/material-ui/src/Grid/Grid.test.js-><Grid /> prop: item should apply the item class",
+        "packages/material-ui/src/Grid/Grid.test.js-><Grid /> prop: xs should apply the flex-grow class",
+        "packages/material-ui/src/Grid/Grid.test.js-><Grid /> prop: xs should apply the flex size class",
+        "packages/material-ui/src/Grid/Grid.test.js-><Grid /> prop: xs should apply the flex auto class",
+        "packages/material-ui/src/Grid/Grid.test.js-><Grid /> prop: spacing should have a spacing",
+        "packages/material-ui/src/Grid/Grid.test.js-><Grid /> prop: alignItems should apply the align-item class",
+        "packages/material-ui/src/Grid/Grid.test.js-><Grid /> prop: alignContent should apply the align-content class",
+        "packages/material-ui/src/Grid/Grid.test.js-><Grid /> prop: justify should apply the justify class",
+        "packages/material-ui/src/Grid/Grid.test.js-><Grid /> prop: other should spread the other props to the root element"
+    ],
+    "failed_tests": [
+        "packages/material-ui/src/Grid/Grid.test.js-><Grid /> gutter should generate the right values"
+    ]
+}

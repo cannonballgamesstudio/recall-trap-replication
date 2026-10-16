@@ -1,0 +1,8599 @@
+{
+ "astropy__astropy-12907": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "astropy/modeling/separable.py",
+   "astropy/modeling/tests/test_separable.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "astropy/astropy"
+ },
+ "astropy__astropy-13033": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "astropy/table/table.py",
+   "astropy/timeseries/tests/test_timeseries.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.7666666666666667,
+  "repo": "astropy/astropy"
+ },
+ "astropy__astropy-13236": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "astropy/table/table.py",
+   "astropy/table/tests/test_table.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "astropy/astropy"
+ },
+ "astropy__astropy-13398": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "astropy/coordinates/builtin_frames/itrs_observed_transforms.py",
+   "astropy/coordinates/builtin_frames/tests/test_itrs_observed_transformations.py",
+   "astropy/coordinates/builtin_frames/__init__.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.06976744186046512,
+  "repo": "astropy/astropy"
+ },
+ "astropy__astropy-13453": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "astropy/io/ascii/html.py",
+   "astropy/io/ascii/tests/test_html.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.030303030303030304,
+  "repo": "astropy/astropy"
+ },
+ "astropy__astropy-13579": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "astropy/wcs/wcsapi/wrappers/sliced_wcs.py",
+   "astropy/wcs/wcsapi/wrappers/tests/test_sliced_wcs.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0196078431372549,
+  "repo": "astropy/astropy"
+ },
+ "astropy__astropy-13977": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.40384615384615385,
+  "repo": "astropy/astropy"
+ },
+ "astropy__astropy-14096": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "astropy/astropy"
+ },
+ "astropy__astropy-14182": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "astropy/io/ascii/rst.py",
+   "astropy/io/ascii/tests/test_rst.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.5,
+  "repo": "astropy/astropy"
+ },
+ "astropy__astropy-14309": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.6,
+  "repo": "astropy/astropy"
+ },
+ "astropy__astropy-14365": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "astropy/io/ascii/qdp.py",
+   "astropy/io/ascii/tests/test_qdp.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.45652173913043476,
+  "repo": "astropy/astropy"
+ },
+ "astropy__astropy-14369": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "astropy/units/format/cds.py",
+   "astropy/units/tests/test_format.py",
+   "astropy/io/ascii/tests/test_cds.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.2926829268292683,
+  "repo": "astropy/astropy"
+ },
+ "astropy__astropy-14508": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.6458333333333334,
+  "repo": "astropy/astropy"
+ },
+ "astropy__astropy-14539": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "astropy/io/fits/diff.py",
+   "astropy/io/fits/tests/test_diff.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "astropy/astropy"
+ },
+ "astropy__astropy-14598": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "astropy/io/fits/card.py",
+   "astropy/io/fits/tests/test_card.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.07142857142857142,
+  "repo": "astropy/astropy"
+ },
+ "astropy__astropy-14995": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "astropy/nddata/mixins/ndarithmetic.py",
+   "astropy/nddata/mixins/tests/test_ndarithmetic.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.8571428571428571,
+  "repo": "astropy/astropy"
+ },
+ "astropy__astropy-7166": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "astropy/utils/misc.py",
+   "astropy/utils/tests/test_misc.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.16666666666666666,
+  "repo": "astropy/astropy"
+ },
+ "astropy__astropy-7336": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.17391304347826086,
+  "repo": "astropy/astropy"
+ },
+ "astropy__astropy-7606": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "astropy/astropy"
+ },
+ "astropy__astropy-7671": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "astropy/astropy"
+ },
+ "astropy__astropy-8707": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "astropy/io/fits/header.py",
+   "astropy/io/fits/card.py",
+   "astropy/io/fits/tests/test_header.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.3611111111111111,
+  "repo": "astropy/astropy"
+ },
+ "astropy__astropy-8872": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "astropy/units/quantity.py",
+   "astropy/units/tests/test_quantity.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "astropy/astropy"
+ },
+ "django__django-10097": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/core/validators.py",
+   "tests/validators/invalid_urls.txt",
+   "tests/validators/valid_urls.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "django/django"
+ },
+ "django__django-10554": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "django/django"
+ },
+ "django__django-10880": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/aggregates.py",
+   "tests/aggregation/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "django/django"
+ },
+ "django__django-10914": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/conf/global_settings.py",
+   "docs/ref/settings.txt",
+   "tests/file_storage/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.9577464788732394,
+  "repo": "django/django"
+ },
+ "django__django-10973": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/backends/postgresql/client.py",
+   "tests/dbshell/test_postgresql.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.2,
+  "repo": "django/django"
+ },
+ "django__django-10999": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/utils/dateparse.py",
+   "tests/utils_tests/test_dateparse.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.6782608695652174,
+  "repo": "django/django"
+ },
+ "django__django-11066": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.85,
+  "repo": "django/django"
+ },
+ "django__django-11087": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-11095": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/contrib/admin/options.py",
+   "tests/admin_inlines/tests.py",
+   "docs/ref/contrib/admin/index.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.36538461538461536,
+  "repo": "django/django"
+ },
+ "django__django-11099": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/contrib/auth/validators.py",
+   "tests/auth_tests/test_validators.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-11119": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/template/engine.py",
+   "tests/template_tests/test_engine.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-11133": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/http/response.py",
+   "tests/httpwrappers/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "django/django"
+ },
+ "django__django-11138": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 6,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.3684210526315789,
+  "repo": "django/django"
+ },
+ "django__django-11141": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/migrations/loader.py",
+   "tests/migrations/test_loader.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.4691358024691358,
+  "repo": "django/django"
+ },
+ "django__django-11149": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/contrib/admin/options.py",
+   "tests/admin_inlines/tests.py",
+   "tests/admin_inlines/admin.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.7738095238095238,
+  "repo": "django/django"
+ },
+ "django__django-11163": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/forms/models.py",
+   "tests/model_forms/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "django/django"
+ },
+ "django__django-11179": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/deletion.py",
+   "tests/delete/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.803030303030303,
+  "repo": "django/django"
+ },
+ "django__django-11206": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/utils/numberformat.py",
+   "tests/utils_tests/test_numberformat.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-11211": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "django/contrib/contenttypes/fields.py",
+   "tests/generic_relations/tests.py",
+   "tests/generic_relations/models.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.9555555555555556,
+  "repo": "django/django"
+ },
+ "django__django-11239": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/backends/postgresql/client.py",
+   "tests/dbshell/test_postgresql.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.8723404255319149,
+  "repo": "django/django"
+ },
+ "django__django-11265": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.5,
+  "repo": "django/django"
+ },
+ "django__django-11276": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/utils/html.py",
+   "tests/utils_tests/test_html.py",
+   "docs/releases/2.2.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.5135135135135135,
+  "repo": "django/django"
+ },
+ "django__django-11292": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/core/management/base.py",
+   "tests/user_commands/tests.py",
+   "docs/ref/django-admin.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.8297872340425532,
+  "repo": "django/django"
+ },
+ "django__django-11299": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "django/db/models/constraints.py",
+   "tests/constraints/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.8888888888888888,
+  "repo": "django/django"
+ },
+ "django__django-11333": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/urls/resolvers.py",
+   "tests/urlpatterns/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.9245283018867925,
+  "repo": "django/django"
+ },
+ "django__django-11400": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.12698412698412698,
+  "repo": "django/django"
+ },
+ "django__django-11433": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/forms/models.py",
+   "tests/model_forms/tests.py",
+   "tests/model_forms/models.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-11451": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/contrib/auth/backends.py",
+   "tests/auth_tests/test_auth_backends.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-11477": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "django/urls/base.py",
+   "tests/i18n/tests.py",
+   "tests/i18n/urls.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-11490": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.6481481481481481,
+  "repo": "django/django"
+ },
+ "django__django-11532": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.5294117647058824,
+  "repo": "django/django"
+ },
+ "django__django-11551": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/contrib/admin/checks.py",
+   "tests/admin_checks/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-11555": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/sql/compiler.py",
+   "tests/ordering/models.py",
+   "tests/ordering/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.22972972972972974,
+  "repo": "django/django"
+ },
+ "django__django-11603": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/aggregates.py",
+   "tests/aggregation/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "django/django"
+ },
+ "django__django-11728": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/contrib/admindocs/utils.py",
+   "tests/admin_docs/test_utils.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.19047619047619047,
+  "repo": "django/django"
+ },
+ "django__django-11734": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/sql/query.py",
+   "tests/queries/test_qs_combinators.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.3974358974358974,
+  "repo": "django/django"
+ },
+ "django__django-11740": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/migrations/autodetector.py",
+   "tests/migrations/test_autodetector.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.684931506849315,
+  "repo": "django/django"
+ },
+ "django__django-11749": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/core/management/__init__.py",
+   "tests/management/tests.py",
+   "tests/management/management/commands/mutually_exclusive_required.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.20238095238095238,
+  "repo": "django/django"
+ },
+ "django__django-11790": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/contrib/auth/forms.py",
+   "tests/auth_tests/test_forms.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.42857142857142855,
+  "repo": "django/django"
+ },
+ "django__django-11815": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/migrations/serializer.py",
+   "tests/migrations/test_writer.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.012345679012345678,
+  "repo": "django/django"
+ },
+ "django__django-11820": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/base.py",
+   "tests/invalid_models_tests/test_models.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.2878787878787879,
+  "repo": "django/django"
+ },
+ "django__django-11848": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/utils/http.py",
+   "tests/utils_tests/test_http.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-11880": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.18867924528301888,
+  "repo": "django/django"
+ },
+ "django__django-11885": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/deletion.py",
+   "tests/delete/tests.py",
+   "tests/delete/models.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.23636363636363636,
+  "repo": "django/django"
+ },
+ "django__django-11951": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.7741935483870968,
+  "repo": "django/django"
+ },
+ "django__django-11964": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/enums.py",
+   "tests/model_enums/tests.py",
+   "docs/ref/models/fields.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-11999": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/fields/__init__.py",
+   "tests/model_fields/models.py",
+   "tests/model_fields/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.23880597014925373,
+  "repo": "django/django"
+ },
+ "django__django-12039": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.44680851063829785,
+  "repo": "django/django"
+ },
+ "django__django-12050": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/sql/query.py",
+   "tests/queries/test_query.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-12125": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/migrations/serializer.py",
+   "django/db/models/fields/__init__.py",
+   "tests/migrations/test_writer.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.3333333333333333,
+  "repo": "django/django"
+ },
+ "django__django-12143": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.8045977011494253,
+  "repo": "django/django"
+ },
+ "django__django-12155": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/contrib/admindocs/utils.py",
+   "tests/admin_docs/test_utils.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.39285714285714285,
+  "repo": "django/django"
+ },
+ "django__django-12193": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.6964285714285714,
+  "repo": "django/django"
+ },
+ "django__django-12209": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/base.py",
+   "tests/basic/tests.py",
+   "tests/basic/models.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.18518518518518517,
+  "repo": "django/django"
+ },
+ "django__django-12262": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/template/library.py",
+   "tests/template_tests/test_custom.py",
+   "tests/template_tests/templatetags/custom.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.6101694915254238,
+  "repo": "django/django"
+ },
+ "django__django-12273": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/base.py",
+   "tests/model_inheritance_regress/tests.py",
+   "tests/model_inheritance_regress/models.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.5813953488372093,
+  "repo": "django/django"
+ },
+ "django__django-12276": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.22580645161290322,
+  "repo": "django/django"
+ },
+ "django__django-12304": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/enums.py",
+   "tests/model_enums/tests.py",
+   "docs/releases/3.0.3.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-12308": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/contrib/admin/utils.py",
+   "tests/admin_utils/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.1875,
+  "repo": "django/django"
+ },
+ "django__django-12325": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/base.py",
+   "tests/model_inheritance/models.py",
+   "tests/model_inheritance/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "django/django"
+ },
+ "django__django-12406": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/fields/related.py",
+   "tests/model_forms/tests.py",
+   "tests/model_forms/models.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "django/django"
+ },
+ "django__django-12419": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/conf/global_settings.py",
+   "docs/ref/settings.txt",
+   "docs/releases/3.1.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.4,
+  "repo": "django/django"
+ },
+ "django__django-12663": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-12708": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.17204301075268819,
+  "repo": "django/django"
+ },
+ "django__django-12713": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/contrib/admin/options.py",
+   "tests/modeladmin/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 3,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.4895833333333333,
+  "repo": "django/django"
+ },
+ "django__django-12741": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/backends/base/operations.py",
+   "django/core/management/commands/flush.py",
+   "tests/backends/base/test_operations.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.8804347826086957,
+  "repo": "django/django"
+ },
+ "django__django-12754": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/migrations/autodetector.py",
+   "tests/migrations/test_autodetector.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-12774": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.04597701149425287,
+  "repo": "django/django"
+ },
+ "django__django-12858": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/base.py",
+   "tests/invalid_models_tests/test_models.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.5263157894736842,
+  "repo": "django/django"
+ },
+ "django__django-12965": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/sql/compiler.py",
+   "tests/delete/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.6666666666666666,
+  "repo": "django/django"
+ },
+ "django__django-13012": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/expressions.py",
+   "tests/expressions/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.6274509803921569,
+  "repo": "django/django"
+ },
+ "django__django-13023": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/fields/__init__.py",
+   "tests/model_fields/test_decimalfield.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.6904761904761905,
+  "repo": "django/django"
+ },
+ "django__django-13028": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.8909090909090909,
+  "repo": "django/django"
+ },
+ "django__django-13033": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/sql/compiler.py",
+   "tests/ordering/tests.py",
+   "tests/ordering/models.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.6966292134831461,
+  "repo": "django/django"
+ },
+ "django__django-13089": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.7096774193548387,
+  "repo": "django/django"
+ },
+ "django__django-13109": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.7538461538461538,
+  "repo": "django/django"
+ },
+ "django__django-13112": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "django/db/models/utils.py",
+   "tests/model_utils/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.8918918918918919,
+  "repo": "django/django"
+ },
+ "django__django-13121": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.6595744680851063,
+  "repo": "django/django"
+ },
+ "django__django-13128": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/expressions.py",
+   "tests/expressions/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-13158": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/sql/query.py",
+   "tests/queries/test_qs_combinators.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-13195": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/http/response.py",
+   "django/contrib/messages/storage/cookie.py",
+   "tests/httpwrappers/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.34328358208955223,
+  "repo": "django/django"
+ },
+ "django__django-13212": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/core/validators.py",
+   "tests/validators/tests.py",
+   "docs/ref/validators.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 10,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.9206349206349206,
+  "repo": "django/django"
+ },
+ "django__django-13279": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/contrib/sessions/backends/base.py",
+   "tests/sessions_tests/tests.py",
+   "docs/releases/3.1.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.5714285714285714,
+  "repo": "django/django"
+ },
+ "django__django-13297": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/views/generic/base.py",
+   "tests/generic_views/test_base.py",
+   "tests/generic_views/views.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.5151515151515151,
+  "repo": "django/django"
+ },
+ "django__django-13315": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/forms/models.py",
+   "tests/model_forms/tests.py",
+   "tests/model_forms/models.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.15384615384615385,
+  "repo": "django/django"
+ },
+ "django__django-13343": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/fields/files.py",
+   "tests/model_fields/test_filefield.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.8305084745762712,
+  "repo": "django/django"
+ },
+ "django__django-13344": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "django/utils/deprecation.py",
+   "tests/deprecation/test_middleware_mixin.py",
+   "docs/releases/3.1.1.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.5106382978723404,
+  "repo": "django/django"
+ },
+ "django__django-13346": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/fields/json.py",
+   "tests/model_fields/test_jsonfield.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.039603960396039604,
+  "repo": "django/django"
+ },
+ "django__django-13363": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.6829268292682927,
+  "repo": "django/django"
+ },
+ "django__django-13401": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/fields/__init__.py",
+   "tests/model_fields/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.5,
+  "repo": "django/django"
+ },
+ "django__django-13406": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.6458333333333334,
+  "repo": "django/django"
+ },
+ "django__django-13410": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-13417": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/query.py",
+   "tests/queries/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.25,
+  "repo": "django/django"
+ },
+ "django__django-13449": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/expressions.py",
+   "tests/expressions_window/tests.py",
+   "docs/releases/3.0.8.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.7538461538461538,
+  "repo": "django/django"
+ },
+ "django__django-13512": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "django/contrib/postgres/forms/jsonb.py",
+   "tests/postgres_tests/test_json.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.21153846153846154,
+  "repo": "django/django"
+ },
+ "django__django-13513": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0967741935483871,
+  "repo": "django/django"
+ },
+ "django__django-13516": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/core/management/base.py",
+   "tests/management/test_base.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.2876712328767123,
+  "repo": "django/django"
+ },
+ "django__django-13551": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/contrib/auth/tokens.py",
+   "tests/auth_tests/test_tokens.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.8987341772151899,
+  "repo": "django/django"
+ },
+ "django__django-13568": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/contrib/auth/checks.py",
+   "tests/auth_tests/test_checks.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.9078947368421053,
+  "repo": "django/django"
+ },
+ "django__django-13569": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/functions/math.py",
+   "tests/aggregation/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.391304347826087,
+  "repo": "django/django"
+ },
+ "django__django-13590": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/sql/query.py",
+   "tests/queries/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "django/django"
+ },
+ "django__django-13658": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/core/management/__init__.py",
+   "tests/admin_scripts/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.7954545454545454,
+  "repo": "django/django"
+ },
+ "django__django-13670": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/utils/dateformat.py",
+   "tests/utils_tests/test_dateformat.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-13741": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/contrib/auth/forms.py",
+   "tests/auth_tests/test_forms.py",
+   "docs/topics/auth/customizing.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.19148936170212766,
+  "repo": "django/django"
+ },
+ "django__django-13786": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.525,
+  "repo": "django/django"
+ },
+ "django__django-13794": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "django/template/defaultfilters.py",
+   "tests/template_tests/filter_tests/test_add.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.9056603773584906,
+  "repo": "django/django"
+ },
+ "django__django-13807": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.3055555555555556,
+  "repo": "django/django"
+ },
+ "django__django-13809": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/core/management/commands/runserver.py",
+   "tests/admin_scripts/tests.py",
+   "docs/ref/django-admin.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-13810": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.40425531914893614,
+  "repo": "django/django"
+ },
+ "django__django-13820": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/migrations/loader.py",
+   "tests/migrations/test_loader.py",
+   "docs/releases/3.2.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.5802469135802469,
+  "repo": "django/django"
+ },
+ "django__django-13821": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/backends/sqlite3/base.py",
+   "docs/ref/databases.txt",
+   "docs/releases/3.1.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.5757575757575758,
+  "repo": "django/django"
+ },
+ "django__django-13837": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/utils/autoreload.py",
+   "tests/utils_tests/test_autoreload.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-13925": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/base.py",
+   "tests/model_checks/test_model_checks.py",
+   "docs/releases/3.2.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.875,
+  "repo": "django/django"
+ },
+ "django__django-13933": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/forms/models.py",
+   "tests/model_forms/test_modelchoicefield.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.9166666666666666,
+  "repo": "django/django"
+ },
+ "django__django-13964": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/base.py",
+   "tests/custom_pk/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.5853658536585366,
+  "repo": "django/django"
+ },
+ "django__django-14007": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/sql/compiler.py",
+   "tests/custom_pk/models.py",
+   "tests/custom_pk/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.7746478873239436,
+  "repo": "django/django"
+ },
+ "django__django-14011": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/core/servers/basehttp.py",
+   "tests/servers/test_basehttp.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.375,
+  "repo": "django/django"
+ },
+ "django__django-14017": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-14034": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "django/forms/fields.py",
+   "tests/forms_tests/field_tests/test_multivaluefield.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.6730769230769231,
+  "repo": "django/django"
+ },
+ "django__django-14053": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/contrib/staticfiles/storage.py",
+   "tests/staticfiles_tests/test_storage.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-14089": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/utils/datastructures.py",
+   "tests/utils_tests/test_datastructures.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.8055555555555556,
+  "repo": "django/django"
+ },
+ "django__django-14122": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/sql/compiler.py",
+   "tests/aggregation/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-14140": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/query_utils.py",
+   "tests/queries/test_q.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.8765432098765432,
+  "repo": "django/django"
+ },
+ "django__django-14155": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/urls/resolvers.py",
+   "tests/urlpatterns/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-14170": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/lookups.py",
+   "django/db/backends/base/operations.py",
+   "tests/db_functions/datetime/test_extract_trunc.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 3,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.8679245283018868,
+  "repo": "django/django"
+ },
+ "django__django-14238": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.7272727272727273,
+  "repo": "django/django"
+ },
+ "django__django-14311": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/utils/autoreload.py",
+   "tests/utils_tests/test_autoreload.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.18627450980392157,
+  "repo": "django/django"
+ },
+ "django__django-14315": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/backends/postgresql/client.py",
+   "tests/dbshell/test_postgresql.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.7307692307692307,
+  "repo": "django/django"
+ },
+ "django__django-14349": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/core/validators.py",
+   "tests/validators/tests.py",
+   "docs/releases/3.2.4.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.8125,
+  "repo": "django/django"
+ },
+ "django__django-14351": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "django/db/models/sql/query.py",
+   "django/db/models/fields/related_lookups.py",
+   "tests/queries/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.49295774647887325,
+  "repo": "django/django"
+ },
+ "django__django-14373": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/utils/dateformat.py",
+   "tests/utils_tests/test_dateformat.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.7843137254901961,
+  "repo": "django/django"
+ },
+ "django__django-14376": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "django/django"
+ },
+ "django__django-14404": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/contrib/admin/sites.py",
+   "tests/admin_views/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.6904761904761905,
+  "repo": "django/django"
+ },
+ "django__django-14434": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/backends/base/schema.py",
+   "tests/schema/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.423728813559322,
+  "repo": "django/django"
+ },
+ "django__django-14493": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.5555555555555556,
+  "repo": "django/django"
+ },
+ "django__django-14500": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/migrations/executor.py",
+   "tests/migrations/test_executor.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-14534": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/forms/boundfield.py",
+   "tests/forms_tests/tests/test_boundfield.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "django/django"
+ },
+ "django__django-14539": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/utils/html.py",
+   "tests/utils_tests/test_html.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.10606060606060606,
+  "repo": "django/django"
+ },
+ "django__django-14559": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.5740740740740741,
+  "repo": "django/django"
+ },
+ "django__django-14580": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/migrations/serializer.py",
+   "tests/migrations/test_writer.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.43661971830985913,
+  "repo": "django/django"
+ },
+ "django__django-14608": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/forms/formsets.py",
+   "tests/forms_tests/tests/test_formsets.py",
+   "docs/topics/forms/formsets.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-14631": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/forms/forms.py",
+   "django/forms/boundfield.py",
+   "tests/forms_tests/tests/test_forms.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.6774193548387096,
+  "repo": "django/django"
+ },
+ "django__django-14672": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "django/django"
+ },
+ "django__django-14725": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/forms/models.py",
+   "tests/model_formsets/tests.py",
+   "docs/topics/forms/modelforms.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.84375,
+  "repo": "django/django"
+ },
+ "django__django-14752": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/contrib/admin/views/autocomplete.py",
+   "tests/admin_views/test_autocomplete_view.py",
+   "docs/ref/contrib/admin/index.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.9272727272727272,
+  "repo": "django/django"
+ },
+ "django__django-14765": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/migrations/state.py",
+   "tests/migrations/test_state.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.23529411764705882,
+  "repo": "django/django"
+ },
+ "django__django-14771": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/utils/autoreload.py",
+   "tests/utils_tests/test_autoreload.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.3425925925925926,
+  "repo": "django/django"
+ },
+ "django__django-14787": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/utils/decorators.py",
+   "tests/utils_tests/test_decorators.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.9482758620689655,
+  "repo": "django/django"
+ },
+ "django__django-14792": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "django/db/backends/postgresql/operations.py",
+   "tests/backends/postgresql/test_operations.py",
+   "tests/db_functions/datetime/test_extract_trunc.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.1320754716981132,
+  "repo": "django/django"
+ },
+ "django__django-14855": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/contrib/admin/helpers.py",
+   "tests/admin_views/tests.py",
+   "tests/admin_views/customadmin.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.4772727272727273,
+  "repo": "django/django"
+ },
+ "django__django-14915": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/forms/models.py",
+   "tests/model_forms/test_modelchoicefield.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.6857142857142857,
+  "repo": "django/django"
+ },
+ "django__django-14999": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/migrations/operations/models.py",
+   "tests/migrations/test_operations.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.4444444444444444,
+  "repo": "django/django"
+ },
+ "django__django-15022": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "django/contrib/admin/views/main.py",
+   "tests/regressiontests/admin_changelist/tests.py",
+   "tests/regressiontests/admin_changelist/models.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.5945945945945946,
+  "repo": "django/django"
+ },
+ "django__django-15037": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/core/management/commands/inspectdb.py",
+   "tests/inspectdb/tests.py",
+   "tests/inspectdb/models.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.5172413793103449,
+  "repo": "django/django"
+ },
+ "django__django-15098": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/utils/translation/trans_real.py",
+   "tests/i18n/tests.py",
+   "docs/releases/3.2.10.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.819672131147541,
+  "repo": "django/django"
+ },
+ "django__django-15103": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/utils/html.py",
+   "django/template/defaultfilters.py",
+   "tests/template_tests/filter_tests/test_json_script.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.39473684210526316,
+  "repo": "django/django"
+ },
+ "django__django-15104": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-15127": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "django/contrib/messages/storage/base.py",
+   "tests/messages_tests/test_base.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-15128": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-15161": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/expressions.py",
+   "tests/expressions/tests.py",
+   "tests/migrations/test_writer.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.5294117647058824,
+  "repo": "django/django"
+ },
+ "django__django-15252": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.1568627450980392,
+  "repo": "django/django"
+ },
+ "django__django-15268": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/migrations/operations/models.py",
+   "tests/migrations/test_optimizer.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.40476190476190477,
+  "repo": "django/django"
+ },
+ "django__django-15277": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/fields/__init__.py",
+   "tests/model_fields/test_charfield.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.6666666666666666,
+  "repo": "django/django"
+ },
+ "django__django-15278": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/backends/sqlite3/schema.py",
+   "tests/schema/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-15280": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/fields/related_descriptors.py",
+   "tests/prefetch_related/tests.py",
+   "django/db/models/query.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.28378378378378377,
+  "repo": "django/django"
+ },
+ "django__django-15315": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/fields/__init__.py",
+   "tests/model_fields/test_field.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.3188405797101449,
+  "repo": "django/django"
+ },
+ "django__django-15368": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.8111111111111111,
+  "repo": "django/django"
+ },
+ "django__django-15375": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/aggregates.py",
+   "tests/aggregation/tests.py",
+   "docs/releases/4.0.3.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.475,
+  "repo": "django/django"
+ },
+ "django__django-15380": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.625,
+  "repo": "django/django"
+ },
+ "django__django-15382": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/expressions.py",
+   "tests/expressions/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "django/django"
+ },
+ "django__django-15467": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.6379310344827587,
+  "repo": "django/django"
+ },
+ "django__django-15499": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/migrations/operations/models.py",
+   "tests/migrations/test_optimizer.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "django/django"
+ },
+ "django__django-15503": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/fields/json.py",
+   "tests/model_fields/test_jsonfield.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.32727272727272727,
+  "repo": "django/django"
+ },
+ "django__django-15525": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.7719298245614035,
+  "repo": "django/django"
+ },
+ "django__django-15554": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/sql/query.py",
+   "tests/filtered_relation/tests.py",
+   "django/db/models/query_utils.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.7837837837837838,
+  "repo": "django/django"
+ },
+ "django__django-15561": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/backends/sqlite3/schema.py",
+   "tests/schema/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-15563": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/sql/compiler.py",
+   "django/db/models/sql/subqueries.py",
+   "tests/update/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-15569": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.1724137931034483,
+  "repo": "django/django"
+ },
+ "django__django-15572": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.8518518518518519,
+  "repo": "django/django"
+ },
+ "django__django-15629": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/fields/related.py",
+   "tests/schema/tests.py",
+   "django/db/backends/base/schema.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.23529411764705882,
+  "repo": "django/django"
+ },
+ "django__django-15695": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/migrations/operations/models.py",
+   "tests/migrations/test_operations.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.711864406779661,
+  "repo": "django/django"
+ },
+ "django__django-15731": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.48484848484848486,
+  "repo": "django/django"
+ },
+ "django__django-15732": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/backends/base/schema.py",
+   "tests/schema/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-15741": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/utils/formats.py",
+   "tests/i18n/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.625,
+  "repo": "django/django"
+ },
+ "django__django-15814": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.011627906976744186,
+  "repo": "django/django"
+ },
+ "django__django-15851": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/backends/postgresql/client.py",
+   "tests/dbshell/test_postgresql.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "django/django"
+ },
+ "django__django-15863": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/template/defaultfilters.py",
+   "tests/template_tests/filter_tests/test_floatformat.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.8936170212765957,
+  "repo": "django/django"
+ },
+ "django__django-15916": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/forms/models.py",
+   "tests/model_forms/tests.py",
+   "docs/topics/forms/modelforms.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.28,
+  "repo": "django/django"
+ },
+ "django__django-15930": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/expressions.py",
+   "django/db/models/sql/where.py",
+   "tests/expressions_case/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.5714285714285714,
+  "repo": "django/django"
+ },
+ "django__django-15957": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/fields/related_descriptors.py",
+   "tests/prefetch_related/tests.py",
+   "docs/ref/models/querysets.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.6666666666666666,
+  "repo": "django/django"
+ },
+ "django__django-15973": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/migrations/autodetector.py",
+   "tests/migrations/test_autodetector.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.6666666666666666,
+  "repo": "django/django"
+ },
+ "django__django-15987": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/core/management/commands/loaddata.py",
+   "tests/fixtures/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.7692307692307693,
+  "repo": "django/django"
+ },
+ "django__django-16032": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/sql/query.py",
+   "tests/annotations/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.09523809523809523,
+  "repo": "django/django"
+ },
+ "django__django-16082": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/expressions.py",
+   "tests/expressions/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.8076923076923077,
+  "repo": "django/django"
+ },
+ "django__django-16100": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/contrib/admin/options.py",
+   "tests/admin_views/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.8148148148148148,
+  "repo": "django/django"
+ },
+ "django__django-16116": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/core/management/commands/makemigrations.py",
+   "tests/migrations/test_commands.py",
+   "docs/ref/django-admin.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.4444444444444444,
+  "repo": "django/django"
+ },
+ "django__django-16136": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.05263157894736842,
+  "repo": "django/django"
+ },
+ "django__django-16139": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/contrib/auth/forms.py",
+   "tests/auth_tests/test_forms.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.16279069767441862,
+  "repo": "django/django"
+ },
+ "django__django-16145": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/core/management/commands/runserver.py",
+   "tests/admin_scripts/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.7529411764705882,
+  "repo": "django/django"
+ },
+ "django__django-16255": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "django/django"
+ },
+ "django__django-16256": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 7,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.7682926829268293,
+  "repo": "django/django"
+ },
+ "django__django-16263": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/sql/query.py",
+   "tests/aggregation/tests.py",
+   "tests/aggregation_regress/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-16315": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/sql/compiler.py",
+   "tests/bulk_create/tests.py",
+   "tests/bulk_create/models.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.6716417910447762,
+  "repo": "django/django"
+ },
+ "django__django-16333": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/contrib/auth/forms.py",
+   "tests/auth_tests/test_forms.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-16429": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.5675675675675675,
+  "repo": "django/django"
+ },
+ "django__django-16454": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "django/django"
+ },
+ "django__django-16485": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/template/defaultfilters.py",
+   "tests/template_tests/filter_tests/test_floatformat.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.8823529411764706,
+  "repo": "django/django"
+ },
+ "django__django-16493": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/fields/files.py",
+   "tests/model_fields/test_filefield.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.6326530612244898,
+  "repo": "django/django"
+ },
+ "django__django-16502": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/core/servers/basehttp.py",
+   "tests/servers/test_basehttp.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.575,
+  "repo": "django/django"
+ },
+ "django__django-16527": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.9428571428571428,
+  "repo": "django/django"
+ },
+ "django__django-16560": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/constraints.py",
+   "tests/constraints/tests.py",
+   "docs/ref/models/constraints.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 7,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.6304347826086957,
+  "repo": "django/django"
+ },
+ "django__django-16569": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-16595": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/migrations/operations/fields.py",
+   "tests/migrations/test_optimizer.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-16612": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-16631": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/contrib/auth/base_user.py",
+   "django/contrib/auth/__init__.py",
+   "tests/auth_tests/test_basic.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-16642": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/http/response.py",
+   "tests/responses/test_fileresponse.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.8548387096774194,
+  "repo": "django/django"
+ },
+ "django__django-16661": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/contrib/admin/options.py",
+   "tests/modeladmin/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.390625,
+  "repo": "django/django"
+ },
+ "django__django-16662": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/migrations/writer.py",
+   "tests/migrations/test_writer.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.4537037037037037,
+  "repo": "django/django"
+ },
+ "django__django-16667": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.4262295081967213,
+  "repo": "django/django"
+ },
+ "django__django-16801": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/fields/files.py",
+   "tests/model_fields/test_imagefield.py",
+   "tests/model_fields/models.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "django/django"
+ },
+ "django__django-16819": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/migrations/operations/models.py",
+   "tests/migrations/test_optimizer.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.5142857142857142,
+  "repo": "django/django"
+ },
+ "django__django-16877": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/template/defaultfilters.py",
+   "tests/template_tests/filter_tests/test_escapeseq.py",
+   "docs/ref/templates/builtins.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "django/django"
+ },
+ "django__django-16899": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/contrib/admin/checks.py",
+   "tests/modeladmin/test_checks.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "django/django"
+ },
+ "django__django-16901": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/sql/where.py",
+   "tests/xor_lookups/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.8157894736842105,
+  "repo": "django/django"
+ },
+ "django__django-16938": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.8571428571428571,
+  "repo": "django/django"
+ },
+ "django__django-16950": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/forms/models.py",
+   "tests/model_formsets/tests.py",
+   "tests/model_formsets/models.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "django/django"
+ },
+ "django__django-17029": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/apps/registry.py",
+   "tests/apps/tests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.3291139240506329,
+  "repo": "django/django"
+ },
+ "django__django-17084": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/models/sql/query.py",
+   "tests/aggregation/tests.py",
+   "docs/releases/4.2.4.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 3,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.875,
+  "repo": "django/django"
+ },
+ "django__django-17087": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/db/migrations/serializer.py",
+   "tests/migrations/test_writer.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.9425287356321839,
+  "repo": "django/django"
+ },
+ "django__django-7530": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/core/management/commands/makemigrations.py",
+   "tests/migrations/test_commands.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.08,
+  "repo": "django/django"
+ },
+ "django__django-9296": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "django/core/paginator.py",
+   "tests/pagination/tests.py",
+   "docs/ref/paginator.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.7611940298507462,
+  "repo": "django/django"
+ },
+ "matplotlib__matplotlib-13989": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "lib/matplotlib/axes/_axes.py",
+   "lib/matplotlib/tests/test_axes.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.6097560975609756,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-14623": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "lib/matplotlib/axes/_base.py",
+   "lib/matplotlib/tests/test_axes.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.7530864197530864,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-20488": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.509090909090909,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-20676": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "lib/matplotlib/widgets.py",
+   "lib/matplotlib/tests/test_widgets.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.12698412698412698,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-20826": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "lib/matplotlib/axis.py",
+   "lib/matplotlib/tests/test_axis.py",
+   "lib/matplotlib/axes/_base.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-20859": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-21568": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "lib/matplotlib/dates.py",
+   "lib/matplotlib/tests/test_dates.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.8636363636363636,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-22719": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-22865": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "lib/matplotlib/colorbar.py",
+   "lib/matplotlib/tests/test_colorbar.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.3368421052631579,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-22871": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "lib/matplotlib/dates.py",
+   "lib/matplotlib/tests/test_dates.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.2222222222222222,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-23299": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "lib/matplotlib/__init__.py",
+   "lib/matplotlib/tests/test_rcparams.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-23314": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "lib/mpl_toolkits/mplot3d/axes3d.py",
+   "lib/mpl_toolkits/mplot3d/tests/test_axes3d.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.48717948717948717,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-23412": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "lib/matplotlib/patches.py",
+   "lib/matplotlib/tests/test_patches.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.390625,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-23476": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.9655172413793104,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-24026": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.3333333333333333,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-24149": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-24177": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "lib/matplotlib/axes/_axes.py",
+   "lib/matplotlib/tests/test_axes.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-24570": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "lib/matplotlib/offsetbox.py",
+   "lib/matplotlib/tests/test_offsetbox.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-24627": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "lib/matplotlib/axes/_base.py",
+   "lib/matplotlib/figure.py",
+   "lib/matplotlib/tests/test_axes.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-24637": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "lib/matplotlib/offsetbox.py",
+   "lib/matplotlib/tests/test_offsetbox.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-24870": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "lib/matplotlib/contour.py",
+   "lib/matplotlib/tests/test_contour.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.02040816326530612,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-24970": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.47674418604651164,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-25122": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-25287": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.6521739130434783,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-25311": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "lib/matplotlib/offsetbox.py",
+   "lib/matplotlib/tests/test_pickle.py",
+   "lib/matplotlib/tests/test_offsetbox.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.5689655172413793,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-25332": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "lib/matplotlib/cbook.py",
+   "lib/matplotlib/tests/test_cbook.py",
+   "lib/matplotlib/tests/test_pickle.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.2833333333333333,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-25479": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.3888888888888889,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-25775": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "lib/matplotlib/text.py",
+   "lib/matplotlib/backends/backend_agg.py",
+   "lib/matplotlib/backends/backend_cairo.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.8378378378378378,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-25960": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-26113": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-26208": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "lib/matplotlib/axes/_base.py",
+   "lib/matplotlib/axis.py",
+   "lib/matplotlib/tests/test_axes.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-26291": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.7164179104477612,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-26342": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "lib/matplotlib/contour.py",
+   "lib/matplotlib/tests/test_contour.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.825,
+  "repo": "matplotlib/matplotlib"
+ },
+ "matplotlib__matplotlib-26466": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "lib/matplotlib/text.py",
+   "lib/matplotlib/tests/test_text.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "matplotlib/matplotlib"
+ },
+ "mwaskom__seaborn-3069": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "seaborn/_core/plot.py",
+   "seaborn/_core/scales.py",
+   "tests/_core/test_plot.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.8181818181818182,
+  "repo": "mwaskom/seaborn"
+ },
+ "mwaskom__seaborn-3187": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "mwaskom/seaborn"
+ },
+ "pallets__flask-5014": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "src/flask/blueprints.py",
+   "tests/test_blueprints.py",
+   "CHANGES.rst"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.64,
+  "repo": "pallets/flask"
+ },
+ "psf__requests-1142": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "requests/models.py",
+   "tests/test_requests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "psf/requests"
+ },
+ "psf__requests-1724": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.2549019607843137,
+  "repo": "psf/requests"
+ },
+ "psf__requests-1766": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "requests/auth.py",
+   "tests/test_requests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.6896551724137931,
+  "repo": "psf/requests"
+ },
+ "psf__requests-1921": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "requests/sessions.py",
+   "tests/test_requests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.8205128205128205,
+  "repo": "psf/requests"
+ },
+ "psf__requests-2317": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.2833333333333333,
+  "repo": "psf/requests"
+ },
+ "psf__requests-2931": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "requests/models.py",
+   "tests/test_requests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.5666666666666667,
+  "repo": "psf/requests"
+ },
+ "psf__requests-5414": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.8409090909090909,
+  "repo": "psf/requests"
+ },
+ "psf__requests-6028": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "requests/utils.py",
+   "requests/adapters.py",
+   "tests/test_requests.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.2903225806451613,
+  "repo": "psf/requests"
+ },
+ "pydata__xarray-2905": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.582089552238806,
+  "repo": "pydata/xarray"
+ },
+ "pydata__xarray-3095": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "xarray/core/variable.py",
+   "xarray/tests/test_variable.py",
+   "xarray/tests/test_dataarray.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "pydata/xarray"
+ },
+ "pydata__xarray-3151": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "xarray/core/combine.py",
+   "xarray/tests/test_combine.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.7454545454545455,
+  "repo": "pydata/xarray"
+ },
+ "pydata__xarray-3305": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "xarray/core/dataarray.py",
+   "xarray/tests/test_dataarray.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.20588235294117646,
+  "repo": "pydata/xarray"
+ },
+ "pydata__xarray-3677": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "pydata/xarray"
+ },
+ "pydata__xarray-3993": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "xarray/core/dataarray.py",
+   "xarray/tests/test_dataarray.py",
+   "doc/whats-new.rst"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.3157894736842105,
+  "repo": "pydata/xarray"
+ },
+ "pydata__xarray-4075": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "xarray/core/weighted.py",
+   "xarray/tests/test_weighted.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "pydata/xarray"
+ },
+ "pydata__xarray-4094": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "xarray/core/dataarray.py",
+   "xarray/tests/test_dataarray.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "pydata/xarray"
+ },
+ "pydata__xarray-4356": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.44594594594594594,
+  "repo": "pydata/xarray"
+ },
+ "pydata__xarray-4629": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.7906976744186046,
+  "repo": "pydata/xarray"
+ },
+ "pydata__xarray-4687": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "xarray/core/computation.py",
+   "xarray/tests/test_computation.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.8070175438596491,
+  "repo": "pydata/xarray"
+ },
+ "pydata__xarray-4695": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "xarray/core/dataarray.py",
+   "xarray/tests/test_dataarray.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.9104477611940298,
+  "repo": "pydata/xarray"
+ },
+ "pydata__xarray-4966": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "pydata/xarray"
+ },
+ "pydata__xarray-6461": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "xarray/core/computation.py",
+   "xarray/tests/test_computation.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.22950819672131148,
+  "repo": "pydata/xarray"
+ },
+ "pydata__xarray-6599": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "xarray/core/computation.py",
+   "xarray/tests/test_computation.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.9545454545454546,
+  "repo": "pydata/xarray"
+ },
+ "pydata__xarray-6721": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.855072463768116,
+  "repo": "pydata/xarray"
+ },
+ "pydata__xarray-6744": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "xarray/core/rolling.py",
+   "xarray/tests/test_rolling.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "pydata/xarray"
+ },
+ "pydata__xarray-6938": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "xarray/core/dataset.py",
+   "xarray/tests/test_dataset.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.5106382978723404,
+  "repo": "pydata/xarray"
+ },
+ "pydata__xarray-6992": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.4411764705882353,
+  "repo": "pydata/xarray"
+ },
+ "pydata__xarray-7229": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "xarray/core/computation.py",
+   "xarray/tests/test_computation.py",
+   "xarray/core/merge.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.14102564102564102,
+  "repo": "pydata/xarray"
+ },
+ "pydata__xarray-7233": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "xarray/core/rolling.py",
+   "xarray/tests/test_coarsen.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.023809523809523808,
+  "repo": "pydata/xarray"
+ },
+ "pydata__xarray-7393": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "xarray/core/indexes.py",
+   "xarray/tests/test_indexes.py",
+   "xarray/tests/test_dataset.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.3088235294117647,
+  "repo": "pydata/xarray"
+ },
+ "pylint-dev__pylint-4551": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "pylint/pyreverse/inspector.py",
+   "pylint/test/test_pyreverse.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "pylint-dev/pylint"
+ },
+ "pylint-dev__pylint-4604": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "pylint/checkers/variables.py",
+   "tests/functional/u/unused/unused_import.py",
+   "tests/functional/u/unused/unused_import.txt"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.13043478260869565,
+  "repo": "pylint-dev/pylint"
+ },
+ "pylint-dev__pylint-4661": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "pylint/constants.py",
+   "tests/test_constants.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.14814814814814814,
+  "repo": "pylint-dev/pylint"
+ },
+ "pylint-dev__pylint-4970": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "pylint/checkers/similar.py",
+   "tests/checkers/unittest_similar.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.2571428571428571,
+  "repo": "pylint-dev/pylint"
+ },
+ "pylint-dev__pylint-6386": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "pylint/lint/run.py",
+   "tests/lint/test_run.py",
+   "pylint/config/argument.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "pylint-dev/pylint"
+ },
+ "pylint-dev__pylint-6528": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "pylint/lint/pylinter.py",
+   "tests/lint/test_pylinter.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.8375,
+  "repo": "pylint-dev/pylint"
+ },
+ "pylint-dev__pylint-6903": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "pylint-dev/pylint"
+ },
+ "pylint-dev__pylint-7080": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "pylint/lint/pylinter.py",
+   "tests/lint/test_pylinter.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.46153846153846156,
+  "repo": "pylint-dev/pylint"
+ },
+ "pylint-dev__pylint-7277": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.19387755102040816,
+  "repo": "pylint-dev/pylint"
+ },
+ "pylint-dev__pylint-8898": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.9166666666666666,
+  "repo": "pylint-dev/pylint"
+ },
+ "pytest-dev__pytest-10051": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.898876404494382,
+  "repo": "pytest-dev/pytest"
+ },
+ "pytest-dev__pytest-10081": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "src/_pytest/unittest.py",
+   "testing/test_unittest.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.2073170731707317,
+  "repo": "pytest-dev/pytest"
+ },
+ "pytest-dev__pytest-10356": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "src/_pytest/mark/structures.py",
+   "testing/test_mark.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "pytest-dev/pytest"
+ },
+ "pytest-dev__pytest-5262": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "pytest-dev/pytest"
+ },
+ "pytest-dev__pytest-5631": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.3194444444444444,
+  "repo": "pytest-dev/pytest"
+ },
+ "pytest-dev__pytest-5787": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "src/_pytest/reports.py",
+   "testing/test_reports.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.7833333333333333,
+  "repo": "pytest-dev/pytest"
+ },
+ "pytest-dev__pytest-5809": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.47115384615384615,
+  "repo": "pytest-dev/pytest"
+ },
+ "pytest-dev__pytest-5840": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "src/_pytest/pathlib.py",
+   "testing/test_pathlib.py",
+   "testing/test_conftest.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.1,
+  "repo": "pytest-dev/pytest"
+ },
+ "pytest-dev__pytest-6197": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "src/_pytest/python.py",
+   "testing/python/collect.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.03571428571428571,
+  "repo": "pytest-dev/pytest"
+ },
+ "pytest-dev__pytest-6202": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "pytest-dev/pytest"
+ },
+ "pytest-dev__pytest-7205": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "pytest-dev/pytest"
+ },
+ "pytest-dev__pytest-7236": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "src/_pytest/unittest.py",
+   "testing/test_unittest.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "pytest-dev/pytest"
+ },
+ "pytest-dev__pytest-7324": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "src/_pytest/mark/expression.py",
+   "testing/test_mark_expression.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "pytest-dev/pytest"
+ },
+ "pytest-dev__pytest-7432": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "pytest-dev/pytest"
+ },
+ "pytest-dev__pytest-7490": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "src/_pytest/skipping.py",
+   "testing/test_skipping.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.24324324324324326,
+  "repo": "pytest-dev/pytest"
+ },
+ "pytest-dev__pytest-7521": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "src/_pytest/capture.py",
+   "testing/test_capture.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.8823529411764706,
+  "repo": "pytest-dev/pytest"
+ },
+ "pytest-dev__pytest-7571": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "src/_pytest/logging.py",
+   "testing/logging/test_fixture.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 3,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.5098039215686274,
+  "repo": "pytest-dev/pytest"
+ },
+ "pytest-dev__pytest-7982": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "src/_pytest/pathlib.py",
+   "testing/test_pathlib.py",
+   "testing/test_collection.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.5147058823529411,
+  "repo": "pytest-dev/pytest"
+ },
+ "pytest-dev__pytest-8399": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "pytest-dev/pytest"
+ },
+ "scikit-learn__scikit-learn-10297": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sklearn/linear_model/ridge.py",
+   "sklearn/linear_model/tests/test_ridge.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.7714285714285715,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-10844": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.8888888888888888,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-10908": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sklearn/feature_extraction/text.py",
+   "sklearn/feature_extraction/tests/test_text.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.1891891891891892,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-11310": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sklearn/model_selection/_search.py",
+   "sklearn/model_selection/tests/test_search.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.8275862068965517,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-11578": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.847457627118644,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-12585": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.2727272727272727,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-12682": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.4742268041237113,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-12973": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 3,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.32,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-13124": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sklearn/model_selection/_split.py",
+   "sklearn/model_selection/tests/test_split.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.9230769230769231,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-13135": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.5967741935483871,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-13142": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sklearn/mixture/base.py",
+   "sklearn/mixture/tests/test_gaussian_mixture.py",
+   "doc/whats_new/v0.21.rst"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.27848101265822783,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-13328": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.6181818181818182,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-13439": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sklearn/pipeline.py",
+   "sklearn/tests/test_pipeline.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-13496": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sklearn/ensemble/iforest.py",
+   "sklearn/ensemble/tests/test_iforest.py",
+   "examples/ensemble/plot_isolation_forest.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.6666666666666666,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-13779": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "sklearn/ensemble/_voting.py",
+   "sklearn/ensemble/tests/test_voting.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.45588235294117646,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-14053": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sklearn/tree/export.py",
+   "sklearn/tree/tests/test_export.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.07692307692307693,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-14087": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.45454545454545453,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-14141": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sklearn/utils/_show_versions.py",
+   "sklearn/utils/tests/test_show_versions.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.3125,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-14496": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-14629": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "sklearn/model_selection/_validation.py",
+   "sklearn/model_selection/tests/test_validation.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.022222222222222223,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-14710": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.8,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-14894": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.6964285714285714,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-14983": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sklearn/model_selection/_split.py",
+   "sklearn/model_selection/tests/test_split.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-15100": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sklearn/feature_extraction/text.py",
+   "sklearn/feature_extraction/tests/test_text.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.2391304347826087,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-25102": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sklearn/utils/_set_output.py",
+   "sklearn/feature_selection/_base.py",
+   "sklearn/utils/tests/test_set_output.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.7857142857142857,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-25232": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sklearn/impute/_iterative.py",
+   "sklearn/impute/tests/test_impute.py",
+   "doc/modules/impute.rst"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 5,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-25747": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.9,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-25931": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.3137254901960784,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-25973": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sklearn/feature_selection/_sequential.py",
+   "sklearn/feature_selection/tests/test_sequential.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 3,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-26194": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.5,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-26323": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "scikit-learn__scikit-learn-9288": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sklearn/cluster/k_means_.py",
+   "sklearn/cluster/tests/test_k_means.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "scikit-learn/scikit-learn"
+ },
+ "sphinx-doc__sphinx-10323": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/directives/code.py",
+   "tests/test_directive_code.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-10435": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-10449": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/ext/autodoc/typehints.py",
+   "tests/test_ext_autodoc_typehints.py",
+   "tests/roots/test-ext-autodoc/target/typehints.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.45454545454545453,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-10466": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.2413793103448276,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-10614": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/ext/inheritance_diagram.py",
+   "tests/test_extensions/test_ext_inheritance_diagram.py",
+   "tests/roots/test-ext-inheritance_diagram/index.rst"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.6633663366336634,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-10673": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/directives/other.py",
+   "sphinx/environment/adapters/toctree.py",
+   "tests/test_environment/test_environment_adapters_toctree.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.2549019607843137,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-11445": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "sphinx/io.py",
+   "tests/test_io.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.39285714285714285,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-11510": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/directives/other.py",
+   "sphinx/events.py",
+   "doc/extdev/appapi.rst"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.3728813559322034,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-7440": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/domains/std.py",
+   "tests/test_domain_std.py",
+   "tests/roots/test-domain-std/index.rst"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.21621621621621623,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-7454": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/domains/python.py",
+   "tests/test_domain_py.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.5454545454545454,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-7462": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.8625,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-7590": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.7105263157894737,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-7748": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/ext/autodoc/__init__.py",
+   "tests/test_ext_autodoc.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.22666666666666666,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-7757": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "sphinx/domains/python.py",
+   "tests/test_domain_py.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.11538461538461539,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-7889": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/ext/autodoc/mock.py",
+   "tests/test_ext_autodoc_mock.py",
+   "CHANGES.rst"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.3684210526315789,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-7910": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "sphinx/util/inspect.py",
+   "tests/test_util_inspect.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.016129032258064516,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-7985": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/builders/linkcheck.py",
+   "tests/test_builders/test_build_linkcheck.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-8035": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/ext/autodoc/__init__.py",
+   "tests/test_ext_autodoc.py",
+   "doc/usage/extensions/autodoc.rst"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.2631578947368421,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-8056": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/ext/napoleon/docstring.py",
+   "tests/test_ext_napoleon.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.6049382716049383,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-8120": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/locale/__init__.py",
+   "tests/test_locale.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.13043478260869565,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-8265": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "sphinx/domains/python.py",
+   "tests/test_domain_py.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.5700934579439252,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-8269": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/builders/linkcheck.py",
+   "tests/test_builders/test_build_linkcheck.py",
+   "CHANGES.rst"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.09803921568627451,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-8459": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/ext/autodoc/typehints.py",
+   "tests/test_ext_autodoc_typehints.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.1095890410958904,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-8475": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/builders/linkcheck.py",
+   "tests/test_builders/test_build_linkcheck.py",
+   "CHANGES.rst"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.15517241379310345,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-8548": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "sphinx/ext/autodoc.py",
+   "tests/test_autodoc.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.6031746031746031,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-8551": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/util/docfields.py",
+   "tests/test_domain_py.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-8593": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/ext/autodoc/__init__.py",
+   "tests/test_ext_autodoc.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.41025641025641024,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-8595": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/ext/autodoc/__init__.py",
+   "tests/test_ext_autodoc.py",
+   "tests/roots/test-ext-autodoc/target/__init__.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-8621": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "sphinx/writers/html5.py",
+   "tests/test_builders/test_build_html.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.3958333333333333,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-8638": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/domains/python.py",
+   "tests/test_domain_py.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.8813559322033898,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-8721": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/ext/viewcode.py",
+   "tests/test_ext_viewcode.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.625,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-9229": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/ext/autodoc/__init__.py",
+   "tests/test_ext_autodoc.py",
+   "tests/roots/test-ext-autodoc/target.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.025,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-9230": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/util/docfields.py",
+   "tests/test_util_docfields.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-9258": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/domains/python.py",
+   "tests/test_domain_py.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.021505376344086023,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-9281": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/util/inspect.py",
+   "tests/test_util_inspect.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-9320": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/cmd/quickstart.py",
+   "tests/test_quickstart.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.7,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-9367": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.2602739726027397,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-9461": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/ext/autodoc/__init__.py",
+   "sphinx/util/inspect.py",
+   "tests/test_ext_autodoc.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.15789473684210525,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-9591": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/domains/python.py",
+   "tests/test_domain_py.py",
+   "tests/test_ext_autodoc.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.061224489795918366,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-9602": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/domains/python.py",
+   "tests/test_domain_py.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.8873239436619719,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-9658": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/ext/autodoc/mock.py",
+   "tests/test_ext_autodoc_mock.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.7746478873239436,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-9673": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/ext/autodoc/typehints.py",
+   "tests/test_ext_autodoc_typehints.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.4838709677419355,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-9698": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/domains/python.py",
+   "tests/test_domain_py.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.8701298701298701,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sphinx-doc__sphinx-9711": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sphinx/extension.py",
+   "tests/test_extension.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.6896551724137931,
+  "repo": "sphinx-doc/sphinx"
+ },
+ "sympy__sympy-11618": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/geometry/point.py",
+   "sympy/geometry/tests/test_point.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.15714285714285714,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-12096": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/core/function.py",
+   "sympy/core/tests/test_evalf.py",
+   "sympy/utilities/tests/test_lambdify.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.3283582089552239,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-12419": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "sympy/concrete/delta.py",
+   "sympy/concrete/summations.py",
+   "sympy/concrete/tests/test_delta.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.39655172413793105,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-12481": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/combinatorics/permutations.py",
+   "sympy/combinatorics/tests/test_permutations.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.24615384615384617,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-12489": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/combinatorics/permutations.py",
+   "sympy/combinatorics/tests/test_permutations.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 4,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.35135135135135137,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-13031": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "sympy/matrices/common.py",
+   "sympy/matrices/tests/test_commonmatrix.py",
+   "sympy/matrices/tests/test_matrices.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.061224489795918366,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-13091": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-13372": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.8095238095238095,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-13480": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.16666666666666666,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-13551": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/concrete/products.py",
+   "sympy/concrete/tests/test_products.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.19672131147540983,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-13615": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/sets/sets.py",
+   "sympy/sets/tests/test_sets.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.32,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-13647": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/matrices/common.py",
+   "sympy/matrices/tests/test_commonmatrix.py",
+   "sympy/matrices/tests/test_matrices.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-13757": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/polys/polytools.py",
+   "sympy/polys/tests/test_polytools.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-13798": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/printing/latex.py",
+   "sympy/printing/tests/test_latex.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.5873015873015873,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-13852": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/functions/special/zeta_functions.py",
+   "sympy/functions/special/tests/test_zeta_functions.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.047244094488188976,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-13877": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.3142857142857143,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-13878": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/stats/crv_types.py",
+   "sympy/stats/tests/test_continuous_rv.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 11,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.30434782608695654,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-13974": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/physics/quantum/tensorproduct.py",
+   "sympy/physics/quantum/tests/test_tensorproduct.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.04216867469879518,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-14248": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "sympy/matrices/expressions/matmul.py",
+   "sympy/matrices/expressions/matadd.py",
+   "sympy/matrices/expressions/tests/test_matmul.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.13333333333333333,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-14531": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/printing/str.py",
+   "sympy/printing/tests/test_str.py",
+   "sympy/printing/tests/test_python.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.6987951807228916,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-14711": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.6829268292682927,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-14976": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/printing/pycode.py",
+   "sympy/utilities/tests/test_lambdify.py",
+   "sympy/printing/tests/test_pycode.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.4875,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-15017": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "sympy/tensor/array/ndim_array.py",
+   "sympy/tensor/array/tests/test_ndim_array.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.7169811320754716,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-15345": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/printing/mathematica.py",
+   "sympy/printing/tests/test_mathematica.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-15349": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.8181818181818182,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-15599": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.027777777777777776,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-15809": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/functions/elementary/miscellaneous.py",
+   "sympy/functions/elementary/tests/test_miscellaneous.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.7076923076923077,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-15875": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/core/add.py",
+   "sympy/core/tests/test_add.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.046511627906976744,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-15976": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/printing/mathml.py",
+   "sympy/printing/tests/test_mathml.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.4074074074074074,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-16450": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/simplify/simplify.py",
+   "sympy/simplify/tests/test_simplify.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.6438356164383562,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-16597": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/core/assumptions.py",
+   "sympy/core/tests/test_assumptions.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-16766": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/printing/pycode.py",
+   "sympy/printing/tests/test_pycode.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-16792": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/utilities/codegen.py",
+   "sympy/utilities/tests/test_codegen.py",
+   "sympy/utilities/tests/test_autowrap.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.19402985074626866,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-16886": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/crypto/crypto.py",
+   "sympy/crypto/tests/test_crypto.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.5803108808290155,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-17139": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-17318": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-17630": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "sympy/matrices/expressions/matadd.py",
+   "sympy/matrices/expressions/tests/test_blockmatrix.py",
+   "sympy/matrices/expressions/tests/test_matadd.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.12244897959183673,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-17655": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.016129032258064516,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-18189": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/solvers/diophantine/diophantine.py",
+   "sympy/solvers/diophantine/tests/test_diophantine.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.5074626865671642,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-18199": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/ntheory/residue_ntheory.py",
+   "sympy/ntheory/tests/test_residue_ntheory.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.21739130434782608,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-18211": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/solvers/solveset.py",
+   "sympy/solvers/tests/test_solveset.py",
+   "sympy/core/relational.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-18698": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "sympy/polys/sqfreetools.py",
+   "sympy/polys/tests/test_sqfreetools.py",
+   "sympy/polys/tests/test_polytools.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.44,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-18763": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/printing/latex.py",
+   "sympy/printing/tests/test_latex.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-19040": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/polys/factortools.py",
+   "sympy/polys/tests/test_factortools.py",
+   "sympy/polys/tests/test_polytools.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.5166666666666667,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-19346": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/printing/repr.py",
+   "sympy/printing/tests/test_repr.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.024096385542168676,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-19495": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/sets/conditionset.py",
+   "sympy/sets/tests/test_conditionset.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-19637": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/core/sympify.py",
+   "sympy/core/tests/test_sympify.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.058823529411764705,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-19783": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/physics/quantum/dagger.py",
+   "sympy/physics/quantum/operator.py",
+   "sympy/physics/quantum/tests/test_dagger.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.4,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-19954": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-20154": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/utilities/iterables.py",
+   "sympy/utilities/tests/test_iterables.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-20428": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "sympy/polys/polyclasses.py",
+   "sympy/polys/polytools.py",
+   "sympy/polys/tests/test_polytools.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.019230769230769232,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-20438": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-20590": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "sympy/logic/boolalg.py",
+   "sympy/core/tests/test_symbol.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.2,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-20801": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/core/numbers.py",
+   "sympy/core/tests/test_numbers.py",
+   "sympy/logic/boolalg.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.59375,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-20916": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "sympy/printing/pretty/pretty_symbology.py",
+   "sympy/printing/pretty/tests/test_pretty.py",
+   "sympy/printing/pretty/pretty.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.3972602739726027,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-21379": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "sympy/functions/elementary/hyperbolic.py",
+   "sympy/functions/elementary/tests/test_hyperbolic.py",
+   "sympy/functions/elementary/piecewise.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.14583333333333334,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-21596": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/sets/fancysets.py",
+   "sympy/sets/handlers/intersection.py",
+   "sympy/sets/tests/test_fancysets.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.09615384615384616,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-21612": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "sympy/parsing/latex/_parse_latex_antlr.py",
+   "sympy/parsing/tests/test_latex.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.48484848484848486,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-21847": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/polys/monomials.py",
+   "sympy/polys/tests/test_monomials.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.41509433962264153,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-21930": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/physics/secondquant.py",
+   "sympy/physics/tests/test_secondquant.py",
+   "sympy/printing/tests/test_latex.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 2,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.029850746268656716,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-22080": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "sympy/printing/pycode.py",
+   "sympy/printing/tests/test_pycode.py",
+   "sympy/utilities/tests/test_lambdify.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-22456": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/codegen/ast.py",
+   "sympy/codegen/tests/test_ast.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.42,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-22714": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.23170731707317074,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-22914": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/printing/pycode.py",
+   "sympy/printing/tests/test_pycode.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.5,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-23262": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 0,
+  "p1_base": 0,
+  "p1_paths": [
+   "sympy/printing/pycode.py",
+   "sympy/printing/tests/test_pycode.py",
+   "sympy/utilities/tests/test_lambdify.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 0.8961038961038961,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-23413": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/polys/matrices/normalforms.py",
+   "sympy/matrices/normalforms.py",
+   "sympy/matrices/tests/test_normalforms.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.631578947368421,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-23534": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/core/symbol.py",
+   "sympy/core/tests/test_symbol.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.825,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-23824": {
+  "M": 3,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/physics/hep/gamma_matrices.py",
+   "sympy/physics/hep/tests/test_gamma_matrices.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 1,
+  "p3_overlap": 1.0,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-23950": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/sets/contains.py",
+   "sympy/sets/tests/test_contains.py",
+   "sympy/functions/elementary/tests/test_piecewise.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": null,
+  "p3_overlap": null,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-24066": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/physics/units/unitsystem.py",
+   "sympy/physics/units/tests/test_unitsystem.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.7878787878787878,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-24213": {
+  "M": 1,
+  "lowM": 0,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 1,
+  "p3_overlap": 0.8823529411764706,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-24443": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.047619047619047616,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-24539": {
+  "M": 0,
+  "lowM": 1,
+  "n_avail": 2,
+  "p1": null,
+  "p1_base": null,
+  "p1_status": "NA_filter",
+  "p2_applied_blocks": 0,
+  "p2_apply": 0,
+  "p2_resolve": 0,
+  "p3": 0,
+  "p3_overlap": 0.0,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-24562": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/core/numbers.py",
+   "sympy/core/tests/test_numbers.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.06666666666666667,
+  "repo": "sympy/sympy"
+ },
+ "sympy__sympy-24661": {
+  "M": 2,
+  "lowM": 0,
+  "n_avail": 3,
+  "p1": 1,
+  "p1_base": 1,
+  "p1_paths": [
+   "sympy/parsing/sympy_parser.py",
+   "sympy/parsing/tests/test_sympy_parser.py"
+  ],
+  "p1_status": "ok",
+  "p2_applied_blocks": 1,
+  "p2_apply": 1,
+  "p2_resolve": 1,
+  "p3": 0,
+  "p3_overlap": 0.49056603773584906,
+  "repo": "sympy/sympy"
+ }
+}

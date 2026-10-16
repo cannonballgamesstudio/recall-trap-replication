@@ -1,0 +1,12 @@
+{
+ "n_survivors": 105,
+ "per_call_usd": {
+  "dedupON": 0.061995,
+  "dedupOFF": 0.05899600000000001
+ },
+ "projected_one_seed_usd": 12.704,
+ "projected_two_seeds_usd": 25.408,
+ "usage_probe_usd": 0.605,
+ "cap_usd": 30.0,
+ "note": "usage-probe responses are logged and NOT used in any analysis"
+}

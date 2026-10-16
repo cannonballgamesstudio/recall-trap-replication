@@ -1,0 +1,15 @@
+{
+    "instance_id": "keras-team__keras-3907",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "tests/keras/engine/test_training.py:None:test_trainable_argument"
+    ],
+    "failed_tests": [
+        "tests/keras/engine/test_training.py:None:test_model_methods"
+    ]
+}

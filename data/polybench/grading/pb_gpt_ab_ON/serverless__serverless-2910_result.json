@@ -1,0 +1,23 @@
+{
+    "instance_id": "serverless__serverless-2910",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": true,
+    "no_p2p_failed": true,
+    "resolved": true,
+    "passed_tests": [
+        "AwsCompileScheduledEvents #constructor() should set the provider variable to an instance of AwsProvider",
+        "AwsCompileScheduledEvents #compileScheduledEvents() should throw an error if schedule event type is not a string or an object",
+        "AwsCompileScheduledEvents #compileScheduledEvents() should throw an error if the \"rate\" property is not given",
+        "AwsCompileScheduledEvents #compileScheduledEvents() should create corresponding resources when schedule events are given",
+        "AwsCompileScheduledEvents #compileScheduledEvents() should respect name variable",
+        "AwsCompileScheduledEvents #compileScheduledEvents() should respect description variable",
+        "AwsCompileScheduledEvents #compileScheduledEvents() should respect inputPath variable",
+        "AwsCompileScheduledEvents #compileScheduledEvents() should respect input variable",
+        "AwsCompileScheduledEvents #compileScheduledEvents() should respect input variable as an object",
+        "AwsCompileScheduledEvents #compileScheduledEvents() should throw an error when both Input and InputPath are set",
+        "AwsCompileScheduledEvents #compileScheduledEvents() should not create corresponding resources when scheduled events are not given"
+    ],
+    "failed_tests": []
+}

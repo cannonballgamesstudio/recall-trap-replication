@@ -1,0 +1,30 @@
+{
+    "instance_id": "mui__material-ui-21226",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "packages/material-ui/src/TablePagination/TablePagination.test.js-><TablePagination /> Material-UI component API applies the className to the root component",
+        "packages/material-ui/src/TablePagination/TablePagination.test.js-><TablePagination /> Material-UI component API spreads props to the root component",
+        "packages/material-ui/src/TablePagination/TablePagination.test.js-><TablePagination /> Material-UI component API applies the root class to the root component if it has this class",
+        "packages/material-ui/src/TablePagination/TablePagination.test.js-><TablePagination /> Material-UI component API should render without errors in ReactTestRenderer",
+        "packages/material-ui/src/TablePagination/TablePagination.test.js-><TablePagination /> Material-UI component API prop: component can render another root component with the `component` prop",
+        "packages/material-ui/src/TablePagination/TablePagination.test.js-><TablePagination /> Material-UI component API ref attaches the ref",
+        "packages/material-ui/src/TablePagination/TablePagination.test.js-><TablePagination /> prop: labelDisplayedRows should use the labelDisplayedRows callback",
+        "packages/material-ui/src/TablePagination/TablePagination.test.js-><TablePagination /> prop: page should disable the back button on the first page",
+        "packages/material-ui/src/TablePagination/TablePagination.test.js-><TablePagination /> prop: page should disable the next button on the last page",
+        "packages/material-ui/src/TablePagination/TablePagination.test.js-><TablePagination /> prop: onChangePage should handle next button clicks properly",
+        "packages/material-ui/src/TablePagination/TablePagination.test.js-><TablePagination /> prop: onChangePage should handle back button clicks properly",
+        "packages/material-ui/src/TablePagination/TablePagination.test.js-><TablePagination /> label should display 0 as start number if the table is empty ",
+        "packages/material-ui/src/TablePagination/TablePagination.test.js-><TablePagination /> label should hide the rows per page selector if there are less than two options",
+        "packages/material-ui/src/TablePagination/TablePagination.test.js-><TablePagination /> prop: count=-1 should display the \"of more than\" text and keep the nextButton enabled",
+        "packages/material-ui/src/TablePagination/TablePagination.test.js-><TablePagination /> warnings should raise a warning if the page prop is out of range"
+    ],
+    "failed_tests": [
+        "packages/material-ui/src/TablePagination/TablePagination.test.js-><TablePagination /> prop: labelRowsPerPage labels the select for the current page",
+        "packages/material-ui/src/TablePagination/TablePagination.test.js-><TablePagination /> prop: labelRowsPerPage accepts React nodes"
+    ]
+}

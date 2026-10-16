@@ -1,0 +1,19 @@
+T report keys: ['total_instances', 'submitted_instances', 'completed_instances', 'resolved_instances', 'unresolved_instances', 'empty_patch_instances', 'error_instances', 'completed_ids', 'incomplete_ids', 'empty_patch_ids', 'submitted_ids', 'resolved_ids']
+T submitted 473 resolved 14  Tprime resolved 1
+n pairwise-attempted (473 base): 473
+
+n=473: ON 33 (7.0%)  T 14 (3.0%)  OFF 61 (12.9%)
+  OFF-ON (G): Δ=+5.92pp  disc 10/38  McNemar p=6.17e-05
+  OFF-T (depth): Δ=+9.94pp  disc 3/50  McNemar p=5.52e-12
+  T-ON (trim): Δ=-4.02pp  disc 22/3  McNemar p=0.0001565
+  share of G: depth 168%  trim -68%
+
+full-500 reference: ON 6.6  OFF 12.4  Δ +5.80
+pooled n=500 (T on 473 + Tprime on 27): T* 3.0%  OFF-T* +9.40 (3/50, p=5.52e-12)  T*-ON -3.60 (22/4, p=0.000534)
+bound T=ON on 27: T 2.8%  OFF-T +9.60  T-ON -3.80
+bound T=OFF on 27: T 3.0%  OFF-T +9.40  T-ON -3.60
+
+T empty 225 / 473 47.6%
+repo sign-flip OFF-ON: p=0.016 (G=12)
+repo sign-flip OFF-T: p=0.016 (G=12)
+repo sign-flip T-ON: p=0.062 (G=12)

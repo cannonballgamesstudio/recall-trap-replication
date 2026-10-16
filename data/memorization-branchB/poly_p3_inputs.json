@@ -1,0 +1,2990 @@
+{
+ "na": {
+  "huggingface__transformers-31247": "target_lt_5_tokens",
+  "keras-team__keras-18852": "file_not_in_worktree",
+  "keras-team__keras-3983": "target_lt_5_tokens",
+  "langchain-ai__langchain-20064": "empty_prefix",
+  "tensorflow__models-2727": "empty_prefix"
+ },
+ "rows": {
+  "Significant-Gravitas__AutoGPT-4652": {
+   "first_change_line": 17,
+   "path": "autogpt/memory/message_history.py",
+   "prefix": [
+    "    from autogpt.agent import Agent",
+    "",
+    "from autogpt.config import Config",
+    "from autogpt.json_utils.utilities import (",
+    "    LLM_DEFAULT_RESPONSE_FORMAT,",
+    "    is_string_valid_json,",
+    ")",
+    "from autogpt.llm.base import ChatSequence, Message, MessageRole, MessageType"
+   ],
+   "repo": "Significant-Gravitas/AutoGPT",
+   "target": [
+    "from autogpt.llm.utils import create_chat_completion",
+    "from autogpt.log_cycle.log_cycle import PROMPT_SUMMARY_FILE_NAME, SUMMARY_FILE_NAME",
+    "from autogpt.logs import logger",
+    "",
+    "",
+    "@dataclass",
+    "class MessageHistory:",
+    "    agent: Agent"
+   ]
+  },
+  "huggingface__transformers-12981": {
+   "first_change_line": 1008,
+   "path": "src/transformers/trainer.py",
+   "prefix": [
+    "            trial (:obj:`optuna.Trial` or :obj:`Dict[str, Any]`, `optional`):",
+    "                The trial run or the hyperparameter dictionary for hyperparameter search.",
+    "            ignore_keys_for_eval (:obj:`List[str]`, `optional`)",
+    "                A list of keys in the output of your model (if it is a dictionary) that should be ignored when",
+    "                gathering predictions for evaluation during the training.",
+    "            kwargs:",
+    "                Additional keyword arguments used to hide deprecated arguments",
+    "        \"\"\""
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "",
+    "        # memory metrics - must set up as early as possible",
+    "        self._memory_tracker.start()",
+    "",
+    "        args = self.args",
+    "",
+    "        self.is_in_train = True",
+    ""
+   ]
+  },
+  "huggingface__transformers-13436": {
+   "first_change_line": 233,
+   "path": "src/transformers/models/clip/configuration_clip.py",
+   "prefix": [
+    "",
+    "    Args:",
+    "        text_config_dict (:obj:`dict`, `optional`):",
+    "            Dictionary of configuration options used to initialize :class:`~transformers.CLIPTextConfig`.",
+    "        vision_config_dict (:obj:`dict`, `optional`):",
+    "            Dictionary of configuration options used to initialize :class:`~transformers.CLIPVisionConfig`.",
+    "        projection_dim (:obj:`int`, `optional`, defaults to 512):",
+    "            Dimentionality of text and vision projection layers."
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "        kwargs (`optional`):",
+    "            Dictionary of keyword arguments.",
+    "    \"\"\"",
+    "",
+    "    model_type = \"clip\"",
+    "    is_composition = True",
+    "",
+    "    def __init__(self, text_config_dict=None, vision_config_dict=None, projection_dim=512, **kwargs):"
+   ]
+  },
+  "huggingface__transformers-13573": {
+   "first_change_line": 44,
+   "path": "docs/source/model_doc/gpt2.rst",
+   "prefix": [
+    "- GPT-2 was trained with a causal language modeling (CLM) objective and is therefore powerful at predicting the next",
+    "  token in a sequence. Leveraging this feature allows GPT-2 to generate syntactically coherent text as it can be",
+    "  observed in the `run_generation.py` example script.",
+    "- The model can take the `past_key_values` (for PyTorch) or `past` (for TF) as input, which is the previously computed",
+    "  key/value attention pairs. Using this (`past_key_values` or `past`) value prevents the model from re-computing",
+    "  pre-computed values in the context of text generation. For PyTorch, see `past_key_values` argument of the",
+    "  :meth:`~transformers.GPT2Model.forward` method, or for TF the `past` argument of the",
+    "  :meth:`~transformers.TFGPT2Model.call` method for more information on its usage."
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "",
+    "`Write With Transformer <https://transformer.huggingface.co/doc/gpt2-large>`__ is a webapp created and hosted by",
+    "Hugging Face showcasing the generative capabilities of several models. GPT-2 is one of them and is available in five",
+    "different sizes: small, medium, large, xl and a distilled version of the small checkpoint: `distilgpt-2`.",
+    "",
+    "This model was contributed by `thomwolf <https://huggingface.co/thomwolf>`__. The original code can be found `here",
+    "<https://openai.com/blog/better-language-models/>`__.",
+    ""
+   ]
+  },
+  "huggingface__transformers-13865": {
+   "first_change_line": 20,
+   "path": "src/transformers/hf_argparser.py",
+   "prefix": [
+    "# See the License for the specific language governing permissions and",
+    "# limitations under the License.",
+    "",
+    "import dataclasses",
+    "import json",
+    "import re",
+    "import sys",
+    "from argparse import ArgumentDefaultsHelpFormatter, ArgumentParser, ArgumentTypeError"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "from enum import Enum",
+    "from pathlib import Path",
+    "from typing import Any, Iterable, List, NewType, Optional, Tuple, Union",
+    "",
+    "",
+    "DataClass = NewType(\"DataClass\", Any)",
+    "DataClassType = NewType(\"DataClassType\", Any)",
+    ""
+   ]
+  },
+  "huggingface__transformers-13919": {
+   "first_change_line": 74,
+   "path": "src/transformers/generation_stopping_criteria.py",
+   "prefix": [
+    "    Args:",
+    "        start_length (:obj:`int`):",
+    "            The number of initial tokens.",
+    "        max_new_tokens (:obj:`int`):",
+    "            The maximum number of tokens to generate.",
+    "    \"\"\"",
+    "",
+    "    def __init__(self, start_length: int, max_new_tokens: int):"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "        self.start_length = start_length",
+    "        self.max_new_tokens = max_new_tokens",
+    "        self.max_length = start_length + max_new_tokens",
+    "",
+    "    @add_start_docstrings(STOPPING_CRITERIA_INPUTS_DOCSTRING)",
+    "    def __call__(self, input_ids: torch.LongTensor, scores: torch.FloatTensor, **kwargs) -> bool:",
+    "        return input_ids.shape[-1] >= self.max_length",
+    ""
+   ]
+  },
+  "huggingface__transformers-13989": {
+   "first_change_line": 30,
+   "path": "docs/source/model_doc/auto.rst",
+   "prefix": [
+    "",
+    "",
+    ".. code-block:: python",
+    "",
+    "    model = AutoModel.from_pretrained('bert-base-cased')",
+    "",
+    "will create a model that is an instance of :class:`~transformers.BertModel`.",
+    ""
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "There is one class of :obj:`AutoModel` for each task, and for each backend (PyTorch or TensorFlow).",
+    "",
+    "",
+    "AutoConfig",
+    "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "",
+    ".. autoclass:: transformers.AutoConfig",
+    "    :members:"
+   ]
+  },
+  "huggingface__transformers-14355": {
+   "first_change_line": 41,
+   "path": "docs/source/model_doc/segformer.rst",
+   "prefix": [
+    "approach up to obtain a series of models from SegFormer-B0 to SegFormer-B5, reaching significantly better performance",
+    "and efficiency than previous counterparts. For example, SegFormer-B4 achieves 50.3% mIoU on ADE20K with 64M parameters,",
+    "being 5x smaller and 2.2% better than the previous best method. Our best model, SegFormer-B5, achieves 84.0% mIoU on",
+    "Cityscapes validation set and shows excellent zero-shot robustness on Cityscapes-C.*",
+    "",
+    "This model was contributed by `nielsr <https://huggingface.co/nielsr>`__. The original code can be found `here",
+    "<https://github.com/NVlabs/SegFormer>`__.",
+    ""
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "SegformerConfig",
+    "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "",
+    ".. autoclass:: transformers.SegformerConfig",
+    "    :members:",
+    "",
+    "",
+    "SegformerFeatureExtractor"
+   ]
+  },
+  "huggingface__transformers-14779": {
+   "first_change_line": 46,
+   "path": "src/transformers/generation_utils.py",
+   "prefix": [
+    "    RepetitionPenaltyLogitsProcessor,",
+    "    TemperatureLogitsWarper,",
+    "    TopKLogitsWarper,",
+    "    TopPLogitsWarper,",
+    ")",
+    "from .generation_stopping_criteria import (",
+    "    MaxLengthCriteria,",
+    "    MaxTimeCriteria,"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "    StoppingCriteriaList,",
+    "    validate_stopping_criteria,",
+    ")",
+    "from .utils import logging",
+    "",
+    "",
+    "logger = logging.get_logger(__name__)",
+    ""
+   ]
+  },
+  "huggingface__transformers-15158": {
+   "first_change_line": 191,
+   "path": "src/transformers/models/bert/tokenization_bert_fast.py",
+   "prefix": [
+    "            pad_token=pad_token,",
+    "            cls_token=cls_token,",
+    "            mask_token=mask_token,",
+    "            tokenize_chinese_chars=tokenize_chinese_chars,",
+    "            strip_accents=strip_accents,",
+    "            **kwargs,",
+    "        )",
+    ""
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "        pre_tok_state = json.loads(self.backend_tokenizer.normalizer.__getstate__())",
+    "        if (",
+    "            pre_tok_state.get(\"lowercase\", do_lower_case) != do_lower_case",
+    "            or pre_tok_state.get(\"strip_accents\", strip_accents) != strip_accents",
+    "        ):",
+    "            pre_tok_class = getattr(normalizers, pre_tok_state.pop(\"type\"))",
+    "            pre_tok_state[\"lowercase\"] = do_lower_case",
+    "            pre_tok_state[\"strip_accents\"] = strip_accents"
+   ]
+  },
+  "huggingface__transformers-15473": {
+   "first_change_line": 33,
+   "path": "examples/pytorch/language-modeling/run_clm.py",
+   "prefix": [
+    "import math",
+    "import os",
+    "import sys",
+    "from dataclasses import dataclass, field",
+    "from itertools import chain",
+    "from typing import Optional",
+    "",
+    "import datasets"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "from datasets import load_dataset",
+    "",
+    "import transformers",
+    "from transformers import (",
+    "    CONFIG_MAPPING,",
+    "    MODEL_FOR_CAUSAL_LM_MAPPING,",
+    "    AutoConfig,",
+    "    AutoModelForCausalLM,"
+   ]
+  },
+  "huggingface__transformers-15795": {
+   "first_change_line": 17,
+   "path": "src/transformers/hf_argparser.py",
+   "prefix": [
+    "# Unless required by applicable law or agreed to in writing, software",
+    "# distributed under the License is distributed on an \"AS IS\" BASIS,",
+    "# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+    "# See the License for the specific language governing permissions and",
+    "# limitations under the License.",
+    "",
+    "import dataclasses",
+    "import json"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "import re",
+    "import sys",
+    "from argparse import ArgumentDefaultsHelpFormatter, ArgumentParser, ArgumentTypeError",
+    "from copy import copy",
+    "from enum import Enum",
+    "from pathlib import Path",
+    "from typing import Any, Iterable, List, NewType, Optional, Tuple, Union",
+    ""
+   ]
+  },
+  "huggingface__transformers-15831": {
+   "first_change_line": 115,
+   "path": "src/transformers/models/marian/configuration_marian.py",
+   "prefix": [
+    "    ```\"\"\"",
+    "    model_type = \"marian\"",
+    "    keys_to_ignore_at_inference = [\"past_key_values\"]",
+    "    attribute_map = {\"num_attention_heads\": \"encoder_attention_heads\", \"hidden_size\": \"d_model\"}",
+    "",
+    "    def __init__(",
+    "        self,",
+    "        vocab_size=50265,"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "        max_position_embeddings=1024,",
+    "        encoder_layers=12,",
+    "        encoder_ffn_dim=4096,",
+    "        encoder_attention_heads=16,",
+    "        decoder_layers=12,",
+    "        decoder_ffn_dim=4096,",
+    "        decoder_attention_heads=16,",
+    "        encoder_layerdrop=0.0,"
+   ]
+  },
+  "huggingface__transformers-15913": {
+   "first_change_line": 26,
+   "path": "src/transformers/models/clip/processing_clip.py",
+   "prefix": [
+    "from ...processing_utils import ProcessorMixin",
+    "from ...tokenization_utils_base import BatchEncoding",
+    "",
+    "",
+    "class CLIPProcessor(ProcessorMixin):",
+    "    r\"\"\"",
+    "    Constructs a CLIP processor which wraps a CLIP feature extractor and a CLIP tokenizer into a single processor.",
+    ""
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "    [`CLIPProcessor`] offers all the functionalities of [`CLIPFeatureExtractor`] and [`CLIPTokenizer`]. See the",
+    "    [`~CLIPProcessor.__call__`] and [`~CLIPProcessor.decode`] for more information.",
+    "",
+    "    Args:",
+    "        feature_extractor ([`CLIPFeatureExtractor`]):",
+    "            The feature extractor is a required input.",
+    "        tokenizer ([`CLIPTokenizer`]):",
+    "            The tokenizer is a required input."
+   ]
+  },
+  "huggingface__transformers-16661": {
+   "first_change_line": 1153,
+   "path": "src/transformers/tokenization_utils_base.py",
+   "prefix": [
+    "        \"\"\"",
+    "        `List[int]`: Ids of all the additional special tokens in the vocabulary. Log an error if used while not having",
+    "        been set.",
+    "        \"\"\"",
+    "        return self.convert_tokens_to_ids(self.additional_special_tokens)",
+    "",
+    "    @bos_token_id.setter",
+    "    def bos_token_id(self, value):"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "        self._bos_token = self.convert_tokens_to_ids(value)",
+    "",
+    "    @eos_token_id.setter",
+    "    def eos_token_id(self, value):",
+    "        self._eos_token = self.convert_tokens_to_ids(value)",
+    "",
+    "    @unk_token_id.setter",
+    "    def unk_token_id(self, value):"
+   ]
+  },
+  "huggingface__transformers-17082": {
+   "first_change_line": 410,
+   "path": "src/transformers/convert_slow_tokenizer.py",
+   "prefix": [
+    "                fuse_unk=False,",
+    "            )",
+    "        )",
+    "",
+    "        tokenizer.pre_tokenizer = pre_tokenizers.ByteLevel(add_prefix_space=ot.add_prefix_space)",
+    "        tokenizer.decoder = decoders.ByteLevel()",
+    "        tokenizer.post_processor = processors.TemplateProcessing(",
+    "            single=\"[CLS]:0 $A:0 [SEP]:0\","
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "            pair=\"[CLS]:0 $A:0 [SEP]:0 $B:0 [SEP]:0\",",
+    "            special_tokens=[",
+    "                (\"[CLS]\", self.original_tokenizer.convert_tokens_to_ids(\"[CLS]\")),",
+    "                (\"[SEP]\", self.original_tokenizer.convert_tokens_to_ids(\"[SEP]\")),",
+    "            ],",
+    "        )",
+    "",
+    "        return tokenizer"
+   ]
+  },
+  "huggingface__transformers-19073": {
+   "first_change_line": 1729,
+   "path": "src/transformers/tokenization_utils_base.py",
+   "prefix": [
+    "                vocab_files[\"tokenizer_file\"] = fast_tokenizer_file",
+    "",
+    "        # Get files from url, cache, or disk depending on the case",
+    "        resolved_vocab_files = {}",
+    "        unresolved_files = []",
+    "        for file_id, file_path in vocab_files.items():",
+    "            if file_path is None:",
+    "                resolved_vocab_files[file_id] = None"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "            elif is_remote_url(file_path):",
+    "                resolved_vocab_files[file_id] = download_url(file_path, proxies=proxies)",
+    "            else:",
+    "                resolved_vocab_files[file_id] = cached_file(",
+    "                    pretrained_model_name_or_path,",
+    "                    file_path,",
+    "                    cache_dir=cache_dir,",
+    "                    force_download=force_download,"
+   ]
+  },
+  "huggingface__transformers-19219": {
+   "first_change_line": 284,
+   "path": "src/transformers/hf_argparser.py",
+   "prefix": [
+    "                Defaults to False. If False, will raise an exception if the json file contains keys that are not",
+    "                parsed.",
+    "",
+    "        Returns:",
+    "            Tuple consisting of:",
+    "",
+    "                - the dataclass instances in the same order as they were passed to the initializer.",
+    "        \"\"\""
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "        outputs = self.parse_dict(json.loads(Path(json_file).read_text()), allow_extra_keys=allow_extra_keys)",
+    "        return tuple(outputs)",
+    "",
+    "    def parse_yaml_file(self, yaml_file: str, allow_extra_keys: bool = False) -> Tuple[DataClass, ...]:",
+    "        \"\"\"",
+    "        Alternative helper method that does not use `argparse` at all, instead loading a json file and populating the",
+    "        dataclass types.",
+    ""
+   ]
+  },
+  "huggingface__transformers-19590": {
+   "first_change_line": 6,
+   "path": "src/transformers/models/bert/tokenization_bert_tf.py",
+   "prefix": [
+    "import os",
+    "from typing import List, Union",
+    "",
+    "import tensorflow as tf",
+    ""
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "from tensorflow_text import FastBertTokenizer, ShrinkLongestTrimmer, case_fold_utf8, combine_segments, pad_model_inputs",
+    "",
+    "from .tokenization_bert import BertTokenizer",
+    "",
+    "",
+    "class TFBertTokenizer(tf.keras.layers.Layer):",
+    "    \"\"\"",
+    "    This is an in-graph tokenizer for BERT. It should be initialized similarly to other tokenizers, using the"
+   ]
+  },
+  "huggingface__transformers-20136": {
+   "first_change_line": 83,
+   "path": "docs/source/en/model_doc/owlvit.mdx",
+   "prefix": [
+    "## OwlViTVisionConfig",
+    "",
+    "[[autodoc]] OwlViTVisionConfig",
+    "",
+    "## OwlViTFeatureExtractor",
+    "",
+    "[[autodoc]] OwlViTFeatureExtractor",
+    "    - __call__"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "",
+    "## OwlViTProcessor",
+    "",
+    "[[autodoc]] OwlViTProcessor",
+    "",
+    "## OwlViTModel",
+    "",
+    "[[autodoc]] OwlViTModel"
+   ]
+  },
+  "huggingface__transformers-21345": {
+   "first_change_line": 28,
+   "path": "src/transformers/activations.py",
+   "prefix": [
+    "from torch import Tensor, nn",
+    "",
+    "from .utils import logging",
+    "",
+    "",
+    "logger = logging.get_logger(__name__)",
+    "",
+    ""
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "class NewGELUActivation(nn.Module):",
+    "    \"\"\"",
+    "    Implementation of the GELU activation function currently in Google BERT repo (identical to OpenAI GPT). Also see",
+    "    the Gaussian Error Linear Units paper: https://arxiv.org/abs/1606.08415",
+    "    \"\"\"",
+    "",
+    "    def forward(self, input: Tensor) -> Tensor:",
+    "        return 0.5 * input * (1.0 + torch.tanh(math.sqrt(2.0 / math.pi) * (input + 0.044715 * torch.pow(input, 3.0))))"
+   ]
+  },
+  "huggingface__transformers-21768": {
+   "first_change_line": 19,
+   "path": "src/transformers/optimization.py",
+   "prefix": [
+    "# distributed under the License is distributed on an \"AS IS\" BASIS,",
+    "# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+    "# See the License for the specific language governing permissions and",
+    "# limitations under the License.",
+    "\"\"\"PyTorch optimization for BERT model.\"\"\"",
+    "",
+    "import math",
+    "import warnings"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "from typing import Callable, Iterable, Optional, Tuple, Union",
+    "",
+    "import torch",
+    "from torch import nn",
+    "from torch.optim import Optimizer",
+    "from torch.optim.lr_scheduler import LambdaLR",
+    "",
+    "from .trainer_utils import SchedulerType"
+   ]
+  },
+  "huggingface__transformers-22458": {
+   "first_change_line": 121,
+   "path": "src/transformers/image_transforms.py",
+   "prefix": [
+    "",
+    "    rescaled_image = image * scale",
+    "    if data_format is not None:",
+    "        rescaled_image = to_channel_dimension_format(rescaled_image, data_format)",
+    "    rescaled_image = rescaled_image.astype(dtype)",
+    "    return rescaled_image",
+    "",
+    ""
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "def to_pil_image(",
+    "    image: Union[np.ndarray, \"PIL.Image.Image\", \"torch.Tensor\", \"tf.Tensor\", \"jnp.ndarray\"],",
+    "    do_rescale: Optional[bool] = None,",
+    ") -> \"PIL.Image.Image\":",
+    "    \"\"\"",
+    "    Converts `image` to a PIL Image. Optionally rescales it and puts the channel dimension back as the last axis if",
+    "    needed.",
+    ""
+   ]
+  },
+  "huggingface__transformers-22920": {
+   "first_change_line": 381,
+   "path": "src/transformers/models/sam/image_processing_sam.py",
+   "prefix": [
+    "",
+    "    def post_process_masks(",
+    "        self, masks, original_sizes, reshaped_input_sizes, mask_threshold=0.0, binarize=True, pad_size=None",
+    "    ):",
+    "        \"\"\"",
+    "        Remove padding and upscale masks to the original image size.",
+    "",
+    "        Args:"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "            masks (`torch.Tensor`):",
+    "                Batched masks from the mask_decoder in (batch_size, num_channels, height, width) format.",
+    "            original_sizes (`torch.Tensor`):",
+    "                The original size of the images before resizing for input to the model, in (height, width) format.",
+    "            reshaped_input_sizes (`torch.Tensor`):",
+    "                The size of the image input to the model, in (height, width) format. Used to remove padding.",
+    "            mask_threshold (`float`, *optional*, defaults to 0.0):",
+    "                The threshold to use for binarizing the masks."
+   ]
+  },
+  "huggingface__transformers-23126": {
+   "first_change_line": 18,
+   "path": "src/transformers/hf_argparser.py",
+   "prefix": [
+    "# distributed under the License is distributed on an \"AS IS\" BASIS,",
+    "# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+    "# See the License for the specific language governing permissions and",
+    "# limitations under the License.",
+    "",
+    "import dataclasses",
+    "import json",
+    "import sys"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "from argparse import ArgumentDefaultsHelpFormatter, ArgumentParser, ArgumentTypeError",
+    "from copy import copy",
+    "from enum import Enum",
+    "from inspect import isclass",
+    "from pathlib import Path",
+    "from typing import Any, Callable, Dict, Iterable, List, NewType, Optional, Tuple, Union, get_type_hints",
+    "",
+    "import yaml"
+   ]
+  },
+  "huggingface__transformers-24510": {
+   "first_change_line": 3480,
+   "path": "src/transformers/modeling_utils.py",
+   "prefix": [
+    "            raise ImportError(",
+    "                f\"Please install optimum>=1.7.0 to use Better Transformer. The version {optimum_version} was found.\"",
+    "            )",
+    "",
+    "        from optimum.bettertransformer import BetterTransformer",
+    "",
+    "        return BetterTransformer.reverse(self)",
+    ""
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "",
+    "PreTrainedModel.push_to_hub = copy_func(PreTrainedModel.push_to_hub)",
+    "if PreTrainedModel.push_to_hub.__doc__ is not None:",
+    "    PreTrainedModel.push_to_hub.__doc__ = PreTrainedModel.push_to_hub.__doc__.format(",
+    "        object=\"model\", object_class=\"AutoModel\", object_files=\"model file\"",
+    "    )",
+    "",
+    ""
+   ]
+  },
+  "huggingface__transformers-25358": {
+   "first_change_line": 251,
+   "path": "src/transformers/utils/generic.py",
+   "prefix": [
+    "    <Tip warning={true}>",
+    "",
+    "    You can't unpack a `ModelOutput` directly. Use the [`~utils.ModelOutput.to_tuple`] method to convert it to a tuple",
+    "    before.",
+    "",
+    "    </Tip>",
+    "    \"\"\"",
+    ""
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "    def __post_init__(self):",
+    "        class_fields = fields(self)",
+    "",
+    "        # Safety and consistency checks",
+    "        if not len(class_fields):",
+    "            raise ValueError(f\"{self.__class__.__name__} has no fields.\")",
+    "        if not all(field.default is None for field in class_fields[1:]):",
+    "            raise ValueError(f\"{self.__class__.__name__} should not have more than one required field.\")"
+   ]
+  },
+  "huggingface__transformers-25636": {
+   "first_change_line": 756,
+   "path": "src/transformers/models/gpt2/modeling_flax_gpt2.py",
+   "prefix": [
+    "",
+    "        past_key_values = self.init_cache(batch_size, max_length)",
+    "        # Note that usually one would have to put 0's in the attention_mask for x > input_ids.shape[-1] and x < cache_length.",
+    "        # But since GPT2 uses a causal mask, those positions are masked anyways.",
+    "        # Thus we can create a single static attention_mask here, which is more efficient for compilation",
+    "        extended_attention_mask = jnp.ones((batch_size, max_length), dtype=\"i4\")",
+    "        if attention_mask is not None:",
+    "            position_ids = attention_mask.cumsum(axis=-1) - 1"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "            extended_attention_mask = lax.dynamic_update_slice(extended_attention_mask, attention_mask, (0, 0))",
+    "        else:",
+    "            position_ids = jnp.broadcast_to(jnp.arange(seq_length, dtype=\"i4\")[None, :], (batch_size, seq_length))",
+    "",
+    "        return {",
+    "            \"past_key_values\": past_key_values,",
+    "            \"attention_mask\": extended_attention_mask,",
+    "            \"position_ids\": position_ids,"
+   ]
+  },
+  "huggingface__transformers-25765": {
+   "first_change_line": 1545,
+   "path": "src/transformers/models/mega/modeling_mega.py",
+   "prefix": [
+    "            input_shape = input_ids.size()",
+    "            device = input_ids.device",
+    "        elif inputs_embeds is not None:",
+    "            input_shape = inputs_embeds.size()[:-1]",
+    "            device = inputs_embeds.device",
+    "        else:",
+    "            raise ValueError(\"You have to specify either input_ids or inputs_embeds\")",
+    ""
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "        batch_size, sequence_length = input_shape",
+    "",
+    "        if self.config.use_chunking and (sequence_length > self.config.chunk_size):",
+    "            if sequence_length % self.config.chunk_size != 0:",
+    "                raise ValueError(",
+    "                    f\"config.use_chunking is activated; input sequence length must be shorter than or a multiple of config.chunk_size\\nreceived sequence length of {sequence_length} with chunk size {self.config.chunk_size}\"",
+    "                )",
+    ""
+   ]
+  },
+  "huggingface__transformers-25884": {
+   "first_change_line": 875,
+   "path": "src/transformers/pipelines/base.py",
+   "prefix": [
+    "        self.model.save_pretrained(save_directory, safe_serialization=safe_serialization)",
+    "",
+    "        if self.tokenizer is not None:",
+    "            self.tokenizer.save_pretrained(save_directory)",
+    "",
+    "        if self.feature_extractor is not None:",
+    "            self.feature_extractor.save_pretrained(save_directory)",
+    ""
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "        if self.modelcard is not None:",
+    "            self.modelcard.save_pretrained(save_directory)",
+    "",
+    "    def transform(self, X):",
+    "        \"\"\"",
+    "        Scikit / Keras interface to transformers' pipelines. This method will forward to __call__().",
+    "        \"\"\"",
+    "        return self(X)"
+   ]
+  },
+  "huggingface__transformers-26164": {
+   "first_change_line": 1722,
+   "path": "src/transformers/models/whisper/modeling_whisper.py",
+   "prefix": [
+    "            if kwargs.get(\"decoder_start_token_id\") is not None:",
+    "                raise ValueError(",
+    "                    \"When specifying `prompt_ids`, you cannot also specify `decoder_start_token_id` as it gets overwritten.\"",
+    "                )",
+    "            prompt_ids = prompt_ids.tolist()",
+    "            decoder_start_token_id, *text_prompt_ids = prompt_ids",
+    "            # Slicing the text prompt ids in a manner consistent with the OpenAI implementation",
+    "            # to accomodate context space for the prefix (see https://github.com/openai/whisper/blob/c09a7ae299c4c34c5839a76380ae407e7d785914/whisper/decoding.py#L599)"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "            text_prompt_ids = text_prompt_ids[-self.config.max_length // 2 - 1 :]",
+    "            # Set the decoder_start_token_id to <|startofprev|>",
+    "            kwargs.update({\"decoder_start_token_id\": decoder_start_token_id})",
+    "",
+    "            # If the user passes `max_new_tokens`, increase its number to account for the prompt",
+    "            if kwargs.get(\"max_new_tokens\", None) is not None:",
+    "                kwargs[\"max_new_tokens\"] += len(text_prompt_ids)",
+    ""
+   ]
+  },
+  "huggingface__transformers-26386": {
+   "first_change_line": 693,
+   "path": "src/transformers/models/esm/modeling_esm.py",
+   "prefix": [
+    "class EsmPreTrainedModel(PreTrainedModel):",
+    "    \"\"\"",
+    "    An abstract class to handle weights initialization and a simple interface for downloading and loading pretrained",
+    "    models.",
+    "    \"\"\"",
+    "",
+    "    config_class = EsmConfig",
+    "    base_model_prefix = \"esm\""
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "    _no_split_modules = [\"EsmLayer\", \"EsmFoldTriangularSelfAttentionBlock\", \"EsmEmbeddings\"]",
+    "",
+    "    # Copied from transformers.models.bert.modeling_bert.BertPreTrainedModel._init_weights",
+    "    def _init_weights(self, module):",
+    "        \"\"\"Initialize the weights\"\"\"",
+    "        if isinstance(module, nn.Linear):",
+    "            # Slightly different from the TF version which uses truncated_normal for initialization",
+    "            # cf https://github.com/pytorch/pytorch/pull/5617"
+   ]
+  },
+  "huggingface__transformers-26568": {
+   "first_change_line": 47,
+   "path": "src/transformers/models/swin2sr/configuration_swin2sr.py",
+   "prefix": [
+    "",
+    "    Args:",
+    "        image_size (`int`, *optional*, defaults to 64):",
+    "            The size (resolution) of each image.",
+    "        patch_size (`int`, *optional*, defaults to 1):",
+    "            The size (resolution) of each patch.",
+    "        num_channels (`int`, *optional*, defaults to 3):",
+    "            The number of input channels."
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "        embed_dim (`int`, *optional*, defaults to 180):",
+    "            Dimensionality of patch embedding.",
+    "        depths (`list(int)`, *optional*, defaults to `[6, 6, 6, 6, 6, 6]`):",
+    "            Depth of each layer in the Transformer encoder.",
+    "        num_heads (`list(int)`, *optional*, defaults to `[6, 6, 6, 6, 6, 6]`):",
+    "            Number of attention heads in each layer of the Transformer encoder.",
+    "        window_size (`int`, *optional*, defaults to 8):",
+    "            Size of windows."
+   ]
+  },
+  "huggingface__transformers-27463": {
+   "first_change_line": 69,
+   "path": "docs/source/en/model_doc/sam.md",
+   "prefix": [
+    "    outputs = model(**inputs)",
+    "",
+    "masks = processor.image_processor.post_process_masks(",
+    "    outputs.pred_masks.cpu(), inputs[\"original_sizes\"].cpu(), inputs[\"reshaped_input_sizes\"].cpu()",
+    ")",
+    "scores = outputs.iou_scores",
+    "```",
+    ""
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "Resources:",
+    "",
+    "- [Demo notebook](https://github.com/huggingface/notebooks/blob/main/examples/segment_anything.ipynb) for using the model.",
+    "- [Demo notebook](https://github.com/huggingface/notebooks/blob/main/examples/automatic_mask_generation.ipynb) for using the automatic mask generation pipeline.",
+    "- [Demo notebook](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/SAM/Run_inference_with_MedSAM_using_HuggingFace_Transformers.ipynb) for inference with MedSAM, a fine-tuned version of SAM on the medical domain.",
+    "- [Demo notebook](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/SAM/Fine_tune_SAM_(segment_anything)_on_a_custom_dataset.ipynb) for fine-tuning the model on custom data.",
+    "",
+    "## SamConfig"
+   ]
+  },
+  "huggingface__transformers-27561": {
+   "first_change_line": 28,
+   "path": "docs/source/en/model_doc/dinov2.md",
+   "prefix": [
+    "",
+    "The abstract from the paper is the following:",
+    "",
+    "*The recent breakthroughs in natural language processing for model pretraining on large quantities of data have opened the way for similar foundation models in computer vision. These models could greatly simplify the use of images in any system by producing all-purpose visual features, i.e., features that work across image distributions and tasks without finetuning. This work shows that existing pretraining methods, especially self-supervised methods, can produce such features if trained on enough curated data from diverse sources. We revisit existing approaches and combine different techniques to scale our pretraining in terms of data and model size. Most of the technical contributions aim at accelerating and stabilizing the training at scale. In terms of data, we propose an automatic pipeline to build a dedicated, diverse, and curated image dataset instead of uncurated data, as typically done in the self-supervised literature. In terms of models, we train a ViT model (Dosovitskiy et al., 2020) with 1B parameters and distill it into a series of smaller models that surpass the best available all-purpose features, OpenCLIP (Ilharco et al., 2021) on most of the benchmarks at image and pixel levels.*",
+    "",
+    "This model was contributed by [nielsr](https://huggingface.co/nielsr).",
+    "The original code can be found [here](https://github.com/facebookresearch/dinov2).",
+    ""
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "## Dinov2Config",
+    "",
+    "[[autodoc]] Dinov2Config",
+    "",
+    "## Dinov2Model",
+    "",
+    "[[autodoc]] Dinov2Model",
+    "    - forward"
+   ]
+  },
+  "huggingface__transformers-27717": {
+   "first_change_line": 803,
+   "path": "src/transformers/convert_slow_tokenizer.py",
+   "prefix": [
+    "    def vocab(self, proto):",
+    "        vocab = [",
+    "            (\"<s>\", 0.0),",
+    "            (\"<pad>\", 0.0),",
+    "            (\"</s>\", 0.0),",
+    "            (\"<unk>\", 0.0),",
+    "        ]",
+    "        vocab += [(piece.piece, piece.score) for piece in proto.pieces[3:]]"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "        vocab += [('ace_Arab', 0.0), ('ace_Latn', 0.0), ('acm_Arab', 0.0), ('acq_Arab', 0.0), ('aeb_Arab', 0.0), ('afr_Latn', 0.0), ('ajp_Arab', 0.0), ('aka_Latn', 0.0), ('amh_Ethi', 0.0), ('apc_Arab', 0.0), ('arb_Arab', 0.0), ('ars_Arab', 0.0), ('ary_Arab', 0.0), ('arz_Arab', 0.0), ('asm_Beng', 0.0), ('ast_Latn', 0.0), ('awa_Deva', 0.0), ('ayr_Latn', 0.0), ('azb_Arab', 0.0), ('azj_Latn', 0.0), ('bak_Cyrl', 0.0), ('bam_Latn', 0.0), ('ban_Latn', 0.0), ('bel_Cyrl', 0.0), ('bem_Latn', 0.0), ('ben_Beng', 0.0), ('bho_Deva', 0.0), ('bjn_Arab', 0.0), ('bjn_Latn', 0.0), ('bod_Tibt', 0.0), ('bos_Latn', 0.0), ('bug_Latn', 0.0), ('bul_Cyrl', 0.0), ('cat_Latn', 0.0), ('ceb_Latn', 0.0), ('ces_Latn', 0.0), ('cjk_Latn', 0.0), ('ckb_Arab', 0.0), ('crh_Latn', 0.0), ('cym_Latn', 0.0), ('dan_Latn', 0.0), ('deu_Latn', 0.0), ('dik_Latn', 0.0), ('dyu_Latn', 0.0), ('dzo_Tibt', 0.0), ('ell_Grek', 0.0), ('eng_Latn', 0.0), ('epo_Latn', 0.0), ('est_Latn', 0.0), ('eus_Latn', 0.0), ('ewe_Latn', 0.0), ('fao_Latn', 0.0), ('pes_Arab', 0.0), ('fij_Latn', 0.0), ('fin_Latn', 0.0), ('fon_Latn', 0.0), ('fra_Latn', 0.0), ('fur_Latn', 0.0), ('fuv_Latn', 0.0), ('gla_Latn', 0.0), ('gle_Latn', 0.0), ('glg_Latn', 0.0), ('grn_Latn', 0.0), ('guj_Gujr', 0.0), ('hat_Latn', 0.0), ('hau_Latn', 0.0), ('heb_Hebr', 0.0), ('hin_Deva', 0.0), ('hne_Deva', 0.0), ('hrv_Latn', 0.0), ('hun_Latn', 0.0), ('hye_Armn', 0.0), ('ibo_Latn', 0.0), ('ilo_Latn', 0.0), ('ind_Latn', 0.0), ('isl_Latn', 0.0), ('ita_Latn', 0.0), ('jav_Latn', 0.0), ('jpn_Jpan', 0.0), ('kab_Latn', 0.0), ('kac_Latn', 0.0), ('kam_Latn', 0.0), ('kan_Knda', 0.0), ('kas_Arab', 0.0), ('kas_Deva', 0.0), ('kat_Geor', 0.0), ('knc_Arab', 0.0), ('knc_Latn', 0.0), ('kaz_Cyrl', 0.0), ('kbp_Latn', 0.0), ('kea_Latn', 0.0), ('khm_Khmr', 0.0), ('kik_Latn', 0.0), ('kin_Latn', 0.0), ('kir_Cyrl', 0.0), ('kmb_Latn', 0.0), ('kon_Latn', 0.0), ('kor_Hang', 0.0), ('kmr_Latn', 0.0), ('lao_Laoo', 0.0), ('lvs_Latn', 0.0), ('lij_Latn', 0.0), ('lim_Latn', 0.0), ('lin_Latn', 0.0), ('lit_Latn', 0.0), ('lmo_Latn', 0.0), ('ltg_Latn', 0.0), ('ltz_Latn', 0.0), ('lua_Latn', 0.0), ('lug_Latn', 0.0), ('luo_Latn', 0.0), ('lus_Latn', 0.0), ('mag_Deva', 0.0), ('mai_Deva', 0.0), ('mal_Mlym', 0.0), ('mar_Deva', 0.0), ('min_Latn', 0.0), ('mkd_Cyrl', 0.0), ('plt_Latn', 0.0), ('mlt_Latn', 0.0), ('mni_Beng', 0.0), ('khk_Cyrl', 0.0), ('mos_Latn', 0.0), ('mri_Latn', 0.0), ('zsm_Latn', 0.0), ('mya_Mymr', 0.0), ('nld_Latn', 0.0), ('nno_Latn', 0.0), ('nob_Latn', 0.0), ('npi_Deva', 0.0), ('nso_Latn', 0.0), ('nus_Latn', 0.0), ('nya_Latn', 0.0), ('oci_Latn', 0.0), ('gaz_Latn', 0.0), ('ory_Orya', 0.0), ('pag_Latn', 0.0), ('pan_Guru', 0.0), ('pap_Latn', 0.0), ('pol_Latn', 0.0), ('por_Latn', 0.0), ('prs_Arab', 0.0), ('pbt_Arab', 0.0), ('quy_Latn', 0.0), ('ron_Latn', 0.0), ('run_Latn', 0.0), ('rus_Cyrl', 0.0), ('sag_Latn', 0.0), ('san_Deva', 0.0), ('sat_Beng', 0.0), ('scn_Latn', 0.0), ('shn_Mymr', 0.0), ('sin_Sinh', 0.0), ('slk_Latn', 0.0), ('slv_Latn', 0.0), ('smo_Latn', 0.0), ('sna_Latn', 0.0), ('snd_Arab', 0.0), ('som_Latn', 0.0), ('sot_Latn', 0.0), ('spa_Latn', 0.0), ('als_Latn', 0.0), ('srd_Latn', 0.0), ('srp_Cyrl', 0.0), ('ssw_Latn', 0.0), ('sun_Latn', 0.0), ('swe_Latn', 0.0), ('swh_Latn', 0.0), ('szl_Latn', 0.0), ('tam_Taml', 0.0), ('tat_Cyrl', 0.0), ('tel_Telu', 0.0), ('tgk_Cyrl', 0.0), ('tgl_Latn', 0.0), ('tha_Thai', 0.0), ('tir_Ethi', 0.0), ('taq_Latn', 0.0), ('taq_Tfng', 0.0), ('tpi_Latn', 0.0), ('tsn_Latn', 0.0), ('tso_Latn', 0.0), ('tuk_Latn', 0.0), ('tum_Latn', 0.0), ('tur_Latn', 0.0), ('twi_Latn', 0.0), ('tzm_Tfng', 0.0), ('uig_Arab', 0.0), ('ukr_Cyrl', 0.0), ('umb_Latn', 0.0), ('urd_Arab', 0.0), ('uzn_Latn', 0.0), ('vec_Latn', 0.0), ('vie_Latn', 0.0), ('war_Latn', 0.0), ('wol_Latn', 0.0), ('xho_Latn', 0.0), ('ydd_Hebr', 0.0), ('yor_Latn', 0.0), ('yue_Hant', 0.0), ('zho_Hans', 0.0), ('zho_Hant', 0.0), ('zul_Latn', 0.0)]  # fmt: skip",
+    "        vocab += [(\"<mask>\", 0.0)]",
+    "        return vocab",
+    "",
+    "    def unk_id(self, proto):",
+    "        return 3",
+    "",
+    "    def post_processor(self):"
+   ]
+  },
+  "huggingface__transformers-28010": {
+   "first_change_line": 588,
+   "path": "src/transformers/convert_slow_tokenizer.py",
+   "prefix": [
+    "",
+    "        # Tokenizer assemble",
+    "        normalizer = self.normalizer(self.proto)",
+    "        if normalizer is not None:",
+    "            tokenizer.normalizer = normalizer",
+    "",
+    "        replacement = \"\u2581\"",
+    "        add_prefix_space = True"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "        pre_tokenizer = self.pre_tokenizer(replacement, add_prefix_space)",
+    "        if pre_tokenizer is not None:",
+    "            tokenizer.pre_tokenizer = pre_tokenizer",
+    "",
+    "        tokenizer.decoder = self.decoder(replacement, add_prefix_space)",
+    "        post_processor = self.post_processor()",
+    "        if post_processor:",
+    "            tokenizer.post_processor = post_processor"
+   ]
+  },
+  "huggingface__transformers-28398": {
+   "first_change_line": 18,
+   "path": "src/transformers/models/oneformer/image_processing_oneformer.py",
+   "prefix": [
+    "# Unless required by applicable law or agreed to in writing, software",
+    "# distributed under the License is distributed on an \"AS IS\" BASIS,",
+    "# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+    "# See the License for the specific language governing permissions and",
+    "# limitations under the License.",
+    "\"\"\"Image processor class for OneFormer.\"\"\"",
+    "",
+    "import json"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "import warnings",
+    "from typing import Any, Dict, Iterable, List, Optional, Set, Tuple, Union",
+    "",
+    "import numpy as np",
+    "from huggingface_hub import hf_hub_download",
+    "",
+    "from ...image_processing_utils import BaseImageProcessor, BatchFeature, get_size_dict",
+    "from ...image_transforms import ("
+   ]
+  },
+  "huggingface__transformers-28517": {
+   "first_change_line": 77,
+   "path": "src/transformers/models/mixtral/modeling_mixtral.py",
+   "prefix": [
+    "    _prepare_4d_causal_attention_mask = torch.fx.wrap(_prepare_4d_causal_attention_mask)",
+    "",
+    "",
+    "logger = logging.get_logger(__name__)",
+    "",
+    "_CONFIG_FOR_DOC = \"MixtralConfig\"",
+    "",
+    ""
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "def load_balancing_loss_func(gate_logits: torch.Tensor, num_experts: torch.Tensor = None, top_k=2) -> float:",
+    "    r\"\"\"",
+    "    Computes auxiliary load balancing loss as in Switch Transformer - implemented in Pytorch.",
+    "",
+    "    See Switch Transformer (https://arxiv.org/abs/2101.03961) for more details. This function implements the loss",
+    "    function presented in equations (4) - (6) of the paper. It aims at penalizing cases where the routing between",
+    "    experts is too unbalanced.",
+    ""
+   ]
+  },
+  "huggingface__transformers-28522": {
+   "first_change_line": 254,
+   "path": "src/transformers/models/barthez/tokenization_barthez.py",
+   "prefix": [
+    "    def _convert_token_to_id(self, token):",
+    "        \"\"\"Converts a token (str) in an id using the vocab.\"\"\"",
+    "        return self.sp_model.PieceToId(token)",
+    "",
+    "    def _convert_id_to_token(self, index):",
+    "        \"\"\"Converts an index (integer) in a token (str) using the vocab.\"\"\"",
+    "        return self.sp_model.IdToPiece(index)",
+    ""
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "    def convert_tokens_to_string(self, tokens):",
+    "        \"\"\"Converts a sequence of tokens (string) in a single string.\"\"\"",
+    "        current_sub_tokens = []",
+    "        out_string = \"\"",
+    "        prev_is_special = False",
+    "        for token in tokens:",
+    "            # make sure that special tokens are not decoded using sentencepiece model",
+    "            if token in self.all_special_tokens:"
+   ]
+  },
+  "huggingface__transformers-28535": {
+   "first_change_line": 17,
+   "path": "src/transformers/models/esm/tokenization_esm.py",
+   "prefix": [
+    "#",
+    "# Unless required by applicable law or agreed to in writing, software",
+    "# distributed under the License is distributed on an \"AS IS\" BASIS,",
+    "# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+    "# See the License for the specific language governing permissions and",
+    "# limitations under the License.",
+    "\"\"\"Tokenization classes for ESM.\"\"\"",
+    "import os"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "from typing import List, Optional, Union",
+    "",
+    "from ...tokenization_utils import PreTrainedTokenizer",
+    "from ...tokenization_utils_base import AddedToken",
+    "from ...utils import logging",
+    "",
+    "",
+    "logger = logging.get_logger(__name__)"
+   ]
+  },
+  "huggingface__transformers-28563": {
+   "first_change_line": 60,
+   "path": "src/transformers/models/whisper/modeling_whisper.py",
+   "prefix": [
+    "",
+    "if is_flash_attn_2_available():",
+    "    from flash_attn import flash_attn_func, flash_attn_varlen_func",
+    "    from flash_attn.bert_padding import index_first_axis, pad_input, unpad_input  # noqa",
+    "",
+    "",
+    "logger = logging.get_logger(__name__)",
+    ""
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "_CONFIG_FOR_DOC = \"WhisperConfig\"",
+    "_CHECKPOINT_FOR_DOC = \"openai/whisper-tiny\"",
+    "",
+    "",
+    "WHISPER_PRETRAINED_MODEL_ARCHIVE_LIST = [",
+    "    \"openai/whisper-base\",",
+    "    # See all Whisper models at https://huggingface.co/models?filter=whisper",
+    "]"
+   ]
+  },
+  "huggingface__transformers-28940": {
+   "first_change_line": 864,
+   "path": "src/transformers/pipelines/base.py",
+   "prefix": [
+    "            elif is_torch_npu_available():",
+    "                self.device = torch.device(f\"npu:{device}\")",
+    "            elif is_torch_xpu_available(check_device=True):",
+    "                self.device = torch.device(f\"xpu:{device}\")",
+    "            else:",
+    "                raise ValueError(f\"{device} unrecognized or not available.\")",
+    "        else:",
+    "            self.device = device if device is not None else -1"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "        self.torch_dtype = torch_dtype",
+    "        self.binary_output = binary_output",
+    "",
+    "        # We shouldn't call `model.to()` for models loaded with accelerate",
+    "        if (",
+    "            self.framework == \"pt\"",
+    "            and self.device is not None",
+    "            and not (isinstance(self.device, int) and self.device < 0)"
+   ]
+  },
+  "huggingface__transformers-29175": {
+   "first_change_line": 188,
+   "path": "src/transformers/dynamic_module_utils.py",
+   "prefix": [
+    "        raise ImportError(",
+    "            \"This modeling file requires the following packages that were not found in your environment: \"",
+    "            f\"{', '.join(missing_packages)}. Run `pip install {' '.join(missing_packages)}`\"",
+    "        )",
+    "",
+    "    return get_relative_imports(filename)",
+    "",
+    ""
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "def get_class_in_module(class_name: str, module_path: Union[str, os.PathLike]) -> typing.Type:",
+    "    \"\"\"",
+    "    Import a module on the cache directory for modules and extract a class from it.",
+    "",
+    "    Args:",
+    "        class_name (`str`): The name of the class to import.",
+    "        module_path (`str` or `os.PathLike`): The path to the module to import.",
+    ""
+   ]
+  },
+  "huggingface__transformers-29300": {
+   "first_change_line": 1326,
+   "path": "src/transformers/models/conditional_detr/image_processing_conditional_detr.py",
+   "prefix": [
+    "        if not valid_images(images):",
+    "            raise ValueError(",
+    "                \"Invalid image type. Must be of type PIL.Image.Image, numpy.ndarray, \"",
+    "                \"torch.Tensor, tf.Tensor or jax.ndarray.\"",
+    "            )",
+    "        validate_kwargs(captured_kwargs=kwargs.keys(), valid_processor_keys=self._valid_processor_keys)",
+    "",
+    "        # Here, the pad() method pads to the maximum of (width, height). It does not need to be validated."
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "",
+    "        validate_preprocess_arguments(",
+    "            do_rescale=do_rescale,",
+    "            rescale_factor=rescale_factor,",
+    "            do_normalize=do_normalize,",
+    "            image_mean=image_mean,",
+    "            image_std=image_std,",
+    "            do_resize=do_resize,"
+   ]
+  },
+  "huggingface__transformers-29311": {
+   "first_change_line": 128,
+   "path": "src/transformers/models/wav2vec2/tokenization_wav2vec2.py",
+   "prefix": [
+    "    \"\"\"",
+    "",
+    "    text: Union[List[str], str]",
+    "    char_offsets: Union[List[ListOfDict], ListOfDict] = None",
+    "    word_offsets: Union[List[ListOfDict], ListOfDict] = None",
+    "",
+    "",
+    "class Wav2Vec2CTCTokenizer(PreTrainedTokenizer):"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "",
+    "    \"\"\"",
+    "    Constructs a Wav2Vec2CTC tokenizer.",
+    "",
+    "    This tokenizer inherits from [`PreTrainedTokenizer`] which contains some of the main methods. Users should refer to",
+    "    the superclass for more information regarding such methods.",
+    "",
+    "    Args:"
+   ]
+  },
+  "huggingface__transformers-29519": {
+   "first_change_line": 167,
+   "path": "src/transformers/modeling_attn_mask_utils.py",
+   "prefix": [
+    "",
+    "        mask = mask.to(dtype)",
+    "",
+    "        if past_key_values_length > 0:",
+    "            mask = torch.cat([torch.zeros(tgt_len, past_key_values_length, dtype=dtype, device=device), mask], dim=-1)",
+    "",
+    "        # add lower triangular sliding window mask if necessary",
+    "        if sliding_window is not None:"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "            diagonal = past_key_values_length - sliding_window + 1",
+    "",
+    "            context_mask = 1 - torch.triu(torch.ones_like(mask, dtype=torch.int), diagonal=diagonal)",
+    "            mask.masked_fill_(context_mask.bool(), torch.finfo(dtype).min)",
+    "",
+    "        return mask[None, None, :, :].expand(bsz, 1, tgt_len, tgt_len + past_key_values_length)",
+    "",
+    "    @staticmethod"
+   ]
+  },
+  "huggingface__transformers-29589": {
+   "first_change_line": 4250,
+   "path": "src/transformers/trainer.py",
+   "prefix": [
+    "        # avoid race condition with git status",
+    "        time.sleep(0.5)",
+    "",
+    "        if not self.repo.is_repo_clean():",
+    "            self.repo.git_commit(\"Add *.sagemaker patterns to .gitignore.\")",
+    "            self.repo.git_push()",
+    "",
+    "    def create_accelerator_and_postprocess(self):"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "        grad_acc_kwargs = {\"num_steps\": self.args.gradient_accumulation_steps}",
+    "        grad_acc_kwargs[\"sync_with_dataloader\"] = False",
+    "        gradient_accumulation_plugin = GradientAccumulationPlugin(**grad_acc_kwargs)",
+    "",
+    "        accelerator_config = self.args.accelerator_config.to_dict()",
+    "",
+    "        if is_accelerate_available(\"0.28.0\"):",
+    "            dataloader_config = DataLoaderConfiguration("
+   ]
+  },
+  "huggingface__transformers-29680": {
+   "first_change_line": 154,
+   "path": "src/transformers/generation/logits_process.py",
+   "prefix": [
+    "        if not all(isinstance(i, int) for i in eos_token_id) or any(i < 0 for i in eos_token_id):",
+    "            logger.warning(f\"`eos_token_id` has to be a list of positive integers, but is {eos_token_id}\")",
+    "",
+    "        self.min_length = min_length",
+    "        self.eos_token_id = eos_token_id",
+    "",
+    "    @add_start_docstrings(LOGITS_PROCESSOR_INPUTS_DOCSTRING)",
+    "    def __call__(self, input_ids: torch.LongTensor, scores: torch.FloatTensor) -> torch.FloatTensor:"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "        cur_len = input_ids.shape[-1]",
+    "        if cur_len < self.min_length:",
+    "            for i in self.eos_token_id:",
+    "                scores[:, i] = -float(\"inf\")",
+    "        return scores",
+    "",
+    "",
+    "class MinNewTokensLengthLogitsProcessor(LogitsProcessor):"
+   ]
+  },
+  "huggingface__transformers-29688": {
+   "first_change_line": 265,
+   "path": "src/transformers/models/whisper/generation_whisper.py",
+   "prefix": [
+    "        input_features: Optional[torch.Tensor] = None,",
+    "        generation_config: Optional[GenerationConfig] = None,",
+    "        logits_processor: Optional[LogitsProcessorList] = None,",
+    "        stopping_criteria: Optional[StoppingCriteriaList] = None,",
+    "        prefix_allowed_tokens_fn: Optional[Callable[[int, torch.Tensor], List[int]]] = None,",
+    "        synced_gpus: bool = False,",
+    "        return_timestamps: Optional[bool] = None,",
+    "        task: Optional[str] = None,"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "        language: Optional[str] = None,",
+    "        is_multilingual: Optional[bool] = None,",
+    "        prompt_ids: Optional[torch.Tensor] = None,",
+    "        prompt_condition_type: Optional[str] = None,  # first-segment, all-segments",
+    "        condition_on_prev_tokens: Optional[bool] = None,",
+    "        temperature: Optional[Union[float, Tuple[float, ...]]] = None,",
+    "        compression_ratio_threshold: Optional[float] = None,",
+    "        logprob_threshold: Optional[float] = None,"
+   ]
+  },
+  "huggingface__transformers-29838": {
+   "first_change_line": 1051,
+   "path": "src/transformers/trainer.py",
+   "prefix": [
+    "                        logger.debug(f\"bitsandbytes: will optimize {module} in fp32\")",
+    "                logger.info(f\"skipped: {skipped/2**20}M params\")",
+    "",
+    "        if is_sagemaker_mp_enabled():",
+    "            self.optimizer = smp.DistributedOptimizer(self.optimizer)",
+    "",
+    "        return self.optimizer",
+    ""
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "    @staticmethod",
+    "    def get_optimizer_cls_and_kwargs(",
+    "        args: TrainingArguments, model: Optional[PreTrainedModel] = None",
+    "    ) -> Tuple[Any, Any]:",
+    "        \"\"\"",
+    "        Returns the optimizer class and optimizer parameters based on the training arguments.",
+    "",
+    "        Args:"
+   ]
+  },
+  "huggingface__transformers-30556": {
+   "first_change_line": 125,
+   "path": "examples/pytorch/speech-recognition/run_speech_recognition_seq2seq.py",
+   "prefix": [
+    "    freeze_encoder: bool = field(",
+    "        default=False, metadata={\"help\": \"Whether to freeze the entire encoder of the seq2seq model.\"}",
+    "    )",
+    "    forced_decoder_ids: List[List[int]] = field(",
+    "        default=None,",
+    "        metadata={\"help\": \"Deprecated. Please use the `language` and `task` arguments instead.\"},",
+    "    )",
+    "    suppress_tokens: List[int] = field("
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "        default=None, metadata={",
+    "            \"help\": (",
+    "                \"Deprecated. The use of `suppress_tokens` should not be required for the majority of fine-tuning examples.\"",
+    "                \"Should you need to use `suppress_tokens`, please manually update them in the fine-tuning script directly.\"",
+    "            )",
+    "        },",
+    "    )",
+    "    apply_spec_augment: bool = field("
+   ]
+  },
+  "huggingface__transformers-30602": {
+   "first_change_line": 3266,
+   "path": "src/transformers/modeling_utils.py",
+   "prefix": [
+    "                    )",
+    "                elif use_safetensors:",
+    "                    raise EnvironmentError(",
+    "                        f\"Error no file named {_add_variant(SAFE_WEIGHTS_NAME, variant)} found in directory\"",
+    "                        f\" {pretrained_model_name_or_path}.\"",
+    "                    )",
+    "                else:",
+    "                    raise EnvironmentError("
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "                        f\"Error no file named {_add_variant(WEIGHTS_NAME, variant)}, {TF2_WEIGHTS_NAME},\"",
+    "                        f\" {TF_WEIGHTS_NAME + '.index'} or {FLAX_WEIGHTS_NAME} found in directory\"",
+    "                        f\" {pretrained_model_name_or_path}.\"",
+    "                    )",
+    "            elif os.path.isfile(os.path.join(subfolder, pretrained_model_name_or_path)):",
+    "                archive_file = pretrained_model_name_or_path",
+    "                is_local = True",
+    "            elif os.path.isfile(os.path.join(subfolder, pretrained_model_name_or_path + \".index\")):"
+   ]
+  },
+  "huggingface__transformers-30772": {
+   "first_change_line": 356,
+   "path": "src/transformers/models/gptsan_japanese/tokenization_gptsan_japanese.py",
+   "prefix": [
+    "        return_tensors: Optional[str] = None,",
+    "        return_token_type_ids: Optional[bool] = None,",
+    "        return_attention_mask: Optional[bool] = None,",
+    "        return_overflowing_tokens: bool = False,",
+    "        return_special_tokens_mask: bool = False,",
+    "        return_offsets_mapping: bool = False,",
+    "        return_length: bool = False,",
+    "        verbose: bool = True,"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "    ) -> BatchEncoding:",
+    "        # This tokenizer converts input text pairs into Prefix input and subsequent input",
+    "        if isinstance(batch_text_or_text_pairs[0], tuple) or isinstance(tuple(batch_text_or_text_pairs[0]), list):",
+    "            # As a single text with an explicit un-prefix position",
+    "            batch_prefix_texts = []",
+    "            for pref, txt in batch_text_or_text_pairs:",
+    "                batch_prefix_texts.append(pref + self.sep_token + txt)",
+    "            batch_text_or_text_pairs = batch_prefix_texts"
+   ]
+  },
+  "huggingface__transformers-30934": {
+   "first_change_line": 17,
+   "path": "src/transformers/image_transforms.py",
+   "prefix": [
+    "#",
+    "# Unless required by applicable law or agreed to in writing, software",
+    "# distributed under the License is distributed on an \"AS IS\" BASIS,",
+    "# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+    "# See the License for the specific language governing permissions and",
+    "# limitations under the License.",
+    "",
+    "import warnings"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "from typing import Iterable, List, Optional, Tuple, Union",
+    "",
+    "import numpy as np",
+    "",
+    "from .image_utils import (",
+    "    ChannelDimension,",
+    "    ImageInput,",
+    "    get_channel_dimension_axis,"
+   ]
+  },
+  "huggingface__transformers-30964": {
+   "first_change_line": 166,
+   "path": "src/transformers/models/llama/tokenization_llama_fast.py",
+   "prefix": [
+    "            tokenizer_file=tokenizer_file,",
+    "            clean_up_tokenization_spaces=clean_up_tokenization_spaces,",
+    "            unk_token=unk_token,",
+    "            bos_token=bos_token,",
+    "            eos_token=eos_token,",
+    "            add_bos_token=add_bos_token,",
+    "            add_eos_token=add_eos_token,",
+    "            use_default_system_prompt=use_default_system_prompt,"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "            legacy=legacy,",
+    "            **kwargs,",
+    "        )",
+    "        self._add_bos_token = add_bos_token",
+    "        self._add_eos_token = add_eos_token",
+    "        self.update_post_processor()",
+    "        self.use_default_system_prompt = use_default_system_prompt",
+    "        self.vocab_file = vocab_file"
+   ]
+  },
+  "huggingface__transformers-31095": {
+   "first_change_line": 2309,
+   "path": "src/transformers/trainer.py",
+   "prefix": [
+    "                            # In some cases the grad norm may not return a float",
+    "                            if hasattr(grad_norm, \"item\"):",
+    "                                grad_norm = grad_norm.item()",
+    "                        else:",
+    "                            grad_norm = _grad_norm",
+    "",
+    "                    self.optimizer.step()",
+    ""
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "                    optimizer_was_run = not self.accelerator.optimizer_step_was_skipped",
+    "                    if optimizer_was_run:",
+    "                        # Delay optimizer scheduling until metrics are generated",
+    "                        if not isinstance(self.lr_scheduler, torch.optim.lr_scheduler.ReduceLROnPlateau):",
+    "                            self.lr_scheduler.step()",
+    "",
+    "                    model.zero_grad()",
+    "                    self.state.global_step += 1"
+   ]
+  },
+  "huggingface__transformers-31128": {
+   "first_change_line": 543,
+   "path": "src/transformers/optimization.py",
+   "prefix": [
+    "        raise ValueError(f\"{name} requires `num_warmup_steps`, please provide that argument.\")",
+    "",
+    "    if name == SchedulerType.CONSTANT_WITH_WARMUP:",
+    "        return schedule_func(optimizer, num_warmup_steps=num_warmup_steps)",
+    "",
+    "    if name == SchedulerType.INVERSE_SQRT:",
+    "        return schedule_func(optimizer, num_warmup_steps=num_warmup_steps)",
+    ""
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "    # All other schedulers require `num_training_steps`",
+    "    if num_training_steps is None:",
+    "        raise ValueError(f\"{name} requires `num_training_steps`, please provide that argument.\")",
+    "",
+    "    return schedule_func(",
+    "        optimizer,",
+    "        num_warmup_steps=num_warmup_steps,",
+    "        num_training_steps=num_training_steps,"
+   ]
+  },
+  "huggingface__transformers-31448": {
+   "first_change_line": 375,
+   "path": "src/transformers/generation/stopping_criteria.py",
+   "prefix": [
+    "    @staticmethod",
+    "    def _stop_string_create_embedding_vec(token_list, token_indices, stop_strings) -> Dict[str, torch.tensor]:",
+    "        \"\"\"This function precomputes everything needed for the run-time checks in StopStringCriteria, and packs",
+    "        them into an embedding tensor that can be accessed with pure tensor operations. For the specifics of the values",
+    "        that are precomputed and what they are used for, please refer to the StopStringCriteria docstring!\"\"\"",
+    "        token_valid_positions, token_end_overlaps = StopStringCriteria._stop_string_get_matching_positions(",
+    "            token_list, token_indices, stop_strings",
+    "        )"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "",
+    "        max_valid_positions = max(",
+    "            len(val) for positions in token_valid_positions.values() for val in positions.values()",
+    "        )",
+    "        max_valid_end_lens = max(len(val) for positions in token_end_overlaps.values() for val in positions.values())",
+    "        vec_size = len(stop_strings) * (max_valid_positions + max_valid_end_lens) + 1",
+    "        gather_vec = np.full((len(token_list), vec_size), dtype=np.int32, fill_value=-1)",
+    ""
+   ]
+  },
+  "huggingface__transformers-3198": {
+   "first_change_line": 107,
+   "path": "src/transformers/tokenization_xlm_roberta.py",
+   "prefix": [
+    "    Attributes:",
+    "        sp_model (:obj:`SentencePieceProcessor`):",
+    "            The `SentencePiece` processor that is used for every conversion (string, tokens and IDs).",
+    "    \"\"\"",
+    "",
+    "    vocab_files_names = VOCAB_FILES_NAMES",
+    "    pretrained_vocab_files_map = PRETRAINED_VOCAB_FILES_MAP",
+    "    max_model_input_sizes = PRETRAINED_POSITIONAL_EMBEDDINGS_SIZES"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "",
+    "    def __init__(",
+    "        self,",
+    "        vocab_file,",
+    "        bos_token=\"<s>\",",
+    "        eos_token=\"</s>\",",
+    "        sep_token=\"</s>\",",
+    "        cls_token=\"<s>\","
+   ]
+  },
+  "huggingface__transformers-3716": {
+   "first_change_line": 862,
+   "path": "src/transformers/modeling_transfo_xl.py",
+   "prefix": [
+    "            Labels for language modeling.",
+    "            Note that the labels **are shifted** inside the model, i.e. you can set ``lm_labels = input_ids``",
+    "            Indices are selected in ``[-100, 0, ..., config.vocab_size]``",
+    "            All labels set to ``-100`` are ignored (masked), the loss is only",
+    "            computed for labels in ``[0, ..., config.vocab_size]``",
+    "",
+    "    Return:",
+    "        :obj:`tuple(torch.FloatTensor)` comprising various elements depending on the configuration (:class:`~transformers.TransfoXLConfig`) and inputs:"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "        loss (:obj:`torch.FloatTensor` of shape `(batch_size, sequence_length)`, `optional`, returned when ``labels`` is provided)",
+    "            Language modeling loss.",
+    "        prediction_scores (:obj:`torch.FloatTensor` of shape :obj:`(batch_size, sequence_length, config.vocab_size)`):",
+    "            Prediction scores of the language modeling head (scores for each vocabulary token before SoftMax).",
+    "        mems (:obj:`List[torch.FloatTensor]` of length :obj:`config.n_layers`):",
+    "            Contains pre-computed hidden-states (key and values in the attention blocks).",
+    "            Can be used (see `past` input) to speed up sequential decoding. The token ids which have their past given to this model",
+    "            should not be passed as input ids as they have already been computed."
+   ]
+  },
+  "huggingface__transformers-5749": {
+   "first_change_line": 401,
+   "path": "src/transformers/tokenization_bert.py",
+   "prefix": [
+    "        Args:",
+    "            **never_split**: (`optional`) list of str",
+    "                Kept for backward compatibility purposes.",
+    "                Now implemented directly at the base class level (see :func:`PreTrainedTokenizer.tokenize`)",
+    "                List of token not to split.",
+    "        \"\"\"",
+    "        # union() returns a new set by concatenating the two sets.",
+    "        never_split = self.never_split.union(set(never_split)) if never_split else self.never_split"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "",
+    "        # This was added on November 1st, 2018 for the multilingual and Chinese",
+    "        # models. This is also applied to the English models now, but it doesn't",
+    "        # matter since the English models were not trained on any Chinese data",
+    "        # and generally don't have any Chinese data in them (there are Chinese",
+    "        # characters in the vocabulary because Wikipedia does have some Chinese",
+    "        # words in the English Wikipedia.).",
+    "        if self.tokenize_chinese_chars:"
+   ]
+  },
+  "huggingface__transformers-6744": {
+   "first_change_line": 24,
+   "path": "docs/source/main_classes/pipelines.rst",
+   "prefix": [
+    "    - :class:`~transformers.FillMaskPipeline`",
+    "    - :class:`~transformers.QuestionAnsweringPipeline`",
+    "    - :class:`~transformers.SummarizationPipeline`",
+    "    - :class:`~transformers.TextClassificationPipeline`",
+    "    - :class:`~transformers.TextGenerationPipeline`",
+    "    - :class:`~transformers.TokenClassificationPipeline`",
+    "    - :class:`~transformers.TranslationPipeline`",
+    "    - :class:`~transformers.ZeroShotClassificationPipeline`"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "",
+    "The pipeline abstraction",
+    "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "",
+    "The `pipeline` abstraction is a wrapper around all the other available pipelines. It is instantiated as any",
+    "other pipeline but requires an additional argument which is the `task`.",
+    "",
+    ".. autofunction:: transformers.pipeline"
+   ]
+  },
+  "huggingface__transformers-7075": {
+   "first_change_line": 23,
+   "path": "examples/benchmarking/run_benchmark.py",
+   "prefix": [
+    "# limitations under the License.",
+    "\"\"\" Benchmarking the library on inference and training \"\"\"",
+    "",
+    "from transformers import HfArgumentParser, PyTorchBenchmark, PyTorchBenchmarkArguments",
+    "",
+    "",
+    "def main():",
+    "    parser = HfArgumentParser(PyTorchBenchmarkArguments)"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "    benchmark_args = parser.parse_args_into_dataclasses()[0]",
+    "    benchmark = PyTorchBenchmark(args=benchmark_args)",
+    "    benchmark.run()",
+    "",
+    "",
+    "if __name__ == \"__main__\":",
+    "    main()"
+   ]
+  },
+  "huggingface__transformers-7272": {
+   "first_change_line": 70,
+   "path": "src/transformers/configuration_longformer.py",
+   "prefix": [
+    "        >>> model = LongformerModel(configuration)",
+    "",
+    "        >>> # Accessing the model configuration",
+    "        >>> configuration = model.config",
+    "    \"\"\"",
+    "    model_type = \"longformer\"",
+    "",
+    "    def __init__(self, attention_window: Union[List[int], int] = 512, sep_token_id: int = 2, **kwargs):"
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "        super().__init__(**kwargs)",
+    "        self.attention_window = attention_window",
+    "        self.sep_token_id = sep_token_id"
+   ]
+  },
+  "huggingface__transformers-7562": {
+   "first_change_line": 93,
+   "path": "docs/source/model_doc/longformer.rst",
+   "prefix": [
+    "",
+    "",
+    "LongformerTokenizerFast",
+    "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "",
+    ".. autoclass:: transformers.LongformerTokenizerFast",
+    "    :members: ",
+    ""
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "",
+    "LongformerModel",
+    "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "",
+    ".. autoclass:: transformers.LongformerModel",
+    "    :members: forward",
+    "",
+    ""
+   ]
+  },
+  "huggingface__transformers-8435": {
+   "first_change_line": 252,
+   "path": "src/transformers/tokenization_t5.py",
+   "prefix": [
+    "        if index < self.sp_model.get_piece_size():",
+    "            token = self.sp_model.IdToPiece(index)",
+    "        else:",
+    "            token = \"<extra_id_{}>\".format(self.vocab_size - 1 - index)",
+    "        return token",
+    "",
+    "    def convert_tokens_to_string(self, tokens):",
+    "        \"\"\" Converts a sequence of tokens (string) in a single string. \"\"\""
+   ],
+   "repo": "huggingface/transformers",
+   "target": [
+    "        out_string = self.sp_model.decode_pieces(tokens)",
+    "        return out_string",
+    "",
+    "    def save_vocabulary(self, save_directory: str, filename_prefix: Optional[str] = None) -> Tuple[str]:",
+    "        if not os.path.isdir(save_directory):",
+    "            logger.error(\"Vocabulary path ({}) should be a directory\".format(save_directory))",
+    "            return",
+    "        out_vocab_file = os.path.join("
+   ]
+  },
+  "keras-team__keras-1767": {
+   "first_change_line": 159,
+   "path": "keras/layers/containers.py",
+   "prefix": [
+    "",
+    "    def get_weights(self):",
+    "        weights = []",
+    "        for layer in self.layers:",
+    "            weights += layer.get_weights()",
+    "        return weights",
+    "",
+    "    def set_weights(self, weights):"
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "        for i in range(len(self.layers)):",
+    "            nb_param = len(self.layers[i].trainable_weights) + len(self.layers[i].non_trainable_weights)",
+    "            self.layers[i].set_weights(weights[:nb_param])",
+    "            weights = weights[nb_param:]",
+    "",
+    "    def get_config(self):",
+    "        return {'name': self.__class__.__name__,",
+    "                'layers': [layer.get_config() for layer in self.layers]}"
+   ]
+  },
+  "keras-team__keras-18553": {
+   "first_change_line": 595,
+   "path": "keras/ops/nn.py",
+   "prefix": [
+    "        pool_size,",
+    "        strides=None,",
+    "        padding=\"valid\",",
+    "        data_format=None,",
+    "    ):",
+    "        super().__init__()",
+    "        self.pool_size = pool_size",
+    "        self.strides = strides"
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "        self.padding = padding",
+    "        self.data_format = data_format",
+    "",
+    "    def call(self, inputs):",
+    "        return backend.nn.max_pool(",
+    "            inputs,",
+    "            self.pool_size,",
+    "            self.strides,"
+   ]
+  },
+  "keras-team__keras-18649": {
+   "first_change_line": 443,
+   "path": "keras/backend/jax/numpy.py",
+   "prefix": [
+    "",
+    "",
+    "def maximum(x1, x2):",
+    "    x1 = convert_to_tensor(x1)",
+    "    x2 = convert_to_tensor(x2)",
+    "    return jnp.maximum(x1, x2)",
+    "",
+    ""
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "def meshgrid(*x, indexing=\"xy\"):",
+    "    return jnp.meshgrid(*x, indexing=indexing)",
+    "",
+    "",
+    "def min(x, axis=None, keepdims=False, initial=None):",
+    "    return jnp.min(x, axis=axis, keepdims=keepdims, initial=initial)",
+    "",
+    ""
+   ]
+  },
+  "keras-team__keras-18766": {
+   "first_change_line": 30,
+   "path": "keras/layers/attention/attention.py",
+   "prefix": [
+    "    3. Use the softmax distribution to create a linear combination of `value`",
+    "        with shape `(batch_size, Tq, dim)`.",
+    "",
+    "    Args:",
+    "        use_scale: If `True`, will create a scalar variable to scale the",
+    "            attention scores.",
+    "        dropout: Float between 0 and 1. Fraction of the units to drop for the",
+    "            attention scores. Defaults to `0.0`."
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "        score_mode: Function to use to compute attention scores, one of",
+    "            `{\"dot\", \"concat\"}`. `\"dot\"` refers to the dot product between the",
+    "            query and key vectors. `\"concat\"` refers to the hyperbolic tangent",
+    "            of the concatenation of the `query` and `key` vectors.",
+    "",
+    "    Call Args:",
+    "        inputs: List of the following tensors:",
+    "            - `query`: Query tensor of shape `(batch_size, Tq, dim)`."
+   ]
+  },
+  "keras-team__keras-18871": {
+   "first_change_line": 10,
+   "path": "keras/models/model.py",
+   "prefix": [
+    "import json",
+    "import os",
+    "import warnings",
+    "",
+    "from keras import backend",
+    "from keras import utils",
+    "from keras.api_export import keras_export",
+    "from keras.layers.layer import Layer"
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "from keras.legacy.saving import legacy_h5_format",
+    "from keras.models.variable_mapping import map_trackable_variables",
+    "from keras.saving import saving_api",
+    "from keras.saving import saving_lib",
+    "from keras.trainers import trainer as base_trainer",
+    "from keras.utils import io_utils",
+    "from keras.utils import summary_utils",
+    "from keras.utils import traceback_utils"
+   ]
+  },
+  "keras-team__keras-18977": {
+   "first_change_line": 110,
+   "path": "keras/utils/tracking.py",
+   "prefix": [
+    "    def add_to_store(self, store_name, value):",
+    "        if self.locked:",
+    "            raise ValueError(self._lock_violation_msg)",
+    "        self.config[store_name][1].append(value)",
+    "        self.stored_ids[store_name].add(id(value))",
+    "",
+    "",
+    "class TrackedList(list):"
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "    # TODO: override item removal methods?",
+    "    def __init__(self, values=None, tracker=None):",
+    "        self.tracker = tracker",
+    "        if tracker and values:",
+    "            values = [tracker.track(v) for v in values]",
+    "        super().__init__(values or [])",
+    "",
+    "    def append(self, value):"
+   ]
+  },
+  "keras-team__keras-19201": {
+   "first_change_line": 203,
+   "path": "keras/backend/jax/distribution_lib.py",
+   "prefix": [
+    "        # Do a sanity check to make sure the number of addresses also match",
+    "        # the num_processes.",
+    "        if num_processes is not None and num_processes != len(job_addresses):",
+    "            raise ValueError(",
+    "                f\"The provided job_addresses {job_addresses} has \"",
+    "                f\"{len(job_addresses)} jobs, but num_processes is \"",
+    "                f\"{num_processes}\"",
+    "            )"
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "        corrdinator_address = job_addresses[0]",
+    "    else:",
+    "        corrdinator_address = job_addresses",
+    "",
+    "    jax.distributed.initialize(",
+    "        corrdinator_address=corrdinator_address,",
+    "        num_processes=num_processes,",
+    "        process_id=process_id,"
+   ]
+  },
+  "keras-team__keras-19284": {
+   "first_change_line": 176,
+   "path": "keras/dtype_policies/dtype_policy.py",
+   "prefix": [
+    "        # TODO: check that the current hardware supports the provided",
+    "        # dtype policy and raise/warn otherwise.",
+    "",
+    "    def _parse_name(self, name):",
+    "        if name == \"mixed_float16\":",
+    "            return \"float16\", \"float32\"",
+    "        elif name == \"mixed_bfloat16\":",
+    "            return \"bfloat16\", \"float32\""
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "        elif name == \"uint8\":",
+    "            dtype = backend.standardize_dtype(name)",
+    "            return dtype, dtype",
+    "        try:",
+    "            dtype = backend.standardize_dtype(name)",
+    "            return dtype, dtype",
+    "        except ValueError:",
+    "            raise ValueError("
+   ]
+  },
+  "keras-team__keras-19300": {
+   "first_change_line": 541,
+   "path": "keras/ops/nn.py",
+   "prefix": [
+    "    Example:",
+    "",
+    "    >>> x = np.array([-1., 0., 1.])",
+    "    >>> x_softmax = keras.ops.softmax(x)",
+    "    >>> print(x_softmax)",
+    "    array([0.09003057, 0.24472847, 0.66524096], shape=(3,), dtype=float64)",
+    "",
+    "    \"\"\""
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "    if isinstance(axis, int) and backend.shape(x)[axis] == 1:",
+    "        warnings.warn(",
+    "            f\"You are using a softmax over axis {axis} \"",
+    "            f\"of a tensor of shape {backend.shape(x)}. This axis \"",
+    "            \"has size 1. The softmax operation will always return \"",
+    "            \"the value 1, which is likely not what you intended. \"",
+    "            \"Did you mean to use a sigmoid instead?\"",
+    "        )"
+   ]
+  },
+  "keras-team__keras-19459": {
+   "first_change_line": 70,
+   "path": "keras/backend/numpy/random.py",
+   "prefix": [
+    "        # Append the valid numbers to the result array",
+    "        random_numbers = np.append(random_numbers, valid)",
+    "",
+    "    # Truncate the result array to the desired size and reshape it",
+    "    return random_numbers[:flat_shape].astype(dtype).reshape(shape)",
+    "",
+    "",
+    "def dropout(inputs, rate, noise_shape=None, seed=None):"
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "    seed = draw_seed(seed)",
+    "",
+    "    keep_prob = 1.0 - rate",
+    "",
+    "    # If noise_shape is not provided, use the shape of inputs",
+    "    if noise_shape is None:",
+    "        noise_shape = inputs.shape",
+    "    else:"
+   ]
+  },
+  "keras-team__keras-19466": {
+   "first_change_line": 3995,
+   "path": "keras/ops/numpy.py",
+   "prefix": [
+    "        return Ndim().symbolic_call(x)",
+    "    return backend.numpy.ndim(x)",
+    "",
+    "",
+    "class Nonzero(Operation):",
+    "    def call(self, x):",
+    "        return backend.numpy.nonzero(x)",
+    ""
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "",
+    "@keras_export([\"keras.ops.nonzero\", \"keras.ops.numpy.nonzero\"])",
+    "def nonzero(x):",
+    "    \"\"\"Return the indices of the elements that are non-zero.",
+    "",
+    "    Args:",
+    "        x: Input tensor.",
+    ""
+   ]
+  },
+  "keras-team__keras-19484": {
+   "first_change_line": 570,
+   "path": "keras/optimizers/base_optimizer.py",
+   "prefix": [
+    "            variable.assign(store[str(i)])",
+    "",
+    "    def _get_current_learning_rate(self):",
+    "        if isinstance(",
+    "            self._learning_rate, learning_rate_schedule.LearningRateSchedule",
+    "        ):",
+    "            return self._learning_rate(self.iterations)",
+    "        elif callable(self._learning_rate):"
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "            return self._learning_rate(self.iterations)",
+    "        return self._learning_rate",
+    "",
+    "    def _filter_empty_gradients(self, grads, vars):",
+    "        filtered_grads = list(grads)",
+    "        filtered_vars = list(vars)",
+    "        missing_grad_vars = []",
+    ""
+   ]
+  },
+  "keras-team__keras-19641": {
+   "first_change_line": 255,
+   "path": "keras/src/backend/tensorflow/nn.py",
+   "prefix": [
+    "    if data_format == \"channels_last\":",
+    "        channels = inputs.shape[-1]",
+    "    else:",
+    "        channels = inputs.shape[1]",
+    "    if channels != kernel.shape[-2]:",
+    "        # If kernel's in_channel does not match input's channels,  it indicates",
+    "        # convolution is broken down into groups.",
+    "        return _conv_xla()"
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "    return _conv()",
+    "",
+    "",
+    "def depthwise_conv(",
+    "    inputs,",
+    "    kernel,",
+    "    strides=1,",
+    "    padding=\"valid\","
+   ]
+  },
+  "keras-team__keras-19775": {
+   "first_change_line": 1313,
+   "path": "keras/src/backend/tensorflow/numpy.py",
+   "prefix": [
+    "    x1 = tf.cast(x1, dtype)",
+    "    x2 = tf.cast(x2, dtype)",
+    "    return tf.less_equal(x1, x2)",
+    "",
+    "",
+    "def linspace(",
+    "    start, stop, num=50, endpoint=True, retstep=False, dtype=None, axis=0",
+    "):"
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "    if dtype is None:",
+    "        dtypes_to_resolve = [",
+    "            getattr(start, \"dtype\", type(start)),",
+    "            getattr(stop, \"dtype\", type(stop)),",
+    "            float,",
+    "        ]",
+    "        dtype = dtypes.result_type(*dtypes_to_resolve)",
+    "    else:"
+   ]
+  },
+  "keras-team__keras-19799": {
+   "first_change_line": 184,
+   "path": "keras/src/models/functional.py",
+   "prefix": [
+    "            inputs, operation_fn=lambda op: operation_fn(op, training=training)",
+    "        )",
+    "        return unpack_singleton(outputs)",
+    "",
+    "    def compute_output_spec(self, inputs, training=None, mask=None):",
+    "        # From Function",
+    "        return super().compute_output_spec(inputs)",
+    ""
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "    def build(self, input_shape):",
+    "        self.built = True",
+    "",
+    "    @property",
+    "    def input_shape(self):",
+    "        input_shapes = tree.map_structure(lambda x: x.shape, self.inputs)",
+    "        if isinstance(input_shapes, list) and len(input_shapes) == 1:",
+    "            return input_shapes[0]"
+   ]
+  },
+  "keras-team__keras-19826": {
+   "first_change_line": 4348,
+   "path": "keras/src/ops/numpy.py",
+   "prefix": [
+    "        self.axis = axis",
+    "        self.repeats = repeats",
+    "",
+    "    def call(self, x):",
+    "        return backend.numpy.repeat(x, self.repeats, axis=self.axis)",
+    "",
+    "    def compute_output_spec(self, x):",
+    "        x_shape = list(x.shape)"
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "        if self.axis is None:",
+    "            if None in x_shape:",
+    "                return KerasTensor([None], dtype=x.dtype)",
+    "",
+    "            x_flatten_size = int(np.prod(x_shape))",
+    "            if isinstance(self.repeats, int):",
+    "                output_shape = [x_flatten_size * self.repeats]",
+    "            else:"
+   ]
+  },
+  "keras-team__keras-19838": {
+   "first_change_line": 1714,
+   "path": "keras/src/losses/losses.py",
+   "prefix": [
+    "    >>> y_true = [1, 2]",
+    "    >>> y_pred = [[0.05, 0.95, 0], [0.1, 0.8, 0.1]]",
+    "    >>> loss = keras.losses.sparse_categorical_crossentropy(y_true, y_pred)",
+    "    >>> assert loss.shape == (2,)",
+    "    >>> loss",
+    "    array([0.0513, 2.303], dtype=float32)",
+    "    \"\"\"",
+    ""
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "    if ignore_class is not None:",
+    "        res_shape = ops.shape(y_pred)[:-1]",
+    "        valid_mask = ops.not_equal(y_true, ops.cast(ignore_class, y_pred.dtype))",
+    "        y_true = y_true * ops.cast(valid_mask, y_true.dtype)",
+    "        y_pred = y_pred * ops.cast(",
+    "            ops.expand_dims(valid_mask, -1), y_pred.dtype",
+    "        )",
+    ""
+   ]
+  },
+  "keras-team__keras-19844": {
+   "first_change_line": 52,
+   "path": "keras/src/initializers/__init__.py",
+   "prefix": [
+    "    {to_snake_case(cls.__name__): cls for cls in ALL_OBJECTS}",
+    ")",
+    "# Aliases",
+    "ALL_OBJECTS_DICT.update(",
+    "    {",
+    "        \"uniform\": RandomUniform,",
+    "        \"normal\": RandomNormal,",
+    "        \"orthogonal\": OrthogonalInitializer,"
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "        \"one\": Ones,",
+    "        \"zero\": Zeros,",
+    "    }",
+    ")",
+    "",
+    "",
+    "@keras_export(\"keras.initializers.serialize\")",
+    "def serialize(initializer):"
+   ]
+  },
+  "keras-team__keras-19863": {
+   "first_change_line": 79,
+   "path": "keras/src/utils/summary_utils.py",
+   "prefix": [
+    "def bold_text(x, color=None):",
+    "    \"\"\"Bolds text using rich markup.\"\"\"",
+    "    if color:",
+    "        return f\"[bold][color({color})]{x}[/][/]\"",
+    "    return f\"[bold]{x}[/]\"",
+    "",
+    "",
+    "def format_layer_shape(layer):"
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "    if not layer._inbound_nodes:",
+    "        return \"?\"",
+    "",
+    "    def format_shape(shape):",
+    "        highlighted = [highlight_number(x) for x in shape]",
+    "        return \"(\" + \", \".join(highlighted) + \")\"",
+    "",
+    "    for i in range(len(layer._inbound_nodes)):"
+   ]
+  },
+  "keras-team__keras-19903": {
+   "first_change_line": 19,
+   "path": "keras/api/_tf_keras/keras/ops/__init__.py",
+   "prefix": [
+    "from keras.src.ops.core import cast",
+    "from keras.src.ops.core import cond",
+    "from keras.src.ops.core import convert_to_numpy",
+    "from keras.src.ops.core import convert_to_tensor",
+    "from keras.src.ops.core import custom_gradient",
+    "from keras.src.ops.core import dtype",
+    "from keras.src.ops.core import fori_loop",
+    "from keras.src.ops.core import is_tensor"
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "from keras.src.ops.core import scan",
+    "from keras.src.ops.core import scatter",
+    "from keras.src.ops.core import scatter_update",
+    "from keras.src.ops.core import shape",
+    "from keras.src.ops.core import slice",
+    "from keras.src.ops.core import slice_update",
+    "from keras.src.ops.core import stop_gradient",
+    "from keras.src.ops.core import switch"
+   ]
+  },
+  "keras-team__keras-19915": {
+   "first_change_line": 657,
+   "path": "keras/src/export/export_lib.py",
+   "prefix": [
+    "    if not shapes_dict:",
+    "        return None",
+    "",
+    "    def make_tensor_spec(structure):",
+    "        # We need to turn wrapper structures like TrackingDict or _DictWrapper",
+    "        # into plain Python structures because they don't work with jax2tf/JAX.",
+    "        if isinstance(structure, dict):",
+    "            return {k: make_tensor_spec(v) for k, v in structure.items()}"
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "        if isinstance(structure, (list, tuple)):",
+    "            if all(isinstance(d, (int, type(None))) for d in structure):",
+    "                return tf.TensorSpec(",
+    "                    shape=(None,) + structure[1:], dtype=model.input_dtype",
+    "                )",
+    "            result = [make_tensor_spec(v) for v in structure]",
+    "            return tuple(result) if isinstance(structure, tuple) else result",
+    "        else:"
+   ]
+  },
+  "keras-team__keras-19924": {
+   "first_change_line": 163,
+   "path": "keras/src/saving/saving_lib.py",
+   "prefix": [
+    "",
+    "    with zipfile.ZipFile(fileobj, \"w\") as zf:",
+    "        with zf.open(_METADATA_FILENAME, \"w\") as f:",
+    "            f.write(metadata_json.encode())",
+    "        with zf.open(_CONFIG_FILENAME, \"w\") as f:",
+    "            f.write(config_json.encode())",
+    "",
+    "        weights_file_path = None"
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "        try:",
+    "            if weights_format == \"h5\":",
+    "                if isinstance(fileobj, io.BufferedWriter):",
+    "                    # First, open the .h5 file, then write it to `zf` at the end",
+    "                    # of the function call.",
+    "                    working_dir = pathlib.Path(fileobj.name).parent",
+    "                    weights_file_path = working_dir / _VARS_FNAME_H5",
+    "                    weights_store = H5IOStore(weights_file_path, mode=\"w\")"
+   ]
+  },
+  "keras-team__keras-19931": {
+   "first_change_line": 2129,
+   "path": "keras/src/backend/tensorflow/numpy.py",
+   "prefix": [
+    "        else:",
+    "            r = tf.linalg.band_part(o, -1, k)",
+    "    return r",
+    "",
+    "",
+    "def tril(x, k=0):",
+    "    x = convert_to_tensor(x)",
+    ""
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "    if k >= 0:",
+    "        return tf.linalg.band_part(x, -1, k)",
+    "",
+    "    shape = tf.shape(x)",
+    "    rows, cols = shape[-2], shape[-1]",
+    "",
+    "    i, j = tf.meshgrid(tf.range(rows), tf.range(cols), indexing=\"ij\")",
+    ""
+   ]
+  },
+  "keras-team__keras-19937": {
+   "first_change_line": 2,
+   "path": "keras/src/losses/loss.py",
+   "prefix": [
+    "from keras.src import backend"
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "from keras.src import ops",
+    "from keras.src import tree",
+    "from keras.src.api_export import keras_export",
+    "from keras.src.saving.keras_saveable import KerasSaveable",
+    "from keras.src.utils.naming import auto_name",
+    "",
+    "",
+    "@keras_export([\"keras.Loss\", \"keras.losses.Loss\"])"
+   ]
+  },
+  "keras-team__keras-19955": {
+   "first_change_line": 93,
+   "path": "keras/src/backend/common/keras_tensor.py",
+   "prefix": [
+    "",
+    "        return ops.Reshape(newshape)(self)",
+    "",
+    "    def squeeze(self, axis=None):",
+    "        from keras.src import ops",
+    "",
+    "        return ops.Squeeze(axis)(self)",
+    ""
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "    def __array__(self):",
+    "        raise ValueError(",
+    "            \"A KerasTensor is symbolic: it's a placeholder for a shape \"",
+    "            \"an a dtype. It doesn't have any actual numerical value. \"",
+    "            \"You cannot convert it to a NumPy array.\"",
+    "        )",
+    "",
+    "    def __jax_array__(self):"
+   ]
+  },
+  "keras-team__keras-19973": {
+   "first_change_line": 213,
+   "path": "keras/src/layers/attention/multi_head_attention.py",
+   "prefix": [
+    "        \"\"\"Builds layers and variables.",
+    "",
+    "        Args:",
+    "            query_shape: Shape of the `query` tensor.",
+    "            value_shape: Shape of the `value` tensor.",
+    "            key: Optional shape of the `key` tensor.",
+    "        \"\"\"",
+    "        key_shape = value_shape if key_shape is None else key_shape"
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "        query_rank = len(query_shape)",
+    "        value_rank = len(value_shape)",
+    "        key_rank = len(key_shape)",
+    "        einsum_equation, bias_axes, output_rank = _build_proj_equation(",
+    "            query_rank - 1, bound_dims=1, output_dims=2",
+    "        )",
+    "        self._query_dense = EinsumDense(",
+    "            einsum_equation,"
+   ]
+  },
+  "keras-team__keras-20002": {
+   "first_change_line": 140,
+   "path": "keras/src/models/sequential.py",
+   "prefix": [
+    "        return layer",
+    "",
+    "    def _maybe_rebuild(self):",
+    "        self.built = False",
+    "        self._functional = None",
+    "        if isinstance(self._layers[0], InputLayer) and len(self._layers) > 1:",
+    "            input_shape = self._layers[0].batch_shape",
+    "            self.build(input_shape)"
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "",
+    "    def _lock_state(self):",
+    "        # Unlike other layers, Sequential is mutable after build.",
+    "        pass",
+    "",
+    "    def _obj_type(self):",
+    "        return \"Sequential\"",
+    ""
+   ]
+  },
+  "keras-team__keras-20008": {
+   "first_change_line": 240,
+   "path": "keras/src/backend/tensorflow/nn.py",
+   "prefix": [
+    "            inputs,",
+    "            kernel,",
+    "            strides,",
+    "            padding.upper(),",
+    "            data_format=tf_data_format,",
+    "            dilations=dilation_rate,",
+    "        )",
+    ""
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "    # Reason for making this function is in Tensorflow, `groups > 1` does not",
+    "    # work on CPU for `tf.nn.convolution`, but wrapping it by XLA works.",
+    "    @tf.function(jit_compile=True)",
+    "    def _conv_xla():",
+    "        return _conv()",
+    "",
+    "    data_format = backend.standardize_data_format(data_format)",
+    "    if data_format == \"channels_last\":"
+   ]
+  },
+  "keras-team__keras-3907": {
+   "first_change_line": 124,
+   "path": "docs/templates/getting-started/sequential-model-guide.md",
+   "prefix": [
+    "----",
+    "",
+    "## Compilation",
+    "",
+    "Before training a model, you need to configure the learning process, which is done via the `compile` method. It receives three arguments:",
+    "",
+    "- an optimizer. This could be the string identifier of an existing optimizer (such as `rmsprop` or `adagrad`), or an instance of the `Optimizer` class. See: [optimizers](/optimizers).",
+    "- a loss function. This is the objective that the model will try to minimize. It can be the string identifier of an existing loss function (such as `categorical_crossentropy` or `mse`), or it can be an objective function. See: [objectives](/objectives)."
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "- a list of metrics. For any classification problem you will want to set this to `metrics=['accuracy']`. A metric could be the string identifier of an existing metric or a custom metric function.",
+    "",
+    "```python",
+    "# for a multi-class classification problem",
+    "model.compile(optimizer='rmsprop',",
+    "              loss='categorical_crossentropy',",
+    "              metrics=['accuracy'])",
+    ""
+   ]
+  },
+  "keras-team__keras-4856": {
+   "first_change_line": 930,
+   "path": "keras/engine/topology.py",
+   "prefix": [
+    "            inputs_hash = None",
+    "        if inputs_hash not in self._per_input_updates:",
+    "            self._per_input_updates[inputs_hash] = []",
+    "        self._per_input_updates[inputs_hash] += updates",
+    "",
+    "    def get_updates_for(self, inputs):",
+    "        if not hasattr(self, '_per_input_updates'):",
+    "            return []"
+   ],
+   "repo": "keras-team/keras",
+   "target": [
+    "        inputs_hash = object_list_uid(inputs)",
+    "        if inputs_hash in self._per_input_updates:",
+    "            return self._per_input_updates[inputs_hash]",
+    "        return []",
+    "",
+    "    def get_losses_for(self, inputs):",
+    "        if not hasattr(self, '_per_input_losses'):",
+    "            return []"
+   ]
+  },
+  "langchain-ai__langchain-14350": {
+   "first_change_line": 146,
+   "path": "docs/docs/modules/data_connection/retrievers/multi_vector.ipynb",
+   "prefix": [
+    "   \"cell_type\": \"code\",",
+    "   \"execution_count\": 8,",
+    "   \"id\": \"8afed60c\",",
+    "   \"metadata\": {},",
+    "   \"outputs\": [",
+    "    {",
+    "     \"data\": {",
+    "      \"text/plain\": ["
+   ],
+   "repo": "langchain-ai/langchain",
+   "target": [
+    "       \"Document(page_content='Tonight, I\u2019d like to honor someone who has dedicated his life to serve this country: Justice Stephen Breyer\u2014an Army veteran, Constitutional scholar, and retiring Justice of the United States Supreme Court. Justice Breyer, thank you for your service. \\\\n\\\\nOne of the most serious constitutional responsibilities a President has is nominating someone to serve on the United States Supreme Court.', metadata={'doc_id': '59899493-92a0-41cb-b6ba-a854730ad74a', 'source': '../../state_of_the_union.txt'})\"",
+    "      ]",
+    "     },",
+    "     \"execution_count\": 8,",
+    "     \"metadata\": {},",
+    "     \"output_type\": \"execute_result\"",
+    "    }",
+    "   ],"
+   ]
+  },
+  "langchain-ai__langchain-19331": {
+   "first_change_line": 118,
+   "path": "libs/core/langchain_core/language_models/llms.py",
+   "prefix": [
+    "        reraise=True,",
+    "        stop=stop_after_attempt(max_retries),",
+    "        wait=wait_exponential(multiplier=1, min=min_seconds, max=max_seconds),",
+    "        retry=retry_instance,",
+    "        before_sleep=_before_sleep,",
+    "    )",
+    "",
+    ""
+   ],
+   "repo": "langchain-ai/langchain",
+   "target": [
+    "def get_prompts(",
+    "    params: Dict[str, Any], prompts: List[str]",
+    ") -> Tuple[Dict[int, List], str, List[int], List[str]]:",
+    "    \"\"\"Get prompts that are already cached.\"\"\"",
+    "    llm_string = str(sorted([(k, v) for k, v in params.items()]))",
+    "    missing_prompts = []",
+    "    missing_prompt_idxs = []",
+    "    existing_prompts = {}"
+   ]
+  },
+  "langchain-ai__langchain-19717": {
+   "first_change_line": 140,
+   "path": "libs/core/langchain_core/output_parsers/json.py",
+   "prefix": [
+    "    Parse a JSON string from a Markdown string.",
+    "",
+    "    Args:",
+    "        json_string: The Markdown string.",
+    "",
+    "    Returns:",
+    "        The parsed JSON object as a Python dictionary.",
+    "    \"\"\""
+   ],
+   "repo": "langchain-ai/langchain",
+   "target": [
+    "    # Try to find JSON string within triple backticks",
+    "    match = re.search(r\"```(json)?(.*)\", json_string, re.DOTALL)",
+    "",
+    "    # If no match found, assume the entire string is a JSON string",
+    "    if match is None:",
+    "        json_str = json_string",
+    "    else:",
+    "        # If match found, use the content within the backticks"
+   ]
+  },
+  "langchain-ai__langchain-21201": {
+   "first_change_line": 262,
+   "path": "libs/partners/mistralai/langchain_mistralai/chat_models.py",
+   "prefix": [
+    "def _convert_message_to_mistral_chat_message(",
+    "    message: BaseMessage,",
+    ") -> Dict:",
+    "    if isinstance(message, ChatMessage):",
+    "        return dict(role=message.role, content=message.content)",
+    "    elif isinstance(message, HumanMessage):",
+    "        return dict(role=\"user\", content=message.content)",
+    "    elif isinstance(message, AIMessage):"
+   ],
+   "repo": "langchain-ai/langchain",
+   "target": [
+    "        tool_calls = []",
+    "        if message.tool_calls or message.invalid_tool_calls:",
+    "            for tool_call in message.tool_calls:",
+    "                tool_calls.append(_format_tool_call_for_mistral(tool_call))",
+    "            for invalid_tool_call in message.invalid_tool_calls:",
+    "                tool_calls.append(",
+    "                    _format_invalid_tool_call_for_mistral(invalid_tool_call)",
+    "                )"
+   ]
+  },
+  "langchain-ai__langchain-4009": {
+   "first_change_line": 7,
+   "path": "langchain/callbacks/openai_info.py",
+   "prefix": [
+    "\"\"\"Callback Handler that prints to std out.\"\"\"",
+    "from typing import Any, Dict, List, Optional, Union",
+    "",
+    "from langchain.callbacks.base import BaseCallbackHandler",
+    "from langchain.schema import AgentAction, AgentFinish, LLMResult",
+    ""
+   ],
+   "repo": "langchain-ai/langchain",
+   "target": [
+    "",
+    "def get_openai_model_cost_per_1k_tokens(",
+    "    model_name: str, is_completion: bool = False",
+    ") -> float:",
+    "    model_cost_mapping = {",
+    "        \"gpt-4\": 0.03,",
+    "        \"gpt-4-0314\": 0.03,",
+    "        \"gpt-4-completion\": 0.06,"
+   ]
+  },
+  "langchain-ai__langchain-4103": {
+   "first_change_line": 39,
+   "path": "langchain/document_loaders/csv_loader.py",
+   "prefix": [
+    "        file_path: str,",
+    "        source_column: Optional[str] = None,",
+    "        csv_args: Optional[Dict] = None,",
+    "        encoding: Optional[str] = None,",
+    "    ):",
+    "        self.file_path = file_path",
+    "        self.source_column = source_column",
+    "        self.encoding = encoding"
+   ],
+   "repo": "langchain-ai/langchain",
+   "target": [
+    "        if csv_args is None:",
+    "            self.csv_args = {",
+    "                \"delimiter\": csv.Dialect.delimiter,",
+    "                \"quotechar\": csv.Dialect.quotechar,",
+    "            }",
+    "        else:",
+    "            self.csv_args = csv_args",
+    ""
+   ]
+  },
+  "langchain-ai__langchain-4420": {
+   "first_change_line": 47,
+   "path": "langchain/document_loaders/whatsapp_chat.py",
+   "prefix": [
+    "                :\\d{2}",
+    "                (?:",
+    "                    :\\d{2}",
+    "                )?",
+    "                (?:[ _](?:AM|PM))?",
+    "            )",
+    "            \\]?",
+    "            [\\s-]*"
+   ],
+   "repo": "langchain-ai/langchain",
+   "target": [
+    "            ([\\w\\s]+)",
+    "            [:]+",
+    "            \\s",
+    "            (.+)",
+    "        \"\"\"",
+    "        for line in lines:",
+    "            result = re.match(message_line_regex, line.strip(), flags=re.VERBOSE)",
+    "            if result:"
+   ]
+  },
+  "langchain-ai__langchain-4579": {
+   "first_change_line": 71,
+   "path": "langchain/document_loaders/web_base.py",
+   "prefix": [
+    "        self.session = requests.Session()",
+    "        try:",
+    "            import bs4  # noqa:F401",
+    "        except ImportError:",
+    "            raise ValueError(",
+    "                \"bs4 package not found, please install it with \" \"`pip install bs4`\"",
+    "            )",
+    ""
+   ],
+   "repo": "langchain-ai/langchain",
+   "target": [
+    "        try:",
+    "            from fake_useragent import UserAgent",
+    "",
+    "            headers = header_template or default_header_template",
+    "            headers[\"User-Agent\"] = UserAgent().random",
+    "            self.session.headers = dict(headers)",
+    "        except ImportError:",
+    "            logger.info("
+   ]
+  },
+  "langchain-ai__langchain-5432": {
+   "first_change_line": 47,
+   "path": "langchain/agents/mrkl/output_parser.py",
+   "prefix": [
+    "                    \" Missing 'Action Input:' after 'Action:'\",",
+    "                    llm_output=text,",
+    "                    send_to_llm=True,",
+    "                )",
+    "            else:",
+    "                raise OutputParserException(f\"Could not parse LLM output: `{text}`\")",
+    "        action = match.group(1).strip()",
+    "        action_input = match.group(2)"
+   ],
+   "repo": "langchain-ai/langchain",
+   "target": [
+    "        return AgentAction(action, action_input.strip(\" \").strip('\"'), text)",
+    "",
+    "    @property",
+    "    def _type(self) -> str:",
+    "        return \"mrkl\""
+   ]
+  },
+  "langchain-ai__langchain-5450": {
+   "first_change_line": 28,
+   "path": "langchain/embeddings/huggingface.py",
+   "prefix": [
+    "",
+    "    Example:",
+    "        .. code-block:: python",
+    "",
+    "            from langchain.embeddings import HuggingFaceEmbeddings",
+    "",
+    "            model_name = \"sentence-transformers/all-mpnet-base-v2\"",
+    "            model_kwargs = {'device': 'cpu'}"
+   ],
+   "repo": "langchain-ai/langchain",
+   "target": [
+    "            hf = HuggingFaceEmbeddings(model_name=model_name, model_kwargs=model_kwargs)",
+    "    \"\"\"",
+    "",
+    "    client: Any  #: :meta private:",
+    "    model_name: str = DEFAULT_MODEL_NAME",
+    "    \"\"\"Model name to use.\"\"\"",
+    "    cache_folder: Optional[str] = None",
+    "    \"\"\"Path to store models. "
+   ]
+  },
+  "langchain-ai__langchain-5584": {
+   "first_change_line": 359,
+   "path": "langchain/vectorstores/chroma.py",
+   "prefix": [
+    "            document (Document): Document to update.",
+    "        \"\"\"",
+    "        text = document.page_content",
+    "        metadata = document.metadata",
+    "        if self._embedding_function is None:",
+    "            raise ValueError(",
+    "                \"For update, you must specify an embedding function on creation.\"",
+    "            )"
+   ],
+   "repo": "langchain-ai/langchain",
+   "target": [
+    "        embeddings = self._embedding_function.embed_documents(list(text))",
+    "",
+    "        self._collection.update(",
+    "            ids=[document_id],",
+    "            embeddings=[embeddings[0]],",
+    "            documents=[text],",
+    "            metadatas=[metadata],",
+    "        )"
+   ]
+  },
+  "langchain-ai__langchain-5625": {
+   "first_change_line": 33,
+   "path": "langchain/text_splitter.py",
+   "prefix": [
+    "from langchain.docstore.document import Document",
+    "from langchain.schema import BaseDocumentTransformer",
+    "",
+    "logger = logging.getLogger(__name__)",
+    "",
+    "TS = TypeVar(\"TS\", bound=\"TextSplitter\")",
+    "",
+    ""
+   ],
+   "repo": "langchain-ai/langchain",
+   "target": [
+    "def _split_text(text: str, separator: str, keep_separator: bool) -> List[str]:",
+    "    # Now that we have the separator, split the text",
+    "    if separator:",
+    "        if keep_separator:",
+    "            # The parentheses in the pattern keep the delimiters in the result.",
+    "            _splits = re.split(f\"({separator})\", text)",
+    "            splits = [_splits[i] + _splits[i + 1] for i in range(1, len(_splits), 2)]",
+    "            if len(_splits) % 2 == 0:"
+   ]
+  },
+  "langchain-ai__langchain-6456": {
+   "first_change_line": 171,
+   "path": "langchain/prompts/chat.py",
+   "prefix": [
+    "",
+    "    @root_validator(pre=True)",
+    "    def validate_input_variables(cls, values: dict) -> dict:",
+    "        messages = values[\"messages\"]",
+    "        input_vars = set()",
+    "        for message in messages:",
+    "            if isinstance(message, BaseMessagePromptTemplate):",
+    "                input_vars.update(message.input_variables)"
+   ],
+   "repo": "langchain-ai/langchain",
+   "target": [
+    "        if \"input_variables\" in values:",
+    "            if input_vars != set(values[\"input_variables\"]):",
+    "                raise ValueError(",
+    "                    \"Got mismatched input_variables. \"",
+    "                    f\"Expected: {input_vars}. \"",
+    "                    f\"Got: {values['input_variables']}\"",
+    "                )",
+    "        else:"
+   ]
+  },
+  "langchain-ai__langchain-6483": {
+   "first_change_line": 85,
+   "path": "langchain/tools/base.py",
+   "prefix": [
+    "",
+    "def _get_filtered_args(",
+    "    inferred_model: Type[BaseModel],",
+    "    func: Callable,",
+    ") -> dict:",
+    "    \"\"\"Get the arguments from a function's signature.\"\"\"",
+    "    schema = inferred_model.schema()[\"properties\"]",
+    "    valid_keys = signature(func).parameters"
+   ],
+   "repo": "langchain-ai/langchain",
+   "target": [
+    "    return {k: schema[k] for k in valid_keys if k != \"run_manager\"}",
+    "",
+    "",
+    "class _SchemaConfig:",
+    "    \"\"\"Configuration for the pydantic model.\"\"\"",
+    "",
+    "    extra = Extra.forbid",
+    "    arbitrary_types_allowed = True"
+   ]
+  },
+  "langchain-ai__langchain-6765": {
+   "first_change_line": 54,
+   "path": "langchain/agents/initialize.py",
+   "prefix": [
+    "            \"but at most only one should be.\"",
+    "        )",
+    "    if agent is not None:",
+    "        if agent not in AGENT_TO_CLASS:",
+    "            raise ValueError(",
+    "                f\"Got unknown agent type: {agent}. \"",
+    "                f\"Valid types are: {AGENT_TO_CLASS.keys()}.\"",
+    "            )"
+   ],
+   "repo": "langchain-ai/langchain",
+   "target": [
+    "        tags_.append(agent.value)",
+    "        agent_cls = AGENT_TO_CLASS[agent]",
+    "        agent_kwargs = agent_kwargs or {}",
+    "        agent_obj = agent_cls.from_llm_and_tools(",
+    "            llm, tools, callback_manager=callback_manager, **agent_kwargs",
+    "        )",
+    "    elif agent_path is not None:",
+    "        agent_obj = load_agent("
+   ]
+  },
+  "langchain-ai__langchain-7653": {
+   "first_change_line": 183,
+   "path": "langchain/cache.py",
+   "prefix": [
+    "        with Session(self.engine) as session, session.begin():",
+    "            for item in items:",
+    "                session.merge(item)",
+    "",
+    "    def clear(self, **kwargs: Any) -> None:",
+    "        \"\"\"Clear cache.\"\"\"",
+    "        with Session(self.engine) as session:",
+    "            session.query(self.cache_schema).delete()"
+   ],
+   "repo": "langchain-ai/langchain",
+   "target": [
+    "",
+    "",
+    "class SQLiteCache(SQLAlchemyCache):",
+    "    \"\"\"Cache that uses SQLite as a backend.\"\"\"",
+    "",
+    "    def __init__(self, database_path: str = \".langchain.db\"):",
+    "        \"\"\"Initialize by creating the engine and all tables.\"\"\"",
+    "        engine = create_engine(f\"sqlite:///{database_path}\")"
+   ]
+  },
+  "tensorflow__models-4628": {
+   "first_change_line": 36,
+   "path": "research/astronet/astronet/data/generate_download_script.py",
+   "prefix": [
+    "",
+    "from __future__ import absolute_import",
+    "from __future__ import division",
+    "from __future__ import print_function",
+    "",
+    "import argparse",
+    "import csv",
+    "import os"
+   ],
+   "repo": "tensorflow/models",
+   "target": [
+    "import sys",
+    "",
+    "parser = argparse.ArgumentParser()",
+    "",
+    "parser.add_argument(",
+    "    \"--kepler_csv_file\",",
+    "    type=str,",
+    "    required=True,"
+   ]
+  },
+  "yt-dlp__yt-dlp-1649": {
+   "first_change_line": 549,
+   "path": "README.md",
+   "prefix": [
+    "                                    below which throttling is assumed and the",
+    "                                    video data is re-extracted (e.g. 100K)",
+    "    -R, --retries RETRIES           Number of retries (default is 10), or",
+    "                                    \"infinite\"",
+    "    --file-access-retries RETRIES   Number of times to retry on file access",
+    "                                    error (default is 3), or \"infinite\"",
+    "    --fragment-retries RETRIES      Number of retries for a fragment (default is",
+    "                                    10), or \"infinite\" (DASH, hlsnative and ISM)"
+   ],
+   "repo": "yt-dlp/yt-dlp",
+   "target": [
+    "    --retry-sleep [TYPE:]EXPR       An expression for the time to sleep between",
+    "                                    retries in seconds (optionally) prefixed by",
+    "                                    the type of retry (file_access, fragment,",
+    "                                    http (default)) to apply the sleep to. EXPR",
+    "                                    can be a number, linear=START[:END[:STEP=1]]",
+    "                                    or exp=START[:END[:BASE=2]]. This option can",
+    "                                    be used multiple times to set the sleep for",
+    "                                    the different retry types. Eg: --retry-sleep"
+   ]
+  },
+  "yt-dlp__yt-dlp-3435": {
+   "first_change_line": 843,
+   "path": "README.md",
+   "prefix": [
+    "                                     provider) identifier, use --ap-list-mso for",
+    "                                     a list of available MSOs",
+    "    --ap-username USERNAME           Multiple-system operator account login",
+    "    --ap-password PASSWORD           Multiple-system operator account password.",
+    "                                     If this option is left out, yt-dlp will ask",
+    "                                     interactively",
+    "    --ap-list-mso                    List all supported multiple-system",
+    "                                     operators"
+   ],
+   "repo": "yt-dlp/yt-dlp",
+   "target": [
+    "",
+    "## Post-Processing Options:",
+    "    -x, --extract-audio              Convert video files to audio-only files",
+    "                                     (requires ffmpeg and ffprobe)",
+    "    --audio-format FORMAT            Specify audio format to convert the audio",
+    "                                     to when -x is used. Currently supported",
+    "                                     formats are: best (default) or one of aac,",
+    "                                     flac, mp3, m4a, opus, vorbis, wav, alac"
+   ]
+  },
+  "yt-dlp__yt-dlp-4524": {
+   "first_change_line": 1398,
+   "path": "yt_dlp/extractor/_extractors.py",
+   "prefix": [
+    "from .rai import (",
+    "    RaiPlayIE,",
+    "    RaiPlayLiveIE,",
+    "    RaiPlayPlaylistIE,",
+    "    RaiPlaySoundIE,",
+    "    RaiPlaySoundLiveIE,",
+    "    RaiPlaySoundPlaylistIE,",
+    "    RaiNewsIE,"
+   ],
+   "repo": "yt-dlp/yt-dlp",
+   "target": [
+    "    RaiIE,",
+    ")",
+    "from .raywenderlich import (",
+    "    RayWenderlichIE,",
+    "    RayWenderlichCourseIE,",
+    ")",
+    "from .rbmaradio import RBMARadioIE",
+    "from .rcs import ("
+   ]
+  },
+  "yt-dlp__yt-dlp-4841": {
+   "first_change_line": 2482,
+   "path": "yt_dlp/utils.py",
+   "prefix": [
+    "",
+    "",
+    "def url_basename(url):",
+    "    path = urllib.parse.urlparse(url).path",
+    "    return path.strip('/').split('/')[-1]",
+    "",
+    "",
+    "def base_url(url):"
+   ],
+   "repo": "yt-dlp/yt-dlp",
+   "target": [
+    "    return re.match(r'https?://[^?#&]+/', url).group()",
+    "",
+    "",
+    "def urljoin(base, path):",
+    "    if isinstance(path, bytes):",
+    "        path = path.decode()",
+    "    if not isinstance(path, str) or not path:",
+    "        return None"
+   ]
+  },
+  "yt-dlp__yt-dlp-5933": {
+   "first_change_line": 1122,
+   "path": "README.md",
+   "prefix": [
+    "    * The file given by `--config-location`",
+    "1. **Portable Configuration**: (Recommended for portable installations)",
+    "    * If using a binary, `yt-dlp.conf` in the same directory as the binary",
+    "    * If running from source-code, `yt-dlp.conf` in the parent directory of `yt_dlp`",
+    "1. **Home Configuration**:",
+    "    * `yt-dlp.conf` in the home path given by `-P`",
+    "    * If `-P` is not given, the current directory is searched",
+    "1. **User Configuration**:"
+   ],
+   "repo": "yt-dlp/yt-dlp",
+   "target": [
+    "    * `${XDG_CONFIG_HOME}/yt-dlp/config` (recommended on Linux/macOS)",
+    "    * `${XDG_CONFIG_HOME}/yt-dlp/config.txt`",
+    "    * `${XDG_CONFIG_HOME}/yt-dlp.conf`",
+    "    * `${APPDATA}/yt-dlp/config` (recommended on Windows)",
+    "    * `${APPDATA}/yt-dlp/config.txt`",
+    "    * `~/yt-dlp.conf`",
+    "    * `~/yt-dlp.conf.txt`",
+    "    * `~/.yt-dlp/config`"
+   ]
+  },
+  "yt-dlp__yt-dlp-8917": {
+   "first_change_line": 1308,
+   "path": "README.md",
+   "prefix": [
+    " - `title` (string): Video title",
+    " - `fulltitle` (string): Video title ignoring live timestamp and generic title",
+    " - `ext` (string): Video filename extension",
+    " - `alt_title` (string): A secondary title of the video",
+    " - `description` (string): The description of the video",
+    " - `display_id` (string): An alternative identifier for the video",
+    " - `uploader` (string): Full name of the video uploader",
+    " - `license` (string): License name the video is licensed under"
+   ],
+   "repo": "yt-dlp/yt-dlp",
+   "target": [
+    " - `creator` (string): The creator of the video",
+    " - `timestamp` (numeric): UNIX timestamp of the moment the video became available",
+    " - `upload_date` (string): Video upload date in UTC (YYYYMMDD)",
+    " - `release_timestamp` (numeric): UNIX timestamp of the moment the video was released",
+    " - `release_date` (string): The date (YYYYMMDD) when the video was released in UTC",
+    " - `release_year` (numeric): Year (YYYY) when the video or album was released",
+    " - `modified_timestamp` (numeric): UNIX timestamp of the moment the video was last modified",
+    " - `modified_date` (string): The date (YYYYMMDD) when the video was last modified in UTC"
+   ]
+  }
+ }
+}

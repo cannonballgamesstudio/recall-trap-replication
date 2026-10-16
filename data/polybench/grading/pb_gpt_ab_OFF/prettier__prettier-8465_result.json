@@ -1,0 +1,25 @@
+{
+    "instance_id": "prettier__prettier-8465",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "/testbed/tests/vue/with-plugins/jsfmt.spec.js->script-lang.vue format",
+        "/testbed/tests/vue/with-plugins/jsfmt.spec.js->style-lang.vue format",
+        "/testbed/tests/vue/with-plugins/jsfmt.spec.js->custom-block-lang.vue - {\"embeddedLanguageFormatting\":\"off\"} format",
+        "/testbed/tests/vue/with-plugins/jsfmt.spec.js->inline.vue - {\"embeddedLanguageFormatting\":\"off\"} format",
+        "/testbed/tests/vue/with-plugins/jsfmt.spec.js->script-lang.vue - {\"embeddedLanguageFormatting\":\"off\"} format",
+        "/testbed/tests/vue/with-plugins/jsfmt.spec.js->style-lang.vue - {\"embeddedLanguageFormatting\":\"off\"} format",
+        "/testbed/tests/vue/with-plugins/jsfmt.spec.js->template-lang.vue - {\"embeddedLanguageFormatting\":\"off\"} format",
+        "/testbed/tests/vue/with-plugins/jsfmt.spec.js->whitspace.vue - {\"embeddedLanguageFormatting\":\"off\"} format"
+    ],
+    "failed_tests": [
+        "/testbed/tests/vue/with-plugins/jsfmt.spec.js->custom-block-lang.vue format",
+        "/testbed/tests/vue/with-plugins/jsfmt.spec.js->inline.vue format",
+        "/testbed/tests/vue/with-plugins/jsfmt.spec.js->template-lang.vue format",
+        "/testbed/tests/vue/with-plugins/jsfmt.spec.js->whitspace.vue format"
+    ]
+}

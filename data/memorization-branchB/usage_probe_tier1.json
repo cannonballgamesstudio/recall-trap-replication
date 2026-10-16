@@ -1,0 +1,22 @@
+{
+ "tier": 1,
+ "what": "gpt Verified P1/P2/P3 (mandatory)",
+ "tag": "gpt56sol",
+ "dataset": "verified",
+ "api_model": "openai/gpt-5.6-sol",
+ "per_call_usd": {
+  "P1": 0.0038759999999999997,
+  "P2": 0.018634374999999998,
+  "P3": 0.005282666666666667
+ },
+ "n_calls": {
+  "P1": 367,
+  "P2": 500,
+  "P3": 499
+ },
+ "projected_usd": 13.38,
+ "cap_usd": 50.0,
+ "total_ceiling_usd": 90.0,
+ "gate": "PASS (still needs owner approval)",
+ "note": "usage-probe responses are logged and NOT used in any analysis"
+}

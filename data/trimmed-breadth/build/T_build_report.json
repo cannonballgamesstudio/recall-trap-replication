@@ -1,0 +1,223 @@
+{
+ "n_instances": 500,
+ "subset_property_rate": 0.946,
+ "subset_satisfied": 473,
+ "violations": [
+  {
+   "instance_id": "astropy__astropy-13236",
+   "off_files_not_in_on": [
+    "astropy/utils/masked/core.py",
+    "astropy/uncertainty/core.py"
+   ]
+  },
+  {
+   "instance_id": "astropy__astropy-13453",
+   "off_files_not_in_on": [
+    "astropy/table/row.py"
+   ]
+  },
+  {
+   "instance_id": "django__django-10973",
+   "off_files_not_in_on": [
+    "tests/test_runner/tests.py"
+   ]
+  },
+  {
+   "instance_id": "django__django-11555",
+   "off_files_not_in_on": [
+    "tests/select_for_update/tests.py"
+   ]
+  },
+  {
+   "instance_id": "django__django-11740",
+   "off_files_not_in_on": [
+    "django/contrib/messages/storage/cookie.py"
+   ]
+  },
+  {
+   "instance_id": "django__django-12125",
+   "off_files_not_in_on": [
+    "django/db/migrations/state.py",
+    "tests/migrations/test_writer.py"
+   ]
+  },
+  {
+   "instance_id": "django__django-12262",
+   "off_files_not_in_on": [
+    "django/db/migrations/serializer.py"
+   ]
+  },
+  {
+   "instance_id": "django__django-12273",
+   "off_files_not_in_on": [
+    "django/contrib/messages/storage/cookie.py",
+    "django/core/serializers/json.py"
+   ]
+  },
+  {
+   "instance_id": "django__django-13212",
+   "off_files_not_in_on": [
+    "tests/invalid_models_tests/test_ordinary_fields.py",
+    "django/core/mail/message.py",
+    "django/test/testcases.py"
+   ]
+  },
+  {
+   "instance_id": "django__django-13279",
+   "off_files_not_in_on": [
+    "tests/auth_tests/test_hashers.py",
+    "django/utils/deprecation.py"
+   ]
+  },
+  {
+   "instance_id": "django__django-14404",
+   "off_files_not_in_on": [
+    "django/test/client.py",
+    "django/contrib/admin/static/admin/js/vendor/select2/select2.full.js"
+   ]
+  },
+  {
+   "instance_id": "django__django-14580",
+   "off_files_not_in_on": [
+    "django/contrib/gis/gdal/feature.py",
+    "django/db/models/options.py",
+    "tests/migrations/test_state.py"
+   ]
+  },
+  {
+   "instance_id": "django__django-14855",
+   "off_files_not_in_on": [
+    "django/contrib/gis/geos/mutable_list.py",
+    "django/urls/base.py"
+   ]
+  },
+  {
+   "instance_id": "django__django-15037",
+   "off_files_not_in_on": [
+    "django/utils/log.py",
+    "django/db/migrations/state.py"
+   ]
+  },
+  {
+   "instance_id": "django__django-15104",
+   "off_files_not_in_on": [
+    "django/db/migrations/state.py"
+   ]
+  },
+  {
+   "instance_id": "django__django-17029",
+   "off_files_not_in_on": [
+    "tests/sitemaps_tests/base.py"
+   ]
+  },
+  {
+   "instance_id": "matplotlib__matplotlib-23314",
+   "off_files_not_in_on": [
+    "lib/mpl_toolkits/mplot3d/axes3d.py",
+    "lib/mpl_toolkits/tests/test_mplot3d.py",
+    "lib/matplotlib/backend_managers.py"
+   ]
+  },
+  {
+   "instance_id": "pydata__xarray-4966",
+   "off_files_not_in_on": [
+    "xarray/core/variable.py"
+   ]
+  },
+  {
+   "instance_id": "pylint-dev__pylint-6386",
+   "off_files_not_in_on": [
+    "pylint/extensions/mccabe.py"
+   ]
+  },
+  {
+   "instance_id": "pylint-dev__pylint-7080",
+   "off_files_not_in_on": [
+    "pylint/pyreverse/writer.py"
+   ]
+  },
+  {
+   "instance_id": "scikit-learn__scikit-learn-14629",
+   "off_files_not_in_on": [
+    "sklearn/utils/tests/test_deprecation.py"
+   ]
+  },
+  {
+   "instance_id": "scikit-learn__scikit-learn-25973",
+   "off_files_not_in_on": [
+    "sklearn/svm/src/liblinear/liblinear_helper.c"
+   ]
+  },
+  {
+   "instance_id": "sphinx-doc__sphinx-9711",
+   "off_files_not_in_on": [
+    "sphinx/jinja2glue.py"
+   ]
+  },
+  {
+   "instance_id": "sympy__sympy-15875",
+   "off_files_not_in_on": [
+    "sympy/geometry/point.py",
+    "sympy/matrices/common.py"
+   ]
+  },
+  {
+   "instance_id": "sympy__sympy-20801",
+   "off_files_not_in_on": [
+    "sympy/assumptions/handlers/ntheory.py",
+    "sympy/assumptions/ask.py"
+   ]
+  },
+  {
+   "instance_id": "sympy__sympy-21379",
+   "off_files_not_in_on": [
+    "sympy/physics/vector/vector.py",
+    "sympy/functions/elementary/tests/test_trigonometric.py",
+    "sympy/polys/rings.py"
+   ]
+  },
+  {
+   "instance_id": "sympy__sympy-22456",
+   "off_files_not_in_on": [
+    "sympy/core/sympify.py"
+   ]
+  }
+ ],
+ "source_parse_issues": [],
+ "chunk_identity": "2607/2607",
+ "chunk_identity_rate": 1.0,
+ "diag_on_chunk_is_first_off_chunk_of_file": "2153/2431",
+ "diag_on_chunk_present_among_off_chunks_of_file": "2294/2431",
+ "mean_slots": {
+  "ON": 11.932,
+  "OFF": 12.0,
+  "T": 5.1395348837209305
+ },
+ "mean_pack_chars": {
+  "ON": 6002.362,
+  "OFF": 6318.414,
+  "T": 2787.103594080338
+ },
+ "mean_off_files": 5.302,
+ "tprime_n": 27,
+ "tprime_mean_slots": 6.518518518518518,
+ "tprime_mean_chars": 3597.703703703704,
+ "tprime_gold_file_dropped": {
+  "matplotlib__matplotlib-23314": [
+   "lib/mpl_toolkits/mplot3d/axes3d.py"
+  ]
+ },
+ "t_slot_hist": {
+  "1": 3,
+  "2": 44,
+  "3": 57,
+  "4": 80,
+  "5": 89,
+  "6": 70,
+  "7": 82,
+  "8": 31,
+  "9": 10,
+  "10": 5,
+  "11": 2
+ }
+}

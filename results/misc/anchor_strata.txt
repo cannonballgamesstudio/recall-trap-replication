@@ -1,0 +1,83 @@
+class counts ON-pack Counter({'B': 361, 'C': 78, 'A': 61})
+class counts OFF-pack Counter({'B': 253, 'C': 150, 'A': 97})
+transition ON->OFF Counter({('B', 'B'): 249, ('B', 'C'): 80, ('C', 'C'): 70, ('A', 'A'): 60, ('B', 'A'): 32, ('C', 'A'): 5, ('C', 'B'): 3, ('A', 'B'): 1})
+agreement with on-disk taxonomy 92 / 92
+
+== gpt_headline n=500 ON=196 OFF=234
+  classON=A     n= 61 ON= 14.8% OFF= 24.6% d= +9.8pp b/c=7/1 p=0.0703
+  classON=B     n=361 ON= 37.1% OFF= 46.3% d= +9.1pp b/c=60/27 p=0.000524
+  classON=C     n= 78 ON= 67.9% OFF= 66.7% d= -1.3pp b/c=6/7 p=1
+  transition=A>A   n= 60 ON= 15.0% OFF= 25.0% d=+10.0pp b/c=7/1 p=0.0703
+  transition=B>A   n= 32 ON= 18.8% OFF= 28.1% d= +9.4pp b/c=6/3 p=0.508
+  transition=B>B   n=249 ON= 37.3% OFF= 41.0% d= +3.6pp b/c=31/22 p=0.272
+  transition=B>C   n= 80 ON= 43.8% OFF= 70.0% d=+26.2pp b/c=23/2 p=1.94e-05
+  transition=C>A   n=  5 ON= 40.0% OFF= 20.0% d=-20.0pp b/c=0/1 p=1
+  transition=C>C   n= 70 ON= 68.6% OFF= 70.0% d= +1.4pp b/c=6/5 p=1
+  names=N     n=367 ON= 34.9% OFF= 45.0% d=+10.1pp b/c=59/22 p=4.77e-05
+  names=Y     n=133 ON= 51.1% OFF= 51.9% d= +0.8pp b/c=14/13 p=1
+  nplus=1-2   n=179 ON= 49.2% OFF= 55.3% d= +6.1pp b/c=28/17 p=0.135
+  nplus=10+   n=120 ON= 18.3% OFF= 24.2% d= +5.8pp b/c=12/5 p=0.143
+  nplus=3-9   n=201 ON= 42.8% OFF= 52.7% d=+10.0pp b/c=33/13 p=0.00453
+
+== gpt_logrep n=500 ON=205 OFF=232
+  classON=A     n= 61 ON= 23.0% OFF= 18.0% d= -4.9pp b/c=2/5 p=0.453
+  classON=B     n=361 ON= 38.5% OFF= 46.5% d= +8.0pp b/c=58/29 p=0.00248
+  classON=C     n= 78 ON= 66.7% OFF= 67.9% d= +1.3pp b/c=5/4 p=1
+  transition=A>A   n= 60 ON= 23.3% OFF= 18.3% d= -5.0pp b/c=2/5 p=0.453
+  transition=B>A   n= 32 ON= 31.2% OFF= 25.0% d= -6.2pp b/c=2/4 p=0.688
+  transition=B>B   n=249 ON= 36.9% OFF= 41.4% d= +4.4pp b/c=33/22 p=0.177
+  transition=B>C   n= 80 ON= 46.2% OFF= 71.2% d=+25.0pp b/c=23/3 p=8.8e-05
+  transition=C>A   n=  5 ON= 20.0% OFF= 20.0% d= +0.0pp b/c=0/0 p=1
+  transition=C>C   n= 70 ON= 68.6% OFF= 71.4% d= +2.9pp b/c=5/3 p=0.727
+  names=N     n=367 ON= 37.6% OFF= 42.8% d= +5.2pp b/c=45/26 p=0.0319
+  names=Y     n=133 ON= 50.4% OFF= 56.4% d= +6.0pp b/c=20/12 p=0.215
+  nplus=1-2   n=179 ON= 51.4% OFF= 55.3% d= +3.9pp b/c=21/14 p=0.311
+  nplus=10+   n=120 ON= 18.3% OFF= 25.0% d= +6.7pp b/c=13/5 p=0.0963
+  nplus=3-9   n=201 ON= 45.3% OFF= 51.2% d= +6.0pp b/c=31/19 p=0.119
+
+== qwen36_k12 n=499 ON=46 OFF=64
+  classON=A     n= 60 ON=  1.7% OFF=  0.0% d= -1.7pp b/c=0/1 p=1
+  classON=B     n=361 ON=  5.8% OFF= 11.1% d= +5.3pp b/c=28/9 p=0.00256
+  classON=C     n= 78 ON= 30.8% OFF= 30.8% d= +0.0pp b/c=5/5 p=1
+  transition=A>A   n= 59 ON=  1.7% OFF=  0.0% d= -1.7pp b/c=0/1 p=1
+  transition=B>A   n= 32 ON=  3.1% OFF=  3.1% d= +0.0pp b/c=1/1 p=1
+  transition=B>B   n=249 ON=  4.8% OFF=  4.0% d= -0.8pp b/c=5/7 p=0.774
+  transition=B>C   n= 80 ON= 10.0% OFF= 36.2% d=+26.2pp b/c=22/1 p=5.72e-06
+  transition=C>A   n=  5 ON=  0.0% OFF=  0.0% d= +0.0pp b/c=0/0 p=1
+  transition=C>C   n= 70 ON= 31.4% OFF= 34.3% d= +2.9pp b/c=5/3 p=0.727
+  names=N     n=366 ON=  6.8% OFF= 10.1% d= +3.3pp b/c=20/8 p=0.0357
+  names=Y     n=133 ON= 15.8% OFF= 20.3% d= +4.5pp b/c=13/7 p=0.263
+  nplus=1-2   n=178 ON= 14.0% OFF= 18.0% d= +3.9pp b/c=16/9 p=0.23
+  nplus=10+   n=120 ON=  2.5% OFF=  2.5% d= +0.0pp b/c=2/2 p=1
+  nplus=3-9   n=201 ON=  9.0% OFF= 14.4% d= +5.5pp b/c=15/4 p=0.0192
+
+== qwen36_k40 n=457 ON=43 OFF=89
+  classON=A     n= 58 ON=  3.4% OFF=  1.7% d= -1.7pp b/c=1/2 p=1
+  classON=B     n=325 ON=  5.8% OFF= 18.5% d=+12.6pp b/c=46/5 p=2.33e-09
+  classON=C     n= 74 ON= 29.7% OFF= 37.8% d= +8.1pp b/c=6/0 p=0.0312
+  transition=A>A   n= 57 ON=  3.5% OFF=  1.8% d= -1.8pp b/c=1/2 p=1
+  transition=B>A   n= 27 ON=  3.7% OFF=  0.0% d= -3.7pp b/c=0/1 p=1
+  transition=B>B   n=223 ON=  4.0% OFF= 11.7% d= +7.6pp b/c=20/3 p=0.000488
+  transition=B>C   n= 75 ON= 12.0% OFF= 45.3% d=+33.3pp b/c=26/1 p=4.17e-07
+  transition=C>C   n= 67 ON= 31.3% OFF= 40.3% d= +9.0pp b/c=6/0 p=0.0312
+  names=N     n=331 ON=  6.9% OFF= 16.9% d=+10.0pp b/c=35/2 p=1.02e-08
+  names=Y     n=126 ON= 15.9% OFF= 26.2% d=+10.3pp b/c=18/5 p=0.0106
+  nplus=1-2   n=168 ON= 14.3% OFF= 25.0% d=+10.7pp b/c=24/6 p=0.00143
+  nplus=10+   n= 99 ON=  3.0% OFF=  5.1% d= +2.0pp b/c=2/0 p=0.5
+  nplus=3-9   n=190 ON=  8.4% OFF= 22.1% d=+13.7pp b/c=27/1 p=2.16e-07
+
+== qwen3or_k12 n=500 ON=37 OFF=58
+  classON=A     n= 61 ON=  3.3% OFF=  1.6% d= -1.6pp b/c=0/1 p=1
+  classON=B     n=361 ON=  3.6% OFF= 10.8% d= +7.2pp b/c=30/4 p=6.16e-06
+  classON=C     n= 78 ON= 28.2% OFF= 23.1% d= -5.1pp b/c=3/7 p=0.344
+  transition=A>A   n= 60 ON=  3.3% OFF=  1.7% d= -1.7pp b/c=0/1 p=1
+  transition=B>A   n= 32 ON=  0.0% OFF=  0.0% d= +0.0pp b/c=0/0 p=1
+  transition=B>B   n=249 ON=  3.2% OFF=  3.6% d= +0.4pp b/c=4/3 p=1
+  transition=B>C   n= 80 ON=  6.2% OFF= 37.5% d=+31.2pp b/c=26/1 p=4.17e-07
+  transition=C>A   n=  5 ON=  0.0% OFF=  0.0% d= +0.0pp b/c=0/0 p=1
+  transition=C>C   n= 70 ON= 31.4% OFF= 25.7% d= -5.7pp b/c=3/7 p=0.344
+  names=N     n=367 ON=  6.5% OFF=  8.7% d= +2.2pp b/c=17/9 p=0.169
+  names=Y     n=133 ON=  9.8% OFF= 19.5% d= +9.8pp b/c=16/3 p=0.00443
+  nplus=1-2   n=179 ON= 10.1% OFF= 16.2% d= +6.1pp b/c=17/6 p=0.0347
+  nplus=10+   n=120 ON=  1.7% OFF=  2.5% d= +0.8pp b/c=3/2 p=1
+  nplus=3-9   n=201 ON=  8.5% OFF= 12.9% d= +4.5pp b/c=13/4 p=0.049

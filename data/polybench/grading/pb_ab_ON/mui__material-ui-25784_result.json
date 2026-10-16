@@ -1,0 +1,29 @@
+{
+    "instance_id": "mui__material-ui-25784",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": false,
+    "resolved": false,
+    "passed_tests": [],
+    "failed_tests": [
+        "packages/material-ui-unstyled/src/Unstable_TrapFocus/Unstable_TrapFocus.test.js-><TrapFocus /> should return focus to the root",
+        "packages/material-ui-unstyled/src/Unstable_TrapFocus/Unstable_TrapFocus.test.js-><TrapFocus /> should not return focus to the children when disableEnforceFocus is true",
+        "packages/material-ui-unstyled/src/Unstable_TrapFocus/Unstable_TrapFocus.test.js-><TrapFocus /> should focus first focusable child in portal",
+        "packages/material-ui-unstyled/src/Unstable_TrapFocus/Unstable_TrapFocus.test.js-><TrapFocus /> should warn if the root content is not focusable",
+        "packages/material-ui-unstyled/src/Unstable_TrapFocus/Unstable_TrapFocus.test.js-><TrapFocus /> should not attempt to focus nonexistent children",
+        "packages/material-ui-unstyled/src/Unstable_TrapFocus/Unstable_TrapFocus.test.js-><TrapFocus /> should focus rootRef if no tabbable children are rendered",
+        "packages/material-ui-unstyled/src/Unstable_TrapFocus/Unstable_TrapFocus.test.js-><TrapFocus /> does not steal focus from a portaled element if any prop but open changes",
+        "packages/material-ui-unstyled/src/Unstable_TrapFocus/Unstable_TrapFocus.test.js-><TrapFocus /> undesired: lazy root does not get autofocus",
+        "packages/material-ui-unstyled/src/Unstable_TrapFocus/Unstable_TrapFocus.test.js-><TrapFocus /> does not bounce focus around due to sync focus-restore + focus-contain",
+        "packages/material-ui-unstyled/src/Unstable_TrapFocus/Unstable_TrapFocus.test.js-><TrapFocus /> does not focus if isEnabled returns false",
+        "packages/material-ui-unstyled/src/Unstable_TrapFocus/Unstable_TrapFocus.test.js-><TrapFocus /> restores focus when closed",
+        "packages/material-ui-unstyled/src/Unstable_TrapFocus/Unstable_TrapFocus.test.js-><TrapFocus /> undesired: enabling restore-focus logic when closing has no effect",
+        "packages/material-ui-unstyled/src/Unstable_TrapFocus/Unstable_TrapFocus.test.js-><TrapFocus /> undesired: setting `disableRestoreFocus` to false before closing has no effect",
+        "packages/material-ui-unstyled/src/Unstable_TrapFocus/Unstable_TrapFocus.test.js-><TrapFocus /> interval contains the focus if the active element is removed",
+        "packages/material-ui-unstyled/src/Unstable_TrapFocus/Unstable_TrapFocus.test.js-><TrapFocus /> interval prop: disableAutoFocus should not trap",
+        "packages/material-ui-unstyled/src/Unstable_TrapFocus/Unstable_TrapFocus.test.js-><TrapFocus /> interval prop: disableAutoFocus should trap once the focus moves inside",
+        "packages/material-ui-unstyled/src/Unstable_TrapFocus/Unstable_TrapFocus.test.js-><TrapFocus /> interval prop: disableAutoFocus should restore the focus"
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "instance_id": "serverless__serverless-2624",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "Utils #dirExistsSync() When reading a directory should detect if a directory exists",
+        "Utils #dirExistsSync() When reading a directory should detect if a directory doesn't exist",
+        "Utils #fileExistsSync() When reading a file should detect if a file exists",
+        "Utils #fileExistsSync() When reading a file should detect if a file doesn't exist",
+        "Utils #writeFileSync() should write a .json file synchronously",
+        "Utils #writeFileSync() should write a .yml file synchronously",
+        "Utils #writeFileSync() should write a .yaml file synchronously",
+        "Utils #writeFileSync() should throw error if invalid path is provided",
+        "Utils #writeFile() should write a file asynchronously",
+        "Utils #readFileSync() should read a file synchronously",
+        "Utils #readFileSync() should read a filename extension .yml",
+        "Utils #readFileSync() should read a filename extension .yaml",
+        "Utils #readFileSync() should throw YAMLException with filename if yml file is invalid format",
+        "Utils #readFile() should read a file asynchronously",
+        "Utils #walkDirSync() should return an array with corresponding paths to the found files",
+        "Utils #copyDirContentsSync() recursively copy directory files",
+        "Utils #generateShortId() should generate a shortId",
+        "Utils #generateShortId() should generate a shortId for the given length",
+        "Utils #findServicePath() should detect if the CWD is a service directory when using Serverless .yaml files",
+        "Utils #findServicePath() should detect if the CWD is a service directory when using Serverless .yml files",
+        "Utils #findServicePath() should detect if the CWD is not a service directory",
+        "Utils #logStat() should resolve if a file called stats-disabled is present",
+        "Utils #logStat() should create a new file with a stats id if not found",
+        "Utils #logStat() should re-use an existing file which contains the stats id if found"
+    ],
+    "failed_tests": [
+        "Utils #writeFileDir() should create a directory for the path of the given file",
+        "Utils #logStat() should filter out whitelisted options",
+        "Utils #logStat() should send the gathered information"
+    ]
+}

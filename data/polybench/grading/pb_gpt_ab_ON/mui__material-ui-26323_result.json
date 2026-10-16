@@ -1,0 +1,21 @@
+{
+    "instance_id": "mui__material-ui-26323",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "packages/material-ui/src/DialogTitle/DialogTitle.test.js-><DialogTitle /> should render JSX children",
+        "packages/material-ui/src/DialogTitle/DialogTitle.test.js-><DialogTitle /> should render string children as given string",
+        "packages/material-ui/src/DialogTitle/DialogTitle.test.js-><DialogTitle /> Material-UI component API applies the className to the root component",
+        "packages/material-ui/src/DialogTitle/DialogTitle.test.js-><DialogTitle /> Material-UI component API applies the root class to the root component if it has this class",
+        "packages/material-ui/src/DialogTitle/DialogTitle.test.js-><DialogTitle /> Material-UI component API should render without errors in ReactTestRenderer",
+        "packages/material-ui/src/DialogTitle/DialogTitle.test.js-><DialogTitle /> Material-UI component API theme default components: respect theme's defaultProps"
+    ],
+    "failed_tests": [
+        "packages/material-ui/src/DialogTitle/DialogTitle.test.js-><DialogTitle /> Material-UI component API spreads props to the root component",
+        "packages/material-ui/src/DialogTitle/DialogTitle.test.js-><DialogTitle /> Material-UI component API ref attaches the ref"
+    ]
+}

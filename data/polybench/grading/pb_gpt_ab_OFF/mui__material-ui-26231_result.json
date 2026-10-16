@@ -1,0 +1,37 @@
+{
+    "instance_id": "mui__material-ui-26231",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "packages/material-ui/src/FilledInput/FilledInput.test.js-><FilledInput /> should have the underline class",
+        "packages/material-ui/src/FilledInput/FilledInput.test.js-><FilledInput /> can disable the underline",
+        "packages/material-ui/src/FilledInput/FilledInput.test.js-><FilledInput /> Material-UI component API applies the className to the root component",
+        "packages/material-ui/src/FilledInput/FilledInput.test.js-><FilledInput /> Material-UI component API spreads props to the root component",
+        "packages/material-ui/src/FilledInput/FilledInput.test.js-><FilledInput /> Material-UI component API applies the root class to the root component if it has this class",
+        "packages/material-ui/src/FilledInput/FilledInput.test.js-><FilledInput /> Material-UI component API should render without errors in ReactTestRenderer",
+        "packages/material-ui/src/FilledInput/FilledInput.test.js-><FilledInput /> Material-UI component API ref attaches the ref",
+        "packages/material-ui/src/FilledInput/FilledInput.test.js-><FilledInput /> Material-UI component API theme default components: respect theme's defaultProps",
+        "packages/material-ui/src/Input/Input.test.js-><Input /> should forward classes to InputBase",
+        "packages/material-ui/src/Input/Input.test.js-><Input /> Material-UI component API applies the className to the root component",
+        "packages/material-ui/src/Input/Input.test.js-><Input /> Material-UI component API spreads props to the root component",
+        "packages/material-ui/src/Input/Input.test.js-><Input /> Material-UI component API applies the root class to the root component if it has this class",
+        "packages/material-ui/src/Input/Input.test.js-><Input /> Material-UI component API should render without errors in ReactTestRenderer",
+        "packages/material-ui/src/Input/Input.test.js-><Input /> Material-UI component API ref attaches the ref",
+        "packages/material-ui/src/Input/Input.test.js-><Input /> Material-UI component API theme default components: respect theme's defaultProps",
+        "packages/material-ui/src/OutlinedInput/OutlinedInput.test.js-><OutlinedInput /> should render a NotchedOutline",
+        "packages/material-ui/src/OutlinedInput/OutlinedInput.test.js-><OutlinedInput /> should forward classes to InputBase",
+        "packages/material-ui/src/OutlinedInput/OutlinedInput.test.js-><OutlinedInput /> Material-UI component API applies the className to the root component",
+        "packages/material-ui/src/OutlinedInput/OutlinedInput.test.js-><OutlinedInput /> Material-UI component API spreads props to the root component",
+        "packages/material-ui/src/OutlinedInput/OutlinedInput.test.js-><OutlinedInput /> Material-UI component API applies the root class to the root component if it has this class",
+        "packages/material-ui/src/OutlinedInput/OutlinedInput.test.js-><OutlinedInput /> Material-UI component API should render without errors in ReactTestRenderer",
+        "packages/material-ui/src/OutlinedInput/OutlinedInput.test.js-><OutlinedInput /> Material-UI component API ref attaches the ref",
+        "packages/material-ui/src/OutlinedInput/OutlinedInput.test.js-><OutlinedInput /> Material-UI component API theme default components: respect theme's defaultProps"
+    ],
+    "failed_tests": [
+        "packages/material-ui/src/FilledInput/FilledInput.test.js-><FilledInput /> should forward classes to InputBase"
+    ]
+}

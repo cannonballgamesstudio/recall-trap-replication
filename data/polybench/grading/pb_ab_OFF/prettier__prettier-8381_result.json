@@ -1,0 +1,18 @@
+{
+    "instance_id": "prettier__prettier-8381",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "/testbed/tests/css/front-matter/jsfmt.spec.js->custom-parser.css verify (scss)",
+        "/testbed/tests/css/front-matter/jsfmt.spec.js->custom-parser.css verify (less)"
+    ],
+    "failed_tests": [
+        "/testbed/tests/html/front-matter/jsfmt.spec.js->custom-parser.html format",
+        "/testbed/tests/markdown/front-matter/jsfmt.spec.js->custom-parser.md format",
+        "/testbed/tests/css/front-matter/jsfmt.spec.js->custom-parser.css format"
+    ]
+}

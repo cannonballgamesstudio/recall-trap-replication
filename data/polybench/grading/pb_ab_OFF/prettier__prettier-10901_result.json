@@ -1,0 +1,15 @@
+{
+    "instance_id": "prettier__prettier-10901",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "/testbed/tests/format/flow/type-alias/jsfmt.spec.js->issue-100857.js [babel-flow] format"
+    ],
+    "failed_tests": [
+        "/testbed/tests/format/flow/type-alias/jsfmt.spec.js->issue-100857.js format"
+    ]
+}

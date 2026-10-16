@@ -1,0 +1,4 @@
+n = 473
+ON   slots 11.93  chars   5986.4  o200k tokens   1449.7
+OFF  slots 12.00  chars   6316.9  o200k tokens   1526.3
+T    slots  5.14  chars   2787.1  o200k tokens    675.8

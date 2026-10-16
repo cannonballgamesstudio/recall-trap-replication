@@ -1,0 +1,11 @@
+{
+    "instance_id": "trinodb__trino-1174",
+    "file_retrieval_metrics": {
+        "recall": 0.07692307692307693,
+        "precision": 1.0,
+        "f1": 0.14285714285714288
+    },
+    "node_retrieval_metrics": null,
+    "reference_nodes": [],
+    "predicted_nodes": []
+}

@@ -1,0 +1,22 @@
+{
+    "instance_id": "langchain-ai__langchain-7653",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": true,
+    "no_p2p_failed": true,
+    "resolved": true,
+    "passed_tests": [
+        "tests/unit_tests/test_cache.py:None:test_llm_caching[InMemoryCache]",
+        "tests/unit_tests/test_cache.py:None:test_llm_caching[get_sqlite_cache]",
+        "tests/unit_tests/test_cache.py:None:test_old_sqlite_llm_caching[InMemoryCache]",
+        "tests/unit_tests/test_cache.py:None:test_old_sqlite_llm_caching[get_sqlite_cache]",
+        "tests/unit_tests/test_cache.py:None:test_chat_model_caching[InMemoryCache]",
+        "tests/unit_tests/test_cache.py:None:test_chat_model_caching[get_sqlite_cache]",
+        "tests/unit_tests/test_cache.py:None:test_chat_model_caching_params[InMemoryCache]",
+        "tests/unit_tests/test_cache.py:None:test_chat_model_caching_params[get_sqlite_cache]",
+        "tests/unit_tests/test_cache.py:None:test_llm_cache_clear[InMemoryCache]",
+        "tests/unit_tests/test_cache.py:None:test_llm_cache_clear[get_sqlite_cache]"
+    ],
+    "failed_tests": []
+}

@@ -1,0 +1,37 @@
+/usr/lib/python3.10/runpy.py:126: RuntimeWarning: 'swebench.harness.run_evaluation' found in sys.modules after import of package 'swebench.harness', but prior to execution of 'swebench.harness.run_evaluation'; this may result in unpredictable behaviour
+  warn(RuntimeWarning(msg))
+2026-10-15 00:14:14,922 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-10-15 00:14:14,932 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/princeton-nlp/SWE-bench_Verified/c104f840cc67f8b6eec6f759ebc8b2693d585d4a/README.md "HTTP/1.1 200 OK"
+2026-10-15 00:14:14,963 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified/resolve/c104f840cc67f8b6eec6f759ebc8b2693d585d4a/SWE-bench_Verified.py "HTTP/1.1 404 Not Found"
+2026-10-15 00:14:15,027 - httpx - INFO - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/princeton-nlp/SWE-bench_Verified/princeton-nlp/SWE-bench_Verified.py "HTTP/1.1 404 Not Found"
+2026-10-15 00:14:15,057 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/datasets/princeton-nlp/SWE-bench_Verified/revision/c104f840cc67f8b6eec6f759ebc8b2693d585d4a "HTTP/1.1 200 OK"
+2026-10-15 00:14:15,084 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified/resolve/c104f840cc67f8b6eec6f759ebc8b2693d585d4a/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-10-15 00:14:15,236 - httpx - INFO - HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=princeton-nlp/SWE-bench_Verified "HTTP/1.1 200 OK"
+2026-10-15 00:14:15,268 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/datasets/princeton-nlp/SWE-bench_Verified/tree/c104f840cc67f8b6eec6f759ebc8b2693d585d4a/data?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-10-15 00:14:15,292 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/datasets/princeton-nlp/SWE-bench_Verified/tree/c104f840cc67f8b6eec6f759ebc8b2693d585d4a?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-10-15 00:14:15,314 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified/resolve/c104f840cc67f8b6eec6f759ebc8b2693d585d4a/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-10-15 00:14:16,449 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-10-15 00:14:16,458 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/princeton-nlp/SWE-bench_Verified/c104f840cc67f8b6eec6f759ebc8b2693d585d4a/README.md "HTTP/1.1 200 OK"
+2026-10-15 00:14:16,477 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified/resolve/c104f840cc67f8b6eec6f759ebc8b2693d585d4a/SWE-bench_Verified.py "HTTP/1.1 404 Not Found"
+2026-10-15 00:14:16,492 - httpx - INFO - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/princeton-nlp/SWE-bench_Verified/princeton-nlp/SWE-bench_Verified.py "HTTP/1.1 404 Not Found"
+2026-10-15 00:14:16,516 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified/resolve/c104f840cc67f8b6eec6f759ebc8b2693d585d4a/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-10-15 00:14:16,552 - httpx - INFO - HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=princeton-nlp/SWE-bench_Verified "HTTP/1.1 200 OK"
+2026-10-15 00:14:16,573 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified/resolve/c104f840cc67f8b6eec6f759ebc8b2693d585d4a/dataset_infos.json "HTTP/1.1 404 Not Found"
+232 instances already run, skipping...
+Found 16 existing instance images. Will reuse them.
+Running 16 instances...
+Evaluation:   0%|          | 0/16 [00:00<?, ?it/s, error=0, ✓=0, ✖=0]Evaluation:   0%|          | 0/16 [00:27<?, ?it/s, ✓=0, ✖=1, error=0]Evaluation:   6%|▋         | 1/16 [00:27<06:55, 27.72s/it, ✓=0, ✖=1, error=0]Evaluation:   6%|▋         | 1/16 [00:30<06:55, 27.72s/it, ✓=0, ✖=2, error=0]Evaluation:  12%|█▎        | 2/16 [00:30<03:00, 12.86s/it, ✓=0, ✖=2, error=0]Evaluation:  12%|█▎        | 2/16 [00:48<03:00, 12.86s/it, ✓=0, ✖=3, error=0]Evaluation:  19%|█▉        | 3/16 [00:48<03:18, 15.29s/it, ✓=0, ✖=3, error=0]Evaluation:  19%|█▉        | 3/16 [00:53<03:18, 15.29s/it, ✓=0, ✖=4, error=0]Evaluation:  25%|██▌       | 4/16 [00:53<02:15, 11.33s/it, ✓=0, ✖=4, error=0]Evaluation:  25%|██▌       | 4/16 [00:57<02:15, 11.33s/it, ✓=0, ✖=5, error=0]Evaluation:  31%|███▏      | 5/16 [00:57<01:35,  8.72s/it, ✓=0, ✖=5, error=0]Evaluation:  31%|███▏      | 5/16 [01:05<01:35,  8.72s/it, ✓=0, ✖=6, error=0]Evaluation:  38%|███▊      | 6/16 [01:05<01:24,  8.47s/it, ✓=0, ✖=6, error=0]Evaluation:  38%|███▊      | 6/16 [01:16<01:24,  8.47s/it, ✓=0, ✖=7, error=0]Evaluation:  44%|████▍     | 7/16 [01:16<01:22,  9.14s/it, ✓=0, ✖=7, error=0]Evaluation:  44%|████▍     | 7/16 [01:26<01:22,  9.14s/it, ✓=0, ✖=8, error=0]Evaluation:  50%|█████     | 8/16 [01:26<01:15,  9.40s/it, ✓=0, ✖=8, error=0]Evaluation:  50%|█████     | 8/16 [01:27<01:15,  9.40s/it, ✓=0, ✖=9, error=0]Evaluation:  56%|█████▋    | 9/16 [01:27<00:48,  6.93s/it, ✓=0, ✖=9, error=0]Evaluation:  56%|█████▋    | 9/16 [01:31<00:48,  6.93s/it, ✓=0, ✖=10, error=0]Evaluation:  62%|██████▎   | 10/16 [01:31<00:35,  5.84s/it, ✓=0, ✖=10, error=0]Evaluation:  62%|██████▎   | 10/16 [01:39<00:35,  5.84s/it, ✓=1, ✖=10, error=0]Evaluation:  69%|██████▉   | 11/16 [01:39<00:32,  6.51s/it, ✓=1, ✖=10, error=0]Evaluation:  69%|██████▉   | 11/16 [01:55<00:32,  6.51s/it, ✓=1, ✖=11, error=0]Evaluation:  75%|███████▌  | 12/16 [01:55<00:37,  9.39s/it, ✓=1, ✖=11, error=0]Evaluation:  75%|███████▌  | 12/16 [01:56<00:37,  9.39s/it, ✓=2, ✖=11, error=0]Evaluation:  81%|████████▏ | 13/16 [01:56<00:21,  7.06s/it, ✓=2, ✖=11, error=0]Evaluation:  81%|████████▏ | 13/16 [01:59<00:21,  7.06s/it, ✓=2, ✖=12, error=0]Evaluation:  88%|████████▊ | 14/16 [01:59<00:11,  5.63s/it, ✓=2, ✖=12, error=0]Evaluation:  88%|████████▊ | 14/16 [02:00<00:11,  5.63s/it, ✓=2, ✖=13, error=0]Evaluation:  94%|█████████▍| 15/16 [02:00<00:04,  4.21s/it, ✓=2, ✖=13, error=0]Evaluation:  94%|█████████▍| 15/16 [02:17<00:04,  4.21s/it, ✓=2, ✖=14, error=0]Evaluation: 100%|██████████| 16/16 [02:17<00:00,  8.22s/it, ✓=2, ✖=14, error=0]Evaluation: 100%|██████████| 16/16 [02:17<00:00,  8.60s/it, ✓=2, ✖=14, error=0]
+All instances run.
+Cleaning cached images...
+Removed 0 images.
+Total instances: 500
+Instances submitted: 473
+Instances completed: 248
+Instances incomplete: 27
+Instances resolved: 32
+Instances unresolved: 216
+Instances with empty patches: 225
+Instances with errors: 0
+Unstopped containers: 0
+Unremoved images: 395
+Report written to local_qwen3coder30b_T.trimT_qwen30b_T.json

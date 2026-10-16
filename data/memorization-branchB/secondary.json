@@ -1,0 +1,441 @@
+{
+ "anchor": {
+  "transition_counts": {
+   "B>B": 249,
+   "C>C": 70,
+   "B>C": 80,
+   "B>A": 32,
+   "A>A": 60,
+   "C>A": 5,
+   "C>B": 3,
+   "A>B": 1
+  },
+  "gpt_headline": {
+   "A>A": {
+    "n": 60,
+    "on": 0.15,
+    "off": 0.25,
+    "delta_pp": 10.0,
+    "b": 7,
+    "c": 1,
+    "mcnemar_p": 0.0703125
+   },
+   "B>A": {
+    "n": 32,
+    "on": 0.1875,
+    "off": 0.28125,
+    "delta_pp": 9.375,
+    "b": 6,
+    "c": 3,
+    "mcnemar_p": 0.5078125
+   },
+   "B>B": {
+    "n": 249,
+    "on": 0.37349397590361444,
+    "off": 0.40963855421686746,
+    "delta_pp": 3.6144578313253013,
+    "b": 31,
+    "c": 22,
+    "mcnemar_p": 0.27167916606550335
+   },
+   "B>C": {
+    "n": 80,
+    "on": 0.4375,
+    "off": 0.7,
+    "delta_pp": 26.25,
+    "b": 23,
+    "c": 2,
+    "mcnemar_p": 1.9431114196777344e-05
+   },
+   "C>A": {
+    "n": 5,
+    "on": 0.4,
+    "off": 0.2,
+    "delta_pp": -20.0,
+    "b": 0,
+    "c": 1,
+    "mcnemar_p": 1.0
+   },
+   "C>C": {
+    "n": 70,
+    "on": 0.6857142857142857,
+    "off": 0.7,
+    "delta_pp": 1.4285714285714286,
+    "b": 6,
+    "c": 5,
+    "mcnemar_p": 1.0
+   }
+  },
+  "gpt_logrep": {
+   "A>A": {
+    "n": 60,
+    "on": 0.23333333333333334,
+    "off": 0.18333333333333332,
+    "delta_pp": -5.0,
+    "b": 2,
+    "c": 5,
+    "mcnemar_p": 0.453125
+   },
+   "B>A": {
+    "n": 32,
+    "on": 0.3125,
+    "off": 0.25,
+    "delta_pp": -6.25,
+    "b": 2,
+    "c": 4,
+    "mcnemar_p": 0.6875
+   },
+   "B>B": {
+    "n": 249,
+    "on": 0.36947791164658633,
+    "off": 0.41365461847389556,
+    "delta_pp": 4.417670682730924,
+    "b": 33,
+    "c": 22,
+    "mcnemar_p": 0.17700136477035816
+   },
+   "B>C": {
+    "n": 80,
+    "on": 0.4625,
+    "off": 0.7125,
+    "delta_pp": 25.0,
+    "b": 23,
+    "c": 3,
+    "mcnemar_p": 8.797645568847656e-05
+   },
+   "C>A": {
+    "n": 5,
+    "on": 0.2,
+    "off": 0.2,
+    "delta_pp": 0.0,
+    "b": 0,
+    "c": 0,
+    "mcnemar_p": 1.0
+   },
+   "C>C": {
+    "n": 70,
+    "on": 0.6857142857142857,
+    "off": 0.7142857142857143,
+    "delta_pp": 2.857142857142857,
+    "b": 5,
+    "c": 3,
+    "mcnemar_p": 0.7265625
+   }
+  },
+  "qwen36_k12": {
+   "A>A": {
+    "n": 59,
+    "on": 0.01694915254237288,
+    "off": 0.0,
+    "delta_pp": -1.694915254237288,
+    "b": 0,
+    "c": 1,
+    "mcnemar_p": 1.0
+   },
+   "B>A": {
+    "n": 32,
+    "on": 0.03125,
+    "off": 0.03125,
+    "delta_pp": 0.0,
+    "b": 1,
+    "c": 1,
+    "mcnemar_p": 1.0
+   },
+   "B>B": {
+    "n": 249,
+    "on": 0.04819277108433735,
+    "off": 0.040160642570281124,
+    "delta_pp": -0.8032128514056225,
+    "b": 5,
+    "c": 7,
+    "mcnemar_p": 0.7744140625
+   },
+   "B>C": {
+    "n": 80,
+    "on": 0.1,
+    "off": 0.3625,
+    "delta_pp": 26.25,
+    "b": 22,
+    "c": 1,
+    "mcnemar_p": 5.7220458984375e-06
+   },
+   "C>A": {
+    "n": 5,
+    "on": 0.0,
+    "off": 0.0,
+    "delta_pp": 0.0,
+    "b": 0,
+    "c": 0,
+    "mcnemar_p": 1.0
+   },
+   "C>C": {
+    "n": 70,
+    "on": 0.3142857142857143,
+    "off": 0.34285714285714286,
+    "delta_pp": 2.857142857142857,
+    "b": 5,
+    "c": 3,
+    "mcnemar_p": 0.7265625
+   }
+  },
+  "qwen3coder_k12": {
+   "A>A": {
+    "n": 60,
+    "on": 0.03333333333333333,
+    "off": 0.016666666666666666,
+    "delta_pp": -1.6666666666666667,
+    "b": 0,
+    "c": 1,
+    "mcnemar_p": 1.0
+   },
+   "B>A": {
+    "n": 32,
+    "on": 0.0,
+    "off": 0.0,
+    "delta_pp": 0.0,
+    "b": 0,
+    "c": 0,
+    "mcnemar_p": 1.0
+   },
+   "B>B": {
+    "n": 249,
+    "on": 0.0321285140562249,
+    "off": 0.03614457831325301,
+    "delta_pp": 0.40160642570281124,
+    "b": 4,
+    "c": 3,
+    "mcnemar_p": 1.0
+   },
+   "B>C": {
+    "n": 80,
+    "on": 0.0625,
+    "off": 0.375,
+    "delta_pp": 31.25,
+    "b": 26,
+    "c": 1,
+    "mcnemar_p": 4.172325134277344e-07
+   },
+   "C>A": {
+    "n": 5,
+    "on": 0.0,
+    "off": 0.0,
+    "delta_pp": 0.0,
+    "b": 0,
+    "c": 0,
+    "mcnemar_p": 1.0
+   },
+   "C>C": {
+    "n": 70,
+    "on": 0.3142857142857143,
+    "off": 0.2571428571428571,
+    "delta_pp": -5.714285714285714,
+    "b": 3,
+    "c": 7,
+    "mcnemar_p": 0.34375
+   }
+  }
+ },
+ "verbatim": {
+  "hl": {
+   "off_only_wins": 73,
+   "with_ge3_gold_plus": 45,
+   "reproduce_gold": 2,
+   "ids": [
+    "django__django-13568",
+    "django__django-14765"
+   ]
+  },
+  "lr": {
+   "off_only_wins": 65,
+   "with_ge3_gold_plus": 44,
+   "reproduce_gold": 1,
+   "ids": [
+    "django__django-14765"
+   ]
+  },
+  "pooled": "3/89"
+ },
+ "polybench": {
+  "n_python_with_packs": 125,
+  "n_python_manifest": 125,
+  "B>C": 24,
+  "prevalence": 0.192,
+  "transition_counts": {
+   "A>A": 17,
+   "B>C": 24,
+   "B>B": 65,
+   "C>C": 14,
+   "B>A": 4,
+   "C>A": 1
+  },
+  "verified_reference": "80/500 = 16.0%",
+  "lang_col": "language",
+  "parquets": [
+   "<HF_HOME>/hub/datasets--AmazonScience--SWE-PolyBench_500/snapshots\\546075b4b05d17ba914e72b8f4c6d5b1ea150c1d\\test.csv"
+  ],
+  "classes": {
+   "Significant-Gravitas__AutoGPT-4652": "A>A",
+   "huggingface__transformers-3198": "B>C",
+   "huggingface__transformers-3716": "B>B",
+   "huggingface__transformers-5749": "C>C",
+   "huggingface__transformers-6744": "B>B",
+   "huggingface__transformers-7075": "B>B",
+   "huggingface__transformers-7272": "B>B",
+   "huggingface__transformers-7562": "B>B",
+   "huggingface__transformers-8435": "B>B",
+   "huggingface__transformers-12981": "B>B",
+   "huggingface__transformers-13436": "B>B",
+   "huggingface__transformers-13573": "B>B",
+   "huggingface__transformers-13865": "A>A",
+   "huggingface__transformers-13919": "B>B",
+   "huggingface__transformers-13989": "B>B",
+   "huggingface__transformers-14355": "B>B",
+   "huggingface__transformers-14779": "B>B",
+   "huggingface__transformers-15158": "B>B",
+   "huggingface__transformers-15473": "B>B",
+   "huggingface__transformers-15795": "C>C",
+   "huggingface__transformers-15831": "B>B",
+   "huggingface__transformers-15913": "C>C",
+   "huggingface__transformers-16661": "B>C",
+   "huggingface__transformers-17082": "B>B",
+   "huggingface__transformers-19073": "B>B",
+   "huggingface__transformers-19219": "B>B",
+   "huggingface__transformers-19590": "B>C",
+   "huggingface__transformers-20136": "B>B",
+   "huggingface__transformers-21345": "B>C",
+   "huggingface__transformers-21768": "C>C",
+   "huggingface__transformers-22458": "A>A",
+   "huggingface__transformers-22920": "B>C",
+   "huggingface__transformers-23126": "B>C",
+   "huggingface__transformers-24510": "B>B",
+   "huggingface__transformers-25358": "A>A",
+   "huggingface__transformers-25636": "B>C",
+   "huggingface__transformers-25765": "A>A",
+   "huggingface__transformers-25884": "B>B",
+   "huggingface__transformers-26164": "B>B",
+   "huggingface__transformers-26386": "A>A",
+   "huggingface__transformers-26568": "B>B",
+   "huggingface__transformers-27463": "B>B",
+   "huggingface__transformers-27561": "B>B",
+   "huggingface__transformers-27717": "B>B",
+   "huggingface__transformers-28010": "B>B",
+   "huggingface__transformers-28398": "A>A",
+   "huggingface__transformers-28517": "C>C",
+   "huggingface__transformers-28522": "B>B",
+   "huggingface__transformers-28535": "B>C",
+   "huggingface__transformers-28563": "B>B",
+   "huggingface__transformers-28940": "B>A",
+   "huggingface__transformers-29175": "B>C",
+   "huggingface__transformers-29300": "B>B",
+   "huggingface__transformers-29311": "B>C",
+   "huggingface__transformers-29519": "B>B",
+   "huggingface__transformers-29589": "B>B",
+   "huggingface__transformers-29680": "C>A",
+   "huggingface__transformers-29688": "B>C",
+   "huggingface__transformers-29838": "B>B",
+   "huggingface__transformers-30556": "B>B",
+   "huggingface__transformers-30602": "B>B",
+   "huggingface__transformers-30772": "B>B",
+   "huggingface__transformers-30934": "B>B",
+   "huggingface__transformers-30964": "B>A",
+   "huggingface__transformers-31095": "B>B",
+   "huggingface__transformers-31128": "B>B",
+   "huggingface__transformers-31247": "B>B",
+   "huggingface__transformers-31448": "B>C",
+   "langchain-ai__langchain-4009": "C>C",
+   "langchain-ai__langchain-4103": "B>C",
+   "langchain-ai__langchain-4420": "B>B",
+   "langchain-ai__langchain-4579": "B>C",
+   "langchain-ai__langchain-5432": "A>A",
+   "langchain-ai__langchain-5450": "C>C",
+   "langchain-ai__langchain-5584": "B>C",
+   "langchain-ai__langchain-5625": "B>C",
+   "langchain-ai__langchain-6456": "C>C",
+   "langchain-ai__langchain-6483": "B>B",
+   "langchain-ai__langchain-6765": "B>B",
+   "langchain-ai__langchain-7653": "B>C",
+   "langchain-ai__langchain-14350": "B>B",
+   "langchain-ai__langchain-19331": "A>A",
+   "langchain-ai__langchain-19717": "B>C",
+   "langchain-ai__langchain-20064": "C>C",
+   "langchain-ai__langchain-21201": "C>C",
+   "yt-dlp__yt-dlp-1649": "B>B",
+   "yt-dlp__yt-dlp-3435": "B>B",
+   "yt-dlp__yt-dlp-4524": "B>B",
+   "yt-dlp__yt-dlp-4841": "A>A",
+   "yt-dlp__yt-dlp-5933": "B>B",
+   "yt-dlp__yt-dlp-8917": "B>B",
+   "tensorflow__models-2727": "A>A",
+   "tensorflow__models-4628": "A>A",
+   "keras-team__keras-1767": "B>C",
+   "keras-team__keras-3907": "B>B",
+   "keras-team__keras-3983": "B>B",
+   "keras-team__keras-4856": "B>B",
+   "keras-team__keras-18553": "B>C",
+   "keras-team__keras-18649": "B>B",
+   "keras-team__keras-18766": "B>B",
+   "keras-team__keras-18852": "B>B",
+   "keras-team__keras-18871": "B>B",
+   "keras-team__keras-18977": "B>C",
+   "keras-team__keras-19201": "C>C",
+   "keras-team__keras-19284": "B>A",
+   "keras-team__keras-19300": "B>B",
+   "keras-team__keras-19459": "B>B",
+   "keras-team__keras-19466": "C>C",
+   "keras-team__keras-19484": "A>A",
+   "keras-team__keras-19641": "A>A",
+   "keras-team__keras-19775": "C>C",
+   "keras-team__keras-19799": "B>B",
+   "keras-team__keras-19826": "B>C",
+   "keras-team__keras-19838": "B>B",
+   "keras-team__keras-19844": "B>B",
+   "keras-team__keras-19863": "A>A",
+   "keras-team__keras-19903": "B>B",
+   "keras-team__keras-19915": "B>B",
+   "keras-team__keras-19924": "C>C",
+   "keras-team__keras-19931": "B>C",
+   "keras-team__keras-19937": "A>A",
+   "keras-team__keras-19955": "A>A",
+   "keras-team__keras-19973": "B>C",
+   "keras-team__keras-20002": "B>B",
+   "keras-team__keras-20008": "B>A"
+  }
+ },
+ "polybench_bc_delta": {
+  "n_BC_python": 24,
+  "gpt-5.6-sol": {
+   "n": 18,
+   "on": 6,
+   "off": 8,
+   "delta_pp": 11.11111111111111,
+   "b": 3,
+   "c": 1,
+   "mcnemar_p": 0.625,
+   "excluded_from_24": [
+    "huggingface__transformers-19590",
+    "huggingface__transformers-23126",
+    "huggingface__transformers-29175",
+    "huggingface__transformers-31448",
+    "huggingface__transformers-3198",
+    "keras-team__keras-18977"
+   ]
+  },
+  "Qwen3-Coder-30B": {
+   "n": 18,
+   "on": 1,
+   "off": 8,
+   "delta_pp": 38.888888888888886,
+   "b": 7,
+   "c": 0,
+   "mcnemar_p": 0.015625,
+   "excluded_from_24": [
+    "huggingface__transformers-19590",
+    "huggingface__transformers-23126",
+    "huggingface__transformers-29175",
+    "huggingface__transformers-31448",
+    "huggingface__transformers-3198",
+    "keras-team__keras-18977"
+   ]
+  }
+ }
+}

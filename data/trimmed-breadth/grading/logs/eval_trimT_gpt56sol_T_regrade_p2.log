@@ -1,0 +1,42 @@
+/usr/lib/python3.10/runpy.py:126: RuntimeWarning: 'swebench.harness.run_evaluation' found in sys.modules after import of package 'swebench.harness', but prior to execution of 'swebench.harness.run_evaluation'; this may result in unpredictable behaviour
+  warn(RuntimeWarning(msg))
+2026-10-15 01:47:47,287 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-15 01:47:47,316 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-10-15 01:47:47,326 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/princeton-nlp/SWE-bench_Verified/c104f840cc67f8b6eec6f759ebc8b2693d585d4a/README.md "HTTP/1.1 200 OK"
+2026-10-15 01:47:47,360 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified/resolve/c104f840cc67f8b6eec6f759ebc8b2693d585d4a/SWE-bench_Verified.py "HTTP/1.1 404 Not Found"
+2026-10-15 01:47:47,433 - httpx - INFO - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/princeton-nlp/SWE-bench_Verified/princeton-nlp/SWE-bench_Verified.py "HTTP/1.1 404 Not Found"
+2026-10-15 01:47:47,457 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/datasets/princeton-nlp/SWE-bench_Verified/revision/c104f840cc67f8b6eec6f759ebc8b2693d585d4a "HTTP/1.1 200 OK"
+2026-10-15 01:47:47,479 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified/resolve/c104f840cc67f8b6eec6f759ebc8b2693d585d4a/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-10-15 01:47:47,675 - httpx - INFO - HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=princeton-nlp/SWE-bench_Verified "HTTP/1.1 200 OK"
+2026-10-15 01:47:47,704 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/datasets/princeton-nlp/SWE-bench_Verified/tree/c104f840cc67f8b6eec6f759ebc8b2693d585d4a/data?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-10-15 01:47:47,728 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/datasets/princeton-nlp/SWE-bench_Verified/tree/c104f840cc67f8b6eec6f759ebc8b2693d585d4a?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-10-15 01:47:47,751 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified/resolve/c104f840cc67f8b6eec6f759ebc8b2693d585d4a/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-10-15 01:47:49,219 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-10-15 01:47:49,230 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/princeton-nlp/SWE-bench_Verified/c104f840cc67f8b6eec6f759ebc8b2693d585d4a/README.md "HTTP/1.1 200 OK"
+2026-10-15 01:47:49,250 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified/resolve/c104f840cc67f8b6eec6f759ebc8b2693d585d4a/SWE-bench_Verified.py "HTTP/1.1 404 Not Found"
+2026-10-15 01:47:49,266 - httpx - INFO - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/princeton-nlp/SWE-bench_Verified/princeton-nlp/SWE-bench_Verified.py "HTTP/1.1 404 Not Found"
+2026-10-15 01:47:49,290 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified/resolve/c104f840cc67f8b6eec6f759ebc8b2693d585d4a/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-10-15 01:47:49,329 - httpx - INFO - HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=princeton-nlp/SWE-bench_Verified "HTTP/1.1 200 OK"
+2026-10-15 01:47:49,352 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified/resolve/c104f840cc67f8b6eec6f759ebc8b2693d585d4a/dataset_infos.json "HTTP/1.1 404 Not Found"
+392 instances already run, skipping...
+Found 3 existing instance images. Will reuse them.
+Running 3 instances...
+Evaluation:   0%|          | 0/3 [00:00<?, ?it/s, error=0, ✓=0, ✖=0]Evaluation:   0%|          | 0/3 [01:05<?, ?it/s, ✓=1, ✖=0, error=0]Evaluation:  33%|███▎      | 1/3 [01:05<02:10, 65.50s/it, ✓=1, ✖=0, error=0]Evaluation:  33%|███▎      | 1/3 [30:16<02:10, 65.50s/it, ✓=1, ✖=0, error=1]Evaluation:  67%|██████▋   | 2/3 [30:16<17:36, 1056.86s/it, ✓=1, ✖=0, error=1]Evaluation:  67%|██████▋   | 2/3 [30:16<17:36, 1056.86s/it, ✓=1, ✖=0, error=2]Evaluation: 100%|██████████| 3/3 [30:16<00:00, 574.32s/it, ✓=1, ✖=0, error=2] Evaluation: 100%|██████████| 3/3 [30:16<00:00, 605.47s/it, ✓=1, ✖=0, error=2]
+sphinx-doc__sphinx-7985: Test timed out after 1800 seconds.
+Check (logs/run_evaluation/trimT_gpt56sol_T/local_gpt56sol_T/sphinx-doc__sphinx-7985/run_instance.log) for more information.
+sympy__sympy-20438: Test timed out after 1800 seconds.
+Check (logs/run_evaluation/trimT_gpt56sol_T/local_gpt56sol_T/sympy__sympy-20438/run_instance.log) for more information.
+All instances run.
+Cleaning cached images...
+Removed 0 images.
+Total instances: 500
+Instances submitted: 473
+Instances completed: 393
+Instances incomplete: 27
+Instances resolved: 192
+Instances unresolved: 201
+Instances with empty patches: 78
+Instances with errors: 2
+Unstopped containers: 0
+Unremoved images: 461
+Report written to local_gpt56sol_T.trimT_gpt56sol_T.json

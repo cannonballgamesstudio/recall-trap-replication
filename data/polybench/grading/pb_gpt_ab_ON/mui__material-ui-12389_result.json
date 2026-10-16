@@ -1,0 +1,23 @@
+{
+    "instance_id": "mui__material-ui-12389",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "packages/material-ui/src/styles/createGenerateClassName.test.js->createGenerateClassName should escape parenthesis",
+        "packages/material-ui/src/styles/createGenerateClassName.test.js->createGenerateClassName should escape spaces",
+        "packages/material-ui/src/styles/createGenerateClassName.test.js->createGenerateClassName counter should increment a scoped counter",
+        "packages/material-ui/src/styles/createGenerateClassName.test.js->createGenerateClassName options: dangerouslyUseGlobalCSS should default to a non deterministic name",
+        "packages/material-ui/src/styles/createGenerateClassName.test.js->createGenerateClassName formatting should take the sheet meta in development if available",
+        "packages/material-ui/src/styles/createGenerateClassName.test.js->createGenerateClassName formatting should use a base 10 representation",
+        "packages/material-ui/src/styles/createGenerateClassName.test.js->createGenerateClassName formatting production should output a short representation",
+        "packages/material-ui/src/styles/createGenerateClassName.test.js->createGenerateClassName formatting production should work with global CSS",
+        "packages/material-ui/src/styles/createGenerateClassName.test.js->createGenerateClassName formatting production should warn"
+    ],
+    "failed_tests": [
+        "packages/material-ui/src/styles/createGenerateClassName.test.js->createGenerateClassName options: dangerouslyUseGlobalCSS should use a global class name"
+    ]
+}

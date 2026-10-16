@@ -1,0 +1,25 @@
+
+=== A3B (Qwen3-Coder-30B-A3B)  [SANITY vs memory]  (N=280) ===
+  Java        n= 89  ON=  4 OFF=  4  d= +0.00pp  b(OFF-only)= 2 c(ON-only)= 2 disc= 4  p=1.0000
+  JavaScript  n= 86  ON=  3 OFF=  3  d= +0.00pp  b(OFF-only)= 1 c(ON-only)= 1 disc= 2  p=1.0000
+  Python      n= 80  ON=  2 OFF= 10  d=+10.00pp  b(OFF-only)= 8 c(ON-only)= 0 disc= 8  p=0.0078
+  TypeScript  n= 25  ON=  0 OFF=  0  d= +0.00pp  b(OFF-only)= 0 c(ON-only)= 0 disc= 0  p=1.0000  [descriptive <80% producibility]
+  POOLED       n=280  ON=  9 OFF= 17  d= +2.86pp  b=11 c= 3 disc=14  p=0.0574
+
+[gpt survivor set: 342 gold-valid − 5 infra-hang casualties excluded = 337]
+
+=== gpt-5.6-sol (frontier)  (N=337) ===
+  Java        n=110  ON= 14 OFF= 11  d= -2.73pp  b(OFF-only)= 7 c(ON-only)=10 disc=17  p=0.6291
+  JavaScript  n=111  ON=  5 OFF= 14  d= +8.11pp  b(OFF-only)=12 c(ON-only)= 3 disc=15  p=0.0352
+  Python      n= 79  ON= 22 OFF= 21  d= -1.27pp  b(OFF-only)= 6 c(ON-only)= 7 disc=13  p=1.0000
+  TypeScript  n= 37  ON=  1 OFF=  4  d= +8.11pp  b(OFF-only)= 3 c(ON-only)= 0 disc= 3  p=0.2500  [descriptive <80% producibility]
+  POOLED       n=337  ON= 42 OFF= 50  d= +2.37pp  b=28 c=20 disc=48  p=0.3123
+
+======================================================================
+TWO-MODEL POOLED G-2  (A3B pairs + gpt pairs stacked as (model,instance) rows)
+  Ntot=617  ON_res=51 OFF_res=67  d=+2.59pp  B(OFF-only)=39 C(ON-only)=23 disc=62  exact 2-sided p=0.0559
+  VERDICT: G-4 HONEST BOUNDARY (direction +, not significant)
+
+--- SENSITIVITY: killed-hung instances counted as OFF-fail (worst case for OFF) ---
+  gpt POOLED (sens) n=342 ON=43 OFF=50 d=+2.05pp b=28 c=21 disc=49 p=0.3916
+  TWO-MODEL POOLED (sens) Ntot=622 d=+2.41pp B=39 C=24 disc=63 p=0.0769

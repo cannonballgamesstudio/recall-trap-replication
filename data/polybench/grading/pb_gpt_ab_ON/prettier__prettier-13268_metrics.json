@@ -1,0 +1,11 @@
+{
+    "instance_id": "prettier__prettier-13268",
+    "file_retrieval_metrics": {
+        "recall": 0.058823529411764705,
+        "precision": 1.0,
+        "f1": 0.1111111111111111
+    },
+    "node_retrieval_metrics": null,
+    "reference_nodes": [],
+    "predicted_nodes": []
+}

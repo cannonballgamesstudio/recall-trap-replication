@@ -1,0 +1,15 @@
+{
+    "instance_id": "prettier__prettier-602",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "/testbed/tests/expression_statement/jsfmt.spec.js->no_regression.js"
+    ],
+    "failed_tests": [
+        "/testbed/tests/expression_statement/jsfmt.spec.js->use_strict.js"
+    ]
+}

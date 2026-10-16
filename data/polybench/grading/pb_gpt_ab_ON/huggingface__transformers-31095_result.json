@@ -1,0 +1,21 @@
+{
+    "instance_id": "huggingface__transformers-31095",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "tests/trainer/test_trainer_callback.py:TrainerCallbackTest:test_add_remove_callback",
+        "tests/trainer/test_trainer_callback.py:TrainerCallbackTest:test_init_callback",
+        "tests/trainer/test_trainer_callback.py:TrainerCallbackTest:test_missing_stateful_callback",
+        "tests/trainer/test_trainer_callback.py:TrainerCallbackTest:test_stateful_callbacks",
+        "tests/trainer/test_trainer_callback.py:TrainerCallbackTest:test_stateful_control",
+        "tests/trainer/test_trainer_callback.py:TrainerCallbackTest:test_stateful_duplicate_callbacks",
+        "tests/trainer/test_trainer_callback.py:TrainerCallbackTest:test_stateful_mixed_callbacks"
+    ],
+    "failed_tests": [
+        "tests/trainer/test_trainer_callback.py:TrainerCallbackTest:test_event_flow"
+    ]
+}

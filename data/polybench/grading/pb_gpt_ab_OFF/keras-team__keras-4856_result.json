@@ -1,0 +1,21 @@
+{
+    "instance_id": "keras-team__keras-4856",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "tests/keras/engine/test_topology.py:None:test_trainable_weights",
+        "tests/keras/engine/test_topology.py:None:test_node_construction"
+    ],
+    "failed_tests": [
+        "tests/keras/engine/test_topology.py:None:test_get_updates_for",
+        "tests/keras/engine/test_topology.py:None:test_get_losses_for",
+        "tests/keras/engine/test_topology.py:None:test_learning_phase",
+        "tests/keras/engine/test_topology.py:None:test_multi_input_layer",
+        "tests/keras/engine/test_topology.py:None:test_recursion",
+        "tests/keras/engine/test_topology.py:None:test_sequential_regression"
+    ]
+}

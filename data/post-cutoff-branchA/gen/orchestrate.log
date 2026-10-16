@@ -1,0 +1,27 @@
+10:21:38 START precache
+10:26:55 DONE precache rc=0
+10:26:55 llama-server pid 34312
+10:26:55 START gpt gpt56sol_post
+10:27:20 [a5] server healthy
+10:27:20 [a5] START dedupON
+10:34:58 DONE gpt gpt56sol_post
+10:34:58 START gpt gpt56sol_post_s2
+10:36:34 [a5] DONE dedupON rc=0
+10:36:34 [a5] START dedupOFF
+10:43:20 DONE gpt gpt56sol_post_s2
+10:44:55 [a5] DONE dedupOFF rc=0
+10:44:55 DONE a5
+10:44:55 llama-server stopped; ALLDONE
+10:46:39 RESUME pass (missing items only)
+10:46:39 llama-server pid 23652
+10:46:39 START gpt gpt56sol_post
+10:46:54 [a5] server healthy
+10:46:54 [a5] START dedupON
+10:46:59 [a5] DONE dedupON rc=0
+10:46:59 [a5] START dedupOFF
+10:47:05 [a5] DONE dedupOFF rc=0
+10:47:39 DONE gpt gpt56sol_post
+10:47:39 START gpt gpt56sol_post_s2
+10:48:34 DONE gpt gpt56sol_post_s2
+10:48:34 DONE a5
+10:48:34 llama-server stopped; ALLDONE_RESUME

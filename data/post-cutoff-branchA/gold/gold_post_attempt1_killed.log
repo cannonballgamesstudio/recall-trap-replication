@@ -1,0 +1,15 @@
+<home>/srb/lib/python3.10/site-packages/yt/packages/requests/__init__.py:115: RequestsDependencyWarning: urllib3 (1.26.9) or chardet (7.6.0)/charset_normalizer (3.5.1) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({})/charset_normalizer ({}) doesn't match a supported "
+/usr/lib/python3.10/runpy.py:126: RuntimeWarning: 'swebench.harness.run_evaluation' found in sys.modules after import of package 'swebench.harness', but prior to execution of 'swebench.harness.run_evaluation'; this may result in unpredictable behaviour
+  warn(RuntimeWarning(msg))
+2026-10-14 21:11:12,388 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/datasets/nebius/SWE-rebench-leaderboard/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-10-14 21:11:12,513 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/nebius/SWE-rebench-leaderboard/34d5a58864acf91613740a09ec5d205228dcfa39/README.md "HTTP/1.1 200 OK"
+2026-10-14 21:11:12,629 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/datasets/nebius/SWE-rebench-leaderboard/resolve/34d5a58864acf91613740a09ec5d205228dcfa39/SWE-rebench-leaderboard.py "HTTP/1.1 404 Not Found"
+2026-10-14 21:11:12,716 - httpx - INFO - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/nebius/SWE-rebench-leaderboard/nebius/SWE-rebench-leaderboard.py "HTTP/1.1 404 Not Found"
+2026-10-14 21:11:12,882 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/datasets/nebius/SWE-rebench-leaderboard/revision/34d5a58864acf91613740a09ec5d205228dcfa39 "HTTP/1.1 200 OK"
+2026-10-14 21:11:12,995 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/datasets/nebius/SWE-rebench-leaderboard/resolve/34d5a58864acf91613740a09ec5d205228dcfa39/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-10-14 21:11:13,164 - httpx - INFO - HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=nebius/SWE-rebench-leaderboard "HTTP/1.1 200 OK"
+2026-10-14 21:11:13,305 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/datasets/nebius/SWE-rebench-leaderboard/tree/34d5a58864acf91613740a09ec5d205228dcfa39/data?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-10-14 21:11:13,438 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/datasets/nebius/SWE-rebench-leaderboard/tree/34d5a58864acf91613740a09ec5d205228dcfa39?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-10-14 21:11:13,491 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/datasets/nebius/SWE-rebench-leaderboard/resolve/34d5a58864acf91613740a09ec5d205228dcfa39/dataset_infos.json "HTTP/1.1 404 Not Found"
+GOLDPOST_EXIT rc=143 21:12:12

@@ -1,0 +1,19 @@
+{
+    "instance_id": "huggingface__transformers-15913",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "tests/clip/test_processor_clip.py:CLIPProcessorTest:test_feature_extractor",
+        "tests/clip/test_processor_clip.py:CLIPProcessorTest:test_processor",
+        "tests/clip/test_processor_clip.py:CLIPProcessorTest:test_tokenizer",
+        "tests/clip/test_processor_clip.py:CLIPProcessorTest:test_tokenizer_decode"
+    ],
+    "failed_tests": [
+        "tests/clip/test_processor_clip.py:CLIPProcessorTest:test_save_load_pretrained_additional_features",
+        "tests/clip/test_processor_clip.py:CLIPProcessorTest:test_save_load_pretrained_default"
+    ]
+}

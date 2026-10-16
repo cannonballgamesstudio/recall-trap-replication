@@ -1,0 +1,33 @@
+{
+    "instance_id": "serverless__serverless-5982",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "#compileUsagePlanKeys() should support api key notation",
+        "#compileUsagePlanKeys() when using usage plan notation should throw if api key name does not match a usage plan",
+        "#getApiKeyValues() should resolve if API key names are not available",
+        "#display() should display general service info",
+        "#display() should display a warning if 150+ resources",
+        "#display() should display https endpoints if given",
+        "#display() should display wss endpoint if given",
+        "#display() should support a mix of https and wss endpoints",
+        "#display() should not display any endpoint info if none is given",
+        "#display() should display functions if given",
+        "#display() should display CloudFormation outputs when verbose output is requested"
+    ],
+    "failed_tests": [
+        "#compileApiKeys() should support api key notation",
+        "#compileApiKeys() throw error if an apiKey is not a valid object",
+        "#compileApiKeys() when using usage plan notation should support usage plan notation",
+        "#compileUsagePlanKeys() when using usage plan notation should support usage plan notation",
+        "#compileUsagePlanKeys() when using usage plan notation should throw if api key definitions are not strings or objects",
+        "#getApiKeyValues() should add API Key values to this.gatheredData if API key names are available",
+        "#getApiKeyValues() should resolve if AWS does not return API key values",
+        "#display() should display API keys if given",
+        "#display() should hide API keys values when `--conceal` is given"
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "instance_id": "serverless__serverless-3642",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "AwsInvokeLocal #constructor() should have hooks",
+        "AwsInvokeLocal #constructor() should set the provider variable to an instance of AwsProvider",
+        "AwsInvokeLocal #constructor() should set an empty options object if no options are given",
+        "AwsInvokeLocal #loadEnvVars() it should load provider env vars",
+        "AwsInvokeLocal #loadEnvVars() it should load function env vars",
+        "AwsInvokeLocal #loadEnvVars() it should overwrite provider env vars"
+    ],
+    "failed_tests": [
+        "AwsInvokeLocal #constructor() should run promise chain in order",
+        "AwsInvokeLocal #extendedValidate() should not throw error when there are no input data",
+        "AwsInvokeLocal #extendedValidate() it should throw error if function is not provided",
+        "AwsInvokeLocal #extendedValidate() should keep data if it is a simple string",
+        "AwsInvokeLocal #extendedValidate() should parse data if it is a json string",
+        "AwsInvokeLocal #extendedValidate() it should parse file if relative file path is provided",
+        "AwsInvokeLocal #extendedValidate() it should parse file if absolute file path is provided",
+        "AwsInvokeLocal #extendedValidate() it should parse a yaml file if file path is provided",
+        "AwsInvokeLocal #extendedValidate() it should require a js file if file path is provided",
+        "AwsInvokeLocal #extendedValidate() it should throw error if service path is not set",
+        "AwsInvokeLocal #extendedValidate() it should reject error if file path does not exist",
+        "AwsInvokeLocal #extendedValidate() should resolve if path is not given",
+        "AwsInvokeLocal #loadEnvVars() it should load default lambda env vars",
+        "AwsInvokeLocal #invokeLocal() \"before each\" hook for \"should call invokeLocalNodeJs when no runtime is set\"",
+        "AwsInvokeLocal #invokeLocal() \"after each\" hook for \"should call invokeLocalNodeJs when no runtime is set\"",
+        "AwsInvokeLocal #invokeLocalNodeJs should exit with error exit code",
+        "AwsInvokeLocal #invokeLocalNodeJs should log Error instance when called back",
+        "AwsInvokeLocal #invokeLocalNodeJs should log error when called back",
+        "AwsInvokeLocal #invokeLocalNodeJs with done method should exit with error exit code",
+        "AwsInvokeLocal #invokeLocalNodeJs with done method should succeed if succeed",
+        "AwsInvokeLocal #invokeLocalNodeJs with Lambda Proxy with application/json response should succeed if succeed",
+        "AwsInvokeLocal #invokeLocalNodeJs with extraServicePath should succeed if succeed"
+    ]
+}

@@ -1,0 +1,18 @@
+=== FUNNEL (primary endpoint) ===
+ arm    n  parse%  apply%  resolved  test-pass|applied
+  ON  500   85.2%   85.2%  205/426              48.1%
+ OFF  500   88.2%   88.0%  232/440              52.7%
+
+gpt test-pass|applied: dedup-ON 48.1% -> dedup-OFF 52.7%  (OFF-ON = +4.6pp)
+  [beside DeepSeek 23.9->31.9 (+8.0), DENSE-1 48.4->55.1 (+6.7)]
+
+=== SECONDARY: resolve Δ (paired) ===
+resolve rate: dedup-ON 41.0% (205/500) -> dedup-OFF 46.4% (232/500)
+paired (n=500): Δ(OFF-ON) = +5.40pp; discordant b(OFF-only)=65 c(ON-only)=38; exact 2-sided McNemar p=0.0101; one-sided P(OFF≤ON)=0.0050
+repo-cluster bootstrap 95% CI [+3.43, +10.36]pp; clustered one-sided P(Δ≤0)=0.0000
+
+=== CLAUSE (d) VERDICT ===
+direction confirmed (Δ>0 & one-sided p<0.05): True  (Δ=+5.40pp, one-sided p=0.0050)
+magnitude-consistent (est in [+0.8,+13.1]): True
+funnel OFF>ON on test-pass|applied: True  (52.7% vs 48.1%)
+VERDICT: REPLICATION CONFIRMED + funnel supports depth

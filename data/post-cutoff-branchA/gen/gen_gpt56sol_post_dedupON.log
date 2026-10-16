@@ -1,0 +1,9 @@
+  [1/8] celestoai__smolvm-172 edits=1 patch=629ch fin=stop c=354
+  [2/8] ultraplot__ultraplot-696 edits=1 patch=619ch fin=stop c=1053
+  [3/8] youssofal__mtplx-21 edits=0 patch=0ch fin=stop c=1595
+  [4/8] pypsa__pypsa-1653 edits=1 patch=499ch fin=stop c=452
+  [5/8] spack__spack-52244 edits=1 patch=495ch fin=stop c=142
+  [6/8] genericmappingtools__pygmt-4463 edits=0 patch=0ch fin=stop c=1904
+  [7/8] pennylaneai__pennylane-9298 edits=1 patch=517ch fin=stop c=388
+  [8/8] pipecat-ai__pipecat-4283 edits=1 patch=723ch fin=stop c=244
+[done] local_gpt56sol_post_dedupON -> data/post-cutoff-branchA\preds_local_gpt56sol_post_dedupON.jsonl

@@ -1,0 +1,29 @@
+{
+    "instance_id": "mui__material-ui-26600",
+    "patch_applied": true,
+    "generation": true,
+    "with_logs": true,
+    "all_f2p_passed": false,
+    "no_p2p_failed": true,
+    "resolved": false,
+    "passed_tests": [
+        "packages/mui-lab/src/DesktopTimePicker/DesktopTimePicker.test.tsx-><DesktopTimePicker /> opens when \"Choose time\" is clicked",
+        "packages/mui-lab/src/DesktopTimePicker/DesktopTimePicker.test.tsx-><DesktopTimePicker /> cannot be opened when \"Choose time\" is clicked when readOnly={true}",
+        "packages/mui-lab/src/DesktopTimePicker/DesktopTimePicker.test.tsx-><DesktopTimePicker /> cannot be opened when \"Choose time\" is clicked when disabled={true}",
+        "packages/mui-lab/src/DesktopTimePicker/DesktopTimePicker.test.tsx-><DesktopTimePicker /> closes on clickaway",
+        "packages/mui-lab/src/DesktopTimePicker/DesktopTimePicker.test.tsx-><DesktopTimePicker /> does not close on clickaway when it is not open",
+        "packages/mui-lab/src/DesktopTimePicker/DesktopTimePicker.test.tsx-><DesktopTimePicker /> does not close on click inside",
+        "packages/mui-lab/src/DesktopTimePicker/DesktopTimePicker.test.tsx-><DesktopTimePicker /> closes on Escape press",
+        "packages/mui-lab/src/DesktopTimePicker/DesktopTimePicker.test.tsx-><DesktopTimePicker /> allows to navigate between timepicker views using arrow switcher",
+        "packages/mui-lab/src/DesktopTimePicker/DesktopTimePicker.test.tsx-><DesktopTimePicker /> MUI component API ref attaches the ref",
+        "packages/mui-lab/src/DesktopTimePicker/DesktopTimePicker.test.tsx-><DesktopTimePicker /> input validation should dispatch \"invalidDate\" error",
+        "packages/mui-lab/src/DesktopTimePicker/DesktopTimePicker.test.tsx-><DesktopTimePicker /> input validation should dispatch \"minTime\" error",
+        "packages/mui-lab/src/DesktopTimePicker/DesktopTimePicker.test.tsx-><DesktopTimePicker /> input validation should dispatch \"maxTime\" error",
+        "packages/mui-lab/src/DesktopTimePicker/DesktopTimePicker.test.tsx-><DesktopTimePicker /> input validation should dispatch \"shouldDisableTime-hours\" error",
+        "packages/mui-lab/src/DesktopTimePicker/DesktopTimePicker.test.tsx-><DesktopTimePicker /> input validation should dispatch \"shouldDisableTime-minutes\" error",
+        "packages/mui-lab/src/DesktopTimePicker/DesktopTimePicker.test.tsx-><DesktopTimePicker /> prop: PopperProps forwards onClick and onTouchStart"
+    ],
+    "failed_tests": [
+        "packages/mui-lab/src/DesktopTimePicker/DesktopTimePicker.test.tsx-><DesktopTimePicker /> fires a change event when meridiem changes"
+    ]
+}
