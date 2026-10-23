@@ -1,0 +1,474 @@
+{
+ "rows": [
+  {
+   "label": "replication T\u2212ON (trim), scored primary, n=478",
+   "n": 478,
+   "delta": 0.00488145048814505,
+   "ci90": {
+    "instance (registered bootstrap)": [
+     -0.006276150627615064,
+     0.016039051603905164
+    ],
+    "instance Wald": [
+     -0.0066523688112090145,
+     0.016415269787499114
+    ],
+    "wild": [
+     -0.0021185495118547226,
+     0.013381450488145291
+    ],
+    "CR2-BM": [
+     -0.0022305956038083056,
+     0.011993496580098404
+    ],
+    "pct cluster (registered)": [
+     1.546271622040608e-19,
+     0.01282051282051282
+    ]
+   },
+   "wild_pieces": 1,
+   "cr2_df": 3.3626230632001217,
+   "wild_p": 0.21782178217821782,
+   "cr2_p": 0.20996660679194634,
+   "mstar": {
+    "instance (registered bootstrap)": 0.016039051603905164,
+    "instance Wald": 0.016415269787499114,
+    "wild": 0.013381450488145291,
+    "CR2-BM": 0.011993496580098404,
+    "pct cluster (registered)": 0.01282051282051282
+   },
+   "pass3": {
+    "instance (registered bootstrap)": "True",
+    "instance Wald": "True",
+    "wild": true,
+    "CR2-BM": "True",
+    "pct cluster (registered)": "True"
+   }
+  },
+  {
+   "label": "replication TM\u2212T (tokens), scored primary, n=478",
+   "n": 478,
+   "delta": 0.0013947001394700128,
+   "ci90": {
+    "instance (registered bootstrap)": [
+     -0.009065550906555092,
+     0.011854951185495117
+    ],
+    "instance Wald": [
+     -0.008874940360428173,
+     0.011664340639368198
+    ],
+    "wild": [
+     -0.012605299860529773,
+     0.009394700139470247
+    ],
+    "CR2-BM": [
+     -0.008314451714348386,
+     0.011103851993288415
+    ],
+    "pct cluster (registered)": [
+     -0.010366826156299844,
+     0.006742520016856299
+    ]
+   },
+   "wild_pieces": 1,
+   "cr2_df": 3.3626230632001217,
+   "wild_p": 0.7438743874387439,
+   "cr2_p": 0.7652715476518688,
+   "mstar": {
+    "instance (registered bootstrap)": 0.011854951185495117,
+    "instance Wald": 0.011664340639368198,
+    "wild": 0.012605299860529773,
+    "CR2-BM": 0.011103851993288415,
+    "pct cluster (registered)": 0.010366826156299844
+   },
+   "pass3": {
+    "instance (registered bootstrap)": "True",
+    "instance Wald": "True",
+    "wild": true,
+    "CR2-BM": "True",
+    "pct cluster (registered)": "True"
+   }
+  },
+  {
+   "label": "replication T\u2212ON (trim), exclude (old primary), n=477",
+   "n": 477,
+   "delta": 0.004891684136967157,
+   "ci90": {
+    "instance (registered bootstrap)": [
+     -0.006988120195667361,
+     0.016771488469601675
+    ],
+    "instance Wald": [
+     -0.006666328167087921,
+     0.016449696441022232
+    ],
+    "wild": [
+     -0.002108315863032617,
+     0.013391684136967397
+    ],
+    "CR2-BM": [
+     -0.0022352475958445917,
+     0.012018615869778905
+    ],
+    "pct cluster (registered)": [
+     1.546271622040608e-19,
+     0.012820512820512822
+    ]
+   },
+   "wild_pieces": 1,
+   "cr2_df": 3.3540360971193603,
+   "wild_p": 0.21782178217821782,
+   "cr2_p": 0.20985111075487425,
+   "mstar": {
+    "instance (registered bootstrap)": 0.016771488469601675,
+    "instance Wald": 0.016449696441022232,
+    "wild": 0.013391684136967397,
+    "CR2-BM": 0.012018615869778905,
+    "pct cluster (registered)": 0.012820512820512822
+   },
+   "pass3": {
+    "instance (registered bootstrap)": "True",
+    "instance Wald": "True",
+    "wild": true,
+    "CR2-BM": "True",
+    "pct cluster (registered)": "True"
+   }
+  },
+  {
+   "label": "replication TM\u2212T (tokens), exclude (old primary), n=477",
+   "n": 477,
+   "delta": 0.001397624039133472,
+   "ci90": {
+    "instance (registered bootstrap)": [
+     -0.009084556254367574,
+     0.01187980433263452
+    ],
+    "instance Wald": [
+     -0.008893567592058026,
+     0.01168881567032497
+    ],
+    "wild": [
+     -0.01260237596086633,
+     0.00939762403913369
+    ],
+    "CR2-BM": [
+     -0.008341768096796001,
+     0.011137016175062946
+    ],
+    "pct cluster (registered)": [
+     -0.010416666666666666,
+     0.006759611322348963
+    ]
+   },
+   "wild_pieces": 1,
+   "cr2_df": 3.3540360971193603,
+   "wild_p": 0.7438743874387439,
+   "cr2_p": 0.7653417005946991,
+   "mstar": {
+    "instance (registered bootstrap)": 0.01187980433263452,
+    "instance Wald": 0.01168881567032497,
+    "wild": 0.01260237596086633,
+    "CR2-BM": 0.011137016175062946,
+    "pct cluster (registered)": 0.010416666666666666
+   },
+   "pass3": {
+    "instance (registered bootstrap)": "True",
+    "instance Wald": "True",
+    "wild": true,
+    "CR2-BM": "True",
+    "pct cluster (registered)": "True"
+   }
+  },
+  {
+   "label": "Qwen3-Coder-30B headline T\u2212ON, n=473",
+   "n": 473,
+   "delta": -0.0021141649048625794,
+   "ci90": {
+    "instance (Wald)": [
+     -0.015595745343624423,
+     0.011367415533899266
+    ],
+    "instance Wald": [
+     -0.015595745343624423,
+     0.011367415533899266
+    ],
+    "wild": [
+     -0.009114164904862387,
+     0.008885835095137629
+    ],
+    "CR2-BM": [
+     -0.010125801920933833,
+     0.005897472111208675
+    ],
+    "pct cluster (registered)": [
+     -0.007677543186180422,
+     0.005813953488372093
+    ]
+   },
+   "wild_pieces": 1,
+   "cr2_df": 3.357335166370013,
+   "wild_p": 0.5603560356035604,
+   "cr2_p": 0.5895998215379983,
+   "mstar": {
+    "instance (Wald)": 0.015595745343624423,
+    "instance Wald": 0.015595745343624423,
+    "wild": 0.009114164904862387,
+    "CR2-BM": 0.010125801920933833,
+    "pct cluster (registered)": 0.007677543186180422
+   },
+   "pass3": {
+    "instance (Wald)": "True",
+    "instance Wald": "True",
+    "wild": true,
+    "CR2-BM": "True",
+    "pct cluster (registered)": "True"
+   },
+   "b": 7,
+   "c": 8,
+   "mcnemar_p": 1.0
+  },
+  {
+   "label": "gpt T\u2212ON vs logged re-run ON, n=473",
+   "n": 473,
+   "delta": 0.0,
+   "ci90": {
+    "instance (Wald)": [
+     -0.03152337524978937,
+     0.03152337524978937
+    ],
+    "instance Wald": [
+     -0.03152337524978937,
+     0.03152337524978937
+    ],
+    "wild": [
+     -0.030499999999999805,
+     0.058500000000000274
+    ],
+    "CR2-BM": [
+     -0.05757799110428265,
+     0.05757799110428265
+    ],
+    "pct cluster (registered)": [
+     -0.023054755043227664,
+     0.04918032786885246
+    ]
+   },
+   "wild_pieces": 1,
+   "cr2_df": 3.357335166370013,
+   "wild_p": 1.0,
+   "cr2_p": 1.0,
+   "mstar": {
+    "instance (Wald)": 0.03152337524978937,
+    "instance Wald": 0.03152337524978937,
+    "wild": 0.058500000000000274,
+    "CR2-BM": 0.05757799110428265,
+    "pct cluster (registered)": 0.04918032786885246
+   },
+   "pass3": {
+    "instance (Wald)": "False",
+    "instance Wald": "False",
+    "wild": false,
+    "CR2-BM": "False",
+    "pct cluster (registered)": "False"
+   },
+   "b": 41,
+   "c": 41,
+   "mcnemar_p": 1.0
+  },
+  {
+   "label": "gpt T\u2212ON vs discovery ON (registered TB \u00a79 reference), n=473",
+   "n": 473,
+   "delta": 0.014799154334038054,
+   "ci90": {
+    "instance (Wald)": [
+     -0.017276124321317747,
+     0.04687443298939386
+    ],
+    "instance Wald": [
+     -0.017276124321317747,
+     0.04687443298939386
+    ],
+    "wild": [
+     -0.00520084566596174,
+     0.043799154334038304
+    ],
+    "CR2-BM": [
+     -0.010549377899708777,
+     0.0401476865677849
+    ],
+    "pct cluster (registered)": [
+     -0.0045871559633027525,
+     0.041401273885350316
+    ]
+   },
+   "wild_pieces": 1,
+   "cr2_df": 3.357335166370013,
+   "wild_p": 0.16681668166816682,
+   "cr2_p": 0.2707184197553944,
+   "mstar": {
+    "instance (Wald)": 0.04687443298939386,
+    "instance Wald": 0.04687443298939386,
+    "wild": 0.043799154334038304,
+    "CR2-BM": 0.0401476865677849,
+    "pct cluster (registered)": 0.041401273885350316
+   },
+   "pass3": {
+    "instance (Wald)": "False",
+    "instance Wald": "False",
+    "wild": false,
+    "CR2-BM": "False",
+    "pct cluster (registered)": "False"
+   },
+   "b": 46,
+   "c": 39,
+   "mcnemar_p": 0.5154257318839007
+  }
+ ],
+ "check_vs_results_scored": {
+  "T-ON": {
+   "mine_delta": 0.48814504881450504,
+   "file_delta": 0.48814504881450504,
+   "mine_ci90": [
+    -0.6276150627615065,
+    1.6039051603905163
+   ],
+   "file_ci90": [
+    -0.6276150627615062,
+    1.6039051603905163
+   ],
+   "mine_ci95": [
+    -0.9065550906555089,
+    1.8828451882845185
+   ],
+   "file_ci95": [
+    -0.906555090655509,
+    1.882845188284519
+   ]
+  },
+  "TM-T": {
+   "mine_delta": 0.1394700139470013,
+   "file_delta": 0.13947001394700131,
+   "mine_ci90": [
+    -0.9065550906555092,
+    1.1854951185495117
+   ],
+   "file_ci90": [
+    -0.9065550906555092,
+    1.1854951185495117
+   ],
+   "mine_ci95": [
+    -1.0460251046025106,
+    1.3947001394700138
+   ],
+   "file_ci95": [
+    -1.0460251046025106,
+    1.3947001394700138
+   ]
+  }
+ },
+ "gpt_trim_diagnostics": [
+  {
+   "ref": "re-run ON",
+   "n": 473,
+   "delta": 0.0,
+   "django": {
+    "n": 217,
+    "delta": -0.03686635944700461,
+    "b": 16,
+    "c": 24,
+    "mcnemar_p": 0.26818725105476915,
+    "contribution_to_full_pp": -0.016913319238900635
+   },
+   "non-django": {
+    "n": 256,
+    "delta": 0.03125,
+    "b": 25,
+    "c": 17,
+    "mcnemar_p": 0.27995623852893914,
+    "contribution_to_full_pp": 0.016913319238900635
+   },
+   "both non-empty": {
+    "n": 368,
+    "delta": 0.016304347826086956,
+    "b": 30,
+    "c": 24,
+    "mcnemar_p": 0.49661743531793345,
+    "contribution_to_full_pp": 0.012684989429175475
+   },
+   "empty_T": 78,
+   "empty_ON": 71,
+   "T_errors": [
+    "sphinx-doc__sphinx-7985",
+    "sympy__sympy-20438"
+   ]
+  },
+  {
+   "ref": "discovery ON",
+   "n": 473,
+   "delta": 0.014799154334038054,
+   "django": {
+    "n": 217,
+    "delta": 0.009216589861751152,
+    "b": 20,
+    "c": 18,
+    "mcnemar_p": 0.8714146793645341,
+    "contribution_to_full_pp": 0.004228329809725159
+   },
+   "non-django": {
+    "n": 256,
+    "delta": 0.01953125,
+    "b": 26,
+    "c": 21,
+    "mcnemar_p": 0.5600646295802106,
+    "contribution_to_full_pp": 0.010570824524312896
+   },
+   "both non-empty": {
+    "n": 373,
+    "delta": 0.040214477211796246,
+    "b": 34,
+    "c": 19,
+    "mcnemar_p": 0.053438810537711046,
+    "contribution_to_full_pp": 0.03171247357293869
+   },
+   "empty_T": 78,
+   "empty_ON": 66,
+   "T_errors": [
+    "sphinx-doc__sphinx-7985",
+    "sympy__sympy-20438"
+   ]
+  },
+  {
+   "ref": "Qwen3-Coder ON (for comparison)",
+   "n": 473,
+   "delta": -0.0021141649048625794,
+   "django": {
+    "n": 217,
+    "delta": -0.004608294930875576,
+    "b": 6,
+    "c": 7,
+    "mcnemar_p": 1.0,
+    "contribution_to_full_pp": -0.0021141649048625794
+   },
+   "non-django": {
+    "n": 256,
+    "delta": 0.0,
+    "b": 1,
+    "c": 1,
+    "mcnemar_p": 1.0,
+    "contribution_to_full_pp": 0.0
+   },
+   "both non-empty": {
+    "n": 194,
+    "delta": 0.005154639175257732,
+    "b": 4,
+    "c": 3,
+    "mcnemar_p": 1.0,
+    "contribution_to_full_pp": 0.0021141649048625794
+   },
+   "empty_T": 225,
+   "empty_ON": 206,
+   "T_errors": []
+  }
+ ]
+}

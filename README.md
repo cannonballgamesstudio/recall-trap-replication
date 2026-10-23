@@ -38,6 +38,7 @@ code/
     core/                  inclusion table, paired contrasts, coverage/anchor, funnel, PolyBench verdict (run_all.sh)
     reanalysis/            small-sample clustered inference (wild/CR2/sign-flip), budget sweep, fix locality, MDE (run_all.sh)
     reanalysis2/           T decomposition vs. the logged re-run, TOST, Holm, ITT, LOO, concordance, E5, Branch-A bootstrap (run_all.sh)
+    reanalysis3/           post-hoc robustness: size check of the clustered methods, registered-RQ1 recheck, equivalence margins, E5, replication (run_all.sh)
     trimmed_breadth/       Arm T analyses on the headline arms + reconstruction of the withdrawn first-pass grading
     turncap/               read-budget sweep recompute (turncap_recompute.py)
     misc/                  Qwen3.6 truncation, anchor classes, Low-M MDE, pack sizes, figure script
@@ -55,7 +56,7 @@ data/
                            grading reports, and the cap-30 OFF resume logs (stub-row evidence)
   MASKING.md               coincidental filter matches masked inside third-party text
 results/
-  core/  reanalysis/  reanalysis2/  trimmed-breadth/  b1b3-replication/  memorization-branchB/  post-cutoff-branchA/
+  core/  reanalysis/  reanalysis2/  reanalysis3/  trimmed-breadth/  b1b3-replication/  memorization-branchB/  post-cutoff-branchA/
   turncap-sweep/  misc/  figures/
 ```
 
@@ -70,6 +71,7 @@ python code/prepare_data.py              # gunzip + build work/p5 (once)
 sh code/analysis/core/run_all.sh         # results/core/        (~1 min)
 sh code/analysis/reanalysis/run_all.sh   # results/reanalysis/  (~1 min)
 sh code/analysis/reanalysis2/run_all.sh  # results/reanalysis2/ (~7 min)
+sh code/analysis/reanalysis3/run_all.sh  # results/reanalysis3/ (~3 min; post hoc)
 python code/analysis/trimmed_breadth/analyze_T.py         # Qwen3-Coder-30B Arm T (headline arms)
 python code/analysis/trimmed_breadth/analyze_T_gpt.py     # gpt-5.6-sol Arm T
 python code/analysis/trimmed_breadth/reconstruct_first_pass.py
@@ -81,7 +83,7 @@ for s in qwen36_truncation anchor_strata mde_lowM pack_sizes; do python code/ana
 python code/analysis/misc/make_v2_figs.py                 # results/figures/*.pdf
 ```
 
-We re-ran all of these from a clean copy of this package before release. Every `.md` table in `results/core/`, `results/reanalysis/` and `results/reanalysis2/` was reproduced byte-for-byte. The only differences were in the last floating-point digit of a few `results/reanalysis/*.json` values, which is BLAS/numpy-version noise. The two Arm T analyses and the first-pass reconstruction reproduce the numbers printed in the paper. The four files `results/b1b3-replication/results*.json` are reproduced byte-for-byte; their sha256 prefixes (`55ddd119`, `a008abb5`, `ad1a62aa`, `ec2c12da`) are the ones recorded in section 12 of `LOCAL-B1B3-ADDENDUM-PREREG.md`. `glmm.json` (variational Bayes fit, no verdict depends on it) reproduces to within a relative difference of 3e-5 (all values; JSON outputs elsewhere differ only at floating-point noise, below 1e-5 relative). `results/turncap-sweep/turncap_recompute.md` and `.json` are reproduced byte-for-byte from the released (compressed, masked) data in `data/turncap-sweep/`.
+We re-ran all of these from a clean copy of this package before release. Every `.md` table in `results/core/`, `results/reanalysis/`, `results/reanalysis2/` and `results/reanalysis3/` was reproduced byte-for-byte. The only differences were in the last floating-point digit of a few `results/reanalysis/*.json` values, which is BLAS/numpy-version noise. The two Arm T analyses and the first-pass reconstruction reproduce the numbers printed in the paper. The four files `results/b1b3-replication/results*.json` are reproduced byte-for-byte; their sha256 prefixes (`55ddd119`, `a008abb5`, `ad1a62aa`, `ec2c12da`) are the ones recorded in section 12 of `LOCAL-B1B3-ADDENDUM-PREREG.md`. `glmm.json` (variational Bayes fit, no verdict depends on it) reproduces to within a relative difference of 3e-5, as does the same fit in `results/reanalysis3/s7_replication.json` (all values; JSON outputs elsewhere differ only at floating-point noise, below 1e-5 relative). `results/turncap-sweep/turncap_recompute.md` and `.json` are reproduced byte-for-byte from the released (compressed, masked) data in `data/turncap-sweep/`.
 
 Conventions (as in the paper): Δ = dedup-OFF minus dedup-ON. Empty patches and harness errors count as failures over the full n. Instances never predicted in one arm are excluded pairwise. The primary test is exact McNemar on the raw paired difference. Clustered inference is over the G = 12 repositories: a wild cluster bootstrap-t with Webb weights (B = 9,999, seed 20261014, CI by test inversion), CR2 with Bell–McCaffrey df, and an exact repository sign-flip. The single-retriever replication pools three seeds per instance and reports an instance-paired bootstrap 95% CI (B = 10,000, seed 20261015) with a wild cluster bootstrap p (Webb weights, B = 9,999), as pre-registered in its addendum (section 7).
 
