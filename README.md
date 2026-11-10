@@ -1,6 +1,6 @@
 # Replication package: "The Recall Trap: When Higher File Recall Lowers Issue Resolution"
 
-Anonymized for double-anonymous review (MSR 2027). This package lets a reviewer
+Code and data for the paper (arXiv: https://arxiv.org/abs/2608.14838). Identifiers in this package are anonymized. It lets a reader
 
 1. recompute every reported statistic from the released per-instance data, with no model calls, no GPU and no Docker (about 10 minutes in total);
 2. inspect the exact served context packs, model outputs and official grading reports behind every row;
